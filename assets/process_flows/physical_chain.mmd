@@ -1,0 +1,20 @@
+flowchart LR
+  q[Quartz + carbon] --> mg[Metallurgical silicon]
+  mg --> poly[Electronic-grade polysilicon]
+  poly --> boule[Crystal ingot]
+  boule --> wafer[Finished wafers]
+  wafer --> lf[Logic FEOL / MOL / BEOL]
+  wafer --> mf[DRAM wafer process]
+  lf --> lt[Wafer probe and die prep]
+  mf --> mt[Memory test / TSV / thinning]
+  mt --> hs[Stack assembly and test]
+  lt --> ap[Package integration]
+  hs --> ap
+  inter[Interposer or bridge fabrication] --> ap
+  sub[Substrate fabrication] --> ap
+  ap --> pt[Package test and qualification]
+  pt --> mod[Board/module assembly and test]
+  pcb[PCB fabrication + board components] --> mod
+  mod --> sys[Server integration and test]
+  net[Networking + power + cooling assemblies] --> sys
+  sys --> rack[Rack integration and acceptance]

@@ -1,0 +1,5 @@
+asset_id,title,path,kind,source,license,status
+P0-01,Learning overview,README.md,mermaid,User project specification and original architecture,CC BY 4.0,architecture schematic
+P0-02,Complete module prerequisite graph,assets/diagrams/prerequisites.mmd,mermaid,User project specification and original architecture,CC BY 4.0,architecture schematic
+P0-03,Physical material and assembly chain,assets/process_flows/physical_chain.mmd,mermaid,User project specification and original architecture,CC BY 4.0,architecture schematic
+P0-04,Enabling supplier relationships,assets/supply_chain_maps/enabling_inputs.mmd,mermaid,User project specification and original architecture,CC BY 4.0,architecture schematic

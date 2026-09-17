@@ -1,0 +1,915 @@
+[
+  {
+    "id": "M00",
+    "path": "00_overview",
+    "title": "Orientation and physical chain",
+    "phase": 0,
+    "prerequisites": [],
+    "topics": [
+      "Reading paths",
+      "physical material flow",
+      "wafer versus die versus package versus system",
+      "logic and memory branch",
+      "confidence and scope"
+    ],
+    "status": "architecture-only"
+  },
+  {
+    "id": "M01",
+    "path": "01_raw_materials",
+    "title": "Raw materials",
+    "phase": 1,
+    "prerequisites": [
+      "M00"
+    ],
+    "topics": [
+      "Silicon abundance and geological deposits",
+      "quartz and silica",
+      "mining, crushing and beneficiation",
+      "purity specifications",
+      "carbon reductants and feedstock qualification"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M02",
+    "path": "02_silicon_refining",
+    "title": "Silicon refining",
+    "phase": 1,
+    "prerequisites": [
+      "M01"
+    ],
+    "topics": [
+      "Metallurgical silicon",
+      "submerged arc furnace",
+      "carbon reduction chemistry and energy",
+      "chlorosilanes and trichlorosilane",
+      "distillation",
+      "Siemens process",
+      "alternative reactors",
+      "impurity budgets and electronic-grade qualification"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M03",
+    "path": "03_crystal_growth",
+    "title": "Single-crystal growth",
+    "phase": 1,
+    "prerequisites": [
+      "M02"
+    ],
+    "topics": [
+      "Crystal lattice and polycrystal versus single crystal",
+      "seeds and orientation",
+      "Czochralski puller",
+      "float-zone growth",
+      "dopant introduction",
+      "oxygen and defects",
+      "boule resistivity"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M04",
+    "path": "04_wafer_manufacturing",
+    "title": "Wafer manufacturing",
+    "phase": 1,
+    "prerequisites": [
+      "M03"
+    ],
+    "topics": [
+      "Crop, grind and orient",
+      "slicing and edge grinding",
+      "lapping and etching",
+      "polishing and cleaning",
+      "wafer inspection",
+      "diameter, thickness, flatness and roughness",
+      "edge exclusion",
+      "epitaxial and SOI starting-wafer alternatives"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M05",
+    "path": "05_semiconductor_physics",
+    "title": "Semiconductor physics",
+    "phase": 1,
+    "prerequisites": [
+      "M00"
+    ],
+    "topics": [
+      "Atomic bonding and energy bands",
+      "band gap and carriers",
+      "intrinsic and extrinsic silicon",
+      "donors and acceptors",
+      "carrier concentration, mobility and conductivity",
+      "electric fields",
+      "PN junction and depletion",
+      "MOS capacitor and inversion"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M06",
+    "path": "06_transistor_fundamentals",
+    "title": "MOSFETs and transistor evolution",
+    "phase": 1,
+    "prerequisites": [
+      "M05"
+    ],
+    "topics": [
+      "Field effect",
+      "threshold voltage and switching",
+      "planar MOSFET",
+      "short-channel effects",
+      "FinFET",
+      "gate-all-around and nanosheets",
+      "gate and parasitic capacitance",
+      "drive current, leakage and power density",
+      "CMOS logic bridge"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M07",
+    "path": "07_ic_design_and_tapeout",
+    "title": "Design to tapeout",
+    "phase": 4,
+    "prerequisites": [
+      "M06",
+      "M08",
+      "M16"
+    ],
+    "topics": [
+      "Architecture and microarchitecture",
+      "RTL and simulation",
+      "verification",
+      "synthesis and standard cells",
+      "place and route",
+      "timing closure and power",
+      "DRC and LVS",
+      "PDK and design rules",
+      "process-node terminology",
+      "reticle limits and DTCO",
+      "tapeout, mask data preparation and mask generation"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M08",
+    "path": "08_fab_overview",
+    "title": "Fab overview",
+    "phase": 2,
+    "prerequisites": [
+      "M04",
+      "M06"
+    ],
+    "topics": [
+      "FEOL, middle-of-line and BEOL boundaries",
+      "repeated unit-process loops",
+      "wafer lots and carriers",
+      "masks and recipes",
+      "contamination zoning",
+      "process integration",
+      "cycle time versus tool throughput"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M09",
+    "path": "09_photolithography",
+    "title": "Photolithography",
+    "phase": 2,
+    "prerequisites": [
+      "M08"
+    ],
+    "topics": [
+      "Adhesion and resist coat",
+      "soft bake, alignment, exposure and post-exposure bake",
+      "development and inspection",
+      "KrF, ArF and immersion",
+      "EUV tin plasma, vacuum and mirrors",
+      "Bragg reflection",
+      "masks and pellicles",
+      "resist chemistry and stochastic defects",
+      "numerical aperture, resolution and depth of focus",
+      "overlay, CD and CDU",
+      "OPC and multiple patterning",
+      "High-NA only as needed for current concepts"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M10",
+    "path": "10_deposition",
+    "title": "Deposition",
+    "phase": 2,
+    "prerequisites": [
+      "M08"
+    ],
+    "topics": [
+      "CVD",
+      "PECVD",
+      "LPCVD",
+      "ALD",
+      "PVD and sputtering",
+      "epitaxy",
+      "conformality and step coverage",
+      "nucleation, stress and particles",
+      "thermal oxidation comparison with a link to its canonical owner"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M11",
+    "path": "11_etching",
+    "title": "Etching",
+    "phase": 2,
+    "prerequisites": [
+      "M08",
+      "M09"
+    ],
+    "topics": [
+      "Wet etch",
+      "dry plasma etch",
+      "RIE",
+      "DRIE",
+      "atomic-layer etch",
+      "selectivity and anisotropy",
+      "aspect ratio and profiles",
+      "plasma chemistry",
+      "loading and damage"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M12",
+    "path": "12_doping",
+    "title": "Doping and activation",
+    "phase": 2,
+    "prerequisites": [
+      "M05",
+      "M08",
+      "M09"
+    ],
+    "topics": [
+      "Diffusion",
+      "ion implantation",
+      "masks",
+      "energy and dose",
+      "channeling",
+      "annealing and rapid thermal processing",
+      "activation versus chemical concentration",
+      "junction depth"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M13",
+    "path": "13_oxidation",
+    "title": "Thermal oxidation",
+    "phase": 2,
+    "prerequisites": [
+      "M08"
+    ],
+    "topics": [
+      "Oxide growth versus deposition",
+      "silicon consumption",
+      "dry and wet oxidation",
+      "temperature and kinetics",
+      "oxide quality and interfaces",
+      "thermal budget"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M14",
+    "path": "14_cleaning",
+    "title": "Cleaning and contamination control",
+    "phase": 2,
+    "prerequisites": [
+      "M08"
+    ],
+    "topics": [
+      "Cleanrooms and particles",
+      "metallic and organic contamination",
+      "ultrapure water",
+      "RCA cleaning",
+      "solvents",
+      "plasma cleaning",
+      "surface termination",
+      "material compatibility and damage"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M15",
+    "path": "15_cmp",
+    "title": "Chemical mechanical planarization",
+    "phase": 2,
+    "prerequisites": [
+      "M08",
+      "M10"
+    ],
+    "topics": [
+      "Slurries, abrasives and reactions",
+      "pads and conditioning",
+      "removal rate and uniformity",
+      "endpoint",
+      "dishing, erosion and scratches",
+      "multilayer planarity"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M16",
+    "path": "16_metrology_and_inspection",
+    "title": "Metrology and process control",
+    "phase": 2,
+    "prerequisites": [
+      "M08",
+      "M09"
+    ],
+    "topics": [
+      "Optical and electron-beam inspection",
+      "CD-SEM",
+      "overlay",
+      "ellipsometry",
+      "profilometry",
+      "thickness and composition",
+      "sampling",
+      "SPC, control charts and process windows",
+      "excursions and fault detection"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M17",
+    "path": "17_transistor_fabrication",
+    "title": "Transistor process integration",
+    "phase": 3,
+    "prerequisites": [
+      "M09",
+      "M10",
+      "M11",
+      "M12",
+      "M13",
+      "M14",
+      "M15",
+      "M16"
+    ],
+    "topics": [
+      "Isolation and wells",
+      "planar integration",
+      "FinFET integration",
+      "GAA nanosheet integration",
+      "gate stacks and spacers",
+      "source/drain engineering",
+      "contacts and middle-of-line boundary",
+      "thermal-budget and variability tradeoffs"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M18",
+    "path": "18_interconnects",
+    "title": "Interconnect structures and physics",
+    "phase": 3,
+    "prerequisites": [
+      "M06",
+      "M10",
+      "M11"
+    ],
+    "topics": [
+      "Contacts and vias",
+      "local and global wiring",
+      "resistance, capacitance and RC delay",
+      "copper, tungsten, cobalt and ruthenium roles",
+      "barriers and liners",
+      "low-k dielectrics",
+      "electromigration and reliability"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M19",
+    "path": "19_back_end_of_line",
+    "title": "BEOL process integration",
+    "phase": 3,
+    "prerequisites": [
+      "M17",
+      "M18",
+      "M15"
+    ],
+    "topics": [
+      "Dielectric, pattern, etch, barrier, fill and CMP loop",
+      "damascene and alternatives",
+      "multilevel routing cross sections",
+      "passivation and terminal metallization",
+      "integration defects and thermal budgets"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M20",
+    "path": "20_wafer_test",
+    "title": "Wafer electrical test",
+    "phase": 5,
+    "prerequisites": [
+      "M19",
+      "M21"
+    ],
+    "topics": [
+      "Wafer probing",
+      "probe cards and automatic test equipment",
+      "wafer maps",
+      "functional and parametric tests",
+      "test coverage and escapes",
+      "binning",
+      "known-good-die qualification"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M21",
+    "path": "21_yield_engineering",
+    "title": "Yield engineering",
+    "phase": 5,
+    "prerequisites": [
+      "M16"
+    ],
+    "topics": [
+      "Random and systematic defects",
+      "defect density",
+      "functional and parametric yield",
+      "wafer and die yield denominators",
+      "Poisson model and limitations",
+      "area and cost",
+      "redundancy, repair and salvage",
+      "reliability versus yield"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M22",
+    "path": "22_dicing_and_die_prep",
+    "title": "Dicing and die preparation",
+    "phase": 5,
+    "prerequisites": [
+      "M20"
+    ],
+    "topics": [
+      "Temporary bonding and debonding",
+      "backgrinding and thinning",
+      "dicing alternatives",
+      "inspection and traceability",
+      "thin-die fracture and handling",
+      "sequence differences for TSV processes"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M23",
+    "path": "23_dram_fundamentals",
+    "title": "DRAM fundamentals and fabrication",
+    "phase": 6,
+    "prerequisites": [
+      "M06",
+      "M08",
+      "M10",
+      "M11",
+      "M12",
+      "M16"
+    ],
+    "topics": [
+      "One-transistor one-capacitor cell",
+      "wordline and bitline",
+      "sensing and refresh",
+      "arrays and repair",
+      "high-aspect-ratio capacitor fabrication",
+      "DRAM process integration and testing"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M24",
+    "path": "24_hbm_manufacturing",
+    "title": "HBM manufacturing",
+    "phase": 6,
+    "prerequisites": [
+      "M23",
+      "M20",
+      "M22"
+    ],
+    "topics": [
+      "DRAM die and base/logic die roles",
+      "TSV fabrication and reveal",
+      "thinning and insulation",
+      "microbump stacking",
+      "hybrid bonding where applicable",
+      "stack assembly and testing",
+      "known-good-die",
+      "bandwidth mathematics",
+      "thermal limits"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M25",
+    "path": "25_advanced_packaging",
+    "title": "Advanced packaging",
+    "phase": 7,
+    "prerequisites": [
+      "M19",
+      "M20",
+      "M22",
+      "M24"
+    ],
+    "topics": [
+      "Flip chip",
+      "2.5D and 3D integration",
+      "fan-out",
+      "chiplets as partitioning",
+      "silicon and organic interposers",
+      "bridges",
+      "TSVs",
+      "hybrid bonding",
+      "bumps, copper pillars and RDL",
+      "alignment",
+      "underfill and molding",
+      "warpage and stress",
+      "CoWoS and comparable families",
+      "compound yield and test"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M26",
+    "path": "26_substrates",
+    "title": "Package substrates",
+    "phase": 7,
+    "prerequisites": [
+      "M18",
+      "M22"
+    ],
+    "topics": [
+      "ABF dielectric and build-up substrate",
+      "laminate materials",
+      "copper routing",
+      "vias and microvias",
+      "fabrication and qualification",
+      "signal and power integrity",
+      "warpage",
+      "substrate capacity bottlenecks"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M27",
+    "path": "27_thermal_management",
+    "title": "Thermal management",
+    "phase": 8,
+    "prerequisites": [
+      "M06",
+      "M24",
+      "M25"
+    ],
+    "topics": [
+      "Heat generation and spreading",
+      "thermal resistance and junction temperature",
+      "interface materials",
+      "heat sinks and vapor chambers",
+      "cold plates and liquid cooling",
+      "die-to-rack thermal path",
+      "flow and facility heat rejection boundaries"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M28",
+    "path": "28_power_delivery",
+    "title": "Power delivery",
+    "phase": 8,
+    "prerequisites": [
+      "M18",
+      "M25",
+      "M26"
+    ],
+    "topics": [
+      "Facility-to-silicon power path",
+      "supplies and regulation",
+      "board planes and package impedance",
+      "IR drop and current density",
+      "transient droop and decoupling",
+      "power loss and conversion efficiency"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M29",
+    "path": "29_gpu_package",
+    "title": "GPU package assembly and qualification",
+    "phase": 8,
+    "prerequisites": [
+      "M25",
+      "M26"
+    ],
+    "topics": [
+      "Logic plus HBM assembly",
+      "package assembly flow and exploded view",
+      "final package test",
+      "burn-in where applicable",
+      "reliability qualification and failure analysis",
+      "mechanical and electrical interfaces"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M30",
+    "path": "30_pcb_and_module",
+    "title": "PCB and accelerator module",
+    "phase": 8,
+    "prerequisites": [
+      "M29",
+      "M27",
+      "M28"
+    ],
+    "topics": [
+      "PCB fabrication, stackup and routing",
+      "surface mount assembly",
+      "module connectors",
+      "signal integrity and power integrity",
+      "board testing",
+      "networking and high-speed links"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M31",
+    "path": "31_system_integration",
+    "title": "Server integration",
+    "phase": 8,
+    "prerequisites": [
+      "M30"
+    ],
+    "topics": [
+      "CPU and accelerator coordination",
+      "memory and networking interfaces",
+      "server assembly and validation",
+      "firmware boundary",
+      "cooling and power integration",
+      "serviceability and system acceptance"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M32",
+    "path": "32_rack_scale_system",
+    "title": "Rack-scale systems",
+    "phase": 8,
+    "prerequisites": [
+      "M31"
+    ],
+    "topics": [
+      "Rack interconnects and switching",
+      "scale-up versus scale-out",
+      "power distribution",
+      "cooling distribution and facility interfaces",
+      "rack assembly, test and deployment",
+      "manufacturing constraints propagated into architecture"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M33",
+    "path": "33_equipment_ecosystem",
+    "title": "Equipment ecosystem",
+    "phase": 9,
+    "prerequisites": [
+      "M08",
+      "M20",
+      "M25"
+    ],
+    "topics": [
+      "Lithography",
+      "deposition",
+      "etch",
+      "implantation",
+      "oxidation and thermal processing",
+      "CMP",
+      "cleaning",
+      "inspection",
+      "metrology",
+      "wafer handling",
+      "wafer test",
+      "thinning and dicing",
+      "bonding",
+      "packaging",
+      "final test"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M34",
+    "path": "34_materials_ecosystem",
+    "title": "Materials ecosystem",
+    "phase": 9,
+    "prerequisites": [
+      "M02",
+      "M04",
+      "M09",
+      "M10",
+      "M15",
+      "M25",
+      "M26"
+    ],
+    "topics": [
+      "Silicon wafers",
+      "photoresists",
+      "masks",
+      "gases",
+      "precursors",
+      "etchants",
+      "slurry",
+      "pads",
+      "ultrapure chemicals",
+      "substrate materials",
+      "bonding materials",
+      "underfill",
+      "thermal interface materials"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M35",
+    "path": "35_supply_chain",
+    "title": "Supply-chain relationships",
+    "phase": 9,
+    "prerequisites": [
+      "M32",
+      "M33",
+      "M34",
+      "M07"
+    ],
+    "topics": [
+      "Raw and electronic materials",
+      "wafer suppliers",
+      "equipment",
+      "EDA and IP",
+      "foundries",
+      "memory",
+      "OSAT and foundry packaging",
+      "substrates",
+      "testing",
+      "board manufacturing",
+      "accelerator and server vendors",
+      "datacenters",
+      "geography and dependencies"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M36",
+    "path": "36_economics",
+    "title": "Manufacturing economics",
+    "phase": 10,
+    "prerequisites": [
+      "M21",
+      "M29",
+      "M33",
+      "M34"
+    ],
+    "topics": [
+      "Cost boundaries and denominators",
+      "wafer cost and die area",
+      "gross and good dies",
+      "utilization and throughput",
+      "cycle time and depreciation",
+      "consumables, labor and energy",
+      "compound package yield",
+      "final-system cost",
+      "sensitivity calculations"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M37",
+    "path": "37_investment_analysis",
+    "title": "Industry structure and value capture",
+    "phase": 10,
+    "prerequisites": [
+      "M35",
+      "M36"
+    ],
+    "topics": [
+      "Supplier concentration",
+      "switching costs and qualification",
+      "differentiation",
+      "capacity constraints",
+      "installed base and recurring revenue",
+      "customer concentration",
+      "capital intensity",
+      "margins with segment boundaries",
+      "substitutes, commoditization and risks",
+      "no recommendations"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M38",
+    "path": "38_case_studies",
+    "title": "NVIDIA Rubin case study",
+    "phase": 11,
+    "prerequisites": [
+      "M07",
+      "M24",
+      "M25",
+      "M26",
+      "M27",
+      "M28",
+      "M32",
+      "M35",
+      "M36"
+    ],
+    "topics": [
+      "Rubin overview",
+      "logic manufacturing",
+      "memory",
+      "advanced packaging",
+      "substrate",
+      "power",
+      "cooling",
+      "system architecture",
+      "manufacturing supply chain",
+      "bottlenecks",
+      "known versus unknown"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M39",
+    "path": "39_history",
+    "title": "Historical transitions",
+    "phase": 1,
+    "prerequisites": [
+      "M00"
+    ],
+    "topics": [
+      "Discrete to integrated devices",
+      "planar to FinFET to GAA",
+      "micron lithography to DUV, immersion and EUV",
+      "wire bond to flip chip, 2.5D and 3D",
+      "DDR/GDDR and HBM use cases",
+      "no speculative roadmap"
+    ],
+    "status": "planned"
+  },
+  {
+    "id": "M40",
+    "path": "40_glossary",
+    "title": "Glossary",
+    "phase": 0,
+    "prerequisites": [],
+    "topics": [
+      "Definitions, intuition, purpose and canonical article links",
+      "acronyms and symbols",
+      "terminology consistency"
+    ],
+    "status": "architecture-only"
+  },
+  {
+    "id": "M41",
+    "path": "41_reference_tables",
+    "title": "Reference tables",
+    "phase": 0,
+    "prerequisites": [],
+    "topics": [
+      "Lithography comparison",
+      "deposition comparison",
+      "etch comparison",
+      "packaging comparison",
+      "equipment matrix",
+      "materials matrix",
+      "units and model assumptions"
+    ],
+    "status": "architecture-only"
+  },
+  {
+    "id": "M42",
+    "path": "42_references",
+    "title": "Reference library",
+    "phase": 0,
+    "prerequisites": [],
+    "topics": [
+      "Canonical bibliography",
+      "papers",
+      "patents",
+      "standards",
+      "company sources",
+      "access and rights metadata",
+      "stable IDs"
+    ],
+    "status": "architecture-only"
+  }
+]

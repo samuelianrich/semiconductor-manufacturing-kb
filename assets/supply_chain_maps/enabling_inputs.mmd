@@ -1,0 +1,20 @@
+flowchart TD
+  raw[Raw-material suppliers] --> em[Electronic-material suppliers]
+  em --> waf[Wafer suppliers]
+  waf --> foundry[Logic foundries]
+  waf --> mem[Memory manufacturers]
+  eq[Equipment manufacturers] -. tools and service .-> foundry
+  eq -. tools and service .-> mem
+  eq -. assembly and test tools .-> pack[Foundry packaging / OSAT]
+  eda[EDA and IP providers] -. design enablement .-> chip[Chip designers]
+  chip -. design and masks .-> foundry
+  em -. gases / chemicals / films .-> foundry
+  em -. packaging materials .-> pack
+  foundry --> pack
+  mem --> pack
+  subs[Substrate manufacturers] --> pack
+  testing[Test equipment and test services] -. validation .-> pack
+  pack --> board[Board manufacturers]
+  board --> vendor[Accelerator vendors]
+  vendor --> server[Server manufacturers]
+  server --> dc[Datacenter integration]
