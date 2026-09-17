@@ -2,10 +2,10 @@
 
 > Template — replace bracketed instructions; do not publish this as a completed article.
 
-Status: planned / scoped / researched / outlined / drafted / reviewed / maintained  
-Owner: [name or unassigned]  
-Article class: [taxonomy class]  
-Last technical review: [actual date or not yet reviewed]  
+Status: planned / scoped / researched / outlined / drafted / reviewed / maintained
+Owner: [name or unassigned]
+Article class: [taxonomy class]
+Last technical review: [actual date or not yet reviewed]
 Scope: [reader outcome and exclusions]
 
 ## Prerequisites
