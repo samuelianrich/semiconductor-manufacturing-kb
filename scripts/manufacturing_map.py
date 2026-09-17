@@ -183,7 +183,20 @@ def generated_files(data, root=ROOT):
         nodes.extend([f'<a id="{e["entity_id"].lower()}"></a>',f'## {e["entity_id"]} — {e["name"]}','',f'Type: `{e["entity_type"]}` · Status: **{e["status"]}** · [Article](../{e["primary_article"]})','',e['description'],''])
         p=next((p for p in data['process_nodes'] if p['entity_id']==e['entity_id']),None)
         if p:nodes.extend([f'Purpose: {p["purpose"]}',f'\nScope: {p["scope"]}',f'\nMechanism: {p["mechanism_summary"] or "Not yet researched."}',f'\nNotes: {p["notes"]}',''])
-    result[root/'manufacturing_map/process_nodes.md']='\n'.join(nodes)+'\n'
+        assertions=[v for v in data['evidence_links'] if v['record_type']=='entity' and v['record_id']==e['entity_id']]
+        if assertions:
+            nodes+=['Evidence: '+ '; '.join(f'[{v["source_id"]}](../42_references/bibliography.md#{v["source_id"].lower()}) — {md(v["locator"])}'+(f' ({v["claim_id"]})' if v['claim_id'] else '') for v in assertions),'']
+        for table in ['materials','equipment','suppliers']:
+            ext=next((x for x in data[table] if x['entity_id']==e['entity_id']),None)
+            if ext:
+                nodes += [f'- {k.replace("_"," ").capitalize()}: {md(v)}' for k,v in ext.items() if k!='entity_id']+['']
+        neighbors=[x for x in data['process_edges'] if e['entity_id'] in (x['source_id'],x['target_id'])]
+        if neighbors:
+            nodes+=['| Edge | Directional relationship | Scope / condition |','|---|---|---|']
+            for x in neighbors:
+                nodes.append(f'| {x["edge_id"]} | [{x["source_id"]}](#{x["source_id"].lower()}) → {x["relationship"]} → [{x["target_id"]}](#{x["target_id"].lower()}) | {md(x["conditions"])} ({x["status"]}) |')
+            nodes+=['']
+    result[root/'manufacturing_map/process_nodes.md']='\n'.join(nodes).rstrip()+'\n'
     # Compatibility paths now generated from the graph, not manually authored parallel truths.
     result[root/'assets/process_flows/physical_chain.mmd']=render_view(data,'master_process_map',data['views']['master_process_map'])[1]
     result[root/'assets/supply_chain_maps/enabling_inputs.mmd']=render_view(data,'enabling_inputs',data['views']['enabling_inputs'])[1]

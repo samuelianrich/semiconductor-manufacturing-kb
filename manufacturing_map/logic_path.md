@@ -9,7 +9,7 @@
 flowchart LR
   ART_0030["Tested logic die [planned]"]
   ART_0042["Design and mask information [planned]"]
-  MAT_0010["Accepted starting wafer [planned]"]
+  MAT_0010["Accepted starting wafer"]
   PROC_0030["Logic fabrication, test and die preparation [planned]"]
   MAT_0010 -->|"consumes"| PROC_0030
   PROC_0030 -->|"produces"| ART_0030
@@ -22,7 +22,7 @@ flowchart LR
 |---|---|---|---|
 | ART-0030 | Tested logic die | planned | [Tested logic die](../20_wafer_test/README.md) |
 | ART-0042 | Design and mask information | planned | [Design and mask information](../07_ic_design_and_tapeout/README.md) |
-| MAT-0010 | Accepted starting wafer | planned | [Accepted starting wafer](../04_wafer_manufacturing/README.md) |
+| MAT-0010 | Accepted starting wafer | reviewed | [Accepted starting wafer](../04_wafer_manufacturing/wafer_finishing_and_acceptance.md) |
 | PROC-0030 | Logic fabrication, test and die preparation | planned | [Logic fabrication, test and die preparation](../17_transistor_fabrication/README.md) |
 
 | Edge | Relationship | Conditions | Evidence |

@@ -1,0 +1,179 @@
+[
+  {
+    "path": "01_raw_materials/quartz_and_feedstocks.md",
+    "title": "Quartz, silica and qualified furnace feedstock",
+    "node_ids": [
+      "MAT-0001",
+      "MAT-0002",
+      "PROC-0001"
+    ],
+    "sources": [
+      "USGS-SILICON-001",
+      "NTNU-QUARTZ-001",
+      "CHEGINI-QUARTZ-001",
+      "ELKEM-QUARTZ-001",
+      "SIBELCO-QUARTZ-001",
+      "NTNU-SMELTING-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
+  },
+  {
+    "path": "02_silicon_refining/metallurgical_silicon.md",
+    "title": "Metallurgical silicon: removing oxygen from silica",
+    "node_ids": [
+      "MAT-0002",
+      "MAT-0003",
+      "PROC-0002"
+    ],
+    "sources": [
+      "USGS-SILICON-001",
+      "NTNU-SMELTING-001",
+      "NTNU-QUARTZ-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
+  },
+  {
+    "path": "02_silicon_refining/electronic_grade_polysilicon.md",
+    "title": "Electronic-grade polysilicon: purification through chemistry",
+    "node_ids": [
+      "MAT-0003",
+      "MAT-0004",
+      "MAT-0005",
+      "MAT-0006",
+      "PROC-0003",
+      "PROC-0004",
+      "PROC-0005"
+    ],
+    "sources": [
+      "WACKER-POLY-001",
+      "HSC-POLY-001",
+      "REC-FBR-001",
+      "MIT-CARRIERS-001",
+      "HU-TRANSPORT-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
+  },
+  {
+    "path": "03_crystal_growth/crystal_growth.md",
+    "title": "Single-crystal growth: giving silicon a continuous lattice",
+    "node_ids": [
+      "MAT-0006",
+      "MAT-0007",
+      "PROC-0006"
+    ],
+    "sources": [
+      "HU-PHYSICS-001",
+      "SUMCO-WAFER-001",
+      "PVA-CZ-001",
+      "SILTRONIC-FZ-001",
+      "KIEL-GROWTH-001",
+      "KIEL-SEGREGATION-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
+  },
+  {
+    "path": "04_wafer_manufacturing/wafer_finishing_and_acceptance.md",
+    "title": "From ingot to accepted wafer: geometry, surface and qualification",
+    "node_ids": [
+      "MAT-0007",
+      "MAT-0008",
+      "MAT-0009",
+      "MAT-0010",
+      "PROC-0007",
+      "PROC-0008",
+      "PROC-0009"
+    ],
+    "sources": [
+      "SUMCO-WAFER-001",
+      "SILTRONIC-WAFER-001",
+      "SEMI-WAFER-001",
+      "SEMI-TERMS-001",
+      "UCSB-INSPECT-001",
+      "SEMI-RECLAIM-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
+  },
+  {
+    "path": "05_semiconductor_physics/bonding_bands_and_carriers.md",
+    "title": "Bonding, energy bands, electrons and holes",
+    "node_ids": [
+      "MAT-0007",
+      "MAT-0010"
+    ],
+    "sources": [
+      "HU-PHYSICS-001",
+      "MIT-CARRIERS-001",
+      "HU-TRANSPORT-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
+  },
+  {
+    "path": "05_semiconductor_physics/doping_and_transport.md",
+    "title": "Doping, carrier concentration, mobility and resistivity",
+    "node_ids": [
+      "PROC-0006",
+      "MAT-0010"
+    ],
+    "sources": [
+      "MIT-CARRIERS-001",
+      "MIT-TRANSPORT-001",
+      "HU-PHYSICS-001",
+      "HU-TRANSPORT-001",
+      "HU-FAB-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
+  },
+  {
+    "path": "05_semiconductor_physics/pn_junctions.md",
+    "title": "PN junctions: diffusion creates an internal electric field",
+    "node_ids": [
+      "MAT-0010",
+      "PROC-0030"
+    ],
+    "sources": [
+      "HU-PN-001",
+      "MIT-JUNCTION-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
+  },
+  {
+    "path": "06_transistor_fundamentals/mos_capacitor_and_mosfet.md",
+    "title": "From MOS capacitor to transistor: controlling a channel with a field",
+    "node_ids": [
+      "MAT-0010",
+      "PROC-0030"
+    ],
+    "sources": [
+      "HU-MOS-001",
+      "MIT-MOS-001",
+      "MIT-MOSFET-001",
+      "HU-MOSFET-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
+  },
+  {
+    "path": "06_transistor_fundamentals/cmos_and_transistor_evolution.md",
+    "title": "CMOS logic and the move from planar gates to fins and nanosheets",
+    "node_ids": [
+      "PROC-0030",
+      "ART-0042"
+    ],
+    "sources": [
+      "MIT-CMOS-001",
+      "MIT-POWER-001",
+      "HU-SCALING-001",
+      "IBM-NANOSHEET-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
+  }
+]

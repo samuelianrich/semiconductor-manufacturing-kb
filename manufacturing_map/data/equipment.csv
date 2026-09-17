@@ -1,1 +1,8 @@
 entity_id,physical_function,control_notes
+EQ-0001,Electrodes and an electrically heated reacting burden supply conditions for silicon reduction.,See owner article for variables and limitations; numerical equipment settings and purchase price not researched.
+EQ-0002,Vapor/liquid separation purifies chlorosilane feed before silicon deposition.,See owner article for variables and limitations; numerical equipment settings and purchase price not researched.
+EQ-0003,Heated silicon surfaces support gas-phase silicon deposition.,See owner article for variables and limitations; numerical equipment settings and purchase price not researched.
+EQ-0004,"Heater, crucible and seed-motion systems control growth of a single crystal.",See owner article for variables and limitations; numerical equipment settings and purchase price not researched.
+EQ-0005,Mechanical cutting divides the ingot into wafer blanks.,See owner article for variables and limitations; numerical equipment settings and purchase price not researched.
+EQ-0006,Mechanical and chemical action produces a smooth prepared wafer surface.,See owner article for variables and limitations; numerical equipment settings and purchase price not researched.
+EQ-0007,Scattered laser light detects surface events under instrument-dependent sensitivity and classification limits.,See owner article for variables and limitations; numerical equipment settings and purchase price not researched.

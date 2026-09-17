@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Purify a silicon compound, then recover silicon</title><desc id="desc">Silicon feed undergoes chemical conversion, distillation and deposition. The product is polysilicon; a separate alternative reactor route uses silane and granules.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">Purify a silicon compound, then recover silicon</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: WACKER-POLY-001; HSC-POLY-001; REC-FBR-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<rect x="30" y="210" width="245" height="160" rx="8" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<text x="46" y="242" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Metallurgical Si</text>
+<text x="46" y="320" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Starting solid</text>
+<line x1="275" y1="285" x2="310" y2="285" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="325" y="210" width="245" height="160" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="341" y="242" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Chemical conversion</text>
+<text x="341" y="320" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Crude chlorosilanes</text>
+<line x1="570" y1="285" x2="605" y2="285" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="620" y="210" width="245" height="160" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="636" y="242" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Distillation</text>
+<text x="636" y="320" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Purified precursor</text>
+<line x1="865" y1="285" x2="900" y2="285" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="915" y="210" width="245" height="160" rx="8" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<text x="931" y="242" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Deposition</text>
+<text x="931" y="320" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Polysilicon product</text>
+<text x="345" y="415" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Desired species separate from impurity-bearing streams</text>
+<rect x="850" y="510" width="300" height="105" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="866" y="542" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Alternative deposition</text>
+<text x="866" y="565" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Silane → growing granules</text>
+<line x1="875" y1="465" x2="440" y2="465" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)" stroke-dasharray="8 6"/>
+<text x="485" y="505" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#17334a" text-anchor="start">Conditioned recovery/recycle streams</text>
+<text x="45" y="510" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">Functional map only: real plants contain</text>
+<text x="45" y="538" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">additional reactions, separations, cleaning and</text>
+<text x="45" y="566" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">packaging.</text></svg>

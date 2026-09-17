@@ -1,11 +1,59 @@
 flowchart LR
   ART_0041["Power and cooling assemblies [planned]"]
   ART_0042["Design and mask information [planned]"]
+  EQ_0001["Submerged-arc furnace"]
+  EQ_0002["Distillation equipment"]
+  EQ_0003["Siemens deposition reactor"]
+  EQ_0004["CZ crystal puller"]
+  EQ_0005["Wafer slicing equipment"]
+  EQ_0006["Wafer polishing equipment"]
+  EQ_0007["Laser-scattering surface inspection"]
+  MAT_0001["Quartz-bearing feedstock"]
+  MAT_0006["Electronic-grade polysilicon"]
+  MAT_0007["Single-crystal silicon ingot"]
+  MAT_0010["Accepted starting wafer"]
+  MAT_0012["High-purity quartz for crucibles"]
+  MAT_0013["Quartz crucible"]
+  MAT_0014["Hydrogen and hydrogen chloride process streams"]
+  MAT_0015["Oriented silicon seed"]
+  PROC_0002["Carbothermic silicon smelting"]
+  PROC_0003["Chlorosilane synthesis"]
+  PROC_0004["Chemical purification by distillation"]
+  PROC_0005["Polysilicon deposition"]
+  PROC_0006["Czochralski single-crystal growth"]
+  PROC_0007["Ingot shaping and wafer slicing"]
+  PROC_0008["Wafer surface finishing"]
+  PROC_0009["Wafer cleaning and acceptance inspection"]
   PROC_0030["Logic fabrication, test and die preparation [planned]"]
   PROC_0038["Module assembly and test [planned]"]
   PROC_0039["Server integration [planned]"]
   PROC_0040["Rack integration [planned]"]
+  SUP_0001["Elkem"]
+  SUP_0002["Sibelco"]
+  SUP_0003["WACKER"]
+  SUP_0004["Hemlock Semiconductor"]
+  SUP_0005["PVA TePla"]
+  SUP_0006["Siltronic"]
+  SUP_0007["SUMCO"]
   ART_0042 -->|"enables"| PROC_0030
   ART_0041 -->|"enables"| PROC_0038
   ART_0041 -->|"enables"| PROC_0039
   ART_0041 -->|"enables"| PROC_0040
+  PROC_0002 -->|"uses equipment"| EQ_0001
+  PROC_0004 -->|"uses equipment"| EQ_0002
+  PROC_0005 -->|"uses equipment"| EQ_0003
+  PROC_0006 -->|"uses equipment"| EQ_0004
+  PROC_0007 -->|"uses equipment"| EQ_0005
+  PROC_0008 -->|"uses equipment"| EQ_0006
+  PROC_0009 -->|"uses equipment"| EQ_0007
+  MAT_0012 -->|"enables"| PROC_0006
+  MAT_0013 -->|"enables"| PROC_0006
+  MAT_0014 -->|"enables"| PROC_0003
+  MAT_0015 -->|"enables"| PROC_0006
+  MAT_0001 -->|"supplied by"| SUP_0001
+  MAT_0012 -->|"supplied by"| SUP_0002
+  MAT_0006 -->|"supplied by"| SUP_0003
+  MAT_0006 -->|"supplied by"| SUP_0004
+  EQ_0004 -->|"supplied by"| SUP_0005
+  MAT_0007 -->|"supplied by"| SUP_0006
+  MAT_0010 -->|"supplied by"| SUP_0007

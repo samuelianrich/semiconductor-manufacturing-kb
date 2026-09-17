@@ -16,3 +16,7 @@ Explore cross-cutting views: [materials](materials_map.md), [equipment](equipmen
 A **planned** node or edge defines intended research scope. It is not evidence of a generic production recipe, named supplier relationship or product implementation. Read the status and evidence columns. A **reviewed** assertion has received a recorded author self-review against its source, not independent peer review.
 
 Run `python3 scripts/manufacturing_map.py` from the repository root after editing CSVs. Run `python3 scripts/manufacturing_map.py --check` to detect invalid references or stale views. Do not hand-edit generated blocks. Explain scientific limits and route conditions in the owning article; the map is an index, not a substitute for prose.
+
+## Available Phase 1 content
+
+Follow the [wafer route](wafer_path.md) through reviewed operations, or select [equipment](equipment_map.md), [materials](materials_map.md), [supplier roles](supplier_map.md), [failure/detection](yield_map.md) and [accounting metrics](economics_map.md). The [entity register](process_nodes.md) gives source evidence, neighboring entities and canonical articles. The source-backed physical path currently ends at the accepted-wafer boundary; later branches retain planned labels.

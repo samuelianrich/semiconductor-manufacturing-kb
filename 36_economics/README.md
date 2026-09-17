@@ -24,6 +24,10 @@ Module `M36` · Build phase 10 · [Topic inventory](../catalog/topic_inventory.m
 
 [Industry structure and value capture](../37_investment_analysis/README.md), [NVIDIA Rubin case study](../38_case_studies/README.md)
 
+## Phase 1 evidence notes
+
+[Operating and cost-driver notes](phase1_cost_drivers.md) capture process boundaries and unanswered model inputs. Full cost models and industry analysis remain Phase 10.
+
 ## Planned article structure
 
 Split the owned concepts into explainers, process articles, integration articles and comparisons as described in the [taxonomy](../TAXONOMY.md). This index is a scope contract, not an article and not evidence for a technical claim. Every drafted article must add concept-level prerequisites, upstream/downstream links, equipment and material links, citations and review status.

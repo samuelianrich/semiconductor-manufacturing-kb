@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">PN junction: fixed charge creates an internal field</title><desc id="desc">P region left and N region right. Negative ionized acceptors sit on the p-side depletion region; positive donors on the n side. The electric field points right to left.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">PN junction: fixed charge creates an internal field</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: HU-PN-001; MIT-JUNCTION-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<rect x="95" y="240" width="500" height="240" rx="8" fill="#f4dce1" stroke="#17334a" stroke-width="2"/>
+<rect x="595" y="240" width="500" height="240" rx="8" fill="#d6e6f4" stroke="#17334a" stroke-width="2"/>
+<rect x="460" y="240" width="270" height="240" rx="8" fill="#fff4dc" stroke="#17334a" stroke-width="2"/>
+<text x="210" y="210" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#17334a" text-anchor="start">p-type region</text>
+<text x="805" y="210" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#17334a" text-anchor="start">n-type region</text>
+<text x="500" y="290" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ba4661" text-anchor="middle">−</text>
+<text x="500" y="355" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ba4661" text-anchor="middle">−</text>
+<text x="500" y="420" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ba4661" text-anchor="middle">−</text>
+<text x="550" y="290" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ba4661" text-anchor="middle">−</text>
+<text x="550" y="355" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ba4661" text-anchor="middle">−</text>
+<text x="550" y="420" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ba4661" text-anchor="middle">−</text>
+<text x="635" y="290" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#3c66a0" text-anchor="middle">+</text>
+<text x="635" y="355" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#3c66a0" text-anchor="middle">+</text>
+<text x="635" y="420" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#3c66a0" text-anchor="middle">+</text>
+<text x="685" y="290" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#3c66a0" text-anchor="middle">+</text>
+<text x="685" y="355" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#3c66a0" text-anchor="middle">+</text>
+<text x="685" y="420" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#3c66a0" text-anchor="middle">+</text>
+<line x1="460" y1="500" x2="730" y2="500" stroke="#17334a" stroke-width="2"/>
+<line x1="460" y1="490" x2="460" y2="510" stroke="#17334a" stroke-width="2"/>
+<line x1="730" y1="490" x2="730" y2="510" stroke="#17334a" stroke-width="2"/>
+<text x="460" y="545" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#17334a" text-anchor="start">Depletion region</text>
+<line x1="715" y1="165" x2="475" y2="165" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="515" y="140" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Electric field</text>
+<text x="60" y="580" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Fixed acceptor ions: negative. Fixed donor ions: positive. At equilibrium, drift and diffusion currents</text>
+<text x="60" y="609" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">balance.</text></svg>

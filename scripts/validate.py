@@ -4,6 +4,7 @@ from pathlib import Path
 from urllib.parse import unquote
 import csv, json, re, sys
 import manufacturing_map
+import content_checks
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
 def check(ok, message):
@@ -66,8 +67,9 @@ map_data=manufacturing_map.read_data()
 errors.extend(manufacturing_map.validate(map_data))
 for output, expected_text in manufacturing_map.generated_files(map_data).items():
     check(output.is_file() and output.read_text()==expected_text, f'Stale map view: {output.relative_to(ROOT)}')
+errors.extend(content_checks.validate(ROOT))
 if errors:
     print('\n'.join('FAIL: '+e for e in errors)); sys.exit(1)
 print(f'PASS: {len(modules)} modules; {sum(len(m["prerequisites"]) for m in modules)} prerequisite edges; {len(md_files)} Markdown documents; {link_count} local links; {len(asset_ids)} registered diagrams.')
 print('No prerequisite cycles, phase conflicts, missing paths, or graph synchronization errors.')
-print('Structural checks only; technical/source review remains deferred until content exists.')
+print('Automated checks validate structure and metadata; source support and technical scope are recorded separately in phase audits.')

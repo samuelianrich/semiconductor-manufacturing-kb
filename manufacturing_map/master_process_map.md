@@ -7,11 +7,11 @@
 
 ```mermaid
 flowchart LR
-  MAT_0001["Quartz-bearing feedstock [planned]"]
-  MAT_0003["Metallurgical-grade silicon [planned]"]
-  MAT_0006["Electronic-grade polysilicon [planned]"]
-  MAT_0007["Single-crystal silicon ingot [planned]"]
-  MAT_0010["Accepted starting wafer [planned]"]
+  MAT_0001["Quartz-bearing feedstock"]
+  MAT_0003["Metallurgical-grade silicon"]
+  MAT_0006["Electronic-grade polysilicon"]
+  MAT_0007["Single-crystal silicon ingot"]
+  MAT_0010["Accepted starting wafer"]
   ART_0030["Tested logic die [planned]"]
   ART_0033["Tested HBM stack [planned]"]
   ART_0036["Tested accelerator package [planned]"]
@@ -33,11 +33,11 @@ flowchart LR
 
 | ID | Entity | Status | Canonical article |
 |---|---|---|---|
-| MAT-0001 | Quartz-bearing feedstock | planned | [Quartz-bearing feedstock](../01_raw_materials/README.md) |
-| MAT-0003 | Metallurgical-grade silicon | planned | [Metallurgical-grade silicon](../02_silicon_refining/README.md) |
-| MAT-0006 | Electronic-grade polysilicon | planned | [Electronic-grade polysilicon](../02_silicon_refining/README.md) |
-| MAT-0007 | Single-crystal silicon ingot | planned | [Single-crystal silicon ingot](../03_crystal_growth/README.md) |
-| MAT-0010 | Accepted starting wafer | planned | [Accepted starting wafer](../04_wafer_manufacturing/README.md) |
+| MAT-0001 | Quartz-bearing feedstock | reviewed | [Quartz-bearing feedstock](../01_raw_materials/quartz_and_feedstocks.md) |
+| MAT-0003 | Metallurgical-grade silicon | reviewed | [Metallurgical-grade silicon](../02_silicon_refining/metallurgical_silicon.md) |
+| MAT-0006 | Electronic-grade polysilicon | reviewed | [Electronic-grade polysilicon](../02_silicon_refining/electronic_grade_polysilicon.md) |
+| MAT-0007 | Single-crystal silicon ingot | reviewed | [Single-crystal silicon ingot](../03_crystal_growth/crystal_growth.md) |
+| MAT-0010 | Accepted starting wafer | reviewed | [Accepted starting wafer](../04_wafer_manufacturing/wafer_finishing_and_acceptance.md) |
 | ART-0030 | Tested logic die | planned | [Tested logic die](../20_wafer_test/README.md) |
 | ART-0033 | Tested HBM stack | planned | [Tested HBM stack](../24_hbm_manufacturing/README.md) |
 | ART-0036 | Tested accelerator package | planned | [Tested accelerator package](../29_gpu_package/README.md) |

@@ -1,30 +1,30 @@
 edge_id,source_id,relationship,target_id,route_id,conditions,status,last_reviewed
-EDGE-0001,PROC-0001,CONSUMES,MAT-0001,ROUTE-WAFER,,planned,
-EDGE-0002,PROC-0001,PRODUCES,MAT-0002,ROUTE-WAFER,,planned,
-EDGE-0003,PROC-0002,CONSUMES,MAT-0002,ROUTE-WAFER,,planned,
-EDGE-0004,PROC-0002,PRODUCES,MAT-0003,ROUTE-WAFER,,planned,
-EDGE-0005,PROC-0001,PRECEDES,PROC-0002,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,planned,
-EDGE-0006,PROC-0003,CONSUMES,MAT-0003,ROUTE-WAFER,,planned,
-EDGE-0007,PROC-0003,PRODUCES,MAT-0004,ROUTE-WAFER,,planned,
-EDGE-0008,PROC-0002,PRECEDES,PROC-0003,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,planned,
-EDGE-0009,PROC-0004,CONSUMES,MAT-0004,ROUTE-WAFER,,planned,
-EDGE-0010,PROC-0004,PRODUCES,MAT-0005,ROUTE-WAFER,,planned,
-EDGE-0011,PROC-0003,PRECEDES,PROC-0004,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,planned,
-EDGE-0012,PROC-0005,CONSUMES,MAT-0005,ROUTE-WAFER,,planned,
-EDGE-0013,PROC-0005,PRODUCES,MAT-0006,ROUTE-WAFER,,planned,
-EDGE-0014,PROC-0004,PRECEDES,PROC-0005,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,planned,
-EDGE-0015,PROC-0006,CONSUMES,MAT-0006,ROUTE-WAFER,,planned,
-EDGE-0016,PROC-0006,PRODUCES,MAT-0007,ROUTE-WAFER,,planned,
-EDGE-0017,PROC-0005,PRECEDES,PROC-0006,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,planned,
-EDGE-0018,PROC-0007,CONSUMES,MAT-0007,ROUTE-WAFER,,planned,
-EDGE-0019,PROC-0007,PRODUCES,MAT-0008,ROUTE-WAFER,,planned,
-EDGE-0020,PROC-0006,PRECEDES,PROC-0007,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,planned,
-EDGE-0021,PROC-0008,CONSUMES,MAT-0008,ROUTE-WAFER,,planned,
-EDGE-0022,PROC-0008,PRODUCES,MAT-0009,ROUTE-WAFER,,planned,
-EDGE-0023,PROC-0007,PRECEDES,PROC-0008,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,planned,
-EDGE-0024,PROC-0009,CONSUMES,MAT-0009,ROUTE-WAFER,,planned,
-EDGE-0025,PROC-0009,PRODUCES,MAT-0010,ROUTE-WAFER,,planned,
-EDGE-0026,PROC-0008,PRECEDES,PROC-0009,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,planned,
+EDGE-0001,PROC-0001,CONSUMES,MAT-0001,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0002,PROC-0001,PRODUCES,MAT-0002,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0003,PROC-0002,CONSUMES,MAT-0002,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0004,PROC-0002,PRODUCES,MAT-0003,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0005,PROC-0001,PRECEDES,PROC-0002,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,reviewed,2026-09-16
+EDGE-0006,PROC-0003,CONSUMES,MAT-0003,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0007,PROC-0003,PRODUCES,MAT-0004,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0008,PROC-0002,PRECEDES,PROC-0003,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,reviewed,2026-09-16
+EDGE-0009,PROC-0004,CONSUMES,MAT-0004,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0010,PROC-0004,PRODUCES,MAT-0005,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0011,PROC-0003,PRECEDES,PROC-0004,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,reviewed,2026-09-16
+EDGE-0012,PROC-0005,CONSUMES,MAT-0005,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0013,PROC-0005,PRODUCES,MAT-0006,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0014,PROC-0004,PRECEDES,PROC-0005,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,reviewed,2026-09-16
+EDGE-0015,PROC-0006,CONSUMES,MAT-0006,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0016,PROC-0006,PRODUCES,MAT-0007,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0017,PROC-0005,PRECEDES,PROC-0006,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,reviewed,2026-09-16
+EDGE-0018,PROC-0007,CONSUMES,MAT-0007,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0019,PROC-0007,PRODUCES,MAT-0008,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0020,PROC-0006,PRECEDES,PROC-0007,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,reviewed,2026-09-16
+EDGE-0021,PROC-0008,CONSUMES,MAT-0008,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0022,PROC-0008,PRODUCES,MAT-0009,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0023,PROC-0007,PRECEDES,PROC-0008,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,reviewed,2026-09-16
+EDGE-0024,PROC-0009,CONSUMES,MAT-0009,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0025,PROC-0009,PRODUCES,MAT-0010,ROUTE-WAFER,Representative chlorosilane/Siemens/CZ route; aggregate operation boundaries and qualified output only.,reviewed,2026-09-16
+EDGE-0026,PROC-0008,PRECEDES,PROC-0009,ROUTE-WAFER,Representative chlorosilane/CZ/polished-wafer learning route; variants are separately scoped.,reviewed,2026-09-16
 EDGE-0027,PROC-0030,CONSUMES,MAT-0010,ROUTE-LOGIC,,planned,
 EDGE-0028,PROC-0030,PRODUCES,ART-0030,ROUTE-LOGIC,,planned,
 EDGE-0029,ART-0042,ENABLES,PROC-0030,ROUTE-LOGIC,"Information input, not material consumed.",planned,
@@ -52,3 +52,36 @@ EDGE-0050,PROC-0040,PRODUCES,ART-0040,ROUTE-SYSTEM,,planned,
 EDGE-0051,ART-0041,ENABLES,PROC-0038,ROUTE-SYSTEM,Boundary-specific assemblies and interfaces; not a serial conversion of power into hardware.,planned,
 EDGE-0052,ART-0041,ENABLES,PROC-0039,ROUTE-SYSTEM,Boundary-specific assemblies and interfaces; not a serial conversion of power into hardware.,planned,
 EDGE-0053,ART-0041,ENABLES,PROC-0040,ROUTE-SYSTEM,Boundary-specific assemblies and interfaces; not a serial conversion of power into hardware.,planned,
+EDGE-0054,PROC-0002,USES_EQUIPMENT,EQ-0001,,,reviewed,2026-09-16
+EDGE-0055,PROC-0004,USES_EQUIPMENT,EQ-0002,,,reviewed,2026-09-16
+EDGE-0056,PROC-0005,USES_EQUIPMENT,EQ-0003,,,reviewed,2026-09-16
+EDGE-0057,PROC-0006,USES_EQUIPMENT,EQ-0004,,,reviewed,2026-09-16
+EDGE-0058,PROC-0007,USES_EQUIPMENT,EQ-0005,,,reviewed,2026-09-16
+EDGE-0059,PROC-0008,USES_EQUIPMENT,EQ-0006,,,reviewed,2026-09-16
+EDGE-0060,PROC-0009,USES_EQUIPMENT,EQ-0007,,,reviewed,2026-09-16
+EDGE-0061,PROC-0002,CONSUMES,MAT-0011,ROUTE-WAFER,,reviewed,2026-09-16
+EDGE-0062,MAT-0012,ENABLES,PROC-0006,,Indirect enabling input: quartz is first made into a crucible; quartz ore is not placed into the CZ silicon melt.,reviewed,2026-09-16
+EDGE-0063,MAT-0013,ENABLES,PROC-0006,,CZ variant; container contacts the melt. FZ has a different boundary.,reviewed,2026-09-16
+EDGE-0064,MAT-0014,ENABLES,PROC-0003,,Grouped utility chemistry; actual H2/HCl delivery and recovery are distinct streams.,reviewed,2026-09-16
+EDGE-0065,MAT-0015,ENABLES,PROC-0006,,Seeded growth; orientation depends on selected seed.,reviewed,2026-09-16
+EDGE-0066,PROC-0010,CONSUMES,MAT-0006,ROUTE-FZ,Requires suitable feed-rod form and purity; not arbitrary deposited chunks.,reviewed,2026-09-16
+EDGE-0067,PROC-0010,PRODUCES,MAT-0007,ROUTE-FZ,Generic ingot category; CZ and FZ specifications are not interchangeable.,reviewed,2026-09-16
+EDGE-0068,PROC-0006,ALTERNATIVE_TO,PROC-0010,,"Compare single-crystal growth purpose; diameter, oxygen and electrical acceptance must be selected for application.",reviewed,2026-09-16
+EDGE-0069,MAT-0001,SUPPLIED_BY,SUP-0001,,Elkem describes Tana quartzite extraction and industrial uses. Role example only; see claim boundary.,reviewed,2026-09-16
+EDGE-0070,MAT-0012,SUPPLIED_BY,SUP-0002,,Sibelco describes IOTA high-purity quartz for making fused-quartz crucibles and quartzware. Role example only; see claim boundary.,reviewed,2026-09-16
+EDGE-0071,MAT-0006,SUPPLIED_BY,SUP-0003,,WACKER describes a chlorosilane/distillation and Siemens deposition route for polysilicon. Role example only; see claim boundary.,reviewed,2026-09-16
+EDGE-0072,MAT-0006,SUPPLIED_BY,SUP-0004,,"Hemlock describes TCS-based CVD and controlled polysilicon sizing, cleaning and packaging. Role example only; see claim boundary.",reviewed,2026-09-16
+EDGE-0073,EQ-0004,SUPPLIED_BY,SUP-0005,,PVA TePla describes CZ puller equipment and thermal and motion control functions. Role example only; see claim boundary.,reviewed,2026-09-16
+EDGE-0074,MAT-0007,SUPPLIED_BY,SUP-0006,,Siltronic describes float-zone silicon products and their lower-oxygen and high-resistivity application context. Role example only; see claim boundary.,reviewed,2026-09-16
+EDGE-0075,MAT-0010,SUPPLIED_BY,SUP-0007,,"SUMCO describes wafer forming through slicing, lapping, etching, polishing, cleaning and inspection. Role example only; see claim boundary.",reviewed,2026-09-16
+EDGE-0076,CHAR-0001,AFFECTS,CHAR-0002,,At stated mobility and low-field conditions; changing impurity scattering can also change mobility.,reviewed,2026-09-16
+EDGE-0077,PROC-0009,MEASURES,CHAR-0003,,Acceptance operation aggregates multiple metrology methods; laser scattering alone does not measure all geometry.,reviewed,2026-09-16
+EDGE-0078,FAIL-0001,DETECTED_BY,PROC-0009,,Only detectable events within method sensitivity and inspection coverage.,reviewed,2026-09-16
+EDGE-0079,FAIL-0002,DETECTED_BY,PROC-0009,,Appropriate geometry metrology and agreed specification required.,reviewed,2026-09-16
+EDGE-0080,FAIL-0001,AFFECTS,METRIC-0001,,A detected out-of-spec event excludes a wafer from accepted count under the chosen disposition policy.,reviewed,2026-09-16
+EDGE-0081,FAIL-0002,AFFECTS,METRIC-0001,,Only failures of the applicable specification reduce this boundary-specific accepted count.,reviewed,2026-09-16
+EDGE-0082,PROC-0009,MEASURES,METRIC-0001,,Aggregate count after stated inspection coverage; no lot data supplied.,reviewed,2026-09-16
+EDGE-0083,PROC-0002,MEASURES,METRIC-0002,,"Aggregated energy and accepted-mass accounting at the furnace boundary; original metric definition, no actual operating data supplied.",reviewed,2026-09-16
+EDGE-0084,CHAR-0001,CAN_CAUSE,FAIL-0003,,Only if the resulting resistivity crosses the specified bound; mobility and temperature must be accounted for.,reviewed,2026-09-16
+EDGE-0085,FAIL-0003,DETECTED_BY,PROC-0009,,Appropriate electrical metrology under specified conditions; not detection by surface laser scattering.,reviewed,2026-09-16
+EDGE-0086,FAIL-0003,AFFECTS,METRIC-0001,,A detected failure of the applicable electrical specification changes accepted-wafer count under the chosen policy.,reviewed,2026-09-16

@@ -1,0 +1,24 @@
+flowchart LR
+  EQ_0001["Submerged-arc furnace"]
+  EQ_0002["Distillation equipment"]
+  EQ_0003["Siemens deposition reactor"]
+  EQ_0004["CZ crystal puller"]
+  EQ_0005["Wafer slicing equipment"]
+  EQ_0006["Wafer polishing equipment"]
+  EQ_0007["Laser-scattering surface inspection"]
+  PROC_0002["Carbothermic silicon smelting"]
+  PROC_0004["Chemical purification by distillation"]
+  PROC_0005["Polysilicon deposition"]
+  PROC_0006["Czochralski single-crystal growth"]
+  PROC_0007["Ingot shaping and wafer slicing"]
+  PROC_0008["Wafer surface finishing"]
+  PROC_0009["Wafer cleaning and acceptance inspection"]
+  SUP_0005["PVA TePla"]
+  PROC_0002 -->|"uses equipment"| EQ_0001
+  PROC_0004 -->|"uses equipment"| EQ_0002
+  PROC_0005 -->|"uses equipment"| EQ_0003
+  PROC_0006 -->|"uses equipment"| EQ_0004
+  PROC_0007 -->|"uses equipment"| EQ_0005
+  PROC_0008 -->|"uses equipment"| EQ_0006
+  PROC_0009 -->|"uses equipment"| EQ_0007
+  EQ_0004 -->|"supplied by"| SUP_0005

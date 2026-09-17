@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Single-crystal growth: CZ and float-zone</title><desc id="desc">CZ draws a seed-oriented crystal from a crucible melt. Float-zone growth passes a localized melt through a feed rod without a crucible contacting the melt.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">Single-crystal growth: CZ and float-zone</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: PVA-CZ-001; SUMCO-WAFER-001; SILTRONIC-FZ-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<text x="80" y="150" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#17334a" text-anchor="start">Czochralski (CZ)</text>
+<text x="675" y="150" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#17334a" text-anchor="start">Float zone (FZ)</text>
+<line x1="600" y1="130" x2="600" y2="630" stroke="#c2d2da" stroke-width="2"/>
+<rect x="100" y="360" width="340" height="195" rx="8" fill="#ede5da" stroke="#17334a" stroke-width="2"/>
+<rect x="120" y="395" width="300" height="135" rx="8" fill="#f4c77d" stroke="#17334a" stroke-width="2"/>
+<text x="145" y="480" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Silicon melt</text>
+<rect x="245" y="230" width="65" height="185" rx="8" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="263" y="185" width="29" height="45" rx="8" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<line x1="279" y1="178" x2="279" y2="150" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="320" y1="285" x2="510" y2="285" stroke="#17334a" stroke-width="3"/>
+<text x="343" y="270" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#17334a" text-anchor="start">Growing crystal</text>
+<text x="86" y="588" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">Crucible + surrounding hot zone</text>
+<text x="55" y="330" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#17334a" text-anchor="start">Seed</text>
+<line x1="105" y1="325" x2="263" y2="205" stroke="#17334a" stroke-width="2"/>
+<rect x="835" y="200" width="95" height="145" rx="8" fill="#c6ccd4" stroke="#17334a" stroke-width="2"/>
+<ellipse cx="882" cy="367" rx="60" ry="27" fill="#f4c77d" stroke="#17334a" stroke-width="2"/>
+<rect x="845" y="392" width="75" height="165" rx="8" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="790" y="352" width="185" height="14" rx="2" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="790" y="383" width="185" height="14" rx="2" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<text x="960" y="245" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">Feed rod</text>
+<line x1="928" y1="255" x2="950" y2="255" stroke="#17334a" stroke-width="2"/>
+<text x="680" y="325" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#17334a" text-anchor="start">Induction coil</text>
+<line x1="800" y1="330" x2="808" y2="352" stroke="#17334a" stroke-width="2"/>
+<text x="960" y="435" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#17334a" text-anchor="start">Crystal</text>
+<line x1="925" y1="440" x2="950" y2="440" stroke="#17334a" stroke-width="2"/>
+<text x="687" y="591" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#17334a" text-anchor="start">Localized melt; no contacting crucible</text></svg>

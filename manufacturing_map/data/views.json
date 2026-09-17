@@ -20,7 +20,7 @@
     "routes": [
       "ROUTE-WAFER"
     ],
-    "caption": "Representative learning route; arrow labels distinguish operation inputs and outputs from operation ordering. Detailed route variants are introduced with research."
+    "caption": "Representative chlorosilane/Siemens/CZ path at aggregate operation level; qualified output boundaries, not a complete recipe. FZ is documented separately in the crystal-growth chapter and entity register."
   },
   "logic_path": {
     "title": "Logic manufacturing path",

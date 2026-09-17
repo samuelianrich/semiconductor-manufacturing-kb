@@ -1,25 +1,37 @@
 flowchart LR
-  MAT_0001["Quartz-bearing feedstock [planned]"]
-  MAT_0002["Qualified quartz and carbon charge [planned]"]
-  MAT_0003["Metallurgical-grade silicon [planned]"]
-  MAT_0004["Crude chlorosilane mixture [planned]"]
-  MAT_0005["Purified chlorosilane feed [planned]"]
-  MAT_0006["Electronic-grade polysilicon [planned]"]
-  MAT_0007["Single-crystal silicon ingot [planned]"]
-  MAT_0008["Sliced silicon wafer [planned]"]
-  MAT_0009["Finished polished wafer [planned]"]
-  MAT_0010["Accepted starting wafer [planned]"]
-  PROC_0001["Mine, beneficiate and qualify feedstock [planned]"]
-  PROC_0002["Carbothermic silicon smelting [planned]"]
-  PROC_0003["Chlorosilane synthesis [planned]"]
-  PROC_0004["Chemical purification by distillation [planned]"]
-  PROC_0005["Polysilicon deposition [planned]"]
-  PROC_0006["Single-crystal growth [planned]"]
-  PROC_0007["Ingot shaping and wafer slicing [planned]"]
-  PROC_0008["Wafer surface finishing [planned]"]
-  PROC_0009["Wafer cleaning and acceptance inspection [planned]"]
+  MAT_0001["Quartz-bearing feedstock"]
+  MAT_0002["Qualified quartz and carbon charge"]
+  MAT_0003["Metallurgical-grade silicon"]
+  MAT_0004["Crude chlorosilane mixture"]
+  MAT_0005["Purified chlorosilane feed"]
+  MAT_0006["Electronic-grade polysilicon"]
+  MAT_0007["Single-crystal silicon ingot"]
+  MAT_0008["Sliced silicon wafer"]
+  MAT_0009["Finished polished wafer"]
+  MAT_0010["Accepted starting wafer"]
+  MAT_0011["Carbon reductants"]
+  MAT_0012["High-purity quartz for crucibles"]
+  MAT_0013["Quartz crucible"]
+  MAT_0014["Hydrogen and hydrogen chloride process streams"]
+  MAT_0015["Oriented silicon seed"]
+  PROC_0001["Mine, beneficiate and qualify feedstock"]
+  PROC_0002["Carbothermic silicon smelting"]
+  PROC_0003["Chlorosilane synthesis"]
+  PROC_0004["Chemical purification by distillation"]
+  PROC_0005["Polysilicon deposition"]
+  PROC_0006["Czochralski single-crystal growth"]
+  PROC_0007["Ingot shaping and wafer slicing"]
+  PROC_0008["Wafer surface finishing"]
+  PROC_0009["Wafer cleaning and acceptance inspection"]
+  PROC_0010["Float-zone single-crystal growth"]
   PROC_0030["Logic fabrication, test and die preparation [planned]"]
   PROC_0031["DRAM wafer fabrication [planned]"]
+  SUP_0001["Elkem"]
+  SUP_0002["Sibelco"]
+  SUP_0003["WACKER"]
+  SUP_0004["Hemlock Semiconductor"]
+  SUP_0006["Siltronic"]
+  SUP_0007["SUMCO"]
   MAT_0001 -->|"consumes"| PROC_0001
   PROC_0001 -->|"produces"| MAT_0002
   MAT_0002 -->|"consumes"| PROC_0002
@@ -40,3 +52,16 @@ flowchart LR
   PROC_0009 -->|"produces"| MAT_0010
   MAT_0010 -->|"consumes"| PROC_0030
   MAT_0010 -->|"consumes"| PROC_0031
+  MAT_0011 -->|"consumes"| PROC_0002
+  MAT_0012 -->|"enables"| PROC_0006
+  MAT_0013 -->|"enables"| PROC_0006
+  MAT_0014 -->|"enables"| PROC_0003
+  MAT_0015 -->|"enables"| PROC_0006
+  MAT_0006 -->|"consumes"| PROC_0010
+  PROC_0010 -->|"produces"| MAT_0007
+  MAT_0001 -->|"supplied by"| SUP_0001
+  MAT_0012 -->|"supplied by"| SUP_0002
+  MAT_0006 -->|"supplied by"| SUP_0003
+  MAT_0006 -->|"supplied by"| SUP_0004
+  MAT_0007 -->|"supplied by"| SUP_0006
+  MAT_0010 -->|"supplied by"| SUP_0007

@@ -31,3 +31,18 @@ The board stage requires both power and thermal understanding. Historical module
 - **Equipment research:** read the corresponding process before its equipment-category profile; then 33 → 35 → 36 → 37.
 - **Economic research:** engineering at the segment of interest → yield/test assumptions → 36 cost boundary → 37 industry structure. Do not start from a vendor moat claim and retrofit the science.
 - **Rubin reader:** begin with the known/unknown register, then follow each supported implementation claim back to its general technical explanation. A missing disclosure is a learning boundary, not permission to invent a recipe.
+
+## Phase 1 reading path
+
+1. [Quartz, silica and qualified furnace feedstock](01_raw_materials/quartz_and_feedstocks.md)
+2. [Metallurgical silicon: removing oxygen from silica](02_silicon_refining/metallurgical_silicon.md)
+3. [Electronic-grade polysilicon: purification through chemistry](02_silicon_refining/electronic_grade_polysilicon.md)
+4. [Single-crystal growth: giving silicon a continuous lattice](03_crystal_growth/crystal_growth.md)
+5. [From ingot to accepted wafer: geometry, surface and qualification](04_wafer_manufacturing/wafer_finishing_and_acceptance.md)
+6. [Bonding, energy bands, electrons and holes](05_semiconductor_physics/bonding_bands_and_carriers.md)
+7. [Doping, carrier concentration, mobility and resistivity](05_semiconductor_physics/doping_and_transport.md)
+8. [PN junctions: diffusion creates an internal electric field](05_semiconductor_physics/pn_junctions.md)
+9. [From MOS capacitor to transistor: controlling a channel with a field](06_transistor_fundamentals/mos_capacitor_and_mosfet.md)
+10. [CMOS logic and the move from planar gates to fins and nanosheets](06_transistor_fundamentals/cmos_and_transistor_evolution.md)
+
+Read the carrier/doping primer just in time when crystal growth introduces resistivity. The full physics sequence then develops the models systematically. Both the wafer path and MOSFET path are prerequisites for Phase 2. [Glossary](40_glossary/phase1_glossary.md) · [Comparisons](41_reference_tables/phase1_comparisons.md).

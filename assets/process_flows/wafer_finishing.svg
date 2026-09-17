@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Wafer preparation: geometry, surface and acceptance</title><desc id="desc">Ingot shaping and orientation precede slicing, edge preparation, face finishing, cleaning and inspection; measured acceptance determines disposition.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">Wafer preparation: geometry, surface and acceptance</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: SUMCO-WAFER-001; SILTRONIC-WAFER-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<rect x="30" y="190" width="250" height="130" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="46" y="222" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Shape and orient</text>
+<text x="46" y="270" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Select usable ingot</text>
+<line x1="280" y1="255" x2="310" y2="255" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="325" y="190" width="250" height="130" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="341" y="222" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Slice</text>
+<text x="341" y="270" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Allow for kerf</text>
+<line x1="575" y1="255" x2="605" y2="255" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="620" y="190" width="250" height="130" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="636" y="222" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Prepare edge</text>
+<text x="636" y="270" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Control edge profile</text>
+<line x1="870" y1="255" x2="900" y2="255" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="915" y="190" width="250" height="130" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="931" y="222" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Prepare faces</text>
+<text x="931" y="270" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Lap / etch / polish</text>
+<line x1="1050" y1="330" x2="1050" y2="405" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="930" y="420" width="230" height="125" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="946" y="452" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Clean + inspect</text>
+<text x="946" y="495" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Measure required</text>
+<text x="946" y="520" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">properties</text>
+<line x1="925" y1="485" x2="815" y2="485" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="570" y="420" width="235" height="125" rx="8" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<text x="586" y="452" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Disposition</text>
+<text x="586" y="495" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Accept / segregate /</text>
+<text x="586" y="520" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">reject</text>
+<line x1="565" y1="485" x2="455" y2="485" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="460" y="465" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#17334a" text-anchor="start">Accept only</text>
+<rect x="40" y="420" width="400" height="125" rx="8" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<text x="56" y="452" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Accepted starting wafer</text>
+<text x="56" y="495" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Specification + identity + clean</text>
+<text x="56" y="520" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">handling</text>
+<text x="55" y="602" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#17334a" text-anchor="start">Specialized epitaxial and SOI wafers have additional routes. This flow does not impose every listed tool</text>
+<text x="55" y="629" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#17334a" text-anchor="start">on every wafer.</text></svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Silica to silicon: furnace functions</title><desc id="desc">Quartz and carbon enter a furnace. Electrodes deliver energy. Hot reaction regions produce tapped silicon and an off-gas stream.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">Silica to silicon: furnace functions</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: NTNU-SMELTING-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<rect x="300" y="220" width="490" height="345" rx="8" fill="#eee8e1" stroke="#17334a" stroke-width="2"/>
+<rect x="330" y="370" width="430" height="160" rx="8" fill="#efb46a" stroke="#17334a" stroke-width="2"/>
+<text x="362" y="460" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#17334a" text-anchor="start">Hot reacting charge</text>
+<rect x="400" y="165" width="28" height="230" rx="0" fill="#566372" stroke="#17334a" stroke-width="2"/>
+<rect x="525" y="165" width="28" height="230" rx="0" fill="#566372" stroke="#17334a" stroke-width="2"/>
+<rect x="650" y="165" width="28" height="230" rx="0" fill="#566372" stroke="#17334a" stroke-width="2"/>
+<text x="385" y="135" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Electrical input / electrodes</text>
+<line x1="555" y1="145" x2="555" y2="165" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="35" y="195" width="205" height="115" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="51" y="227" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Quartz + carbon</text>
+<text x="51" y="260" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Prepared charge</text>
+<line x1="240" y1="260" x2="315" y2="305" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="790" y1="470" x2="1010" y2="470" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="825" y="440" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Tap liquid silicon</text>
+<text x="825" y="505" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#17334a" text-anchor="start">Cool and handle product</text>
+<line x1="755" y1="240" x2="980" y2="200" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="870" y="160" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Off-gas handling</text>
+<text x="830" y="235" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#17334a" text-anchor="start">Reaction products and entrained material</text>
+<text x="330" y="595" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#17334a" text-anchor="start">Lining and reaction-zone geometry vary by furnace</text></svg>

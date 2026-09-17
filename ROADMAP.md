@@ -1,6 +1,6 @@
 # Staged research and build roadmap
 
-**Phase 0 and Phase 0A architecture are delivered; Phase 1 is the active build.** Do not bulk-generate chapter placeholders that appear to be completed articles. A phase can be coherent before every possible extension is written, but all stated core coverage must pass its exit gate.
+**Phases 0, 0A and 1 are delivered; Phase 2 is next.** Do not bulk-generate chapter placeholders that appear to be completed articles. A phase can be coherent before every possible extension is written, but all stated core coverage must pass its exit gate.
 
 | Phase | Scope | Prerequisites | Exit evidence |
 |---|---|---|---|
@@ -30,9 +30,9 @@
 7. Validate sources, equations, rights, graph links and vocabulary. Record status and unresolved issues.
 8. Make a small descriptive Git commit for the completed module or coherent submodule.
 
-## Phase 1 first work package
+## Phase 1 delivery
 
-Start with the quartz/raw-material article, followed by metallurgical reduction and electronic-grade purification. Research rather than assume feedstock purity, impurity limits and energy values. In parallel conceptually (no autonomous agents required), outline bonding/bands/doping so explanations of crystal-growth dopants have a prerequisite destination. Draft one article at a time with its source record and illustration.
+Both work packages are delivered: ten chapters, nine original figures, a glossary, comparisons, process evidence and scoped company claims. [Review record](AUDIT_PHASE1.md) · [Reading path](LEARNING_PATHS.md#phase-1-reading-path). The next engineering work is Phase 2, modules 08–16.
 
 ## Progress accounting
 
@@ -40,4 +40,4 @@ Track module state in `catalog/modules.json`; an index is not a chapter. Record 
 
 ## Deferred by design
 
-Until Phase 1 drafts pass review, technical chapters remain pending. Later-phase supplier tables, quantitative market research, Rubin specifications, and Phase 12 content audit are deferred. Phase 0 supplies their scope and validation contract. No speculative future roadmap is planned.
+Later-phase technical chapters, comprehensive supplier tables, quantitative market research, Rubin specifications and the full-repository Phase 12 audit remain pending. Phase 1 supplier examples document narrow roles only.

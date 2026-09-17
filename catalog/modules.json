@@ -29,7 +29,8 @@
       "purity specifications",
       "carbon reductants and feedstock qualification"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
   },
   {
     "id": "M02",
@@ -49,7 +50,8 @@
       "alternative reactors",
       "impurity budgets and electronic-grade qualification"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
   },
   {
     "id": "M03",
@@ -68,7 +70,8 @@
       "oxygen and defects",
       "boule resistivity"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
   },
   {
     "id": "M04",
@@ -88,7 +91,8 @@
       "edge exclusion",
       "epitaxial and SOI starting-wafer alternatives"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
   },
   {
     "id": "M05",
@@ -108,7 +112,8 @@
       "PN junction and depletion",
       "MOS capacitor and inversion"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
   },
   {
     "id": "M06",
@@ -129,7 +134,8 @@
       "drive current, leakage and power density",
       "CMOS logic bridge"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
   },
   {
     "id": "M07",
@@ -863,7 +869,8 @@
       "DDR/GDDR and HBM use cases",
       "no speculative roadmap"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-16"
   },
   {
     "id": "M40",
@@ -876,7 +883,7 @@
       "acronyms and symbols",
       "terminology consistency"
     ],
-    "status": "architecture-only"
+    "status": "phase1-content-available"
   },
   {
     "id": "M41",
@@ -893,7 +900,7 @@
       "materials matrix",
       "units and model assumptions"
     ],
-    "status": "architecture-only"
+    "status": "phase1-content-available"
   },
   {
     "id": "M42",
@@ -910,6 +917,6 @@
       "access and rights metadata",
       "stable IDs"
     ],
-    "status": "architecture-only"
+    "status": "phase1-content-available"
   }
 ]

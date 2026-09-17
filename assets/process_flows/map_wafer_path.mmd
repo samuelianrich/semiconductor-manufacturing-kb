@@ -1,23 +1,24 @@
 flowchart LR
-  MAT_0001["Quartz-bearing feedstock [planned]"]
-  MAT_0002["Qualified quartz and carbon charge [planned]"]
-  MAT_0003["Metallurgical-grade silicon [planned]"]
-  MAT_0004["Crude chlorosilane mixture [planned]"]
-  MAT_0005["Purified chlorosilane feed [planned]"]
-  MAT_0006["Electronic-grade polysilicon [planned]"]
-  MAT_0007["Single-crystal silicon ingot [planned]"]
-  MAT_0008["Sliced silicon wafer [planned]"]
-  MAT_0009["Finished polished wafer [planned]"]
-  MAT_0010["Accepted starting wafer [planned]"]
-  PROC_0001["Mine, beneficiate and qualify feedstock [planned]"]
-  PROC_0002["Carbothermic silicon smelting [planned]"]
-  PROC_0003["Chlorosilane synthesis [planned]"]
-  PROC_0004["Chemical purification by distillation [planned]"]
-  PROC_0005["Polysilicon deposition [planned]"]
-  PROC_0006["Single-crystal growth [planned]"]
-  PROC_0007["Ingot shaping and wafer slicing [planned]"]
-  PROC_0008["Wafer surface finishing [planned]"]
-  PROC_0009["Wafer cleaning and acceptance inspection [planned]"]
+  MAT_0001["Quartz-bearing feedstock"]
+  MAT_0002["Qualified quartz and carbon charge"]
+  MAT_0003["Metallurgical-grade silicon"]
+  MAT_0004["Crude chlorosilane mixture"]
+  MAT_0005["Purified chlorosilane feed"]
+  MAT_0006["Electronic-grade polysilicon"]
+  MAT_0007["Single-crystal silicon ingot"]
+  MAT_0008["Sliced silicon wafer"]
+  MAT_0009["Finished polished wafer"]
+  MAT_0010["Accepted starting wafer"]
+  MAT_0011["Carbon reductants"]
+  PROC_0001["Mine, beneficiate and qualify feedstock"]
+  PROC_0002["Carbothermic silicon smelting"]
+  PROC_0003["Chlorosilane synthesis"]
+  PROC_0004["Chemical purification by distillation"]
+  PROC_0005["Polysilicon deposition"]
+  PROC_0006["Czochralski single-crystal growth"]
+  PROC_0007["Ingot shaping and wafer slicing"]
+  PROC_0008["Wafer surface finishing"]
+  PROC_0009["Wafer cleaning and acceptance inspection"]
   MAT_0001 -->|"consumes"| PROC_0001
   PROC_0001 -->|"produces"| MAT_0002
   MAT_0002 -->|"consumes"| PROC_0002
@@ -36,3 +37,4 @@ flowchart LR
   PROC_0008 -->|"produces"| MAT_0009
   MAT_0009 -->|"consumes"| PROC_0009
   PROC_0009 -->|"produces"| MAT_0010
+  MAT_0011 -->|"consumes"| PROC_0002

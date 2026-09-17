@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">MOS gate control and an n-channel transistor</title><desc id="desc">A p-body MOS capacitor moves through accumulation, depletion and inversion; a longitudinal nMOS section adds n+ source and drain and an induced electron channel.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">MOS gate control and an n-channel transistor</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: HU-MOS-001; MIT-MOS-001; MIT-MOSFET-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<text x="40" y="140" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#17334a" text-anchor="start">Accumulation</text>
+<rect x="40" y="170" width="330" height="35" rx="8" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="40" y="205" width="330" height="12" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="40" y="217" width="330" height="90" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<text x="75" y="255" font-family="Arial, sans-serif" font-size="23" font-weight="400" fill="#17334a" text-anchor="start">+  +  +  +</text>
+<text x="75" y="287" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#17334a" text-anchor="start">Mobile holes</text>
+<text x="40" y="335" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#17334a" text-anchor="start">Relative gate bias: negative</text>
+<text x="435" y="140" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#17334a" text-anchor="start">Depletion</text>
+<rect x="435" y="170" width="330" height="35" rx="8" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="435" y="205" width="330" height="12" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="435" y="217" width="330" height="90" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<text x="470" y="255" font-family="Arial, sans-serif" font-size="23" font-weight="400" fill="#17334a" text-anchor="start">−  −  −  −</text>
+<text x="470" y="287" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#17334a" text-anchor="start">Fixed acceptor ions</text>
+<text x="435" y="335" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#17334a" text-anchor="start">More positive gate bias</text>
+<text x="830" y="140" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#17334a" text-anchor="start">Inversion</text>
+<rect x="830" y="170" width="330" height="35" rx="8" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="830" y="205" width="330" height="12" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="830" y="217" width="330" height="90" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<text x="865" y="255" font-family="Arial, sans-serif" font-size="23" font-weight="400" fill="#17334a" text-anchor="start">electrons at surface</text>
+<text x="865" y="287" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#17334a" text-anchor="start">Mobile electrons</text>
+<text x="830" y="335" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#17334a" text-anchor="start">Sufficient positive bias</text>
+<text x="45" y="400" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17334a" text-anchor="start">Longitudinal nMOS cross section</text>
+<rect x="170" y="490" width="740" height="130" rx="8" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="345" y="430" width="385" height="43" rx="8" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="345" y="473" width="385" height="17" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="195" y="490" width="150" height="60" rx="0" fill="#aac7e5" stroke="#17334a" stroke-width="2"/>
+<rect x="730" y="490" width="150" height="60" rx="0" fill="#aac7e5" stroke="#17334a" stroke-width="2"/>
+<text x="228" y="525" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#17334a" text-anchor="start">n+ source</text>
+<text x="758" y="525" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#17334a" text-anchor="start">n+ drain</text>
+<text x="450" y="584" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">p-type body</text>
+<line x1="347" y1="500" x2="727" y2="500" stroke="#007c83" stroke-width="6"/>
+<text x="425" y="535" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#17334a" text-anchor="start">Induced electron channel</text>
+<text x="785" y="442" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#17334a" text-anchor="start">Gate conductor</text>
+<line x1="730" y1="450" x2="780" y2="450" stroke="#17334a" stroke-width="2"/>
+<text x="952" y="488" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#17334a" text-anchor="start">Dielectric</text>
+<line x1="731" y1="479" x2="945" y2="479" stroke="#17334a" stroke-width="2"/></svg>

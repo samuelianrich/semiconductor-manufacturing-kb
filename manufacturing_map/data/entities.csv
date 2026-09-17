@@ -1,14 +1,14 @@
 entity_id,entity_type,name,description,module_id,primary_article,status,last_reviewed
-MAT-0001,material,Quartz-bearing feedstock,Quartz-bearing feedstock,M01,01_raw_materials/README.md,planned,
-MAT-0002,material,Qualified quartz and carbon charge,Qualified quartz and carbon charge,M01,01_raw_materials/README.md,planned,
-MAT-0003,material,Metallurgical-grade silicon,Metallurgical-grade silicon,M02,02_silicon_refining/README.md,planned,
-MAT-0004,material,Crude chlorosilane mixture,Crude chlorosilane mixture,M02,02_silicon_refining/README.md,planned,
-MAT-0005,material,Purified chlorosilane feed,Purified chlorosilane feed,M02,02_silicon_refining/README.md,planned,
-MAT-0006,material,Electronic-grade polysilicon,Electronic-grade polysilicon,M02,02_silicon_refining/README.md,planned,
-MAT-0007,material,Single-crystal silicon ingot,Single-crystal silicon ingot,M03,03_crystal_growth/README.md,planned,
-MAT-0008,material,Sliced silicon wafer,Sliced silicon wafer,M04,04_wafer_manufacturing/README.md,planned,
-MAT-0009,material,Finished polished wafer,Finished polished wafer,M04,04_wafer_manufacturing/README.md,planned,
-MAT-0010,material,Accepted starting wafer,Accepted starting wafer,M04,04_wafer_manufacturing/README.md,planned,
+MAT-0001,material,Quartz-bearing feedstock,Quartz or quartzite provides silica-bearing feed; mineral association and impurities require characterization.,M01,01_raw_materials/quartz_and_feedstocks.md,reviewed,2026-09-16
+MAT-0002,material,Qualified quartz and carbon charge,"Quartz and selected carbon reductants are prepared for furnace use; qualification is furnace-specific, not electronic-grade acceptance.",M01,01_raw_materials/quartz_and_feedstocks.md,reviewed,2026-09-16
+MAT-0003,material,Metallurgical-grade silicon,Reduced silicon requiring further chemical purification for electronic-material applications.,M02,02_silicon_refining/metallurgical_silicon.md,reviewed,2026-09-16
+MAT-0004,material,Crude chlorosilane mixture,Silicon is converted to a volatile chlorosilane stream for chemical purification.,M02,02_silicon_refining/electronic_grade_polysilicon.md,reviewed,2026-09-16
+MAT-0005,material,Purified chlorosilane feed,Purified chlorosilane feed precedes deposition in the representative Siemens route.,M02,02_silicon_refining/electronic_grade_polysilicon.md,reviewed,2026-09-16
+MAT-0006,material,Electronic-grade polysilicon,"Purified deposited silicon is sized, cleaned and packaged to limit recontamination; electronic qualification is specification-dependent.",M02,02_silicon_refining/electronic_grade_polysilicon.md,reviewed,2026-09-16
+MAT-0007,material,Single-crystal silicon ingot,Seeded growth produces an oriented crystal for subsequent wafer forming.,M03,03_crystal_growth/crystal_growth.md,reviewed,2026-09-16
+MAT-0008,material,Sliced silicon wafer,Slicing establishes a wafer blank that still needs surface and geometry finishing.,M04,04_wafer_manufacturing/wafer_finishing_and_acceptance.md,reviewed,2026-09-16
+MAT-0009,material,Finished polished wafer,Polishing prepares a controlled wafer surface before final cleaning and inspection.,M04,04_wafer_manufacturing/wafer_finishing_and_acceptance.md,reviewed,2026-09-16
+MAT-0010,material,Accepted starting wafer,A cleaned and inspected wafer meets a specified acceptance boundary; no universal numerical limits or downstream defect-free guarantee are implied.,M04,04_wafer_manufacturing/wafer_finishing_and_acceptance.md,reviewed,2026-09-16
 ART-0030,artifact,Tested logic die,Tested logic die,M20,20_wafer_test/README.md,planned,
 ART-0031,artifact,DRAM wafer,DRAM wafer,M23,23_dram_fundamentals/README.md,planned,
 ART-0032,artifact,Prepared DRAM dies,Prepared DRAM dies,M24,24_hbm_manufacturing/README.md,planned,
@@ -22,15 +22,15 @@ ART-0039,artifact,Integrated server,Integrated server,M31,31_system_integration/
 ART-0040,artifact,Integrated rack system,Integrated rack system,M32,32_rack_scale_system/README.md,planned,
 ART-0041,artifact,Power and cooling assemblies,Power and cooling assemblies,M28,28_power_delivery/README.md,planned,
 ART-0042,artifact,Design and mask information,Design and mask information,M07,07_ic_design_and_tapeout/README.md,planned,
-PROC-0001,operation,"Mine, beneficiate and qualify feedstock","Mine, beneficiate and qualify feedstock",M01,01_raw_materials/README.md,planned,
-PROC-0002,operation,Carbothermic silicon smelting,Carbothermic silicon smelting,M02,02_silicon_refining/README.md,planned,
-PROC-0003,operation,Chlorosilane synthesis,Chlorosilane synthesis,M02,02_silicon_refining/README.md,planned,
-PROC-0004,operation,Chemical purification by distillation,Chemical purification by distillation,M02,02_silicon_refining/README.md,planned,
-PROC-0005,operation,Polysilicon deposition,Polysilicon deposition,M02,02_silicon_refining/README.md,planned,
-PROC-0006,operation,Single-crystal growth,Single-crystal growth,M03,03_crystal_growth/README.md,planned,
-PROC-0007,operation,Ingot shaping and wafer slicing,Ingot shaping and wafer slicing,M04,04_wafer_manufacturing/README.md,planned,
-PROC-0008,operation,Wafer surface finishing,Wafer surface finishing,M04,04_wafer_manufacturing/README.md,planned,
-PROC-0009,operation,Wafer cleaning and acceptance inspection,Wafer cleaning and acceptance inspection,M04,04_wafer_manufacturing/README.md,planned,
+PROC-0001,operation,"Mine, beneficiate and qualify feedstock",Extract and prepare quartz-bearing feed; processing targets depend on the deposit and furnace requirements.,M01,01_raw_materials/quartz_and_feedstocks.md,reviewed,2026-09-16
+PROC-0002,operation,Carbothermic silicon smelting,Electrical furnace heating and carbon reduction remove oxygen from silica through reactions involving SiO and SiC.,M02,02_silicon_refining/metallurgical_silicon.md,reviewed,2026-09-16
+PROC-0003,operation,Chlorosilane synthesis,Convert metallurgical silicon to chlorosilanes suitable for purification.,M02,02_silicon_refining/electronic_grade_polysilicon.md,reviewed,2026-09-16
+PROC-0004,operation,Chemical purification by distillation,Separate chemical species through repeated vapor/liquid separation before deposition.,M02,02_silicon_refining/electronic_grade_polysilicon.md,reviewed,2026-09-16
+PROC-0005,operation,Polysilicon deposition,Deposit silicon from purified gas on heated silicon surfaces; subsequent clean handling protects the product.,M02,02_silicon_refining/electronic_grade_polysilicon.md,reviewed,2026-09-16
+PROC-0006,operation,Czochralski single-crystal growth,Grow an oriented silicon crystal from a seeded melt in a quartz crucible with thermal and motion control.,M03,03_crystal_growth/crystal_growth.md,reviewed,2026-09-16
+PROC-0007,operation,Ingot shaping and wafer slicing,Shape the ingot and cut wafer blanks; kerf and cutting damage precede finishing.,M04,04_wafer_manufacturing/wafer_finishing_and_acceptance.md,reviewed,2026-09-16
+PROC-0008,operation,Wafer surface finishing,"Group lapping, etching and polishing at overview level; removal of damage and control of geometry prepare the surface.",M04,04_wafer_manufacturing/wafer_finishing_and_acceptance.md,reviewed,2026-09-16
+PROC-0009,operation,Wafer cleaning and acceptance inspection,"Remove residual contamination and inspect against specified geometry, surface and electrical requirements.",M04,04_wafer_manufacturing/wafer_finishing_and_acceptance.md,reviewed,2026-09-16
 PROC-0030,operation,"Logic fabrication, test and die preparation","Logic fabrication, test and die preparation",M17,17_transistor_fabrication/README.md,planned,
 PROC-0031,operation,DRAM wafer fabrication,DRAM wafer fabrication,M23,23_dram_fundamentals/README.md,planned,
 PROC-0032,operation,"DRAM test, TSV and die preparation","DRAM test, TSV and die preparation",M24,24_hbm_manufacturing/README.md,planned,
@@ -42,3 +42,31 @@ PROC-0037,operation,PCB fabrication,PCB fabrication,M30,30_pcb_and_module/README
 PROC-0038,operation,Module assembly and test,Module assembly and test,M30,30_pcb_and_module/README.md,planned,
 PROC-0039,operation,Server integration,Server integration,M31,31_system_integration/README.md,planned,
 PROC-0040,operation,Rack integration,Rack integration,M32,32_rack_scale_system/README.md,planned,
+EQ-0001,equipment,Submerged-arc furnace,Electrodes and an electrically heated reacting burden supply conditions for silicon reduction.,M02,02_silicon_refining/metallurgical_silicon.md,reviewed,2026-09-16
+EQ-0002,equipment,Distillation equipment,Vapor/liquid separation purifies chlorosilane feed before silicon deposition.,M02,02_silicon_refining/electronic_grade_polysilicon.md,reviewed,2026-09-16
+EQ-0003,equipment,Siemens deposition reactor,Heated silicon surfaces support gas-phase silicon deposition.,M02,02_silicon_refining/electronic_grade_polysilicon.md,reviewed,2026-09-16
+EQ-0004,equipment,CZ crystal puller,"Heater, crucible and seed-motion systems control growth of a single crystal.",M03,03_crystal_growth/crystal_growth.md,reviewed,2026-09-16
+EQ-0005,equipment,Wafer slicing equipment,Mechanical cutting divides the ingot into wafer blanks.,M04,04_wafer_manufacturing/wafer_finishing_and_acceptance.md,reviewed,2026-09-16
+EQ-0006,equipment,Wafer polishing equipment,Mechanical and chemical action produces a smooth prepared wafer surface.,M04,04_wafer_manufacturing/wafer_finishing_and_acceptance.md,reviewed,2026-09-16
+EQ-0007,equipment,Laser-scattering surface inspection,Scattered laser light detects surface events under instrument-dependent sensitivity and classification limits.,M04,04_wafer_manufacturing/wafer_finishing_and_acceptance.md,reviewed,2026-09-16
+MAT-0011,material,Carbon reductants,Selected carbon-bearing feed participates in oxygen removal during silicon smelting.,M02,02_silicon_refining/metallurgical_silicon.md,reviewed,2026-09-16
+MAT-0012,material,High-purity quartz for crucibles,High-purity quartz can supply fused-quartz crucible manufacture; this is a separate use from silicon furnace ore.,M01,01_raw_materials/quartz_and_feedstocks.md,reviewed,2026-09-16
+MAT-0013,material,Quartz crucible,A fused-quartz crucible contains the CZ melt and can contribute oxygen to it.,M03,03_crystal_growth/crystal_growth.md,reviewed,2026-09-16
+MAT-0014,material,Hydrogen and hydrogen chloride process streams,Hydrogen/chlorine-bearing chemistry enables the representative TCS production and silicon deposition route; streams are separately conditioned.,M02,02_silicon_refining/electronic_grade_polysilicon.md,reviewed,2026-09-16
+MAT-0015,material,Oriented silicon seed,The silicon seed establishes orientation for continued single-crystal growth.,M03,03_crystal_growth/crystal_growth.md,reviewed,2026-09-16
+PROC-0010,operation,Float-zone single-crystal growth,A traveling molten zone recrystallizes silicon without a contacting melt crucible; feed form and qualified applications differ from CZ.,M03,03_crystal_growth/crystal_growth.md,reviewed,2026-09-16
+SUP-0001,supplier,Elkem,Elkem describes Tana quartzite extraction and industrial uses.,M01,01_raw_materials/quartz_and_feedstocks.md,reviewed,2026-09-16
+SUP-0002,supplier,Sibelco,Sibelco describes IOTA high-purity quartz for making fused-quartz crucibles and quartzware.,M01,01_raw_materials/quartz_and_feedstocks.md,reviewed,2026-09-16
+SUP-0003,supplier,WACKER,WACKER describes a chlorosilane/distillation and Siemens deposition route for polysilicon.,M02,02_silicon_refining/electronic_grade_polysilicon.md,reviewed,2026-09-16
+SUP-0004,supplier,Hemlock Semiconductor,"Hemlock describes TCS-based CVD and controlled polysilicon sizing, cleaning and packaging.",M02,02_silicon_refining/electronic_grade_polysilicon.md,reviewed,2026-09-16
+SUP-0005,supplier,PVA TePla,PVA TePla describes CZ puller equipment and thermal and motion control functions.,M03,03_crystal_growth/crystal_growth.md,reviewed,2026-09-16
+SUP-0006,supplier,Siltronic,Siltronic describes float-zone silicon products and their lower-oxygen and high-resistivity application context.,M03,03_crystal_growth/crystal_growth.md,reviewed,2026-09-16
+SUP-0007,supplier,SUMCO,"SUMCO describes wafer forming through slicing, lapping, etching, polishing, cleaning and inspection.",M04,04_wafer_manufacturing/wafer_finishing_and_acceptance.md,reviewed,2026-09-16
+CHAR-0001,characteristic,Carrier concentration,"Mobile carrier concentration in cm^-3 at stated temperature, doping and equilibrium conditions; distinct from total chemical impurity count.",M05,05_semiconductor_physics/doping_and_transport.md,reviewed,2026-09-16
+CHAR-0002,characteristic,Electrical resistivity,Bulk resistivity in ohm cm under specified temperature and field; depends on carrier population and mobility.,M05,05_semiconductor_physics/doping_and_transport.md,reviewed,2026-09-16
+CHAR-0003,characteristic,Wafer geometry,"Thickness variation, bow and warp are distinct measured geometry quantities; length units and measurement support/reference conditions must accompany limits.",M04,04_wafer_manufacturing/wafer_finishing_and_acceptance.md,reviewed,2026-09-16
+FAIL-0001,failure_mode,Surface contamination outside specification,A particle or contamination measurement fails the defined wafer acceptance limit; detection sensitivity does not prove complete absence.,M04,04_wafer_manufacturing/wafer_finishing_and_acceptance.md,reviewed,2026-09-16
+FAIL-0002,failure_mode,Geometry outside specification,Measured wafer geometry is outside its agreed specification; no universal numeric acceptance threshold is asserted.,M04,04_wafer_manufacturing/wafer_finishing_and_acceptance.md,reviewed,2026-09-16
+METRIC-0001,metric,Accepted wafer fraction,"Accepted wafers divided by inspected wafers for a stated lot, specification and inspection boundary; dimensionless. Does not predict finished-die yield.",M04,04_wafer_manufacturing/wafer_finishing_and_acceptance.md,reviewed,2026-09-16
+METRIC-0002,metric,Specific process energy,"Energy input in kWh divided by accepted silicon mass in kg for a stated process boundary and period; original accounting definition, no industrial benchmark.",M02,02_silicon_refining/metallurgical_silicon.md,reviewed,2026-09-16
+FAIL-0003,failure_mode,Electrical resistivity outside specification,Bulk resistivity falls outside a selected acceptance range when carrier population or mobility changes under otherwise stated measurement conditions; no numerical limit supplied.,M05,05_semiconductor_physics/doping_and_transport.md,reviewed,2026-09-16

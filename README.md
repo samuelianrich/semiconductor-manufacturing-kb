@@ -4,11 +4,11 @@
 
 A GitHub-ready knowledge repository for a second-year electrical engineering student. General semiconductor manufacturing is the foundation; NVIDIA Vera Rubin will be a source-labeled case study. Engineering, manufacturing economics and investment research have separate homes. No buy/sell recommendations.
 
-**Current build: Phase 0A map implemented; Phase 1 research next.** Directories and indexes describe planned coverage, not completed semiconductor chapters. No Rubin product specifications or supplier assignments have been asserted. The [persistent manufacturing map](manufacturing_map/README.md) adds structured process navigation; later technical phases remain unbuilt.
+**Current build: Phase 0A and Phase 1 complete.** Ten reviewed foundation chapters cover quartz through accepted wafers and semiconductor physics through CMOS/MOSFETs. Nine original illustrations, a glossary, comparison tables and a source-backed manufacturing graph support the reading path. Review is by the repository author; independent specialist review remains pending. Later-phase indexes describe planned scope. See the [Phase 1 audit](AUDIT_PHASE1.md).
 
 ## Start here
 
-1. Read the [learning sequence](LEARNING_PATHS.md).
+1. Start the [Phase 1 reading path](LEARNING_PATHS.md#phase-1-reading-path), or explore the [manufacturing map](manufacturing_map/README.md).
 2. Inspect the [architecture and full directory tree](ARCHITECTURE.md) and [topic inventory](catalog/topic_inventory.md).
 3. Follow the [dependency graph](DEPENDENCIES.md), which distinguishes learning order from physical flow.
 4. Use the [roadmap](ROADMAP.md) for staged research, authoring and review.
@@ -16,11 +16,11 @@ A GitHub-ready knowledge repository for a second-year electrical engineering stu
 <!-- BEGIN OVERVIEW -->
 ```mermaid
 flowchart LR
-  MAT_0001["Quartz-bearing feedstock [planned]"]
-  MAT_0003["Metallurgical-grade silicon [planned]"]
-  MAT_0006["Electronic-grade polysilicon [planned]"]
-  MAT_0007["Single-crystal silicon ingot [planned]"]
-  MAT_0010["Accepted starting wafer [planned]"]
+  MAT_0001["Quartz-bearing feedstock"]
+  MAT_0003["Metallurgical-grade silicon"]
+  MAT_0006["Electronic-grade polysilicon"]
+  MAT_0007["Single-crystal silicon ingot"]
+  MAT_0010["Accepted starting wafer"]
   ART_0030["Tested logic die [planned]"]
   ART_0033["Tested HBM stack [planned]"]
   ART_0036["Tested accelerator package [planned]"]

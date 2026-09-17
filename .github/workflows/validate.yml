@@ -1,4 +1,4 @@
-name: Validate knowledge architecture
+name: Validate knowledge base
 on: [push, pull_request]
 permissions:
   contents: read

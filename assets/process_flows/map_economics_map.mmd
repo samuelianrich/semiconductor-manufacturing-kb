@@ -1,0 +1,13 @@
+flowchart LR
+  FAIL_0001["Surface contamination outside specification"]
+  FAIL_0002["Geometry outside specification"]
+  FAIL_0003["Electrical resistivity outside specification"]
+  METRIC_0001["Accepted wafer fraction"]
+  METRIC_0002["Specific process energy"]
+  PROC_0002["Carbothermic silicon smelting"]
+  PROC_0009["Wafer cleaning and acceptance inspection"]
+  FAIL_0001 -->|"affects"| METRIC_0001
+  FAIL_0002 -->|"affects"| METRIC_0001
+  PROC_0009 -->|"measures"| METRIC_0001
+  PROC_0002 -->|"measures"| METRIC_0002
+  FAIL_0003 -->|"affects"| METRIC_0001

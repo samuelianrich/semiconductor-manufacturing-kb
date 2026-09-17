@@ -1,11 +1,16 @@
 entity_id,composition_or_state,qualification_notes
-MAT-0001,Not yet researched,Specifications depend on route and customer; not yet researched
-MAT-0002,Not yet researched,Specifications depend on route and customer; not yet researched
-MAT-0003,Not yet researched,Specifications depend on route and customer; not yet researched
-MAT-0004,Not yet researched,Specifications depend on route and customer; not yet researched
-MAT-0005,Not yet researched,Specifications depend on route and customer; not yet researched
-MAT-0006,Not yet researched,Specifications depend on route and customer; not yet researched
-MAT-0007,Not yet researched,Specifications depend on route and customer; not yet researched
-MAT-0008,Not yet researched,Specifications depend on route and customer; not yet researched
-MAT-0009,Not yet researched,Specifications depend on route and customer; not yet researched
-MAT-0010,Not yet researched,Specifications depend on route and customer; not yet researched
+MAT-0001,Quartz or quartzite provides silica-bearing feed; mineral association and impurities require characterization.,"Application-specific specification; impurity, geometry and electrical limits are not interchangeable. See owner article; no proprietary limits researched."
+MAT-0002,"Quartz and selected carbon reductants are prepared for furnace use; qualification is furnace-specific, not electronic-grade acceptance.","Application-specific specification; impurity, geometry and electrical limits are not interchangeable. See owner article; no proprietary limits researched."
+MAT-0003,Reduced silicon requiring further chemical purification for electronic-material applications.,"Application-specific specification; impurity, geometry and electrical limits are not interchangeable. See owner article; no proprietary limits researched."
+MAT-0004,Silicon is converted to a volatile chlorosilane stream for chemical purification.,"Application-specific specification; impurity, geometry and electrical limits are not interchangeable. See owner article; no proprietary limits researched."
+MAT-0005,Purified chlorosilane feed precedes deposition in the representative Siemens route.,"Application-specific specification; impurity, geometry and electrical limits are not interchangeable. See owner article; no proprietary limits researched."
+MAT-0006,"Purified deposited silicon is sized, cleaned and packaged to limit recontamination; electronic qualification is specification-dependent.","Application-specific specification; impurity, geometry and electrical limits are not interchangeable. See owner article; no proprietary limits researched."
+MAT-0007,Seeded growth produces an oriented crystal for subsequent wafer forming.,"Application-specific specification; impurity, geometry and electrical limits are not interchangeable. See owner article; no proprietary limits researched."
+MAT-0008,Slicing establishes a wafer blank that still needs surface and geometry finishing.,"Application-specific specification; impurity, geometry and electrical limits are not interchangeable. See owner article; no proprietary limits researched."
+MAT-0009,Polishing prepares a controlled wafer surface before final cleaning and inspection.,"Application-specific specification; impurity, geometry and electrical limits are not interchangeable. See owner article; no proprietary limits researched."
+MAT-0010,A cleaned and inspected wafer meets a specified acceptance boundary; no universal numerical limits or downstream defect-free guarantee are implied.,"Application-specific specification; impurity, geometry and electrical limits are not interchangeable. See owner article; no proprietary limits researched."
+MAT-0011,Selected carbon-bearing feed participates in oxygen removal during silicon smelting.,"Application-specific specification; impurity, geometry and electrical limits are not interchangeable. See owner article; no proprietary limits researched."
+MAT-0012,High-purity quartz can supply fused-quartz crucible manufacture; this is a separate use from silicon furnace ore.,"Application-specific specification; impurity, geometry and electrical limits are not interchangeable. See owner article; no proprietary limits researched."
+MAT-0013,A fused-quartz crucible contains the CZ melt and can contribute oxygen to it.,"Application-specific specification; impurity, geometry and electrical limits are not interchangeable. See owner article; no proprietary limits researched."
+MAT-0014,Hydrogen/chlorine-bearing chemistry enables the representative TCS production and silicon deposition route; streams are separately conditioned.,"Application-specific specification; impurity, geometry and electrical limits are not interchangeable. See owner article; no proprietary limits researched."
+MAT-0015,The silicon seed establishes orientation for continued single-crystal growth.,"Application-specific specification; impurity, geometry and electrical limits are not interchangeable. See owner article; no proprietary limits researched."

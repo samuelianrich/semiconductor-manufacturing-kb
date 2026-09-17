@@ -1,0 +1,21 @@
+flowchart LR
+  EQ_0004["CZ crystal puller"]
+  MAT_0001["Quartz-bearing feedstock"]
+  MAT_0006["Electronic-grade polysilicon"]
+  MAT_0007["Single-crystal silicon ingot"]
+  MAT_0010["Accepted starting wafer"]
+  MAT_0012["High-purity quartz for crucibles"]
+  SUP_0001["Elkem"]
+  SUP_0002["Sibelco"]
+  SUP_0003["WACKER"]
+  SUP_0004["Hemlock Semiconductor"]
+  SUP_0005["PVA TePla"]
+  SUP_0006["Siltronic"]
+  SUP_0007["SUMCO"]
+  MAT_0001 -->|"supplied by"| SUP_0001
+  MAT_0012 -->|"supplied by"| SUP_0002
+  MAT_0006 -->|"supplied by"| SUP_0003
+  MAT_0006 -->|"supplied by"| SUP_0004
+  EQ_0004 -->|"supplied by"| SUP_0005
+  MAT_0007 -->|"supplied by"| SUP_0006
+  MAT_0010 -->|"supplied by"| SUP_0007

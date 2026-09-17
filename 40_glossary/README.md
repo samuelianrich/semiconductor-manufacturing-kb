@@ -1,6 +1,6 @@
 # Glossary
 
-Status: **Architecture only — technical articles have not been researched or drafted.**
+Status: **Phase 1 reference content available; later coverage remains planned.**
 
 Module `M40` · Build phase 0 · [Topic inventory](../catalog/topic_inventory.md) · [Graph](../DEPENDENCIES.md)
 
@@ -18,7 +18,11 @@ None; this is an entry point or reference resource.
 
 [Repository navigation](../README.md)
 
-## Planned article structure
+## Available content
+
+[Phase 1 glossary](phase1_glossary.md)
+
+## Expansion policy
 
 Split the owned concepts into explainers, process articles, integration articles and comparisons as described in the [taxonomy](../TAXONOMY.md). This index is a scope contract, not an article and not evidence for a technical claim. Every drafted article must add concept-level prerequisites, upstream/downstream links, equipment and material links, citations and review status.
 

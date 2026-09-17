@@ -1,1 +1,110 @@
 record_id,record_type,field,source_id,locator,claim_id,evidence_role
+MAT-0001,entity,description,USGS-SILICON-001,Opening commodity description,,supports scoped assertion
+MAT-0002,entity,description,NTNU-SMELTING-001,Carbon sources and quartz in silicon production,,supports scoped assertion
+MAT-0003,entity,description,WACKER-POLY-001,Starting silicon and chemical purification,,supports scoped assertion
+MAT-0004,entity,description,WACKER-POLY-001,Chlorosilane and distillation discussion,,supports scoped assertion
+MAT-0005,entity,description,WACKER-POLY-001,Chlorosilane/distillation and deposition,,supports scoped assertion
+MAT-0006,entity,description,HSC-POLY-001,Science of Polysilicon; cleaning and packaging,,supports scoped assertion
+MAT-0007,entity,description,SUMCO-WAFER-001,Monocrystalline pulling,,supports scoped assertion
+MAT-0008,entity,description,SUMCO-WAFER-001,Wafer forming; slicing and lapping,,supports scoped assertion
+MAT-0009,entity,description,SUMCO-WAFER-001,Polishing; cleaning and inspection,,supports scoped assertion
+MAT-0010,entity,description,SUMCO-WAFER-001,Cleaning and inspection,,supports scoped assertion
+PROC-0001,entity,description,NTNU-QUARTZ-001,High Temperature Quartz research description,,supports scoped assertion
+PROC-0002,entity,description,NTNU-SMELTING-001,SiC role and furnace observations,,supports scoped assertion
+PROC-0003,entity,description,WACKER-POLY-001,Chlorosilane synthesis description,,supports scoped assertion
+PROC-0004,entity,description,WACKER-POLY-001,Distillation section,,supports scoped assertion
+PROC-0005,entity,description,HSC-POLY-001,TCS CVD and product finishing,,supports scoped assertion
+PROC-0006,entity,description,PVA-CZ-001,The Process,,supports scoped assertion
+PROC-0007,entity,description,SUMCO-WAFER-001,Wafer forming,,supports scoped assertion
+PROC-0008,entity,description,SUMCO-WAFER-001,Lapping; etching; polishing,,supports scoped assertion
+PROC-0009,entity,description,SUMCO-WAFER-001,Cleaning and inspection,,supports scoped assertion
+PROC-0001,entity,description,ELKEM-QUARTZ-001,Extraction and deposit description,CLM-000001,supports scoped assertion
+PROC-0001,entity,description,CHEGINI-QUARTZ-001,Abstract: deposit-specific beneficiation only,,supports scoped assertion
+PROC-0009,entity,description,SEMI-WAFER-001,Public scope §§2.2–2.3; no normative limits accessed,,supports scoped assertion
+EDGE-0001,edge,relationship,ELKEM-QUARTZ-001,Tana extraction description; general feedstock input,CLM-000001,supports scoped assertion
+EDGE-0002,edge,relationship,NTNU-SMELTING-001,Quartz and carbon inputs to silicon furnace; aggregate preparation boundary,,author route synthesis from specified furnace inputs
+EDGE-0003,edge,relationship,NTNU-SMELTING-001,SiC role and furnace observations,,supports scoped assertion
+EDGE-0004,edge,relationship,NTNU-SMELTING-001,SiC role and furnace observations,,supports scoped assertion
+EDGE-0005,edge,relationship,NTNU-QUARTZ-001,High Temperature Quartz research description,,supports scoped assertion
+EDGE-0006,edge,relationship,WACKER-POLY-001,Chlorosilane synthesis description,,supports scoped assertion
+EDGE-0007,edge,relationship,WACKER-POLY-001,Chlorosilane synthesis description,,supports scoped assertion
+EDGE-0008,edge,relationship,NTNU-SMELTING-001,SiC role and furnace observations,,supports scoped assertion
+EDGE-0009,edge,relationship,WACKER-POLY-001,Distillation section,,supports scoped assertion
+EDGE-0010,edge,relationship,WACKER-POLY-001,Distillation section,,supports scoped assertion
+EDGE-0011,edge,relationship,WACKER-POLY-001,Chlorosilane synthesis description,,supports scoped assertion
+EDGE-0012,edge,relationship,HSC-POLY-001,TCS CVD and product finishing,,supports scoped assertion
+EDGE-0013,edge,relationship,HSC-POLY-001,TCS CVD and product finishing,,supports scoped assertion
+EDGE-0014,edge,relationship,WACKER-POLY-001,Distillation section,,supports scoped assertion
+EDGE-0015,edge,relationship,PVA-CZ-001,The Process,,supports scoped assertion
+EDGE-0016,edge,relationship,PVA-CZ-001,The Process,,supports scoped assertion
+EDGE-0017,edge,relationship,HSC-POLY-001,TCS CVD and product finishing,,supports scoped assertion
+EDGE-0018,edge,relationship,SUMCO-WAFER-001,Wafer forming,,supports scoped assertion
+EDGE-0019,edge,relationship,SUMCO-WAFER-001,Wafer forming,,supports scoped assertion
+EDGE-0020,edge,relationship,PVA-CZ-001,The Process,,supports scoped assertion
+EDGE-0021,edge,relationship,SUMCO-WAFER-001,Lapping; etching; polishing,,supports scoped assertion
+EDGE-0022,edge,relationship,SUMCO-WAFER-001,Lapping; etching; polishing,,supports scoped assertion
+EDGE-0023,edge,relationship,SUMCO-WAFER-001,Wafer forming,,supports scoped assertion
+EDGE-0024,edge,relationship,SUMCO-WAFER-001,Cleaning and inspection,,supports scoped assertion
+EDGE-0025,edge,relationship,SUMCO-WAFER-001,Cleaning and inspection,,supports scoped assertion
+EDGE-0026,edge,relationship,SUMCO-WAFER-001,Lapping; etching; polishing,,supports scoped assertion
+EQ-0001,entity,description,NTNU-SMELTING-001,Furnace description,,supports scoped assertion
+EDGE-0054,edge,relationship,NTNU-SMELTING-001,Furnace description,,supports scoped assertion
+EQ-0002,entity,description,WACKER-POLY-001,Distillation discussion,,supports scoped assertion
+EDGE-0055,edge,relationship,WACKER-POLY-001,Distillation discussion,,supports scoped assertion
+EQ-0003,entity,description,WACKER-POLY-001,Deposition hall,,supports scoped assertion
+EDGE-0056,edge,relationship,WACKER-POLY-001,Deposition hall,,supports scoped assertion
+EQ-0004,entity,description,PVA-CZ-001,The Process and system description,,supports scoped assertion
+EDGE-0057,edge,relationship,PVA-CZ-001,The Process and system description,,supports scoped assertion
+EQ-0005,entity,description,SUMCO-WAFER-001,Slicing,,supports scoped assertion
+EDGE-0058,edge,relationship,SUMCO-WAFER-001,Slicing,,supports scoped assertion
+EQ-0006,entity,description,SUMCO-WAFER-001,Polishing,,supports scoped assertion
+EDGE-0059,edge,relationship,SUMCO-WAFER-001,Polishing,,supports scoped assertion
+EQ-0007,entity,description,UCSB-INSPECT-001,Surface analysis operating principle,,supports scoped assertion
+EDGE-0060,edge,relationship,UCSB-INSPECT-001,Surface analysis operating principle,,supports scoped assertion
+MAT-0011,entity,description,NTNU-SMELTING-001,Carbon sources and SiC reactions,,supports scoped assertion
+MAT-0012,entity,description,SIBELCO-QUARTZ-001,Semiconductor application bullet,,supports scoped assertion
+MAT-0013,entity,description,KIEL-SEGREGATION-001,Oxygen from quartz crucible,,supports scoped assertion
+MAT-0014,entity,description,WACKER-POLY-001,Chlorosilane chemistry and deposition,,supports scoped assertion
+MAT-0015,entity,description,SUMCO-WAFER-001,Monocrystalline pulling,,supports scoped assertion
+EDGE-0061,edge,relationship,NTNU-SMELTING-001,Carbon sources,,supports scoped assertion
+EDGE-0062,edge,relationship,SIBELCO-QUARTZ-001,Semiconductor application bullet,,supports scoped assertion
+EDGE-0063,edge,relationship,KIEL-SEGREGATION-001,Quartz crucible and oxygen,,supports scoped assertion
+EDGE-0064,edge,relationship,WACKER-POLY-001,Chlorosilane route,,supports scoped assertion
+EDGE-0065,edge,relationship,SUMCO-WAFER-001,Monocrystalline pulling,,supports scoped assertion
+PROC-0010,entity,description,SILTRONIC-FZ-001,Float zone subsection,,supports scoped assertion
+EDGE-0066,edge,relationship,SILTRONIC-FZ-001,Float zone subsection,,supports scoped assertion
+EDGE-0067,edge,relationship,SILTRONIC-FZ-001,Float zone subsection,,supports scoped assertion
+EDGE-0068,edge,relationship,SILTRONIC-FZ-001,Float zone versus CZ,,supports scoped assertion
+SUP-0001,entity,description,ELKEM-QUARTZ-001,Plant description and industrial uses,CLM-000001,supports scoped assertion
+EDGE-0069,edge,relationship,ELKEM-QUARTZ-001,Plant description and industrial uses,CLM-000001,supports scoped assertion
+SUP-0002,entity,description,SIBELCO-QUARTZ-001,Semiconductor application bullet,CLM-000002,supports scoped assertion
+EDGE-0070,edge,relationship,SIBELCO-QUARTZ-001,Semiconductor application bullet,CLM-000002,supports scoped assertion
+SUP-0003,entity,description,WACKER-POLY-001,Chlorosilane/distillation and deposition hall sections,CLM-000003,supports scoped assertion
+EDGE-0071,edge,relationship,WACKER-POLY-001,Chlorosilane/distillation and deposition hall sections,CLM-000003,supports scoped assertion
+SUP-0004,entity,description,HSC-POLY-001,What We Do: The Science of Polysilicon,CLM-000004,supports scoped assertion
+EDGE-0072,edge,relationship,HSC-POLY-001,What We Do: The Science of Polysilicon,CLM-000004,supports scoped assertion
+SUP-0005,entity,description,PVA-CZ-001,The Process; Czochralski systems,CLM-000006,supports scoped assertion
+EDGE-0073,edge,relationship,PVA-CZ-001,The Process; Czochralski systems,CLM-000006,supports scoped assertion
+SUP-0006,entity,description,SILTRONIC-FZ-001,Float zone/FZ subsection,CLM-000007,supports scoped assertion
+EDGE-0074,edge,relationship,SILTRONIC-FZ-001,Float zone/FZ subsection,CLM-000007,supports scoped assertion
+SUP-0007,entity,description,SUMCO-WAFER-001,Wafer forming sequence,CLM-000008,supports scoped assertion
+EDGE-0075,edge,relationship,SUMCO-WAFER-001,Wafer forming sequence,CLM-000008,supports scoped assertion
+CHAR-0001,entity,description,HU-TRANSPORT-001,Carrier transport and conductivity,,supports scoped assertion
+CHAR-0002,entity,description,HU-TRANSPORT-001,Resistivity and conductivity,,supports scoped assertion
+CHAR-0003,entity,description,SEMI-TERMS-001,Wafer geometry terminology; warp,,supports scoped assertion
+FAIL-0001,entity,description,UCSB-INSPECT-001,Scattering-based surface inspection and limitations,,supports scoped assertion
+FAIL-0002,entity,description,SEMI-WAFER-001,Public scope and measurement categories,,supports scoped assertion
+METRIC-0001,entity,description,SUMCO-WAFER-001,Cleaning and inspection; original boundary definition,,author definition or deduction from cited mechanism; not reported industrial data
+METRIC-0002,entity,description,NTNU-SMELTING-001,Electrical furnace input; original accounting definition,,author definition or deduction from cited mechanism; not reported industrial data
+EDGE-0076,edge,relationship,HU-TRANSPORT-001,Conductivity relation,,supports scoped assertion
+EDGE-0077,edge,relationship,SEMI-WAFER-001,Public scope of wafer measurements,,supports scoped assertion
+EDGE-0078,edge,relationship,UCSB-INSPECT-001,Surface scattering detection,,supports scoped assertion
+EDGE-0079,edge,relationship,SEMI-WAFER-001,Geometry measurement categories,,supports scoped assertion
+EDGE-0080,edge,relationship,SUMCO-WAFER-001,Cleaning and inspection; acceptance boundary,,supports scoped assertion
+EDGE-0081,edge,relationship,SEMI-WAFER-001,Specification scope; accounting implication,,author definition or deduction from cited mechanism; not reported industrial data
+EDGE-0082,edge,relationship,SUMCO-WAFER-001,Final inspection; original count definition,,author definition or deduction from cited mechanism; not reported industrial data
+EDGE-0083,edge,relationship,NTNU-SMELTING-001,Electrical energy input; accounting definition,,author definition or deduction from cited mechanism; not reported industrial data
+FAIL-0003,entity,description,HU-TRANSPORT-001,Conductivity and resistivity equations; original out-of-spec boundary definition,,author deduction from transport relation
+EDGE-0084,edge,relationship,HU-TRANSPORT-001,Conductivity dependence on carriers,,supports scoped assertion or explicit accounting deduction
+EDGE-0085,edge,relationship,SEMI-WAFER-001,Public scope; resistivity measurement categories,,supports scoped assertion or explicit accounting deduction
+EDGE-0086,edge,relationship,SEMI-WAFER-001,Specified wafer characteristics; author accounting implication,,supports scoped assertion or explicit accounting deduction

@@ -10,7 +10,7 @@ flowchart LR
   ART_0031["DRAM wafer [planned]"]
   ART_0032["Prepared DRAM dies [planned]"]
   ART_0033["Tested HBM stack [planned]"]
-  MAT_0010["Accepted starting wafer [planned]"]
+  MAT_0010["Accepted starting wafer"]
   PROC_0031["DRAM wafer fabrication [planned]"]
   PROC_0032["DRAM test, TSV and die preparation [planned]"]
   PROC_0033["HBM stack assembly and test [planned]"]
@@ -29,7 +29,7 @@ flowchart LR
 | ART-0031 | DRAM wafer | planned | [DRAM wafer](../23_dram_fundamentals/README.md) |
 | ART-0032 | Prepared DRAM dies | planned | [Prepared DRAM dies](../24_hbm_manufacturing/README.md) |
 | ART-0033 | Tested HBM stack | planned | [Tested HBM stack](../24_hbm_manufacturing/README.md) |
-| MAT-0010 | Accepted starting wafer | planned | [Accepted starting wafer](../04_wafer_manufacturing/README.md) |
+| MAT-0010 | Accepted starting wafer | reviewed | [Accepted starting wafer](../04_wafer_manufacturing/wafer_finishing_and_acceptance.md) |
 | PROC-0031 | DRAM wafer fabrication | planned | [DRAM wafer fabrication](../23_dram_fundamentals/README.md) |
 | PROC-0032 | DRAM test, TSV and die preparation | planned | [DRAM test, TSV and die preparation](../24_hbm_manufacturing/README.md) |
 | PROC-0033 | HBM stack assembly and test | planned | [HBM stack assembly and test](../24_hbm_manufacturing/README.md) |

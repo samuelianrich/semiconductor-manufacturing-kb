@@ -1,6 +1,6 @@
 # Raw materials
 
-Status: **Architecture only — technical articles have not been researched or drafted.**
+Status: **Phase 1 foundation delivered — author-reviewed; independent specialist review pending.**
 
 Module `M01` · Build phase 1 · [Topic inventory](../catalog/topic_inventory.md) · [Graph](../DEPENDENCIES.md)
 
@@ -20,9 +20,11 @@ Module `M01` · Build phase 1 · [Topic inventory](../catalog/topic_inventory.md
 
 [Silicon refining](../02_silicon_refining/README.md)
 
-## Planned article structure
+## Articles in reading order
 
-Split the owned concepts into explainers, process articles, integration articles and comparisons as described in the [taxonomy](../TAXONOMY.md). This index is a scope contract, not an article and not evidence for a technical claim. Every drafted article must add concept-level prerequisites, upstream/downstream links, equipment and material links, citations and review status.
+1. [Quartz, silica and qualified furnace feedstock](quartz_and_feedstocks.md)
+
+Use the [Phase 1 glossary](../40_glossary/phase1_glossary.md), [comparisons](../41_reference_tables/phase1_comparisons.md), [manufacturing map](../manufacturing_map/wafer_path.md) and [review record](../AUDIT_PHASE1.md). Process chapters describe physical purpose, variables, failure modes and acceptance boundaries. Concept chapters explain the later fabrication prerequisites; detailed device fabrication remains Phase 3.
 
 ## Research and economics routing
 
