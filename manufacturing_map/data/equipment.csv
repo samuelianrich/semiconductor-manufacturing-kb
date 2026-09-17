@@ -6,3 +6,11 @@ EQ-0004,"Heater, crucible and seed-motion systems control growth of a single cry
 EQ-0005,Mechanical cutting divides the ingot into wafer blanks.,See owner article for variables and limitations; numerical equipment settings and purchase price not researched.
 EQ-0006,Mechanical and chemical action produces a smooth prepared wafer surface.,See owner article for variables and limitations; numerical equipment settings and purchase price not researched.
 EQ-0007,Scattered laser light detects surface events under instrument-dependent sensitivity and classification limits.,See owner article for variables and limitations; numerical equipment settings and purchase price not researched.
+EQ-0101,"Prepare resist, expose an aligned image and develop a physical resist pattern.","Tool function only; process targets, models and supplier qualification not asserted."
+EQ-0102,Deliver film-forming species under controlled surface and chamber conditions; method-specific tools differ.,"Tool function only; process targets, models and supplier qualification not asserted."
+EQ-0103,"Supply reactive species and ion assistance, control wafer conditions and remove reaction products.","Tool function only; process targets, models and supplier qualification not asserted."
+EQ-0104,Select and deliver ions; a separate thermal tool supplies the activation exposure.,"Tool function only; process targets, models and supplier qualification not asserted."
+EQ-0105,"Control temperature, oxidant ambient and exposure time.","Tool function only; process targets, models and supplier qualification not asserted."
+EQ-0106,"Provide material-specific residue removal, rinse and drying functions.","Tool function only; process targets, models and supplier qualification not asserted."
+EQ-0107,Control pad/slurry contact and wafer loading; clean and dry the resulting surface.,"Tool function only; process targets, models and supplier qualification not asserted."
+EQ-0108,Obtain pattern or defect information with method-specific sensitivity and sampling.,"Tool function only; process targets, models and supplier qualification not asserted."

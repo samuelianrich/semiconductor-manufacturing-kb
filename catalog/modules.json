@@ -180,7 +180,8 @@
       "process integration",
       "cycle time versus tool throughput"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
   },
   {
     "id": "M09",
@@ -204,7 +205,8 @@
       "OPC and multiple patterning",
       "High-NA only as needed for current concepts"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
   },
   {
     "id": "M10",
@@ -225,7 +227,8 @@
       "nucleation, stress and particles",
       "thermal oxidation comparison with a link to its canonical owner"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
   },
   {
     "id": "M11",
@@ -247,7 +250,8 @@
       "plasma chemistry",
       "loading and damage"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
   },
   {
     "id": "M12",
@@ -269,7 +273,8 @@
       "activation versus chemical concentration",
       "junction depth"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
   },
   {
     "id": "M13",
@@ -287,7 +292,8 @@
       "oxide quality and interfaces",
       "thermal budget"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
   },
   {
     "id": "M14",
@@ -307,7 +313,8 @@
       "surface termination",
       "material compatibility and damage"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
   },
   {
     "id": "M15",
@@ -326,7 +333,8 @@
       "dishing, erosion and scratches",
       "multilayer planarity"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
   },
   {
     "id": "M16",
@@ -348,7 +356,8 @@
       "SPC, control charts and process windows",
       "excursions and fault detection"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
   },
   {
     "id": "M17",
@@ -869,8 +878,7 @@
       "DDR/GDDR and HBM use cases",
       "no speculative roadmap"
     ],
-    "status": "reviewed",
-    "last_reviewed": "2026-09-16"
+    "status": "architecture-only"
   },
   {
     "id": "M40",

@@ -3,11 +3,18 @@ import csv,json,re
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+def reviewed_module_errors(modules, articles):
+    """An index alone must never satisfy a technical module's review state."""
+    owners = {Path(a['path']).parts[0] for a in articles if a['status'] == 'reviewed'}
+    return [f'Reviewed module has no reviewed article: {m["id"]}'
+            for m in modules if m['status'] == 'reviewed' and m['path'] not in owners]
+
 def validate(root):
     errors=[]
     def need(ok,msg):
         if not ok:errors.append(msg)
     articles=json.loads((root/'catalog/articles.json').read_text())
+    errors.extend(reviewed_module_errors(json.loads((root/'catalog/modules.json').read_text()), articles))
     ids=set(re.findall(r'<a id="([^"]+)"', (root/'42_references/bibliography.md').read_text()))
     with (root/'42_references/claims.csv').open() as f:claims=list(csv.DictReader(f))
     with (root/'assets/manifest.csv').open() as f:assets=list(csv.DictReader(f))

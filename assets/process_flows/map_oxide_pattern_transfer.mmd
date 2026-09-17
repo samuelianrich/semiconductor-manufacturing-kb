@@ -1,0 +1,18 @@
+flowchart LR
+  MAT_0010["Accepted starting wafer"]
+  MAT_0101["Thermal oxide on silicon"]
+  MAT_0102["Resist-patterned oxide wafer"]
+  MAT_0103["Etched oxide with remaining resist"]
+  MAT_0104["Patterned oxide after strip"]
+  PROC_0101["Resist patterning"]
+  PROC_0103["Pattern transfer etch"]
+  PROC_0105["Thermal oxidation"]
+  PROC_0106["Resist strip and surface clean"]
+  MAT_0010 -->|"consumes"| PROC_0105
+  PROC_0105 -->|"produces"| MAT_0101
+  MAT_0101 -->|"consumes"| PROC_0101
+  PROC_0101 -->|"produces"| MAT_0102
+  MAT_0102 -->|"consumes"| PROC_0103
+  PROC_0103 -->|"produces"| MAT_0103
+  MAT_0103 -->|"consumes"| PROC_0106
+  PROC_0106 -->|"produces"| MAT_0104

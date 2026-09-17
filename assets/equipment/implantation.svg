@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Implantation: ion delivery followed by activation</title><desc id="desc">Source, selection, acceleration and scan functions deliver ions to a masked wafer. A separate thermal step changes activation and repairs damage.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">Implantation: ion delivery followed by activation</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: MIT-IMPLANT-001; HU-FAB-001; NPTEL-CHANNEL-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<rect x="35" y="200" width="250" height="150" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="51" y="232" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Ion source</text>
+<text x="51" y="300" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Generate ions</text>
+<line x1="285" y1="275" x2="322" y2="275" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="335" y="200" width="250" height="150" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="351" y="232" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Select species</text>
+<text x="351" y="300" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Mass / charge</text>
+<line x1="585" y1="275" x2="622" y2="275" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="635" y="200" width="250" height="150" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="651" y="232" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Accelerate + scan</text>
+<text x="651" y="300" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Energy / area</text>
+<line x1="885" y1="275" x2="922" y2="275" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="935" y="200" width="250" height="150" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="951" y="232" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Masked wafer</text>
+<text x="951" y="300" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Dose delivered</text>
+<rect x="140" y="475" width="375" height="90" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="140" y="440" width="100" height="35" rx="0" fill="#ba4661" stroke="#17334a" stroke-width="2"/>
+<rect x="420" y="440" width="95" height="35" rx="0" fill="#ba4661" stroke="#17334a" stroke-width="2"/>
+<line x1="275" y1="395" x2="275" y2="495" stroke="#007c83" stroke-width="3" marker-end="url(#arrow)"/>
+<circle cx="275" cy="536" r="5" fill="#ba4661"/>
+<line x1="315" y1="395" x2="315" y2="495" stroke="#007c83" stroke-width="3" marker-end="url(#arrow)"/>
+<circle cx="315" cy="520" r="5" fill="#ba4661"/>
+<line x1="355" y1="395" x2="355" y2="495" stroke="#007c83" stroke-width="3" marker-end="url(#arrow)"/>
+<circle cx="355" cy="528" r="5" fill="#ba4661"/>
+<line x1="395" y1="395" x2="395" y2="495" stroke="#007c83" stroke-width="3" marker-end="url(#arrow)"/>
+<circle cx="395" cy="536" r="5" fill="#ba4661"/>
+<text x="140" y="605" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">Delivered atoms + lattice damage</text>
+<line x1="555" y1="515" x2="685" y2="515" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="720" y="425" width="400" height="165" rx="8" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<text x="736" y="457" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Qualified thermal exposure</text>
+<text x="736" y="540" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Activation / repair / redistribution</text></svg>

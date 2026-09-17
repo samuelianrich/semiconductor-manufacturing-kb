@@ -108,3 +108,61 @@ FAIL-0003,entity,description,HU-TRANSPORT-001,Conductivity and resistivity equat
 EDGE-0084,edge,relationship,HU-TRANSPORT-001,Conductivity dependence on carriers,,supports scoped assertion or explicit accounting deduction
 EDGE-0085,edge,relationship,SEMI-WAFER-001,Public scope; resistivity measurement categories,,supports scoped assertion or explicit accounting deduction
 EDGE-0086,edge,relationship,SEMI-WAFER-001,Specified wafer characteristics; author accounting implication,,supports scoped assertion or explicit accounting deduction
+FAM-0100,entity,description,HU-FAB-001,"Chapter 3, sections 3.1–3.7; representative process functions",,supports scoped mechanism; route composition is an explicit teaching choice
+PROC-0101,entity,description,MACK-QUALITY-001,Pattern-transfer and resist-property slides,,supports scoped mechanism; route composition is an explicit teaching choice
+EQ-0101,entity,description,MACK-QUALITY-001,Pattern-transfer and resist-property slides,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0087,edge,relationship,MACK-QUALITY-001,Pattern-transfer and resist-property slides,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0088,edge,relationship,MACK-QUALITY-001,Pattern-transfer and resist-property slides,,supports scoped mechanism; route composition is an explicit teaching choice
+PROC-0102,entity,description,ASM-ALD-001,ALD process and thermal/plasma discussion,,supports scoped mechanism; route composition is an explicit teaching choice
+EQ-0102,entity,description,ASM-ALD-001,ALD process and thermal/plasma discussion,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0089,edge,relationship,ASM-ALD-001,ALD process and thermal/plasma discussion,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0090,edge,relationship,ASM-ALD-001,ALD process and thermal/plasma discussion,,supports scoped mechanism; route composition is an explicit teaching choice
+PROC-0103,entity,description,LAM-ETCH-001,Etch process overview and process categories,,supports scoped mechanism; route composition is an explicit teaching choice
+EQ-0103,entity,description,LAM-ETCH-001,Etch process overview and process categories,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0091,edge,relationship,LAM-ETCH-001,Etch process overview and process categories,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0092,edge,relationship,LAM-ETCH-001,Etch process overview and process categories,,supports scoped mechanism; route composition is an explicit teaching choice
+PROC-0104,entity,description,MIT-IMPLANT-001,Opening diffusion slides and implantation equipment slides,,supports scoped mechanism; route composition is an explicit teaching choice
+EQ-0104,entity,description,MIT-IMPLANT-001,Opening diffusion slides and implantation equipment slides,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0093,edge,relationship,MIT-IMPLANT-001,Opening diffusion slides and implantation equipment slides,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0094,edge,relationship,MIT-IMPLANT-001,Opening diffusion slides and implantation equipment slides,,supports scoped mechanism; route composition is an explicit teaching choice
+PROC-0105,entity,description,UALBERTA-OXIDE-001,Introduction and calculation details,,supports scoped mechanism; route composition is an explicit teaching choice
+EQ-0105,entity,description,UALBERTA-OXIDE-001,Introduction and calculation details,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0095,edge,relationship,UALBERTA-OXIDE-001,Introduction and calculation details,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0096,edge,relationship,UALBERTA-OXIDE-001,Introduction and calculation details,,supports scoped mechanism; route composition is an explicit teaching choice
+PROC-0106,entity,description,UBC-CLEAN-001,"Overview, solvent clean and oxide-removal discussion",,supports scoped mechanism; route composition is an explicit teaching choice
+EQ-0106,entity,description,UBC-CLEAN-001,"Overview, solvent clean and oxide-removal discussion",,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0097,edge,relationship,UBC-CLEAN-001,"Overview, solvent clean and oxide-removal discussion",,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0098,edge,relationship,UBC-CLEAN-001,"Overview, solvent clean and oxide-removal discussion",,supports scoped mechanism; route composition is an explicit teaching choice
+PROC-0107,entity,description,AMAT-CMP-001,CMP mechanism and control description,,supports scoped mechanism; route composition is an explicit teaching choice
+EQ-0107,entity,description,AMAT-CMP-001,CMP mechanism and control description,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0099,edge,relationship,AMAT-CMP-001,CMP mechanism and control description,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0100,edge,relationship,AMAT-CMP-001,CMP mechanism and control description,,supports scoped mechanism; route composition is an explicit teaching choice
+PROC-0108,entity,description,ASML-METRO-001,Optical and electron-beam metrology sections,,supports scoped mechanism; route composition is an explicit teaching choice
+EQ-0108,entity,description,ASML-METRO-001,Optical and electron-beam metrology sections,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0101,edge,relationship,ASML-METRO-001,Optical and electron-beam metrology sections,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0102,edge,relationship,ASML-METRO-001,Optical and electron-beam metrology sections,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0103,edge,relationship,HU-FAB-001,"Chapter 3, sections 3.1–3.7; representative process functions",,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0104,edge,relationship,HU-FAB-001,"Chapter 3, sections 3.1–3.7; representative process functions",,supports scoped mechanism; route composition is an explicit teaching choice
+MAT-0101,entity,description,UALBERTA-OXIDE-001,Introduction and calculation details,,supports scoped mechanism; route composition is an explicit teaching choice
+MAT-0102,entity,description,MACK-QUALITY-001,Pattern-transfer and resist-property slides,,supports scoped mechanism; route composition is an explicit teaching choice
+MAT-0103,entity,description,LAM-ETCH-001,Etch process overview and process categories,,supports scoped mechanism; route composition is an explicit teaching choice
+MAT-0104,entity,description,UBC-CLEAN-001,"Overview, solvent clean and oxide-removal discussion",,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0105,edge,relationship,UALBERTA-OXIDE-001,Introduction and calculation details,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0106,edge,relationship,UALBERTA-OXIDE-001,Introduction and calculation details,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0107,edge,relationship,MACK-QUALITY-001,Pattern-transfer and resist-property slides,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0108,edge,relationship,MACK-QUALITY-001,Pattern-transfer and resist-property slides,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0109,edge,relationship,LAM-ETCH-001,Etch process overview and process categories,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0110,edge,relationship,LAM-ETCH-001,Etch process overview and process categories,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0111,edge,relationship,UBC-CLEAN-001,"Overview, solvent clean and oxide-removal discussion",,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0112,edge,relationship,UBC-CLEAN-001,"Overview, solvent clean and oxide-removal discussion",,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0113,edge,relationship,HU-FAB-001,"Chapter 3, sections 3.1–3.7; representative process functions",,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0114,edge,relationship,MACK-QUALITY-001,Pattern-transfer and resist-property slides,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0115,edge,relationship,UBC-CLEAN-001,"Overview, solvent clean and oxide-removal discussion",,supports scoped mechanism; route composition is an explicit teaching choice
+CHAR-0101,entity,description,NIST-ELLIPSO-001,Publication metadata and abstract only,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0116,edge,relationship,NIST-ELLIPSO-001,Publication metadata and abstract only,,supports scoped mechanism; route composition is an explicit teaching choice
+CHAR-0102,entity,description,ASML-METRO-001,Optical and electron-beam metrology sections,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0117,edge,relationship,ASML-METRO-001,Optical and electron-beam metrology sections,,supports scoped mechanism; route composition is an explicit teaching choice
+FAIL-0101,entity,description,IMEC-STOCH-001,Stochastic failures and inspection discussion,,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0118,edge,relationship,IMEC-STOCH-001,Stochastic failures and inspection discussion,,supports scoped mechanism; route composition is an explicit teaching choice
+FAIL-0102,entity,description,MACK-CMP-001,"Pages 1–2: topography, pressure/speed and dishing/erosion",,supports scoped mechanism; route composition is an explicit teaching choice
+EDGE-0119,edge,relationship,MACK-CMP-001,"Pages 1–2: topography, pressure/speed and dishing/erosion",,supports scoped mechanism; route composition is an explicit teaching choice

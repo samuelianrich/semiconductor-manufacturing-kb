@@ -1,6 +1,6 @@
 # Research strategy and source families
 
-Phase 0 identifies where and how to research. **No source below has yet been retrieved or evaluated for a specific technical claim.** These are candidate organizations and publication families, not bibliography entries or evidence of a Rubin supplier relationship.
+This Phase 0 matrix identifies candidate source families. Actual Phase 1 and Phase 2 retrieval, evaluation and access limitations are recorded in the [bibliography](42_references/bibliography.md) and phase audits. These are candidate organizations and publication families, not bibliography entries or evidence of a Rubin supplier relationship.
 
 ## Research matrix
 

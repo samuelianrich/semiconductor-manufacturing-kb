@@ -1,6 +1,6 @@
 # Staged research and build roadmap
 
-**Phases 0, 0A and 1 are delivered; Phase 2 is next.** Do not bulk-generate chapter placeholders that appear to be completed articles. A phase can be coherent before every possible extension is written, but all stated core coverage must pass its exit gate.
+**Phases 0, 0A, 1 and 2 are delivered; Phase 3 is next.** Do not bulk-generate chapter placeholders that appear to be completed articles. A phase can be coherent before every possible extension is written, but all stated core coverage must pass its exit gate.
 
 | Phase | Scope | Prerequisites | Exit evidence |
 |---|---|---|---|
@@ -32,7 +32,7 @@
 
 ## Phase 1 delivery
 
-Both work packages are delivered: ten chapters, nine original figures, a glossary, comparisons, process evidence and scoped company claims. [Review record](AUDIT_PHASE1.md) · [Reading path](LEARNING_PATHS.md#phase-1-reading-path). The next engineering work is Phase 2, modules 08–16.
+Both work packages are delivered: ten chapters, nine original figures, a glossary, comparisons, process evidence and scoped company claims. [Review record](AUDIT_PHASE1.md) · [Reading path](LEARNING_PATHS.md#phase-1-reading-path). Phase 2 delivery is recorded below.
 
 ## Progress accounting
 
@@ -41,3 +41,7 @@ Track module state in `catalog/modules.json`; an index is not a chapter. Record 
 ## Deferred by design
 
 Later-phase technical chapters, comprehensive supplier tables, quantitative market research, Rubin specifications and the full-repository Phase 12 audit remain pending. Phase 1 supplier examples document narrow roles only.
+
+## Phase 2 delivery
+
+Nine unit-process chapters, nine original schematics, process variables/failure chains, worked examples, a glossary, comparisons and a sourced teaching route cover modules 08–16. [Review record](AUDIT_PHASE2.md) · [Reading path](LEARNING_PATHS.md#phase-2-reading-path). The next engineering work is Phase 3, modules 17–19. Review remains author self-review, not independent specialist approval.

@@ -8,6 +8,15 @@ flowchart LR
   EQ_0005["Wafer slicing equipment"]
   EQ_0006["Wafer polishing equipment"]
   EQ_0007["Laser-scattering surface inspection"]
+  EQ_0101["Coat/develop track and exposure tool"]
+  EQ_0102["Deposition reactor category"]
+  EQ_0103["Plasma etch chamber"]
+  EQ_0104["Ion implanter and anneal tools"]
+  EQ_0105["Oxidation reactor"]
+  EQ_0106["Compatible strip and clean tools"]
+  EQ_0107["CMP and post-clean system"]
+  EQ_0108["Optical/electron measurement tools"]
+  FAM_0100["Fab unit processes"]
   MAT_0001["Quartz-bearing feedstock"]
   MAT_0006["Electronic-grade polysilicon"]
   MAT_0007["Single-crystal silicon ingot"]
@@ -25,9 +34,18 @@ flowchart LR
   PROC_0008["Wafer surface finishing"]
   PROC_0009["Wafer cleaning and acceptance inspection"]
   PROC_0030["Logic fabrication, test and die preparation [planned]"]
+  PROC_0031["DRAM wafer fabrication [planned]"]
   PROC_0038["Module assembly and test [planned]"]
   PROC_0039["Server integration [planned]"]
   PROC_0040["Rack integration [planned]"]
+  PROC_0101["Resist patterning"]
+  PROC_0102["Film deposition"]
+  PROC_0103["Pattern transfer etch"]
+  PROC_0104["Implant and activation sequence"]
+  PROC_0105["Thermal oxidation"]
+  PROC_0106["Resist strip and surface clean"]
+  PROC_0107["Chemical mechanical planarization"]
+  PROC_0108["Metrology and inspection"]
   SUP_0001["Elkem"]
   SUP_0002["Sibelco"]
   SUP_0003["WACKER"]
@@ -57,3 +75,13 @@ flowchart LR
   EQ_0004 -->|"supplied by"| SUP_0005
   MAT_0007 -->|"supplied by"| SUP_0006
   MAT_0010 -->|"supplied by"| SUP_0007
+  PROC_0101 -->|"uses equipment"| EQ_0101
+  PROC_0102 -->|"uses equipment"| EQ_0102
+  PROC_0103 -->|"uses equipment"| EQ_0103
+  PROC_0104 -->|"uses equipment"| EQ_0104
+  PROC_0105 -->|"uses equipment"| EQ_0105
+  PROC_0106 -->|"uses equipment"| EQ_0106
+  PROC_0107 -->|"uses equipment"| EQ_0107
+  PROC_0108 -->|"uses equipment"| EQ_0108
+  FAM_0100 -->|"enables"| PROC_0030
+  FAM_0100 -->|"enables"| PROC_0031

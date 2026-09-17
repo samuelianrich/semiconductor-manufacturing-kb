@@ -22,6 +22,10 @@ flowchart LR
   MAT_0013["Quartz crucible"]
   MAT_0014["Hydrogen and hydrogen chloride process streams"]
   MAT_0015["Oriented silicon seed"]
+  MAT_0101["Thermal oxide on silicon"]
+  MAT_0102["Resist-patterned oxide wafer"]
+  MAT_0103["Etched oxide with remaining resist"]
+  MAT_0104["Patterned oxide after strip"]
   PROC_0001["Mine, beneficiate and qualify feedstock"]
   PROC_0002["Carbothermic silicon smelting"]
   PROC_0003["Chlorosilane synthesis"]
@@ -34,6 +38,10 @@ flowchart LR
   PROC_0010["Float-zone single-crystal growth"]
   PROC_0030["Logic fabrication, test and die preparation [planned]"]
   PROC_0031["DRAM wafer fabrication [planned]"]
+  PROC_0101["Resist patterning"]
+  PROC_0103["Pattern transfer etch"]
+  PROC_0105["Thermal oxidation"]
+  PROC_0106["Resist strip and surface clean"]
   SUP_0001["Elkem"]
   SUP_0002["Sibelco"]
   SUP_0003["WACKER"]
@@ -73,6 +81,14 @@ flowchart LR
   MAT_0006 -->|"supplied by"| SUP_0004
   MAT_0007 -->|"supplied by"| SUP_0006
   MAT_0010 -->|"supplied by"| SUP_0007
+  MAT_0010 -->|"consumes"| PROC_0105
+  PROC_0105 -->|"produces"| MAT_0101
+  MAT_0101 -->|"consumes"| PROC_0101
+  PROC_0101 -->|"produces"| MAT_0102
+  MAT_0102 -->|"consumes"| PROC_0103
+  PROC_0103 -->|"produces"| MAT_0103
+  MAT_0103 -->|"consumes"| PROC_0106
+  PROC_0106 -->|"produces"| MAT_0104
 ```
 
 *MAP-MATERIALS-MAP — Materials and connected operations. Read evidence and route conditions before interpreting the diagram as a production sequence. Original schematic; CC BY 4.0. Source: graph records and their evidence links; no physical scale.*
@@ -94,6 +110,10 @@ flowchart LR
 | MAT-0013 | Quartz crucible | reviewed | [Quartz crucible](../03_crystal_growth/crystal_growth.md) |
 | MAT-0014 | Hydrogen and hydrogen chloride process streams | reviewed | [Hydrogen and hydrogen chloride process streams](../02_silicon_refining/electronic_grade_polysilicon.md) |
 | MAT-0015 | Oriented silicon seed | reviewed | [Oriented silicon seed](../03_crystal_growth/crystal_growth.md) |
+| MAT-0101 | Thermal oxide on silicon | reviewed | [Thermal oxide on silicon](../13_oxidation/oxidation.md) |
+| MAT-0102 | Resist-patterned oxide wafer | reviewed | [Resist-patterned oxide wafer](../09_photolithography/lithography.md) |
+| MAT-0103 | Etched oxide with remaining resist | reviewed | [Etched oxide with remaining resist](../11_etching/etching.md) |
+| MAT-0104 | Patterned oxide after strip | reviewed | [Patterned oxide after strip](../14_cleaning/cleaning.md) |
 | PROC-0001 | Mine, beneficiate and qualify feedstock | reviewed | [Mine, beneficiate and qualify feedstock](../01_raw_materials/quartz_and_feedstocks.md) |
 | PROC-0002 | Carbothermic silicon smelting | reviewed | [Carbothermic silicon smelting](../02_silicon_refining/metallurgical_silicon.md) |
 | PROC-0003 | Chlorosilane synthesis | reviewed | [Chlorosilane synthesis](../02_silicon_refining/electronic_grade_polysilicon.md) |
@@ -106,6 +126,10 @@ flowchart LR
 | PROC-0010 | Float-zone single-crystal growth | reviewed | [Float-zone single-crystal growth](../03_crystal_growth/crystal_growth.md) |
 | PROC-0030 | Logic fabrication, test and die preparation | planned | [Logic fabrication, test and die preparation](../17_transistor_fabrication/README.md) |
 | PROC-0031 | DRAM wafer fabrication | planned | [DRAM wafer fabrication](../23_dram_fundamentals/README.md) |
+| PROC-0101 | Resist patterning | reviewed | [Resist patterning](../09_photolithography/lithography.md) |
+| PROC-0103 | Pattern transfer etch | reviewed | [Pattern transfer etch](../11_etching/etching.md) |
+| PROC-0105 | Thermal oxidation | reviewed | [Thermal oxidation](../13_oxidation/oxidation.md) |
+| PROC-0106 | Resist strip and surface clean | reviewed | [Resist strip and surface clean](../14_cleaning/cleaning.md) |
 | SUP-0001 | Elkem | reviewed | [Elkem](../01_raw_materials/quartz_and_feedstocks.md) |
 | SUP-0002 | Sibelco | reviewed | [Sibelco](../01_raw_materials/quartz_and_feedstocks.md) |
 | SUP-0003 | WACKER | reviewed | [WACKER](../02_silicon_refining/electronic_grade_polysilicon.md) |
@@ -148,4 +172,12 @@ flowchart LR
 | EDGE-0072 | MAT-0006 → SUPPLIED_BY → SUP-0004 | Hemlock describes TCS-based CVD and controlled polysilicon sizing, cleaning and packaging. Role example only; see claim boundary. | [HSC-POLY-001](../42_references/bibliography.md#hsc-poly-001) (What We Do: The Science of Polysilicon) · CLM-000004 |
 | EDGE-0074 | MAT-0007 → SUPPLIED_BY → SUP-0006 | Siltronic describes float-zone silicon products and their lower-oxygen and high-resistivity application context. Role example only; see claim boundary. | [SILTRONIC-FZ-001](../42_references/bibliography.md#siltronic-fz-001) (Float zone/FZ subsection) · CLM-000007 |
 | EDGE-0075 | MAT-0010 → SUPPLIED_BY → SUP-0007 | SUMCO describes wafer forming through slicing, lapping, etching, polishing, cleaning and inspection. Role example only; see claim boundary. | [SUMCO-WAFER-001](../42_references/bibliography.md#sumco-wafer-001) (Wafer forming sequence) · CLM-000008 |
+| EDGE-0105 | PROC-0105 → CONSUMES → MAT-0010 | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. | [UALBERTA-OXIDE-001](../42_references/bibliography.md#ualberta-oxide-001) (Introduction and calculation details) |
+| EDGE-0106 | PROC-0105 → PRODUCES → MAT-0101 | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. | [UALBERTA-OXIDE-001](../42_references/bibliography.md#ualberta-oxide-001) (Introduction and calculation details) |
+| EDGE-0107 | PROC-0101 → CONSUMES → MAT-0101 | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. | [MACK-QUALITY-001](../42_references/bibliography.md#mack-quality-001) (Pattern-transfer and resist-property slides) |
+| EDGE-0108 | PROC-0101 → PRODUCES → MAT-0102 | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. | [MACK-QUALITY-001](../42_references/bibliography.md#mack-quality-001) (Pattern-transfer and resist-property slides) |
+| EDGE-0109 | PROC-0103 → CONSUMES → MAT-0102 | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. | [LAM-ETCH-001](../42_references/bibliography.md#lam-etch-001) (Etch process overview and process categories) |
+| EDGE-0110 | PROC-0103 → PRODUCES → MAT-0103 | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. | [LAM-ETCH-001](../42_references/bibliography.md#lam-etch-001) (Etch process overview and process categories) |
+| EDGE-0111 | PROC-0106 → CONSUMES → MAT-0103 | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. | [UBC-CLEAN-001](../42_references/bibliography.md#ubc-clean-001) (Overview, solvent clean and oxide-removal discussion) |
+| EDGE-0112 | PROC-0106 → PRODUCES → MAT-0104 | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. | [UBC-CLEAN-001](../42_references/bibliography.md#ubc-clean-001) (Overview, solvent clean and oxide-removal discussion) |
 <!-- END GENERATED MAP -->

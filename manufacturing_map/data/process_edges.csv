@@ -85,3 +85,36 @@ EDGE-0083,PROC-0002,MEASURES,METRIC-0002,,"Aggregated energy and accepted-mass a
 EDGE-0084,CHAR-0001,CAN_CAUSE,FAIL-0003,,Only if the resulting resistivity crosses the specified bound; mobility and temperature must be accounted for.,reviewed,2026-09-16
 EDGE-0085,FAIL-0003,DETECTED_BY,PROC-0009,,Appropriate electrical metrology under specified conditions; not detection by surface laser scattering.,reviewed,2026-09-16
 EDGE-0086,FAIL-0003,AFFECTS,METRIC-0001,,A detected failure of the applicable electrical specification changes accepted-wafer count under the chosen policy.,reviewed,2026-09-16
+EDGE-0087,PROC-0101,PART_OF,FAM-0100,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0088,PROC-0101,USES_EQUIPMENT,EQ-0101,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0089,PROC-0102,PART_OF,FAM-0100,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0090,PROC-0102,USES_EQUIPMENT,EQ-0102,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0091,PROC-0103,PART_OF,FAM-0100,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0092,PROC-0103,USES_EQUIPMENT,EQ-0103,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0093,PROC-0104,PART_OF,FAM-0100,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0094,PROC-0104,USES_EQUIPMENT,EQ-0104,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0095,PROC-0105,PART_OF,FAM-0100,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0096,PROC-0105,USES_EQUIPMENT,EQ-0105,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0097,PROC-0106,PART_OF,FAM-0100,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0098,PROC-0106,USES_EQUIPMENT,EQ-0106,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0099,PROC-0107,PART_OF,FAM-0100,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0100,PROC-0107,USES_EQUIPMENT,EQ-0107,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0101,PROC-0108,PART_OF,FAM-0100,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0102,PROC-0108,USES_EQUIPMENT,EQ-0108,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0103,FAM-0100,ENABLES,PROC-0030,,Fab unit-process functions enable the fabrication portion of the planned aggregate logic path; test and die preparation remain later scope.,reviewed,2026-09-17
+EDGE-0104,FAM-0100,ENABLES,PROC-0031,,Fab unit-process functions are applicable to device fabrication; DRAM-specific integration remains planned.,reviewed,2026-09-17
+EDGE-0105,PROC-0105,CONSUMES,MAT-0010,ROUTE-OXIDE-TEACHING,"Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied.",reviewed,2026-09-17
+EDGE-0106,PROC-0105,PRODUCES,MAT-0101,ROUTE-OXIDE-TEACHING,"Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied.",reviewed,2026-09-17
+EDGE-0107,PROC-0101,CONSUMES,MAT-0101,ROUTE-OXIDE-TEACHING,"Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied.",reviewed,2026-09-17
+EDGE-0108,PROC-0101,PRODUCES,MAT-0102,ROUTE-OXIDE-TEACHING,"Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied.",reviewed,2026-09-17
+EDGE-0109,PROC-0103,CONSUMES,MAT-0102,ROUTE-OXIDE-TEACHING,"Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied.",reviewed,2026-09-17
+EDGE-0110,PROC-0103,PRODUCES,MAT-0103,ROUTE-OXIDE-TEACHING,"Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied.",reviewed,2026-09-17
+EDGE-0111,PROC-0106,CONSUMES,MAT-0103,ROUTE-OXIDE-TEACHING,"Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied.",reviewed,2026-09-17
+EDGE-0112,PROC-0106,PRODUCES,MAT-0104,ROUTE-OXIDE-TEACHING,"Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied.",reviewed,2026-09-17
+EDGE-0113,PROC-0105,PRECEDES,PROC-0101,ROUTE-OXIDE-TEACHING,"Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied.",reviewed,2026-09-17
+EDGE-0114,PROC-0101,PRECEDES,PROC-0103,ROUTE-OXIDE-TEACHING,"Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied.",reviewed,2026-09-17
+EDGE-0115,PROC-0103,PRECEDES,PROC-0106,ROUTE-OXIDE-TEACHING,"Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied.",reviewed,2026-09-17
+EDGE-0116,PROC-0108,MEASURES,CHAR-0101,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0117,PROC-0108,MEASURES,CHAR-0102,,General functional relationship; application requires material and integration qualification.,reviewed,2026-09-17
+EDGE-0118,FAIL-0101,DETECTED_BY,PROC-0108,,Requires a method and sampling plan sensitive to the relevant local geometry; detection is not guaranteed.,reviewed,2026-09-17
+EDGE-0119,FAIL-0102,DETECTED_BY,PROC-0108,,Requires a method and sampling plan sensitive to the relevant local geometry; detection is not guaranteed.,reviewed,2026-09-17

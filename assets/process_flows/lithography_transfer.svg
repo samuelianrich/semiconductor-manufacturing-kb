@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Positive-tone resist → etched oxide → strip</title><desc id="desc">Three cross-sections show an opening in resist, oxide removal through that opening, and remaining patterned oxide after resist strip. Silicon is retained in this teaching example.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">Positive-tone resist → etched oxide → strip</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: MACK-QUALITY-001; LAM-ETCH-001; UBC-CLEAN-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<text x="45" y="170" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17334a" text-anchor="start">1. Developed resist</text>
+<rect x="45" y="380" width="320" height="110" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="45" y="340" width="320" height="40" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="45" y="280" width="110" height="60" rx="0" fill="#ba4661" stroke="#17334a" stroke-width="2"/>
+<rect x="255" y="280" width="110" height="60" rx="0" fill="#ba4661" stroke="#17334a" stroke-width="2"/>
+<text x="145" y="445" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">Silicon</text>
+<line x1="375" y1="380" x2="420" y2="380" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="440" y="170" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17334a" text-anchor="start">2. Transfer into oxide</text>
+<rect x="440" y="380" width="320" height="110" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="440" y="340" width="110" height="40" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="650" y="340" width="110" height="40" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="440" y="280" width="110" height="60" rx="0" fill="#ba4661" stroke="#17334a" stroke-width="2"/>
+<rect x="650" y="280" width="110" height="60" rx="0" fill="#ba4661" stroke="#17334a" stroke-width="2"/>
+<text x="540" y="445" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">Silicon</text>
+<line x1="770" y1="380" x2="815" y2="380" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="835" y="170" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17334a" text-anchor="start">3. Strip resist</text>
+<rect x="835" y="380" width="320" height="110" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="835" y="340" width="110" height="40" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="1045" y="340" width="110" height="40" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<text x="935" y="445" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">Silicon</text>
+<text x="45" y="225" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#17334a" text-anchor="start">Exposed positive resist removed</text>
+<text x="443" y="225" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#17334a" text-anchor="start">Etch exposed oxide</text>
+<text x="840" y="225" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#17334a" text-anchor="start">Oxide pattern remains</text>
+<line x1="580" y1="270" x2="580" y2="365" stroke="#007c83" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="605" y1="270" x2="605" y2="365" stroke="#007c83" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="630" y1="270" x2="630" y2="365" stroke="#007c83" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="50" y="550" width="28" height="22" rx="0" fill="#ba4661" stroke="#17334a" stroke-width="2"/>
+<text x="90" y="570" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">Resist</text>
+<rect x="250" y="550" width="28" height="22" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<text x="290" y="570" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">Oxide</text>
+<text x="50" y="620" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">Teaching route: selectivity and compatibility must preserve the intended remaining layers.</text></svg>

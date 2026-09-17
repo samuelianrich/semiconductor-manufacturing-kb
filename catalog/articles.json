@@ -175,5 +175,146 @@
     ],
     "status": "reviewed",
     "last_reviewed": "2026-09-16"
+  },
+  {
+    "path": "08_fab_overview/fab_flow.md",
+    "title": "Inside a fab: repeated operations and controlled interfaces",
+    "node_ids": [
+      "FAM-0100"
+    ],
+    "sources": [
+      "HU-FAB-001",
+      "STANFORD-CLEAN-001",
+      "MACK-QUALITY-001",
+      "MACK-CMP-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
+  },
+  {
+    "path": "09_photolithography/lithography.md",
+    "title": "Photolithography: from optical image to usable resist pattern",
+    "node_ids": [
+      "PROC-0101"
+    ],
+    "sources": [
+      "HU-FAB-001",
+      "MACK-QUALITY-001",
+      "MACK-CAR-001",
+      "ASML-LIGHT-001",
+      "ASML-OPTICS-001",
+      "ZEISS-EUV-001",
+      "ASML-PELLICLE-001",
+      "ASML-RAYLEIGH-001",
+      "MACK-DOF-001",
+      "ASML-METRO-001",
+      "IMEC-STOCH-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
+  },
+  {
+    "path": "10_deposition/deposition.md",
+    "title": "Deposition: choosing how a film reaches the surface",
+    "node_ids": [
+      "PROC-0102"
+    ],
+    "sources": [
+      "ASM-FURNACE-001",
+      "ASM-PECVD-001",
+      "ASM-ALD-001",
+      "LESKER-PVD-001",
+      "ASM-EPI-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
+  },
+  {
+    "path": "11_etching/etching.md",
+    "title": "Etching: selective removal with a controlled profile",
+    "node_ids": [
+      "PROC-0103"
+    ],
+    "sources": [
+      "LAM-ETCH-001",
+      "TUWIEN-BOSCH-001",
+      "HU-FAB-001",
+      "LAM-ALE-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
+  },
+  {
+    "path": "12_doping/doping.md",
+    "title": "Doping and activation: placing atoms is only half the task",
+    "node_ids": [
+      "PROC-0104"
+    ],
+    "sources": [
+      "MIT-IMPLANT-001",
+      "HU-FAB-001",
+      "NPTEL-CHANNEL-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
+  },
+  {
+    "path": "13_oxidation/oxidation.md",
+    "title": "Thermal oxidation: growing oxide by consuming silicon",
+    "node_ids": [
+      "PROC-0105"
+    ],
+    "sources": [
+      "HU-FAB-001",
+      "UALBERTA-OXIDE-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
+  },
+  {
+    "path": "14_cleaning/cleaning.md",
+    "title": "Cleaning: controlling contamination without damaging the stack",
+    "node_ids": [
+      "PROC-0106"
+    ],
+    "sources": [
+      "STANFORD-CLEAN-001",
+      "UBC-CLEAN-001",
+      "UBC-RCA-001",
+      "NIST-CLEAN-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
+  },
+  {
+    "path": "15_cmp/cmp.md",
+    "title": "CMP: removing overburden while preserving useful structures",
+    "node_ids": [
+      "PROC-0107"
+    ],
+    "sources": [
+      "MACK-CMP-001",
+      "AMAT-CMP-001",
+      "EBARA-CMP-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
+  },
+  {
+    "path": "16_metrology_and_inspection/metrology.md",
+    "title": "Metrology and inspection: evidence for process decisions",
+    "node_ids": [
+      "PROC-0108"
+    ],
+    "sources": [
+      "ASML-METRO-001",
+      "NIST-ELLIPSO-001",
+      "NIST-XPS-001",
+      "NIST-SPC-001",
+      "NIST-CAPABILITY-001",
+      "ASU-METRO-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
   }
 ]

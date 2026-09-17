@@ -5,3 +5,4 @@ ROUTE-HBM,DRAM to HBM path,,High-level architecture only; detailed process condi
 ROUTE-PACKAGE,Logic and HBM package convergence,,High-level architecture only; detailed process conditions and evidence remain planned.,25_advanced_packaging/README.md,planned
 ROUTE-SYSTEM,Package to rack integration,,High-level architecture only; detailed process conditions and evidence remain planned.,32_rack_scale_system/README.md,planned
 ROUTE-FZ,Float-zone alternative,,"Growth-only comparison; qualified polysilicon feed-rod preparation is aggregated, not specified.",03_crystal_growth/crystal_growth.md,reviewed
+ROUTE-OXIDE-TEACHING,Teaching oxide pattern-transfer route,,"Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied.",09_photolithography/lithography.md,reviewed

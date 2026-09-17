@@ -14,6 +14,14 @@ flowchart LR
   EQ_0005["Wafer slicing equipment"]
   EQ_0006["Wafer polishing equipment"]
   EQ_0007["Laser-scattering surface inspection"]
+  EQ_0101["Coat/develop track and exposure tool"]
+  EQ_0102["Deposition reactor category"]
+  EQ_0103["Plasma etch chamber"]
+  EQ_0104["Ion implanter and anneal tools"]
+  EQ_0105["Oxidation reactor"]
+  EQ_0106["Compatible strip and clean tools"]
+  EQ_0107["CMP and post-clean system"]
+  EQ_0108["Optical/electron measurement tools"]
   PROC_0002["Carbothermic silicon smelting"]
   PROC_0004["Chemical purification by distillation"]
   PROC_0005["Polysilicon deposition"]
@@ -21,6 +29,14 @@ flowchart LR
   PROC_0007["Ingot shaping and wafer slicing"]
   PROC_0008["Wafer surface finishing"]
   PROC_0009["Wafer cleaning and acceptance inspection"]
+  PROC_0101["Resist patterning"]
+  PROC_0102["Film deposition"]
+  PROC_0103["Pattern transfer etch"]
+  PROC_0104["Implant and activation sequence"]
+  PROC_0105["Thermal oxidation"]
+  PROC_0106["Resist strip and surface clean"]
+  PROC_0107["Chemical mechanical planarization"]
+  PROC_0108["Metrology and inspection"]
   SUP_0005["PVA TePla"]
   PROC_0002 -->|"uses equipment"| EQ_0001
   PROC_0004 -->|"uses equipment"| EQ_0002
@@ -30,6 +46,14 @@ flowchart LR
   PROC_0008 -->|"uses equipment"| EQ_0006
   PROC_0009 -->|"uses equipment"| EQ_0007
   EQ_0004 -->|"supplied by"| SUP_0005
+  PROC_0101 -->|"uses equipment"| EQ_0101
+  PROC_0102 -->|"uses equipment"| EQ_0102
+  PROC_0103 -->|"uses equipment"| EQ_0103
+  PROC_0104 -->|"uses equipment"| EQ_0104
+  PROC_0105 -->|"uses equipment"| EQ_0105
+  PROC_0106 -->|"uses equipment"| EQ_0106
+  PROC_0107 -->|"uses equipment"| EQ_0107
+  PROC_0108 -->|"uses equipment"| EQ_0108
 ```
 
 *MAP-EQUIPMENT-MAP — Machines connect to the operations they perform. Supplier lists are representative only where evidence is recorded. Original schematic; CC BY 4.0. Source: graph records and their evidence links; no physical scale.*
@@ -43,6 +67,14 @@ flowchart LR
 | EQ-0005 | Wafer slicing equipment | reviewed | [Wafer slicing equipment](../04_wafer_manufacturing/wafer_finishing_and_acceptance.md) |
 | EQ-0006 | Wafer polishing equipment | reviewed | [Wafer polishing equipment](../04_wafer_manufacturing/wafer_finishing_and_acceptance.md) |
 | EQ-0007 | Laser-scattering surface inspection | reviewed | [Laser-scattering surface inspection](../04_wafer_manufacturing/wafer_finishing_and_acceptance.md) |
+| EQ-0101 | Coat/develop track and exposure tool | reviewed | [Coat/develop track and exposure tool](../09_photolithography/lithography.md) |
+| EQ-0102 | Deposition reactor category | reviewed | [Deposition reactor category](../10_deposition/deposition.md) |
+| EQ-0103 | Plasma etch chamber | reviewed | [Plasma etch chamber](../11_etching/etching.md) |
+| EQ-0104 | Ion implanter and anneal tools | reviewed | [Ion implanter and anneal tools](../12_doping/doping.md) |
+| EQ-0105 | Oxidation reactor | reviewed | [Oxidation reactor](../13_oxidation/oxidation.md) |
+| EQ-0106 | Compatible strip and clean tools | reviewed | [Compatible strip and clean tools](../14_cleaning/cleaning.md) |
+| EQ-0107 | CMP and post-clean system | reviewed | [CMP and post-clean system](../15_cmp/cmp.md) |
+| EQ-0108 | Optical/electron measurement tools | reviewed | [Optical/electron measurement tools](../16_metrology_and_inspection/metrology.md) |
 | PROC-0002 | Carbothermic silicon smelting | reviewed | [Carbothermic silicon smelting](../02_silicon_refining/metallurgical_silicon.md) |
 | PROC-0004 | Chemical purification by distillation | reviewed | [Chemical purification by distillation](../02_silicon_refining/electronic_grade_polysilicon.md) |
 | PROC-0005 | Polysilicon deposition | reviewed | [Polysilicon deposition](../02_silicon_refining/electronic_grade_polysilicon.md) |
@@ -50,6 +82,14 @@ flowchart LR
 | PROC-0007 | Ingot shaping and wafer slicing | reviewed | [Ingot shaping and wafer slicing](../04_wafer_manufacturing/wafer_finishing_and_acceptance.md) |
 | PROC-0008 | Wafer surface finishing | reviewed | [Wafer surface finishing](../04_wafer_manufacturing/wafer_finishing_and_acceptance.md) |
 | PROC-0009 | Wafer cleaning and acceptance inspection | reviewed | [Wafer cleaning and acceptance inspection](../04_wafer_manufacturing/wafer_finishing_and_acceptance.md) |
+| PROC-0101 | Resist patterning | reviewed | [Resist patterning](../09_photolithography/lithography.md) |
+| PROC-0102 | Film deposition | reviewed | [Film deposition](../10_deposition/deposition.md) |
+| PROC-0103 | Pattern transfer etch | reviewed | [Pattern transfer etch](../11_etching/etching.md) |
+| PROC-0104 | Implant and activation sequence | reviewed | [Implant and activation sequence](../12_doping/doping.md) |
+| PROC-0105 | Thermal oxidation | reviewed | [Thermal oxidation](../13_oxidation/oxidation.md) |
+| PROC-0106 | Resist strip and surface clean | reviewed | [Resist strip and surface clean](../14_cleaning/cleaning.md) |
+| PROC-0107 | Chemical mechanical planarization | reviewed | [Chemical mechanical planarization](../15_cmp/cmp.md) |
+| PROC-0108 | Metrology and inspection | reviewed | [Metrology and inspection](../16_metrology_and_inspection/metrology.md) |
 | SUP-0005 | PVA TePla | reviewed | [PVA TePla](../03_crystal_growth/crystal_growth.md) |
 
 | Edge | Relationship | Conditions | Evidence |
@@ -62,4 +102,12 @@ flowchart LR
 | EDGE-0059 | PROC-0008 → USES_EQUIPMENT → EQ-0006 |  | [SUMCO-WAFER-001](../42_references/bibliography.md#sumco-wafer-001) (Polishing) |
 | EDGE-0060 | PROC-0009 → USES_EQUIPMENT → EQ-0007 |  | [UCSB-INSPECT-001](../42_references/bibliography.md#ucsb-inspect-001) (Surface analysis operating principle) |
 | EDGE-0073 | EQ-0004 → SUPPLIED_BY → SUP-0005 | PVA TePla describes CZ puller equipment and thermal and motion control functions. Role example only; see claim boundary. | [PVA-CZ-001](../42_references/bibliography.md#pva-cz-001) (The Process; Czochralski systems) · CLM-000006 |
+| EDGE-0088 | PROC-0101 → USES_EQUIPMENT → EQ-0101 | General functional relationship; application requires material and integration qualification. | [MACK-QUALITY-001](../42_references/bibliography.md#mack-quality-001) (Pattern-transfer and resist-property slides) |
+| EDGE-0090 | PROC-0102 → USES_EQUIPMENT → EQ-0102 | General functional relationship; application requires material and integration qualification. | [ASM-ALD-001](../42_references/bibliography.md#asm-ald-001) (ALD process and thermal/plasma discussion) |
+| EDGE-0092 | PROC-0103 → USES_EQUIPMENT → EQ-0103 | General functional relationship; application requires material and integration qualification. | [LAM-ETCH-001](../42_references/bibliography.md#lam-etch-001) (Etch process overview and process categories) |
+| EDGE-0094 | PROC-0104 → USES_EQUIPMENT → EQ-0104 | General functional relationship; application requires material and integration qualification. | [MIT-IMPLANT-001](../42_references/bibliography.md#mit-implant-001) (Opening diffusion slides and implantation equipment slides) |
+| EDGE-0096 | PROC-0105 → USES_EQUIPMENT → EQ-0105 | General functional relationship; application requires material and integration qualification. | [UALBERTA-OXIDE-001](../42_references/bibliography.md#ualberta-oxide-001) (Introduction and calculation details) |
+| EDGE-0098 | PROC-0106 → USES_EQUIPMENT → EQ-0106 | General functional relationship; application requires material and integration qualification. | [UBC-CLEAN-001](../42_references/bibliography.md#ubc-clean-001) (Overview, solvent clean and oxide-removal discussion) |
+| EDGE-0100 | PROC-0107 → USES_EQUIPMENT → EQ-0107 | General functional relationship; application requires material and integration qualification. | [AMAT-CMP-001](../42_references/bibliography.md#amat-cmp-001) (CMP mechanism and control description) |
+| EDGE-0102 | PROC-0108 → USES_EQUIPMENT → EQ-0108 | General functional relationship; application requires material and integration qualification. | [ASML-METRO-001](../42_references/bibliography.md#asml-metro-001) (Optical and electron-beam metrology sections) |
 <!-- END GENERATED MAP -->

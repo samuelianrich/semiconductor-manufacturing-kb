@@ -46,3 +46,17 @@ The board stage requires both power and thermal understanding. Historical module
 10. [CMOS logic and the move from planar gates to fins and nanosheets](06_transistor_fundamentals/cmos_and_transistor_evolution.md)
 
 Read the carrier/doping primer just in time when crystal growth introduces resistivity. The full physics sequence then develops the models systematically. Both the wafer path and MOSFET path are prerequisites for Phase 2. [Glossary](40_glossary/phase1_glossary.md) · [Comparisons](41_reference_tables/phase1_comparisons.md).
+
+## Phase 2 reading path
+
+1. [Inside a fab: repeated operations and controlled interfaces](08_fab_overview/fab_flow.md)
+2. [Photolithography: from optical image to usable resist pattern](09_photolithography/lithography.md)
+3. [Deposition: choosing how a film reaches the surface](10_deposition/deposition.md)
+4. [Etching: selective removal with a controlled profile](11_etching/etching.md)
+5. [Doping and activation: placing atoms is only half the task](12_doping/doping.md)
+6. [Thermal oxidation: growing oxide by consuming silicon](13_oxidation/oxidation.md)
+7. [Cleaning: controlling contamination without damaging the stack](14_cleaning/cleaning.md)
+8. [CMP: removing overburden while preserving useful structures](15_cmp/cmp.md)
+9. [Metrology and inspection: evidence for process decisions](16_metrology_and_inspection/metrology.md)
+
+Use the [unit-process map guide](manufacturing_map/phase2_unit_processes.md) to distinguish learning order from physical wafer flow. Continue to Phase 3 only after the film, pattern-transfer and measurement interfaces are clear.

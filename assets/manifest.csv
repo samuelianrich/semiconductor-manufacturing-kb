@@ -24,3 +24,13 @@ F1-06,PN junction depletion and field,assets/cross_sections/pn_junction.svg,svg,
 F1-07,MOS surface and device,assets/cross_sections/mos_device.svg,svg,Original teaching schematic from HU-MOS-001;MIT-MOSFET-001,CC BY 4.0,author reviewed; not to scale
 F1-08,CMOS inverter,assets/diagrams/cmos_inverter.svg,svg,Original teaching schematic from MIT-CMOS-001;MIT-POWER-001,CC BY 4.0,author reviewed; not to scale
 F1-09,Planar fin and nanosheet cross sections,assets/cross_sections/transistor_geometries.svg,svg,Original teaching schematic from HU-SCALING-001;IBM-NANOSHEET-001,CC BY 4.0,author reviewed; not to scale
+P2-01,"Fab processing: repeated interfaces, not one fixed recipe",assets/process_flows/fab_loops.svg,svg,HU-FAB-001; MACK-QUALITY-001; MACK-CMP-001,CC BY 4.0,author reviewed conceptual schematic
+P2-02,Positive-tone resist → etched oxide → strip,assets/process_flows/lithography_transfer.svg,svg,MACK-QUALITY-001; LAM-ETCH-001; UBC-CLEAN-001,CC BY 4.0,author reviewed conceptual schematic
+P2-03,Deposition: transport and reaction are different choices,assets/equipment/deposition_methods.svg,svg,LESKER-PVD-001; ASM-FURNACE-001; ASM-ALD-001,CC BY 4.0,author reviewed conceptual schematic
+P2-04,"Etch: mask budget, direction and the final profile",assets/equipment/etch_profiles.svg,svg,LAM-ETCH-001; TUWIEN-BOSCH-001,CC BY 4.0,author reviewed conceptual schematic
+P2-05,Implantation: ion delivery followed by activation,assets/equipment/implantation.svg,svg,MIT-IMPLANT-001; HU-FAB-001; NPTEL-CHANNEL-001,CC BY 4.0,author reviewed conceptual schematic
+P2-06,Thermal oxidation consumes the silicon surface,assets/diagrams/oxidation_geometry.svg,svg,UALBERTA-OXIDE-001; HU-FAB-001,CC BY 4.0,author reviewed conceptual schematic
+P2-07,Cleaning qualifies a surface for its next operation,assets/process_flows/cleaning_interfaces.svg,svg,STANFORD-CLEAN-001; UBC-CLEAN-001; UBC-RCA-001,CC BY 4.0,author reviewed conceptual schematic
+P2-08,"CMP: coupled chemistry, contact and local geometry",assets/equipment/cmp.svg,svg,AMAT-CMP-001; EBARA-CMP-001; MACK-CMP-001,CC BY 4.0,author reviewed conceptual schematic
+P2-09,Measurement → evidence → process decision,assets/process_flows/metrology_control.svg,svg,NIST-SPC-001; NIST-CAPABILITY-001; NIST-ELLIPSO-001,CC BY 4.0,author reviewed conceptual schematic
+P2-10,Teaching oxide pattern transfer,assets/process_flows/map_oxide_pattern_transfer.mmd,mermaid,Canonical map CSVs and scoped evidence links,CC BY 4.0,author reviewed teaching route

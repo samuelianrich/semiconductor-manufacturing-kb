@@ -10,6 +10,10 @@ Phase 1 scope reviewed 2026-09-16. “Resolved for foundation scope” means sou
 | RQ-004 | Growth, dopants, oxygen and defects? | SUMCO-WAFER-001 pulling; PVA-CZ-001 process; KIEL-GROWTH-001 segregation; SILTRONIC-FZ-001 FZ | Resolved for foundation scope | No actual ingot profile, process setpoints or customer assignment |
 | RQ-005 | Boule to specified wafer? | SUMCO-WAFER-001 wafer forming; SEMI-WAFER-001 public scope; SEMI-TERMS-001 geometry | Resolved for foundation scope | Full normative M1 limits not accessed; inspection coverage remains method-specific |
 | RQ-006 | Minimal physics through CMOS? | Hu chapters 1–7 and MIT 6.012 lectures 2–4, 7–8, 12–13; exact locators in bibliography | Resolved for foundation scope | Ideal-model examples are not extracted modern-device parameters |
-| RQ-007 | Fab environment and unit-process foundations? | Next phase: modules 08–16 under the source plan | Pending Phase 2 | Research contamination control, cleanroom/facility boundaries and unit-process mechanisms before drafting |
+| RQ-007 | Fab environment and unit-process foundations? | Modules 08–16 delivered; see Phase 2 audit | Author reviewed 2026-09-17 | Independent specialist review and deeper process-specific extensions remain open |
 
 All source IDs resolve in the [canonical bibliography](bibliography.md). Independent specialist review remains an open quality improvement; author review and automated arithmetic/reference checks are recorded in [Phase 1 audit](../AUDIT_PHASE1.md).
+
+## Phase 2 closeout and Phase 3 entry
+
+Modules 08–16 now have cited author-reviewed chapters. Independent specialist review remains open, particularly advanced resist chemistry, etch/ALE variants, film-property comparisons and measurement uncertainty. Numerical examples are scoped teaching models, not recipes. Next: modules 17–19, device integration and wiring. Expand the graph with integration-specific operation instances before implying complete logic or DRAM routes. M39 remains architecture-only; its earlier reviewed flag was erroneous.

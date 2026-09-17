@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Cleaning qualifies a surface for its next operation</title><desc id="desc">Contaminants enter through air, handling, chemicals and equipment. Cleaning is chosen for the incoming material stack and verified before downstream use.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">Cleaning qualifies a surface for its next operation</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: STANFORD-CLEAN-001; UBC-CLEAN-001; UBC-RCA-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<rect x="45" y="165" width="255" height="100" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="61" y="197" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Particles</text>
+<line x1="300" y1="215" x2="435" y2="350" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="45" y="305" width="255" height="100" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="61" y="337" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Organic residue</text>
+<line x1="300" y1="355" x2="435" y2="350" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="45" y="445" width="255" height="100" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="61" y="477" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Metals / history</text>
+<line x1="300" y1="495" x2="435" y2="350" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="455" y="265" width="300" height="175" rx="8" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<text x="471" y="297" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Compatible clean</text>
+<text x="471" y="390" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Removal + rinse + dry</text>
+<line x1="755" y1="350" x2="830" y2="350" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="855" y="265" width="300" height="175" rx="8" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<text x="871" y="297" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Verify output</text>
+<text x="871" y="390" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Residues / loss / damage</text>
+<text x="65" y="600" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">Air cleanliness does not establish chemical or</text>
+<text x="65" y="628" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">tool compatibility.</text>
+<text x="455" y="175" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Known incoming material stack</text>
+<line x1="605" y1="190" x2="605" y2="255" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="845" y="510" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">Next operation receives</text>
+<text x="845" y="540" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">a qualified surface state</text></svg>

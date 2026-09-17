@@ -5,6 +5,7 @@ This is the manufacturing navigation layer. Learning prerequisites remain in the
 Start with the [master overview](master_process_map.md), then choose a path:
 
 - [Raw materials to wafer](wafer_path.md)
+- [Fab unit processes and teaching oxide route](phase2_unit_processes.md)
 - [Logic die](logic_path.md) and [DRAM to HBM](hbm_path.md)
 - [Package convergence](packaging_path.md)
 - [Package to rack](system_path.md)

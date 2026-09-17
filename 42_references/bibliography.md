@@ -1,6 +1,6 @@
 # Canonical bibliography
 
-Phase 1 sources reviewed on 2026-09-16. Access scope and limitations are explicit. Sources are cited at the claim location; full documents and third-party figures are not redistributed.
+Phase 1 sources reviewed on 2026-09-16; Phase 2 source review on 2026-09-16–17. Access scope and limitations are explicit. Sources are cited at the claim location; full documents and third-party figures are not redistributed.
 
 <a id="usgs-silicon-001"></a>
 ## USGS-SILICON-001
@@ -503,6 +503,468 @@ Phase 1 sources reviewed on 2026-09-16. Access scope and limitations are explici
 - Author: Chenming Hu. Organization: author-hosted textbook / UC Berkeley.
 - Date: 2010 textbook edition. Accessed: 2026-09-16.
 - URL: [Author-hosted chapter](https://www.chu.berkeley.edu/wp-content/uploads/2020/01/Chenming-Hu_ch3.pdf).
-- Locator: §3.5.1, printed page 70 / PDF page 12, ion implantation and activation paragraph.
-- Scope: implanted dopants, lattice damage and electrical activation by incorporation on lattice sites.
+- Locator: Phase 1: §3.5.1 implantation/activation; Phase 2: §§3.1–3.5 planar processing, oxidation, lithography, plasma etching and implantation.
+- Scope: planar process functions, oxide growth, resist imaging/correction, plasma charging, implanted dopants, lattice damage and electrical activation. Extended review: 2026-09-16–17.
 - Review/access: relevant passage read in full. Primary educational source; not a modern process recipe. No figure or prose copied; original synthesis only. Rights remain with the author/publisher.
+
+<a id="asml-light-001"></a>
+## ASML-LIGHT-001
+
+**Light & lasers**
+- Author / organization: ASML
+- Publication date/version: Not stated
+- URL: [Original source](https://www.asml.com/en/technology/lithography-principles/light-and-lasers)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: DUV and EUV light-source sections
+- Supports: Wavelengths and laser-produced tin plasma
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="asml-optics-001"></a>
+## ASML-OPTICS-001
+
+**Lenses & mirrors**
+- Author / organization: ASML
+- Publication date/version: Not stated
+- URL: [Original source](https://www.asml.com/en/technology/lithography-principles/lenses-and-mirrors)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: DUV and EUV optics sections
+- Supports: Refractive versus reflective optical paths and numerical aperture
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="asml-rayleigh-001"></a>
+## ASML-RAYLEIGH-001
+
+**Rayleigh criterion**
+- Author / organization: ASML
+- Publication date/version: Not stated
+- URL: [Original source](https://www.asml.com/en/technology/lithography-principles/rayleigh-criterion)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Rayleigh equation and variable definitions
+- Supports: Resolution scaling; no universal minimum feature promise
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="asml-metro-001"></a>
+## ASML-METRO-001
+
+**Measuring accuracy**
+- Author / organization: ASML
+- Publication date/version: Not stated
+- URL: [Original source](https://www.asml.com/en/technology/lithography-principles/measuring-accuracy)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Optical and electron-beam metrology sections
+- Supports: Overlay and optical/electron measurement roles
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="asml-pellicle-001"></a>
+## ASML-PELLICLE-001
+
+**The EUV pellicle: indistinguishable from magic**
+- Author / organization: Kate Brunton / ASML
+- Publication date/version: 2022-09-14
+- URL: [Original source](https://www.asml.com/en/company/stories/2022/the-euv-pellicle-indistinguishable-from-magic)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Pellicle purpose and EUV transmission discussion
+- Supports: Particle interception away from the mask plane and transmission constraints
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="zeiss-euv-001"></a>
+## ZEISS-EUV-001
+
+**EUV-Lithographie**
+- Author / organization: ZEISS
+- Publication date/version: Not stated
+- URL: [Original source](https://www.zeiss.de/semiconductor-manufacturing-technology/inspiring-technology/euv-lithographie.html)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: EUV optics and Bragg-reflection discussion
+- Supports: Vacuum and multilayer mirrors; German-language source; introductory fab sequence not adopted
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="imec-stoch-001"></a>
+## IMEC-STOCH-001
+
+**EUV lithography: sailing along the stochastic cliffs**
+- Author / organization: imec
+- Publication date/version: 2019-06-28
+- URL: [Original source](https://www.imec-int.com/en/imec-magazine/imec-magazine-july-2019/euv-lithography-sailing-along-the-stochastic-cliffs)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Stochastic failures and inspection discussion
+- Supports: Random local failures; historical research account, not a current defect-rate benchmark
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="mack-dof-001"></a>
+## MACK-DOF-001
+
+**Lecture 46: Lithography — Defocus and DOF**
+- Author / organization: Chris A. Mack
+- Publication date/version: 2013
+- URL: [Original source](https://www.lithoguru.com/scientist/CHE323/Lecture46.pdf)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Page 2: depth of focus and paraxial approximation
+- Supports: Focus tolerance and approximate wavelength/aperture scaling
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="mack-car-001"></a>
+## MACK-CAR-001
+
+**Lecture 51: Chemically Amplified Resists, part 1**
+- Author / organization: Chris A. Mack
+- Publication date/version: 2013
+- URL: [Original source](https://www.lithoguru.com/scientist/CHE323/Lecture51.pdf)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Photoacid and post-exposure-bake slides
+- Supports: Chemically amplified resist mechanism; not all resist formulations
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="mack-quality-001"></a>
+## MACK-QUALITY-001
+
+**Lecture 56: Lithographic Quality**
+- Author / organization: Chris A. Mack
+- Publication date/version: 2013
+- URL: [Original source](https://www.lithoguru.com/scientist/CHE323/Lecture56.pdf)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Pattern-transfer and resist-property slides
+- Supports: Image-to-etched-pattern distinction and resist requirements
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="asm-ald-001"></a>
+## ASM-ALD-001
+
+**Atomic layer deposition**
+- Author / organization: ASM International
+- Publication date/version: Not stated
+- URL: [Original source](https://www.asm.com/our-technology-products/ald)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: ALD process and thermal/plasma discussion
+- Supports: Sequential surface reactions; ideal one-layer wording is not treated as a universal growth-per-cycle claim
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="asm-pecvd-001"></a>
+## ASM-PECVD-001
+
+**Plasma enhanced chemical vapor deposition**
+- Author / organization: ASM International
+- Publication date/version: Not stated
+- URL: [Original source](https://www.asm.com/our-technology-products/pecvd)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Technology overview
+- Supports: Plasma-assisted film formation at reduced substrate temperature
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="asm-furnace-001"></a>
+## ASM-FURNACE-001
+
+**Vertical furnace**
+- Author / organization: ASM International
+- Publication date/version: Not stated
+- URL: [Original source](https://www.asm.com/our-technology-products/vertical-furnace)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Vertical furnace and LPCVD description
+- Supports: Batch thermal processing and reduced-pressure deposition
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="asm-epi-001"></a>
+## ASM-EPI-001
+
+**Epitaxy**
+- Author / organization: ASM International
+- Publication date/version: Not stated
+- URL: [Original source](https://www.asm.com/our-technology-products/epitaxy)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Technology overview and material discussion
+- Supports: Crystalline growth, Si/SiGe and doping; no perfect-selectivity guarantee
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="lesker-pvd-001"></a>
+## LESKER-PVD-001
+
+**What is sputtering? / Was ist Sputtern?**
+- Author / organization: Kurt J. Lesker Company
+- Publication date/version: Not stated
+- URL: [Original source](https://de.lesker.com/newweb/faqs/question.cfm?id=163)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Sputtering mechanism explanation
+- Supports: Ion bombardment ejects target material; no recipe values adopted
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="lam-etch-001"></a>
+## LAM-ETCH-001
+
+**Etch**
+- Author / organization: Lam Research
+- Publication date/version: Not stated
+- URL: [Original source](https://www.lamresearch.com/products/our-processes/etch/)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Etch process overview and process categories
+- Supports: Plasma/RIE and atomic-layer-etch categories; no customer or performance inference
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="tuwien-bosch-001"></a>
+## TUWIEN-BOSCH-001
+
+**Section 6.4: Bosch Process**
+- Author / organization: TU Wien, Institute for Microelectronics
+- Publication date/version: Not stated
+- URL: [Original source](https://www.iue.tuwien.ac.at/phd/ertl/node109.html)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Section 6.4, process sequence and profile discussion
+- Supports: Alternating passivation and etching, directionality and scalloping
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="mit-implant-001"></a>
+## MIT-IMPLANT-001
+
+**Lecture 6: Diffusion and ion implantation**
+- Author / organization: MIT OpenCourseWare, 6.152J/3.155J
+- Publication date/version: 2005-09-28
+- URL: [Original source](https://ocw.mit.edu/courses/6-152j-micro-nano-processing-technology-fall-2005/fa6170fba10bd1341251791563a18fc2_lecture6.pdf)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Opening diffusion slides and implantation equipment slides
+- Supports: Dose versus concentration, profiles and ion-beam functions
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="nptel-channel-001"></a>
+## NPTEL-CHANNEL-001
+
+**Ion implantation: non-idealities**
+- Author / organization: NPTEL, course 103106075
+- Publication date/version: Not stated
+- URL: [Original source](https://archive.nptel.ac.in/content/storage2/courses/103106075/Courses/7_4.html)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Channeling discussion
+- Supports: Crystal-direction effects and mitigation tradeoffs
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="ualberta-oxide-001"></a>
+## UALBERTA-OXIDE-001
+
+**Silicon thermal oxidation calculator**
+- Author / organization: University of Alberta nanoFAB
+- Publication date/version: Not stated
+- URL: [Original source](https://toolbox.nanofab.ualberta.ca/sithox/index.php)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Introduction and calculation details
+- Supports: Dry/wet oxidation, model limits and 0.4407 silicon-consumption ratio
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="stanford-clean-001"></a>
+## STANFORD-CLEAN-001
+
+**Cleanliness groups for process flows**
+- Author / organization: Stanford Nanofabrication Facility
+- Publication date/version: Updated 2025-03-25
+- URL: [Original source](https://snfguide.stanford.edu/guide/materials/cleanliness-groups-for-process-flows)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Material history, tool eligibility and labware discussion
+- Supports: Contamination segregation principles; facility-specific categories are not universal
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="ubc-clean-001"></a>
+## UBC-CLEAN-001
+
+**Si wafer cleaning**
+- Author / organization: Mark Bachman; adapted by M. Beaudoin / UBC
+- Publication date/version: 2002; adapted 2014
+- URL: [Original source](https://nanofab.ubc.ca/capabilities/processes/cleaning/si-wafer-cleaning/)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Overview, solvent clean and oxide-removal discussion
+- Supports: Distinct residue-removal functions; operating instructions are not reproduced
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="ubc-rca-001"></a>
+## UBC-RCA-001
+
+**RCA-2 Si wafer cleaning**
+- Author / organization: Mark Bachman; adapted by M. Beaudoin / UBC
+- Publication date/version: 2002; adapted 2014
+- URL: [Original source](https://nanofab.ubc.ca/capabilities/processes/cleaning/rca-2-si-wafer-cleaning/)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Overview of RCA-1/RCA-2 purposes
+- Supports: Organic/metal contamination and chemical oxide; not a universal clean sequence
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="nist-clean-001"></a>
+## NIST-CLEAN-001
+
+**Nanofab tool: Reynolds RCA wet bench**
+- Author / organization: NIST
+- Publication date/version: 2014-06-20; updated 2025-03-04
+- URL: [Original source](https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-reynolds-rca-wet-bench)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Tool description
+- Supports: Wet cleaning before high-temperature processing
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="amat-cmp-001"></a>
+## AMAT-CMP-001
+
+**Chemical mechanical planarization**
+- Author / organization: Applied Materials
+- Publication date/version: Not stated
+- URL: [Original source](https://www.appliedmaterials.com/il/en/semiconductor/products/shape/cmp.html)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: CMP mechanism and control description
+- Supports: Pad, slurry, applied force and endpoint functions; marketing absolutes excluded
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="ebara-cmp-001"></a>
+## EBARA-CMP-001
+
+**Nano-level polishing technique that supports semiconductors**
+- Author / organization: Ebara
+- Publication date/version: Not stated
+- URL: [Original source](https://ebara.com/global-en/technology/information/polishing-technology-ex/)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Polishing, cleaning and drying explanation
+- Supports: Integrated CMP tool functions; no universal roughness or market-share assertion
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="mack-cmp-001"></a>
+## MACK-CMP-001
+
+**Lecture 30: Chemical Mechanical Polishing**
+- Author / organization: Chris A. Mack
+- Publication date/version: 2013-10-07
+- URL: [Original source](https://www.lithoguru.com/scientist/CHE323/Lecture30.pdf)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Pages 1–2: topography, pressure/speed and dishing/erosion
+- Supports: Planarization need and defects; example production settings and third-party illustrations excluded
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="nist-spc-001"></a>
+## NIST-SPC-001
+
+**6.3.1 What are Control Charts?**
+- Author / organization: NIST/SEMATECH e-Handbook
+- Publication date/version: Not stated
+- URL: [Original source](https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc31.htm)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Control-chart purpose and limits
+- Supports: Statistical signals and three-sigma convention; assumptions must be checked
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="nist-capability-001"></a>
+## NIST-CAPABILITY-001
+
+**6.1.6 What is Process Capability?**
+- Author / organization: NIST/SEMATECH e-Handbook
+- Publication date/version: Not stated
+- URL: [Original source](https://www.itl.nist.gov/div898/handbook/pmc/section1/pmc16.htm)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Capability and process-stability discussion
+- Supports: Specifications differ from control limits
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="nist-ellipso-001"></a>
+## NIST-ELLIPSO-001
+
+**Thin Film Reference Materials Development: Final Report for CRADA CN-1364**
+- Author / organization: B. J. Belzer et al. / NIST SP 400-100
+- Publication date/version: 1998-04-01
+- URL: [Original source](https://www.nist.gov/publications/semiconductor-measurement-technology-thin-film-reference-materials-development-final)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Publication metadata and abstract only
+- Supports: Model-dependent thin-film thickness interpretation; full report not reviewed
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="nist-xps-001"></a>
+## NIST-XPS-001
+
+**X-ray Photoelectron Spectroscopy**
+- Author / organization: NIST
+- Publication date/version: 2018-02-15; updated 2025-09-15
+- URL: [Original source](https://www.nist.gov/laboratories/tools-instruments/x-ray-photoelectron-spectroscopy)
+- DOI: Not supplied on reviewed page
+- Access/review window: 2026-09-16–17
+- Type: Primary teaching, research or organization documentation
+- Locator: Instrument technique description
+- Supports: Surface composition and chemical-state characterization
+- Limitations/access/rights: Review limited to the cited sections; no production qualification, current market position or product adoption implied. Original figures and prose are not redistributed.
+
+<a id="lam-ale-001"></a>
+## LAM-ALE-001
+
+**New Atomic Layer Etching Capability Enables Continued Device Scaling**
+- Author / organization: Lam Blog Staff / Lam Research
+- Publication date/version: 2016-09-06
+- URL: [Original source](https://newsroom.lamresearch.com/New-Atomic-Layer-Etching-Capability-Enables-Continued-Device-Scaling)
+- DOI: Not supplied
+- Access date: 2026-09-17
+- Type: Primary organization documentation
+- Locator: SAC Etch Challenges and ALE Solution
+- Supports / limitations: Cyclic modification/removal and profile/selectivity tradeoffs; historical product priority and performance claims not adopted
+- Rights: No third-party figures or operating procedures copied.
+
+<a id="asu-metro-001"></a>
+## ASU-METRO-001
+
+**NanoFab characterization**
+- Author / organization: Arizona State University Core Facilities
+- Publication date/version: Not stated
+- URL: [Original source](https://cores.research.asu.edu/semiconductor-device-processing/nanofab/capabilities/characterization/)
+- DOI: Not supplied
+- Access date: 2026-09-17
+- Type: Primary organization documentation
+- Locator: Characterization tables and Physical section
+- Supports / limitations: Optical film metrology and stylus step-height measurement; no facility availability or instrument performance inferred
+- Rights: No third-party figures or operating procedures copied.

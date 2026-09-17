@@ -1,6 +1,6 @@
 # Reference library
 
-Status: **Phase 1 reference content available; later coverage remains planned.**
+Status: **Phase 1 and Phase 2 reference content available; later coverage remains planned.**
 
 Module `M42` · Build phase 0 · [Topic inventory](../catalog/topic_inventory.md) · [Graph](../DEPENDENCIES.md)
 
@@ -33,3 +33,5 @@ Split the owned concepts into explainers, process articles, integration articles
 ## Research and economics routing
 
 Use the [source plan](../RESEARCH_STRATEGY.md) and [source policy](../SOURCE_POLICY.md). Keep cost models in [manufacturing economics](../36_economics/README.md) and value-capture analysis in [investment analysis](../37_investment_analysis/README.md). Rubin connections route through the [case-study plan](../38_case_studies/nvidia_rubin/README.md); do not infer a product implementation from this module's existence.
+
+[Phase 2 source locator index](phase2_source_index.json) · [Phase 2 audit](../AUDIT_PHASE2.md).

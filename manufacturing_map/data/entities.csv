@@ -70,3 +70,28 @@ FAIL-0002,failure_mode,Geometry outside specification,Measured wafer geometry is
 METRIC-0001,metric,Accepted wafer fraction,"Accepted wafers divided by inspected wafers for a stated lot, specification and inspection boundary; dimensionless. Does not predict finished-die yield.",M04,04_wafer_manufacturing/wafer_finishing_and_acceptance.md,reviewed,2026-09-16
 METRIC-0002,metric,Specific process energy,"Energy input in kWh divided by accepted silicon mass in kg for a stated process boundary and period; original accounting definition, no industrial benchmark.",M02,02_silicon_refining/metallurgical_silicon.md,reviewed,2026-09-16
 FAIL-0003,failure_mode,Electrical resistivity outside specification,Bulk resistivity falls outside a selected acceptance range when carrier population or mobility changes under otherwise stated measurement conditions; no numerical limit supplied.,M05,05_semiconductor_physics/doping_and_transport.md,reviewed,2026-09-16
+FAM-0100,process_family,Fab unit processes,"Repeated film formation, patterning, removal, property modification and measurement functions; not one serial recipe.",M08,08_fab_overview/fab_flow.md,reviewed,2026-09-17
+PROC-0101,operation,Resist patterning,Create a developed resist pattern for a subsequent compatible transfer operation.,M09,09_photolithography/lithography.md,reviewed,2026-09-17
+EQ-0101,equipment,Coat/develop track and exposure tool,"Prepare resist, expose an aligned image and develop a physical resist pattern.",M09,09_photolithography/lithography.md,reviewed,2026-09-17
+PROC-0102,operation,Film deposition,Add a film through a selected physical or chemical deposition mechanism.,M10,10_deposition/deposition.md,reviewed,2026-09-17
+EQ-0102,equipment,Deposition reactor category,Deliver film-forming species under controlled surface and chamber conditions; method-specific tools differ.,M10,10_deposition/deposition.md,reviewed,2026-09-17
+PROC-0103,operation,Pattern transfer etch,Remove selected exposed material while retaining required masking and underlying structures.,M11,11_etching/etching.md,reviewed,2026-09-17
+EQ-0103,equipment,Plasma etch chamber,"Supply reactive species and ion assistance, control wafer conditions and remove reaction products.",M11,11_etching/etching.md,reviewed,2026-09-17
+PROC-0104,operation,Implant and activation sequence,Deliver dopant ions and apply a separately qualified activation treatment.,M12,12_doping/doping.md,reviewed,2026-09-17
+EQ-0104,equipment,Ion implanter and anneal tools,Select and deliver ions; a separate thermal tool supplies the activation exposure.,M12,12_doping/doping.md,reviewed,2026-09-17
+PROC-0105,operation,Thermal oxidation,React oxidant with silicon to grow oxide while consuming underlying silicon.,M13,13_oxidation/oxidation.md,reviewed,2026-09-17
+EQ-0105,equipment,Oxidation reactor,"Control temperature, oxidant ambient and exposure time.",M13,13_oxidation/oxidation.md,reviewed,2026-09-17
+PROC-0106,operation,Resist strip and surface clean,Remove compatible masking/residual material and qualify the resulting surface for the next operation.,M14,14_cleaning/cleaning.md,reviewed,2026-09-17
+EQ-0106,equipment,Compatible strip and clean tools,"Provide material-specific residue removal, rinse and drying functions.",M14,14_cleaning/cleaning.md,reviewed,2026-09-17
+PROC-0107,operation,Chemical mechanical planarization,Remove overburden and reduce topography using coupled chemical and mechanical action.,M15,15_cmp/cmp.md,reviewed,2026-09-17
+EQ-0107,equipment,CMP and post-clean system,Control pad/slurry contact and wafer loading; clean and dry the resulting surface.,M15,15_cmp/cmp.md,reviewed,2026-09-17
+PROC-0108,operation,Metrology and inspection,Measure selected properties or inspect for defects under a defined sampling and decision plan.,M16,16_metrology_and_inspection/metrology.md,reviewed,2026-09-17
+EQ-0108,equipment,Optical/electron measurement tools,Obtain pattern or defect information with method-specific sensitivity and sampling.,M16,16_metrology_and_inspection/metrology.md,reviewed,2026-09-17
+MAT-0101,material,Thermal oxide on silicon,Illustrative planar silicon wafer with a thermally grown oxide.,M13,13_oxidation/oxidation.md,reviewed,2026-09-17
+MAT-0102,material,Resist-patterned oxide wafer,Illustrative developed resist openings above oxide on silicon.,M09,09_photolithography/lithography.md,reviewed,2026-09-17
+MAT-0103,material,Etched oxide with remaining resist,Illustrative selectively removed oxide regions; masking resist remains for strip.,M11,11_etching/etching.md,reviewed,2026-09-17
+MAT-0104,material,Patterned oxide after strip,Illustrative patterned oxide/silicon surface after a compatible resist strip; no device functionality asserted.,M14,14_cleaning/cleaning.md,reviewed,2026-09-17
+CHAR-0101,characteristic,Film thickness,Thickness measured with a specified method and interpretation model.,M16,16_metrology_and_inspection/metrology.md,reviewed,2026-09-17
+CHAR-0102,characteristic,Pattern placement,Relative pattern placement assessed by an appropriate overlay measurement.,M16,16_metrology_and_inspection/metrology.md,reviewed,2026-09-17
+FAIL-0101,failure_mode,Local stochastic pattern failure,Local missing or bridging patterns can escape an average dimensional metric.,M09,09_photolithography/lithography.md,reviewed,2026-09-17
+FAIL-0102,failure_mode,CMP dishing or erosion,Pattern-dependent excessive removal can change local surface geometry.,M15,15_cmp/cmp.md,reviewed,2026-09-17

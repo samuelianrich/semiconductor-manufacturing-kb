@@ -1,0 +1,299 @@
+[
+  {
+    "id": "ASML-LIGHT-001",
+    "title": "Light & lasers",
+    "author": "ASML",
+    "date": "Not stated",
+    "url": "https://www.asml.com/en/technology/lithography-principles/light-and-lasers",
+    "locator": "DUV and EUV light-source sections",
+    "scope": "Wavelengths and laser-produced tin plasma"
+  },
+  {
+    "id": "ASML-OPTICS-001",
+    "title": "Lenses & mirrors",
+    "author": "ASML",
+    "date": "Not stated",
+    "url": "https://www.asml.com/en/technology/lithography-principles/lenses-and-mirrors",
+    "locator": "DUV and EUV optics sections",
+    "scope": "Refractive versus reflective optical paths and numerical aperture"
+  },
+  {
+    "id": "ASML-RAYLEIGH-001",
+    "title": "Rayleigh criterion",
+    "author": "ASML",
+    "date": "Not stated",
+    "url": "https://www.asml.com/en/technology/lithography-principles/rayleigh-criterion",
+    "locator": "Rayleigh equation and variable definitions",
+    "scope": "Resolution scaling; no universal minimum feature promise"
+  },
+  {
+    "id": "ASML-METRO-001",
+    "title": "Measuring accuracy",
+    "author": "ASML",
+    "date": "Not stated",
+    "url": "https://www.asml.com/en/technology/lithography-principles/measuring-accuracy",
+    "locator": "Optical and electron-beam metrology sections",
+    "scope": "Overlay and optical/electron measurement roles"
+  },
+  {
+    "id": "ASML-PELLICLE-001",
+    "title": "The EUV pellicle: indistinguishable from magic",
+    "author": "Kate Brunton / ASML",
+    "date": "2022-09-14",
+    "url": "https://www.asml.com/en/company/stories/2022/the-euv-pellicle-indistinguishable-from-magic",
+    "locator": "Pellicle purpose and EUV transmission discussion",
+    "scope": "Particle interception away from the mask plane and transmission constraints"
+  },
+  {
+    "id": "ZEISS-EUV-001",
+    "title": "EUV-Lithographie",
+    "author": "ZEISS",
+    "date": "Not stated",
+    "url": "https://www.zeiss.de/semiconductor-manufacturing-technology/inspiring-technology/euv-lithographie.html",
+    "locator": "EUV optics and Bragg-reflection discussion",
+    "scope": "Vacuum and multilayer mirrors; German-language source; introductory fab sequence not adopted"
+  },
+  {
+    "id": "IMEC-STOCH-001",
+    "title": "EUV lithography: sailing along the stochastic cliffs",
+    "author": "imec",
+    "date": "2019-06-28",
+    "url": "https://www.imec-int.com/en/imec-magazine/imec-magazine-july-2019/euv-lithography-sailing-along-the-stochastic-cliffs",
+    "locator": "Stochastic failures and inspection discussion",
+    "scope": "Random local failures; historical research account, not a current defect-rate benchmark"
+  },
+  {
+    "id": "MACK-DOF-001",
+    "title": "Lecture 46: Lithography \u2014 Defocus and DOF",
+    "author": "Chris A. Mack",
+    "date": "2013",
+    "url": "https://www.lithoguru.com/scientist/CHE323/Lecture46.pdf",
+    "locator": "Page 2: depth of focus and paraxial approximation",
+    "scope": "Focus tolerance and approximate wavelength/aperture scaling"
+  },
+  {
+    "id": "MACK-CAR-001",
+    "title": "Lecture 51: Chemically Amplified Resists, part 1",
+    "author": "Chris A. Mack",
+    "date": "2013",
+    "url": "https://www.lithoguru.com/scientist/CHE323/Lecture51.pdf",
+    "locator": "Photoacid and post-exposure-bake slides",
+    "scope": "Chemically amplified resist mechanism; not all resist formulations"
+  },
+  {
+    "id": "MACK-QUALITY-001",
+    "title": "Lecture 56: Lithographic Quality",
+    "author": "Chris A. Mack",
+    "date": "2013",
+    "url": "https://www.lithoguru.com/scientist/CHE323/Lecture56.pdf",
+    "locator": "Pattern-transfer and resist-property slides",
+    "scope": "Image-to-etched-pattern distinction and resist requirements"
+  },
+  {
+    "id": "ASM-ALD-001",
+    "title": "Atomic layer deposition",
+    "author": "ASM International",
+    "date": "Not stated",
+    "url": "https://www.asm.com/our-technology-products/ald",
+    "locator": "ALD process and thermal/plasma discussion",
+    "scope": "Sequential surface reactions; ideal one-layer wording is not treated as a universal growth-per-cycle claim"
+  },
+  {
+    "id": "ASM-PECVD-001",
+    "title": "Plasma enhanced chemical vapor deposition",
+    "author": "ASM International",
+    "date": "Not stated",
+    "url": "https://www.asm.com/our-technology-products/pecvd",
+    "locator": "Technology overview",
+    "scope": "Plasma-assisted film formation at reduced substrate temperature"
+  },
+  {
+    "id": "ASM-FURNACE-001",
+    "title": "Vertical furnace",
+    "author": "ASM International",
+    "date": "Not stated",
+    "url": "https://www.asm.com/our-technology-products/vertical-furnace",
+    "locator": "Vertical furnace and LPCVD description",
+    "scope": "Batch thermal processing and reduced-pressure deposition"
+  },
+  {
+    "id": "ASM-EPI-001",
+    "title": "Epitaxy",
+    "author": "ASM International",
+    "date": "Not stated",
+    "url": "https://www.asm.com/our-technology-products/epitaxy",
+    "locator": "Technology overview and material discussion",
+    "scope": "Crystalline growth, Si/SiGe and doping; no perfect-selectivity guarantee"
+  },
+  {
+    "id": "LESKER-PVD-001",
+    "title": "What is sputtering? / Was ist Sputtern?",
+    "author": "Kurt J. Lesker Company",
+    "date": "Not stated",
+    "url": "https://de.lesker.com/newweb/faqs/question.cfm?id=163",
+    "locator": "Sputtering mechanism explanation",
+    "scope": "Ion bombardment ejects target material; no recipe values adopted"
+  },
+  {
+    "id": "LAM-ETCH-001",
+    "title": "Etch",
+    "author": "Lam Research",
+    "date": "Not stated",
+    "url": "https://www.lamresearch.com/products/our-processes/etch/",
+    "locator": "Etch process overview and process categories",
+    "scope": "Plasma/RIE and atomic-layer-etch categories; no customer or performance inference"
+  },
+  {
+    "id": "TUWIEN-BOSCH-001",
+    "title": "Section 6.4: Bosch Process",
+    "author": "TU Wien, Institute for Microelectronics",
+    "date": "Not stated",
+    "url": "https://www.iue.tuwien.ac.at/phd/ertl/node109.html",
+    "locator": "Section 6.4, process sequence and profile discussion",
+    "scope": "Alternating passivation and etching, directionality and scalloping"
+  },
+  {
+    "id": "MIT-IMPLANT-001",
+    "title": "Lecture 6: Diffusion and ion implantation",
+    "author": "MIT OpenCourseWare, 6.152J/3.155J",
+    "date": "2005-09-28",
+    "url": "https://ocw.mit.edu/courses/6-152j-micro-nano-processing-technology-fall-2005/fa6170fba10bd1341251791563a18fc2_lecture6.pdf",
+    "locator": "Opening diffusion slides and implantation equipment slides",
+    "scope": "Dose versus concentration, profiles and ion-beam functions"
+  },
+  {
+    "id": "NPTEL-CHANNEL-001",
+    "title": "Ion implantation: non-idealities",
+    "author": "NPTEL, course 103106075",
+    "date": "Not stated",
+    "url": "https://archive.nptel.ac.in/content/storage2/courses/103106075/Courses/7_4.html",
+    "locator": "Channeling discussion",
+    "scope": "Crystal-direction effects and mitigation tradeoffs"
+  },
+  {
+    "id": "UALBERTA-OXIDE-001",
+    "title": "Silicon thermal oxidation calculator",
+    "author": "University of Alberta nanoFAB",
+    "date": "Not stated",
+    "url": "https://toolbox.nanofab.ualberta.ca/sithox/index.php",
+    "locator": "Introduction and calculation details",
+    "scope": "Dry/wet oxidation, model limits and 0.4407 silicon-consumption ratio"
+  },
+  {
+    "id": "STANFORD-CLEAN-001",
+    "title": "Cleanliness groups for process flows",
+    "author": "Stanford Nanofabrication Facility",
+    "date": "Updated 2025-03-25",
+    "url": "https://snfguide.stanford.edu/guide/materials/cleanliness-groups-for-process-flows",
+    "locator": "Material history, tool eligibility and labware discussion",
+    "scope": "Contamination segregation principles; facility-specific categories are not universal"
+  },
+  {
+    "id": "UBC-CLEAN-001",
+    "title": "Si wafer cleaning",
+    "author": "Mark Bachman; adapted by M. Beaudoin / UBC",
+    "date": "2002; adapted 2014",
+    "url": "https://nanofab.ubc.ca/capabilities/processes/cleaning/si-wafer-cleaning/",
+    "locator": "Overview, solvent clean and oxide-removal discussion",
+    "scope": "Distinct residue-removal functions; operating instructions are not reproduced"
+  },
+  {
+    "id": "UBC-RCA-001",
+    "title": "RCA-2 Si wafer cleaning",
+    "author": "Mark Bachman; adapted by M. Beaudoin / UBC",
+    "date": "2002; adapted 2014",
+    "url": "https://nanofab.ubc.ca/capabilities/processes/cleaning/rca-2-si-wafer-cleaning/",
+    "locator": "Overview of RCA-1/RCA-2 purposes",
+    "scope": "Organic/metal contamination and chemical oxide; not a universal clean sequence"
+  },
+  {
+    "id": "NIST-CLEAN-001",
+    "title": "Nanofab tool: Reynolds RCA wet bench",
+    "author": "NIST",
+    "date": "2014-06-20; updated 2025-03-04",
+    "url": "https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-reynolds-rca-wet-bench",
+    "locator": "Tool description",
+    "scope": "Wet cleaning before high-temperature processing"
+  },
+  {
+    "id": "AMAT-CMP-001",
+    "title": "Chemical mechanical planarization",
+    "author": "Applied Materials",
+    "date": "Not stated",
+    "url": "https://www.appliedmaterials.com/il/en/semiconductor/products/shape/cmp.html",
+    "locator": "CMP mechanism and control description",
+    "scope": "Pad, slurry, applied force and endpoint functions; marketing absolutes excluded"
+  },
+  {
+    "id": "EBARA-CMP-001",
+    "title": "Nano-level polishing technique that supports semiconductors",
+    "author": "Ebara",
+    "date": "Not stated",
+    "url": "https://ebara.com/global-en/technology/information/polishing-technology-ex/",
+    "locator": "Polishing, cleaning and drying explanation",
+    "scope": "Integrated CMP tool functions; no universal roughness or market-share assertion"
+  },
+  {
+    "id": "MACK-CMP-001",
+    "title": "Lecture 30: Chemical Mechanical Polishing",
+    "author": "Chris A. Mack",
+    "date": "2013-10-07",
+    "url": "https://www.lithoguru.com/scientist/CHE323/Lecture30.pdf",
+    "locator": "Pages 1\u20132: topography, pressure/speed and dishing/erosion",
+    "scope": "Planarization need and defects; example production settings and third-party illustrations excluded"
+  },
+  {
+    "id": "NIST-SPC-001",
+    "title": "6.3.1 What are Control Charts?",
+    "author": "NIST/SEMATECH e-Handbook",
+    "date": "Not stated",
+    "url": "https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc31.htm",
+    "locator": "Control-chart purpose and limits",
+    "scope": "Statistical signals and three-sigma convention; assumptions must be checked"
+  },
+  {
+    "id": "NIST-CAPABILITY-001",
+    "title": "6.1.6 What is Process Capability?",
+    "author": "NIST/SEMATECH e-Handbook",
+    "date": "Not stated",
+    "url": "https://www.itl.nist.gov/div898/handbook/pmc/section1/pmc16.htm",
+    "locator": "Capability and process-stability discussion",
+    "scope": "Specifications differ from control limits"
+  },
+  {
+    "id": "NIST-ELLIPSO-001",
+    "title": "Thin Film Reference Materials Development: Final Report for CRADA CN-1364",
+    "author": "B. J. Belzer et al. / NIST SP 400-100",
+    "date": "1998-04-01",
+    "url": "https://www.nist.gov/publications/semiconductor-measurement-technology-thin-film-reference-materials-development-final",
+    "locator": "Publication metadata and abstract only",
+    "scope": "Model-dependent thin-film thickness interpretation; full report not reviewed"
+  },
+  {
+    "id": "NIST-XPS-001",
+    "title": "X-ray Photoelectron Spectroscopy",
+    "author": "NIST",
+    "date": "2018-02-15; updated 2025-09-15",
+    "url": "https://www.nist.gov/laboratories/tools-instruments/x-ray-photoelectron-spectroscopy",
+    "locator": "Instrument technique description",
+    "scope": "Surface composition and chemical-state characterization"
+  },
+  {
+    "id": "LAM-ALE-001",
+    "title": "New Atomic Layer Etching Capability Enables Continued Device Scaling",
+    "author": "Lam Blog Staff / Lam Research",
+    "date": "2016-09-06",
+    "url": "https://newsroom.lamresearch.com/New-Atomic-Layer-Etching-Capability-Enables-Continued-Device-Scaling",
+    "locator": "SAC Etch Challenges and ALE Solution",
+    "scope": "Cyclic modification/removal and profile/selectivity tradeoffs; historical product priority and performance claims not adopted"
+  },
+  {
+    "id": "ASU-METRO-001",
+    "title": "NanoFab characterization",
+    "author": "Arizona State University Core Facilities",
+    "date": "Not stated",
+    "url": "https://cores.research.asu.edu/semiconductor-device-processing/nanofab/capabilities/characterization/",
+    "locator": "Characterization tables and Physical section",
+    "scope": "Optical film metrology and stylus step-height measurement; no facility availability or instrument performance inferred"
+  }
+]

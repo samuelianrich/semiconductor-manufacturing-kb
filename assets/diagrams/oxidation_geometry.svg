@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Thermal oxidation consumes the silicon surface</title><desc id="desc">A 100 nm illustrative oxide extends 55.9 nm above the old surface and consumes 44.1 nm of silicon below it, using a planar density-based mass balance.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">Thermal oxidation consumes the silicon surface</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: UALBERTA-OXIDE-001; HU-FAB-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<rect x="120" y="350" width="400" height="220" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<text x="190" y="460" font-family="Arial, sans-serif" font-size="25" font-weight="400" fill="#17334a" text-anchor="start">Silicon before growth</text>
+<rect x="680" y="405" width="400" height="165" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="680" y="280" width="400" height="125" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<line x1="80" y1="350" x2="1140" y2="350" stroke="#17334a" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="135" y="320" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Original surface reference</text>
+<text x="755" y="335" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#17334a" text-anchor="start">Oxide</text>
+<text x="775" y="495" font-family="Arial, sans-serif" font-size="25" font-weight="400" fill="#17334a" text-anchor="start">Silicon</text>
+<line x1="600" y1="280" x2="600" y2="405" stroke="#17334a" stroke-width="2"/>
+<line x1="585" y1="280" x2="615" y2="280" stroke="#17334a" stroke-width="3"/>
+<line x1="585" y1="405" x2="615" y2="405" stroke="#17334a" stroke-width="3"/>
+<text x="555" y="240" font-family="Arial, sans-serif" font-size="23" font-weight="400" fill="#17334a" text-anchor="start">100 nm</text>
+<text x="720" y="205" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">55.9 nm above original surface</text>
+<line x1="850" y1="218" x2="850" y2="280" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="710" y="625" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">44.1 nm Si consumed below original surface</text>
+<line x1="705" y1="590" x2="705" y2="405" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/></svg>

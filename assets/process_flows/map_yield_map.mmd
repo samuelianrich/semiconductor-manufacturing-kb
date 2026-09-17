@@ -2,11 +2,16 @@ flowchart LR
   CHAR_0001["Carrier concentration"]
   CHAR_0002["Electrical resistivity"]
   CHAR_0003["Wafer geometry"]
+  CHAR_0101["Film thickness"]
+  CHAR_0102["Pattern placement"]
   FAIL_0001["Surface contamination outside specification"]
   FAIL_0002["Geometry outside specification"]
   FAIL_0003["Electrical resistivity outside specification"]
+  FAIL_0101["Local stochastic pattern failure"]
+  FAIL_0102["CMP dishing or erosion"]
   METRIC_0001["Accepted wafer fraction"]
   PROC_0009["Wafer cleaning and acceptance inspection"]
+  PROC_0108["Metrology and inspection"]
   CHAR_0001 -->|"affects"| CHAR_0002
   PROC_0009 -->|"measures"| CHAR_0003
   FAIL_0001 -->|"detected by"| PROC_0009
@@ -16,3 +21,7 @@ flowchart LR
   CHAR_0001 -->|"can cause"| FAIL_0003
   FAIL_0003 -->|"detected by"| PROC_0009
   FAIL_0003 -->|"affects"| METRIC_0001
+  PROC_0108 -->|"measures"| CHAR_0101
+  PROC_0108 -->|"measures"| CHAR_0102
+  FAIL_0101 -->|"detected by"| PROC_0108
+  FAIL_0102 -->|"detected by"| PROC_0108

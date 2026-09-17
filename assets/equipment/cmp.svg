@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">CMP: coupled chemistry, contact and local geometry</title><desc id="desc">A loaded wafer contacts a pad supplied with slurry. The right cross-section illustrates a recessed feature; text distinguishes this dishing from erosion of a patterned region.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">CMP: coupled chemistry, contact and local geometry</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: AMAT-CMP-001; EBARA-CMP-001; MACK-CMP-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<rect x="120" y="345" width="475" height="45" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="120" y="390" width="475" height="95" rx="0" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="240" y="458" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Moving platen / pad</text>
+<rect x="240" y="275" width="235" height="45" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="240" y="320" width="235" height="25" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<line x1="275" y1="190" x2="275" y2="268" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="345" y1="190" x2="345" y2="268" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="415" y1="190" x2="415" y2="268" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="245" y="170" font-family="Arial, sans-serif" font-size="24" font-weight="400" fill="#17334a" text-anchor="start">Applied load</text>
+<line x1="60" y1="285" x2="200" y2="345" stroke="#007c83" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="45" y="250" font-family="Arial, sans-serif" font-size="23" font-weight="400" fill="#17334a" text-anchor="start">Slurry</text>
+<line x1="155" y1="520" x2="550" y2="520" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="200" y="560" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Relative sliding motion</text>
+<text x="700" y="180" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17334a" text-anchor="start">Local geometry after polishing</text>
+<rect x="720" y="320" width="400" height="80" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="720" y="290" width="140" height="30" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="980" y="290" width="140" height="30" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="860" y="307" width="120" height="93" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<text x="790" y="450" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">Dishing: feature recessed</text>
+<line x1="920" y1="420" x2="920" y2="310" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="700" y="530" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">Erosion: patterned region lowered</text>
+<text x="700" y="570" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#17334a" text-anchor="start">Measure local height as well as</text>
+<text x="700" y="597" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#17334a" text-anchor="start">average remaining film.</text></svg>

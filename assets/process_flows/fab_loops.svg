@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Fab processing: repeated interfaces, not one fixed recipe</title><desc id="desc">Film formation, patterning, transfer and surface preparation repeat with measurement gates; deposition and implant are alternative functions.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">Fab processing: repeated interfaces, not one fixed recipe</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: HU-FAB-001; MACK-QUALITY-001; MACK-CMP-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<rect x="40" y="180" width="210" height="170" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="56" y="212" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Form a film</text>
+<text x="56" y="300" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Add or grow</text>
+<text x="56" y="325" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">material</text>
+<line x1="250" y1="260" x2="333" y2="260" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="345" y="180" width="210" height="170" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="361" y="212" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Pattern resist</text>
+<text x="361" y="300" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Define protected</text>
+<text x="361" y="325" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">regions</text>
+<line x1="555" y1="260" x2="638" y2="260" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="650" y="180" width="210" height="170" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="666" y="212" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Transfer pattern</text>
+<text x="666" y="300" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Etch or implant</text>
+<line x1="860" y1="260" x2="943" y2="260" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="955" y="180" width="210" height="170" rx="8" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<text x="971" y="212" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Prepare surface</text>
+<text x="971" y="300" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Strip / clean</text>
+<line x1="1060" y1="350" x2="1060" y2="435" stroke="#17334a" stroke-width="3"/>
+<line x1="1060" y1="435" x2="145" y2="435" stroke="#17334a" stroke-width="3"/>
+<line x1="145" y1="435" x2="145" y2="350" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="310" y="420" font-family="Arial, sans-serif" font-size="23" font-weight="400" fill="#17334a" text-anchor="start">Repeat only as required by the integration flow</text>
+<rect x="290" y="495" width="620" height="120" rx="8" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<text x="306" y="527" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Measure, inspect and decide</text>
+<text x="306" y="565" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Accept / investigate / qualified rework or disposition</text>
+<line x1="600" y1="435" x2="600" y2="490" stroke="#007c83" stroke-width="3" marker-end="url(#arrow)" stroke-dasharray="8 6"/>
+<text x="40" y="140" font-family="Arial, sans-serif" font-size="23" font-weight="400" fill="#17334a" text-anchor="start">Input: compatible wafer state → Output: qualified patterned state</text></svg>

@@ -1,6 +1,6 @@
 # Cleaning and contamination control
 
-Status: **Architecture only — technical articles have not been researched or drafted.**
+Status: **Phase 2 chapter available — author reviewed; independent specialist review pending.**
 
 Module `M14` · Build phase 2 · [Topic inventory](../catalog/topic_inventory.md) · [Graph](../DEPENDENCIES.md)
 
@@ -23,9 +23,9 @@ Module `M14` · Build phase 2 · [Topic inventory](../catalog/topic_inventory.md
 
 [Transistor process integration](../17_transistor_fabrication/README.md)
 
-## Planned article structure
+## Canonical article
 
-Split the owned concepts into explainers, process articles, integration articles and comparisons as described in the [taxonomy](../TAXONOMY.md). This index is a scope contract, not an article and not evidence for a technical claim. Every drafted article must add concept-level prerequisites, upstream/downstream links, equipment and material links, citations and review status.
+[Cleaning: controlling contamination without damaging the stack](cleaning.md) — mechanisms, materials/tool functions, variables, defects, measurement and scoped examples.
 
 ## Research and economics routing
 

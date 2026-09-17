@@ -14,6 +14,10 @@ flowchart LR
   MAT_0013["Quartz crucible"]
   MAT_0014["Hydrogen and hydrogen chloride process streams"]
   MAT_0015["Oriented silicon seed"]
+  MAT_0101["Thermal oxide on silicon"]
+  MAT_0102["Resist-patterned oxide wafer"]
+  MAT_0103["Etched oxide with remaining resist"]
+  MAT_0104["Patterned oxide after strip"]
   PROC_0001["Mine, beneficiate and qualify feedstock"]
   PROC_0002["Carbothermic silicon smelting"]
   PROC_0003["Chlorosilane synthesis"]
@@ -26,6 +30,10 @@ flowchart LR
   PROC_0010["Float-zone single-crystal growth"]
   PROC_0030["Logic fabrication, test and die preparation [planned]"]
   PROC_0031["DRAM wafer fabrication [planned]"]
+  PROC_0101["Resist patterning"]
+  PROC_0103["Pattern transfer etch"]
+  PROC_0105["Thermal oxidation"]
+  PROC_0106["Resist strip and surface clean"]
   SUP_0001["Elkem"]
   SUP_0002["Sibelco"]
   SUP_0003["WACKER"]
@@ -65,3 +73,11 @@ flowchart LR
   MAT_0006 -->|"supplied by"| SUP_0004
   MAT_0007 -->|"supplied by"| SUP_0006
   MAT_0010 -->|"supplied by"| SUP_0007
+  MAT_0010 -->|"consumes"| PROC_0105
+  PROC_0105 -->|"produces"| MAT_0101
+  MAT_0101 -->|"consumes"| PROC_0101
+  PROC_0101 -->|"produces"| MAT_0102
+  MAT_0102 -->|"consumes"| PROC_0103
+  PROC_0103 -->|"produces"| MAT_0103
+  MAT_0103 -->|"consumes"| PROC_0106
+  PROC_0106 -->|"produces"| MAT_0104

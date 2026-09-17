@@ -180,6 +180,7 @@ Evidence: [SUMCO-WAFER-001](../42_references/bibliography.md#sumco-wafer-001) �
 | EDGE-0027 | [PROC-0030](#proc-0030) → CONSUMES → [MAT-0010](#mat-0010) |  (planned) |
 | EDGE-0030 | [PROC-0031](#proc-0031) → CONSUMES → [MAT-0010](#mat-0010) |  (planned) |
 | EDGE-0075 | [MAT-0010](#mat-0010) → SUPPLIED_BY → [SUP-0007](#sup-0007) | SUMCO describes wafer forming through slicing, lapping, etching, polishing, cleaning and inspection. Role example only; see claim boundary. (reviewed) |
+| EDGE-0105 | [PROC-0105](#proc-0105) → CONSUMES → [MAT-0010](#mat-0010) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
 
 <a id="art-0030"></a>
 ## ART-0030 — Tested logic die
@@ -589,6 +590,7 @@ Notes: Detailed evidence is added during the owning phase.
 | EDGE-0027 | [PROC-0030](#proc-0030) → CONSUMES → [MAT-0010](#mat-0010) |  (planned) |
 | EDGE-0028 | [PROC-0030](#proc-0030) → PRODUCES → [ART-0030](#art-0030) |  (planned) |
 | EDGE-0029 | [ART-0042](#art-0042) → ENABLES → [PROC-0030](#proc-0030) | Information input, not material consumed. (planned) |
+| EDGE-0103 | [FAM-0100](#fam-0100) → ENABLES → [PROC-0030](#proc-0030) | Fab unit-process functions enable the fabrication portion of the planned aggregate logic path; test and die preparation remain later scope. (reviewed) |
 
 <a id="proc-0031"></a>
 ## PROC-0031 — DRAM wafer fabrication
@@ -609,6 +611,7 @@ Notes: Detailed evidence is added during the owning phase.
 |---|---|---|
 | EDGE-0030 | [PROC-0031](#proc-0031) → CONSUMES → [MAT-0010](#mat-0010) |  (planned) |
 | EDGE-0031 | [PROC-0031](#proc-0031) → PRODUCES → [ART-0031](#art-0031) |  (planned) |
+| EDGE-0104 | [FAM-0100](#fam-0100) → ENABLES → [PROC-0031](#proc-0031) | Fab unit-process functions are applicable to device fabrication; DRAM-specific integration remains planned. (reviewed) |
 
 <a id="proc-0032"></a>
 ## PROC-0032 — DRAM test, TSV and die preparation
@@ -1241,3 +1244,474 @@ Evidence: [HU-TRANSPORT-001](../42_references/bibliography.md#hu-transport-001) 
 | EDGE-0084 | [CHAR-0001](#char-0001) → CAN_CAUSE → [FAIL-0003](#fail-0003) | Only if the resulting resistivity crosses the specified bound; mobility and temperature must be accounted for. (reviewed) |
 | EDGE-0085 | [FAIL-0003](#fail-0003) → DETECTED_BY → [PROC-0009](#proc-0009) | Appropriate electrical metrology under specified conditions; not detection by surface laser scattering. (reviewed) |
 | EDGE-0086 | [FAIL-0003](#fail-0003) → AFFECTS → [METRIC-0001](#metric-0001) | A detected failure of the applicable electrical specification changes accepted-wafer count under the chosen policy. (reviewed) |
+
+<a id="fam-0100"></a>
+## FAM-0100 — Fab unit processes
+
+Type: `process_family` · Status: **reviewed** · [Article](../08_fab_overview/fab_flow.md)
+
+Repeated film formation, patterning, removal, property modification and measurement functions; not one serial recipe.
+
+Purpose: Repeated film formation, patterning, removal, property modification and measurement functions; not one serial recipe.
+
+Scope: General unit-process function; input/output states and compatible materials are specified in owner article. No complete logic/DRAM integration asserted.
+
+Mechanism: Repeated film formation, patterning, removal, property modification and measurement functions; not one serial recipe.
+
+Notes: Repeated operations require separately qualified instances in real flows. Numerical examples are hypothetical; no Rubin or supplier adoption asserted.
+
+Evidence: [HU-FAB-001](../42_references/bibliography.md#hu-fab-001) — Chapter 3, sections 3.1–3.7; representative process functions
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0087 | [PROC-0101](#proc-0101) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0089 | [PROC-0102](#proc-0102) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0091 | [PROC-0103](#proc-0103) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0093 | [PROC-0104](#proc-0104) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0095 | [PROC-0105](#proc-0105) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0097 | [PROC-0106](#proc-0106) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0099 | [PROC-0107](#proc-0107) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0101 | [PROC-0108](#proc-0108) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0103 | [FAM-0100](#fam-0100) → ENABLES → [PROC-0030](#proc-0030) | Fab unit-process functions enable the fabrication portion of the planned aggregate logic path; test and die preparation remain later scope. (reviewed) |
+| EDGE-0104 | [FAM-0100](#fam-0100) → ENABLES → [PROC-0031](#proc-0031) | Fab unit-process functions are applicable to device fabrication; DRAM-specific integration remains planned. (reviewed) |
+
+<a id="proc-0101"></a>
+## PROC-0101 — Resist patterning
+
+Type: `operation` · Status: **reviewed** · [Article](../09_photolithography/lithography.md)
+
+Create a developed resist pattern for a subsequent compatible transfer operation.
+
+Purpose: Create a developed resist pattern for a subsequent compatible transfer operation.
+
+Scope: General unit-process function; input/output states and compatible materials are specified in owner article. No complete logic/DRAM integration asserted.
+
+Mechanism: Create a developed resist pattern for a subsequent compatible transfer operation.
+
+Notes: Repeated operations require separately qualified instances in real flows. Numerical examples are hypothetical; no Rubin or supplier adoption asserted.
+
+Evidence: [MACK-QUALITY-001](../42_references/bibliography.md#mack-quality-001) — Pattern-transfer and resist-property slides
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0087 | [PROC-0101](#proc-0101) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0088 | [PROC-0101](#proc-0101) → USES_EQUIPMENT → [EQ-0101](#eq-0101) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0107 | [PROC-0101](#proc-0101) → CONSUMES → [MAT-0101](#mat-0101) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+| EDGE-0108 | [PROC-0101](#proc-0101) → PRODUCES → [MAT-0102](#mat-0102) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+| EDGE-0113 | [PROC-0105](#proc-0105) → PRECEDES → [PROC-0101](#proc-0101) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+| EDGE-0114 | [PROC-0101](#proc-0101) → PRECEDES → [PROC-0103](#proc-0103) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+
+<a id="eq-0101"></a>
+## EQ-0101 — Coat/develop track and exposure tool
+
+Type: `equipment` · Status: **reviewed** · [Article](../09_photolithography/lithography.md)
+
+Prepare resist, expose an aligned image and develop a physical resist pattern.
+
+Evidence: [MACK-QUALITY-001](../42_references/bibliography.md#mack-quality-001) — Pattern-transfer and resist-property slides
+
+- Physical function: Prepare resist, expose an aligned image and develop a physical resist pattern.
+- Control notes: Tool function only; process targets, models and supplier qualification not asserted.
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0088 | [PROC-0101](#proc-0101) → USES_EQUIPMENT → [EQ-0101](#eq-0101) | General functional relationship; application requires material and integration qualification. (reviewed) |
+
+<a id="proc-0102"></a>
+## PROC-0102 — Film deposition
+
+Type: `operation` · Status: **reviewed** · [Article](../10_deposition/deposition.md)
+
+Add a film through a selected physical or chemical deposition mechanism.
+
+Purpose: Add a film through a selected physical or chemical deposition mechanism.
+
+Scope: General unit-process function; input/output states and compatible materials are specified in owner article. No complete logic/DRAM integration asserted.
+
+Mechanism: Add a film through a selected physical or chemical deposition mechanism.
+
+Notes: Repeated operations require separately qualified instances in real flows. Numerical examples are hypothetical; no Rubin or supplier adoption asserted.
+
+Evidence: [ASM-ALD-001](../42_references/bibliography.md#asm-ald-001) — ALD process and thermal/plasma discussion
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0089 | [PROC-0102](#proc-0102) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0090 | [PROC-0102](#proc-0102) → USES_EQUIPMENT → [EQ-0102](#eq-0102) | General functional relationship; application requires material and integration qualification. (reviewed) |
+
+<a id="eq-0102"></a>
+## EQ-0102 — Deposition reactor category
+
+Type: `equipment` · Status: **reviewed** · [Article](../10_deposition/deposition.md)
+
+Deliver film-forming species under controlled surface and chamber conditions; method-specific tools differ.
+
+Evidence: [ASM-ALD-001](../42_references/bibliography.md#asm-ald-001) — ALD process and thermal/plasma discussion
+
+- Physical function: Deliver film-forming species under controlled surface and chamber conditions; method-specific tools differ.
+- Control notes: Tool function only; process targets, models and supplier qualification not asserted.
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0090 | [PROC-0102](#proc-0102) → USES_EQUIPMENT → [EQ-0102](#eq-0102) | General functional relationship; application requires material and integration qualification. (reviewed) |
+
+<a id="proc-0103"></a>
+## PROC-0103 — Pattern transfer etch
+
+Type: `operation` · Status: **reviewed** · [Article](../11_etching/etching.md)
+
+Remove selected exposed material while retaining required masking and underlying structures.
+
+Purpose: Remove selected exposed material while retaining required masking and underlying structures.
+
+Scope: General unit-process function; input/output states and compatible materials are specified in owner article. No complete logic/DRAM integration asserted.
+
+Mechanism: Remove selected exposed material while retaining required masking and underlying structures.
+
+Notes: Repeated operations require separately qualified instances in real flows. Numerical examples are hypothetical; no Rubin or supplier adoption asserted.
+
+Evidence: [LAM-ETCH-001](../42_references/bibliography.md#lam-etch-001) — Etch process overview and process categories
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0091 | [PROC-0103](#proc-0103) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0092 | [PROC-0103](#proc-0103) → USES_EQUIPMENT → [EQ-0103](#eq-0103) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0109 | [PROC-0103](#proc-0103) → CONSUMES → [MAT-0102](#mat-0102) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+| EDGE-0110 | [PROC-0103](#proc-0103) → PRODUCES → [MAT-0103](#mat-0103) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+| EDGE-0114 | [PROC-0101](#proc-0101) → PRECEDES → [PROC-0103](#proc-0103) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+| EDGE-0115 | [PROC-0103](#proc-0103) → PRECEDES → [PROC-0106](#proc-0106) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+
+<a id="eq-0103"></a>
+## EQ-0103 — Plasma etch chamber
+
+Type: `equipment` · Status: **reviewed** · [Article](../11_etching/etching.md)
+
+Supply reactive species and ion assistance, control wafer conditions and remove reaction products.
+
+Evidence: [LAM-ETCH-001](../42_references/bibliography.md#lam-etch-001) — Etch process overview and process categories
+
+- Physical function: Supply reactive species and ion assistance, control wafer conditions and remove reaction products.
+- Control notes: Tool function only; process targets, models and supplier qualification not asserted.
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0092 | [PROC-0103](#proc-0103) → USES_EQUIPMENT → [EQ-0103](#eq-0103) | General functional relationship; application requires material and integration qualification. (reviewed) |
+
+<a id="proc-0104"></a>
+## PROC-0104 — Implant and activation sequence
+
+Type: `operation` · Status: **reviewed** · [Article](../12_doping/doping.md)
+
+Deliver dopant ions and apply a separately qualified activation treatment.
+
+Purpose: Deliver dopant ions and apply a separately qualified activation treatment.
+
+Scope: General unit-process function; input/output states and compatible materials are specified in owner article. No complete logic/DRAM integration asserted.
+
+Mechanism: Deliver dopant ions and apply a separately qualified activation treatment.
+
+Notes: Repeated operations require separately qualified instances in real flows. Numerical examples are hypothetical; no Rubin or supplier adoption asserted.
+
+Evidence: [MIT-IMPLANT-001](../42_references/bibliography.md#mit-implant-001) — Opening diffusion slides and implantation equipment slides
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0093 | [PROC-0104](#proc-0104) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0094 | [PROC-0104](#proc-0104) → USES_EQUIPMENT → [EQ-0104](#eq-0104) | General functional relationship; application requires material and integration qualification. (reviewed) |
+
+<a id="eq-0104"></a>
+## EQ-0104 — Ion implanter and anneal tools
+
+Type: `equipment` · Status: **reviewed** · [Article](../12_doping/doping.md)
+
+Select and deliver ions; a separate thermal tool supplies the activation exposure.
+
+Evidence: [MIT-IMPLANT-001](../42_references/bibliography.md#mit-implant-001) — Opening diffusion slides and implantation equipment slides
+
+- Physical function: Select and deliver ions; a separate thermal tool supplies the activation exposure.
+- Control notes: Tool function only; process targets, models and supplier qualification not asserted.
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0094 | [PROC-0104](#proc-0104) → USES_EQUIPMENT → [EQ-0104](#eq-0104) | General functional relationship; application requires material and integration qualification. (reviewed) |
+
+<a id="proc-0105"></a>
+## PROC-0105 — Thermal oxidation
+
+Type: `operation` · Status: **reviewed** · [Article](../13_oxidation/oxidation.md)
+
+React oxidant with silicon to grow oxide while consuming underlying silicon.
+
+Purpose: React oxidant with silicon to grow oxide while consuming underlying silicon.
+
+Scope: General unit-process function; input/output states and compatible materials are specified in owner article. No complete logic/DRAM integration asserted.
+
+Mechanism: React oxidant with silicon to grow oxide while consuming underlying silicon.
+
+Notes: Repeated operations require separately qualified instances in real flows. Numerical examples are hypothetical; no Rubin or supplier adoption asserted.
+
+Evidence: [UALBERTA-OXIDE-001](../42_references/bibliography.md#ualberta-oxide-001) — Introduction and calculation details
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0095 | [PROC-0105](#proc-0105) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0096 | [PROC-0105](#proc-0105) → USES_EQUIPMENT → [EQ-0105](#eq-0105) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0105 | [PROC-0105](#proc-0105) → CONSUMES → [MAT-0010](#mat-0010) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+| EDGE-0106 | [PROC-0105](#proc-0105) → PRODUCES → [MAT-0101](#mat-0101) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+| EDGE-0113 | [PROC-0105](#proc-0105) → PRECEDES → [PROC-0101](#proc-0101) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+
+<a id="eq-0105"></a>
+## EQ-0105 — Oxidation reactor
+
+Type: `equipment` · Status: **reviewed** · [Article](../13_oxidation/oxidation.md)
+
+Control temperature, oxidant ambient and exposure time.
+
+Evidence: [UALBERTA-OXIDE-001](../42_references/bibliography.md#ualberta-oxide-001) — Introduction and calculation details
+
+- Physical function: Control temperature, oxidant ambient and exposure time.
+- Control notes: Tool function only; process targets, models and supplier qualification not asserted.
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0096 | [PROC-0105](#proc-0105) → USES_EQUIPMENT → [EQ-0105](#eq-0105) | General functional relationship; application requires material and integration qualification. (reviewed) |
+
+<a id="proc-0106"></a>
+## PROC-0106 — Resist strip and surface clean
+
+Type: `operation` · Status: **reviewed** · [Article](../14_cleaning/cleaning.md)
+
+Remove compatible masking/residual material and qualify the resulting surface for the next operation.
+
+Purpose: Remove compatible masking/residual material and qualify the resulting surface for the next operation.
+
+Scope: General unit-process function; input/output states and compatible materials are specified in owner article. No complete logic/DRAM integration asserted.
+
+Mechanism: Remove compatible masking/residual material and qualify the resulting surface for the next operation.
+
+Notes: Repeated operations require separately qualified instances in real flows. Numerical examples are hypothetical; no Rubin or supplier adoption asserted.
+
+Evidence: [UBC-CLEAN-001](../42_references/bibliography.md#ubc-clean-001) — Overview, solvent clean and oxide-removal discussion
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0097 | [PROC-0106](#proc-0106) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0098 | [PROC-0106](#proc-0106) → USES_EQUIPMENT → [EQ-0106](#eq-0106) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0111 | [PROC-0106](#proc-0106) → CONSUMES → [MAT-0103](#mat-0103) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+| EDGE-0112 | [PROC-0106](#proc-0106) → PRODUCES → [MAT-0104](#mat-0104) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+| EDGE-0115 | [PROC-0103](#proc-0103) → PRECEDES → [PROC-0106](#proc-0106) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+
+<a id="eq-0106"></a>
+## EQ-0106 — Compatible strip and clean tools
+
+Type: `equipment` · Status: **reviewed** · [Article](../14_cleaning/cleaning.md)
+
+Provide material-specific residue removal, rinse and drying functions.
+
+Evidence: [UBC-CLEAN-001](../42_references/bibliography.md#ubc-clean-001) — Overview, solvent clean and oxide-removal discussion
+
+- Physical function: Provide material-specific residue removal, rinse and drying functions.
+- Control notes: Tool function only; process targets, models and supplier qualification not asserted.
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0098 | [PROC-0106](#proc-0106) → USES_EQUIPMENT → [EQ-0106](#eq-0106) | General functional relationship; application requires material and integration qualification. (reviewed) |
+
+<a id="proc-0107"></a>
+## PROC-0107 — Chemical mechanical planarization
+
+Type: `operation` · Status: **reviewed** · [Article](../15_cmp/cmp.md)
+
+Remove overburden and reduce topography using coupled chemical and mechanical action.
+
+Purpose: Remove overburden and reduce topography using coupled chemical and mechanical action.
+
+Scope: General unit-process function; input/output states and compatible materials are specified in owner article. No complete logic/DRAM integration asserted.
+
+Mechanism: Remove overburden and reduce topography using coupled chemical and mechanical action.
+
+Notes: Repeated operations require separately qualified instances in real flows. Numerical examples are hypothetical; no Rubin or supplier adoption asserted.
+
+Evidence: [AMAT-CMP-001](../42_references/bibliography.md#amat-cmp-001) — CMP mechanism and control description
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0099 | [PROC-0107](#proc-0107) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0100 | [PROC-0107](#proc-0107) → USES_EQUIPMENT → [EQ-0107](#eq-0107) | General functional relationship; application requires material and integration qualification. (reviewed) |
+
+<a id="eq-0107"></a>
+## EQ-0107 — CMP and post-clean system
+
+Type: `equipment` · Status: **reviewed** · [Article](../15_cmp/cmp.md)
+
+Control pad/slurry contact and wafer loading; clean and dry the resulting surface.
+
+Evidence: [AMAT-CMP-001](../42_references/bibliography.md#amat-cmp-001) — CMP mechanism and control description
+
+- Physical function: Control pad/slurry contact and wafer loading; clean and dry the resulting surface.
+- Control notes: Tool function only; process targets, models and supplier qualification not asserted.
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0100 | [PROC-0107](#proc-0107) → USES_EQUIPMENT → [EQ-0107](#eq-0107) | General functional relationship; application requires material and integration qualification. (reviewed) |
+
+<a id="proc-0108"></a>
+## PROC-0108 — Metrology and inspection
+
+Type: `operation` · Status: **reviewed** · [Article](../16_metrology_and_inspection/metrology.md)
+
+Measure selected properties or inspect for defects under a defined sampling and decision plan.
+
+Purpose: Measure selected properties or inspect for defects under a defined sampling and decision plan.
+
+Scope: General unit-process function; input/output states and compatible materials are specified in owner article. No complete logic/DRAM integration asserted.
+
+Mechanism: Measure selected properties or inspect for defects under a defined sampling and decision plan.
+
+Notes: Repeated operations require separately qualified instances in real flows. Numerical examples are hypothetical; no Rubin or supplier adoption asserted.
+
+Evidence: [ASML-METRO-001](../42_references/bibliography.md#asml-metro-001) — Optical and electron-beam metrology sections
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0101 | [PROC-0108](#proc-0108) → PART_OF → [FAM-0100](#fam-0100) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0102 | [PROC-0108](#proc-0108) → USES_EQUIPMENT → [EQ-0108](#eq-0108) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0116 | [PROC-0108](#proc-0108) → MEASURES → [CHAR-0101](#char-0101) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0117 | [PROC-0108](#proc-0108) → MEASURES → [CHAR-0102](#char-0102) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0118 | [FAIL-0101](#fail-0101) → DETECTED_BY → [PROC-0108](#proc-0108) | Requires a method and sampling plan sensitive to the relevant local geometry; detection is not guaranteed. (reviewed) |
+| EDGE-0119 | [FAIL-0102](#fail-0102) → DETECTED_BY → [PROC-0108](#proc-0108) | Requires a method and sampling plan sensitive to the relevant local geometry; detection is not guaranteed. (reviewed) |
+
+<a id="eq-0108"></a>
+## EQ-0108 — Optical/electron measurement tools
+
+Type: `equipment` · Status: **reviewed** · [Article](../16_metrology_and_inspection/metrology.md)
+
+Obtain pattern or defect information with method-specific sensitivity and sampling.
+
+Evidence: [ASML-METRO-001](../42_references/bibliography.md#asml-metro-001) — Optical and electron-beam metrology sections
+
+- Physical function: Obtain pattern or defect information with method-specific sensitivity and sampling.
+- Control notes: Tool function only; process targets, models and supplier qualification not asserted.
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0102 | [PROC-0108](#proc-0108) → USES_EQUIPMENT → [EQ-0108](#eq-0108) | General functional relationship; application requires material and integration qualification. (reviewed) |
+
+<a id="mat-0101"></a>
+## MAT-0101 — Thermal oxide on silicon
+
+Type: `material` · Status: **reviewed** · [Article](../13_oxidation/oxidation.md)
+
+Illustrative planar silicon wafer with a thermally grown oxide.
+
+Evidence: [UALBERTA-OXIDE-001](../42_references/bibliography.md#ualberta-oxide-001) — Introduction and calculation details
+
+- Composition or state: Illustrative planar silicon wafer with a thermally grown oxide.
+- Qualification notes: Teaching-route state; compatible materials and thicknesses are intentionally unspecified.
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0106 | [PROC-0105](#proc-0105) → PRODUCES → [MAT-0101](#mat-0101) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+| EDGE-0107 | [PROC-0101](#proc-0101) → CONSUMES → [MAT-0101](#mat-0101) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+
+<a id="mat-0102"></a>
+## MAT-0102 — Resist-patterned oxide wafer
+
+Type: `material` · Status: **reviewed** · [Article](../09_photolithography/lithography.md)
+
+Illustrative developed resist openings above oxide on silicon.
+
+Evidence: [MACK-QUALITY-001](../42_references/bibliography.md#mack-quality-001) — Pattern-transfer and resist-property slides
+
+- Composition or state: Illustrative developed resist openings above oxide on silicon.
+- Qualification notes: Teaching-route state; compatible materials and thicknesses are intentionally unspecified.
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0108 | [PROC-0101](#proc-0101) → PRODUCES → [MAT-0102](#mat-0102) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+| EDGE-0109 | [PROC-0103](#proc-0103) → CONSUMES → [MAT-0102](#mat-0102) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+
+<a id="mat-0103"></a>
+## MAT-0103 — Etched oxide with remaining resist
+
+Type: `material` · Status: **reviewed** · [Article](../11_etching/etching.md)
+
+Illustrative selectively removed oxide regions; masking resist remains for strip.
+
+Evidence: [LAM-ETCH-001](../42_references/bibliography.md#lam-etch-001) — Etch process overview and process categories
+
+- Composition or state: Illustrative selectively removed oxide regions; masking resist remains for strip.
+- Qualification notes: Teaching-route state; compatible materials and thicknesses are intentionally unspecified.
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0110 | [PROC-0103](#proc-0103) → PRODUCES → [MAT-0103](#mat-0103) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+| EDGE-0111 | [PROC-0106](#proc-0106) → CONSUMES → [MAT-0103](#mat-0103) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+
+<a id="mat-0104"></a>
+## MAT-0104 — Patterned oxide after strip
+
+Type: `material` · Status: **reviewed** · [Article](../14_cleaning/cleaning.md)
+
+Illustrative patterned oxide/silicon surface after a compatible resist strip; no device functionality asserted.
+
+Evidence: [UBC-CLEAN-001](../42_references/bibliography.md#ubc-clean-001) — Overview, solvent clean and oxide-removal discussion
+
+- Composition or state: Illustrative patterned oxide/silicon surface after a compatible resist strip; no device functionality asserted.
+- Qualification notes: Teaching-route state; compatible materials and thicknesses are intentionally unspecified.
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0112 | [PROC-0106](#proc-0106) → PRODUCES → [MAT-0104](#mat-0104) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+
+<a id="char-0101"></a>
+## CHAR-0101 — Film thickness
+
+Type: `characteristic` · Status: **reviewed** · [Article](../16_metrology_and_inspection/metrology.md)
+
+Thickness measured with a specified method and interpretation model.
+
+Evidence: [NIST-ELLIPSO-001](../42_references/bibliography.md#nist-ellipso-001) — Publication metadata and abstract only
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0116 | [PROC-0108](#proc-0108) → MEASURES → [CHAR-0101](#char-0101) | General functional relationship; application requires material and integration qualification. (reviewed) |
+
+<a id="char-0102"></a>
+## CHAR-0102 — Pattern placement
+
+Type: `characteristic` · Status: **reviewed** · [Article](../16_metrology_and_inspection/metrology.md)
+
+Relative pattern placement assessed by an appropriate overlay measurement.
+
+Evidence: [ASML-METRO-001](../42_references/bibliography.md#asml-metro-001) — Optical and electron-beam metrology sections
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0117 | [PROC-0108](#proc-0108) → MEASURES → [CHAR-0102](#char-0102) | General functional relationship; application requires material and integration qualification. (reviewed) |
+
+<a id="fail-0101"></a>
+## FAIL-0101 — Local stochastic pattern failure
+
+Type: `failure_mode` · Status: **reviewed** · [Article](../09_photolithography/lithography.md)
+
+Local missing or bridging patterns can escape an average dimensional metric.
+
+Evidence: [IMEC-STOCH-001](../42_references/bibliography.md#imec-stoch-001) — Stochastic failures and inspection discussion
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0118 | [FAIL-0101](#fail-0101) → DETECTED_BY → [PROC-0108](#proc-0108) | Requires a method and sampling plan sensitive to the relevant local geometry; detection is not guaranteed. (reviewed) |
+
+<a id="fail-0102"></a>
+## FAIL-0102 — CMP dishing or erosion
+
+Type: `failure_mode` · Status: **reviewed** · [Article](../15_cmp/cmp.md)
+
+Pattern-dependent excessive removal can change local surface geometry.
+
+Evidence: [MACK-CMP-001](../42_references/bibliography.md#mack-cmp-001) — Pages 1–2: topography, pressure/speed and dishing/erosion
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0119 | [FAIL-0102](#fail-0102) → DETECTED_BY → [PROC-0108](#proc-0108) | Requires a method and sampling plan sensitive to the relevant local geometry; detection is not guaranteed. (reviewed) |

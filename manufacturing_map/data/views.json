@@ -95,5 +95,12 @@
       "SUPPLIED_BY"
     ],
     "caption": "Enabling inputs and evidenced supplier roles are distinct from physical conversion. Later-phase scopes remain planned."
+  },
+  "oxide_pattern_transfer": {
+    "title": "Teaching oxide pattern transfer",
+    "routes": [
+      "ROUTE-OXIDE-TEACHING"
+    ],
+    "caption": "Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied."
   }
 }
