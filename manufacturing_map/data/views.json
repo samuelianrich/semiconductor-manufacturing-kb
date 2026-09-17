@@ -1,0 +1,99 @@
+{
+  "master_process_map": {
+    "title": "Master manufacturing process map",
+    "keep": [
+      "MAT-0001",
+      "MAT-0003",
+      "MAT-0006",
+      "MAT-0007",
+      "MAT-0010",
+      "ART-0030",
+      "ART-0033",
+      "ART-0036",
+      "ART-0038",
+      "ART-0040"
+    ],
+    "caption": "Projected material/assembly paths; intermediate operations are collapsed. Logic and memory are parallel branches. Detailed suppliers, recipes and Rubin applicability are not implied."
+  },
+  "wafer_path": {
+    "title": "Raw materials to accepted wafer",
+    "routes": [
+      "ROUTE-WAFER"
+    ],
+    "caption": "Representative learning route; arrow labels distinguish operation inputs and outputs from operation ordering. Detailed route variants are introduced with research."
+  },
+  "logic_path": {
+    "title": "Logic manufacturing path",
+    "routes": [
+      "ROUTE-LOGIC"
+    ],
+    "caption": "Later-phase scope only. Design is an enabling input; detailed FEOL/MOL/BEOL and test steps remain to be researched."
+  },
+  "hbm_path": {
+    "title": "HBM manufacturing path",
+    "routes": [
+      "ROUTE-HBM"
+    ],
+    "caption": "Later-phase scope only. Test/TSV/thinning are aggregated here; no universal sequence or proprietary recipe is asserted."
+  },
+  "packaging_path": {
+    "title": "Packaging convergence",
+    "routes": [
+      "ROUTE-PACKAGE"
+    ],
+    "caption": "Representative interposer-based assembly scope; tested logic, memory, substrate and interconnect structures converge. Other packaging architectures will have separate routes."
+  },
+  "system_path": {
+    "title": "Package to rack integration",
+    "routes": [
+      "ROUTE-SYSTEM"
+    ],
+    "caption": "Later-phase scope only. Board fabrication supplies module assembly; power and cooling are enabling integration inputs."
+  },
+  "materials_map": {
+    "title": "Materials and their entry points",
+    "types": [
+      "material"
+    ],
+    "caption": "Materials and connected operations. Read evidence and route conditions before interpreting the diagram as a production sequence."
+  },
+  "equipment_map": {
+    "title": "Equipment and process roles",
+    "types": [
+      "equipment"
+    ],
+    "caption": "Machines connect to the operations they perform. Supplier lists are representative only where evidence is recorded."
+  },
+  "supplier_map": {
+    "title": "Supplier relationships",
+    "types": [
+      "supplier"
+    ],
+    "caption": "Company roles require evidence and claim IDs; they do not establish market share, exclusivity or Rubin design wins."
+  },
+  "yield_map": {
+    "title": "Failure, detection and yield relationships",
+    "types": [
+      "failure_mode",
+      "characteristic",
+      "test_state"
+    ],
+    "caption": "Failure modes, detection operations and measured characteristics; arrows do not represent an inevitable cascade."
+  },
+  "economics_map": {
+    "title": "Manufacturing economics relationships",
+    "types": [
+      "metric"
+    ],
+    "caption": "Only evidenced drivers are populated before Phase 10. Quantitative models and industry interpretation remain separate."
+  },
+  "enabling_inputs": {
+    "title": "Enabling inputs and services",
+    "relationships": [
+      "ENABLES",
+      "USES_EQUIPMENT",
+      "SUPPLIED_BY"
+    ],
+    "caption": "Enabling inputs and evidenced supplier roles are distinct from physical conversion. Later-phase scopes remain planned."
+  }
+}

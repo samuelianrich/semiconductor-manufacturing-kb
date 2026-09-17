@@ -1,0 +1,21 @@
+entity_id,purpose,scope,mechanism_summary,notes
+PROC-0001,"Mine, beneficiate and qualify feedstock",Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0002,Carbothermic silicon smelting,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0003,Chlorosilane synthesis,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0004,Chemical purification by distillation,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0005,Polysilicon deposition,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0006,Single-crystal growth,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0007,Ingot shaping and wafer slicing,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0008,Wafer surface finishing,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0009,Wafer cleaning and acceptance inspection,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0030,"Logic fabrication, test and die preparation",Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0031,DRAM wafer fabrication,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0032,"DRAM test, TSV and die preparation",Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0033,HBM stack assembly and test,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0034,Substrate fabrication,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0035,Interposer or bridge fabrication,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0036,Package assembly and test,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0037,PCB fabrication,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0038,Module assembly and test,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0039,Server integration,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.
+PROC-0040,Rack integration,Planned general manufacturing scope; not a qualified production recipe,,Detailed evidence is added during the owning phase.

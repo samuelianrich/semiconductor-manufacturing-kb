@@ -1,0 +1,22 @@
+flowchart LR
+  ART_0036["Tested accelerator package [planned]"]
+  ART_0037["Fabricated PCB [planned]"]
+  ART_0038["Tested accelerator module [planned]"]
+  ART_0039["Integrated server [planned]"]
+  ART_0040["Integrated rack system [planned]"]
+  ART_0041["Power and cooling assemblies [planned]"]
+  PROC_0037["PCB fabrication [planned]"]
+  PROC_0038["Module assembly and test [planned]"]
+  PROC_0039["Server integration [planned]"]
+  PROC_0040["Rack integration [planned]"]
+  PROC_0037 -->|"produces"| ART_0037
+  ART_0036 -->|"consumes"| PROC_0038
+  ART_0037 -->|"consumes"| PROC_0038
+  PROC_0038 -->|"produces"| ART_0038
+  ART_0038 -->|"consumes"| PROC_0039
+  PROC_0039 -->|"produces"| ART_0039
+  ART_0039 -->|"consumes"| PROC_0040
+  PROC_0040 -->|"produces"| ART_0040
+  ART_0041 -->|"enables"| PROC_0038
+  ART_0041 -->|"enables"| PROC_0039
+  ART_0041 -->|"enables"| PROC_0040

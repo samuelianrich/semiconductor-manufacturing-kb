@@ -37,3 +37,7 @@ Run `python3 scripts/validate.py`. It checks required files, module paths, prere
 Use one coherent scope per commit: architecture/policy, an article and its assets, or a citation correction. Run checks before committing; inspect the staged diff. Use descriptive messages such as `Add Czochralski growth mechanism and process diagram`. Do not commit secrets, restricted PDKs, copyrighted PDFs without rights, build caches or unrelated files. A populated article should not be committed as reviewed until human checks pass.
 
 For external collaboration, use a branch and pull request with problem, resulting content and validation. Preserve source IDs and file locations or provide link migrations. Record meaningful corrections in the maintenance log or commit message.
+
+## Position in the manufacturing map
+
+Record relevant entity IDs and link to the [manufacturing map](manufacturing_map/README.md). Update changed processes, materials, equipment, supplier evidence and affected views in the same commit, or record why no map change is needed. Concepts can link to existing nodes without inventing operations. Run the generator and check mode; do not edit generated blocks by hand.

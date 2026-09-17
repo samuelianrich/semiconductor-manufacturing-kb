@@ -92,3 +92,7 @@ Scope: [reader outcome and exclusions]
 ## Review record
 
 [Date, reviewer or self-review designation, source checks, diagram/math checks, unresolved issues. Automated checks are not technical review.]
+
+## Position in the manufacturing map
+
+Record relevant entity IDs and link to the [manufacturing map](manufacturing_map/README.md). Update changed processes, materials, equipment, supplier evidence and affected views in the same commit, or record why no map change is needed. Concepts can link to existing nodes without inventing operations. Run the generator and check mode; do not edit generated blocks by hand.

@@ -1,0 +1,8 @@
+flowchart LR
+  ART_0030["Tested logic die [planned]"]
+  ART_0042["Design and mask information [planned]"]
+  MAT_0010["Accepted starting wafer [planned]"]
+  PROC_0030["Logic fabrication, test and die preparation [planned]"]
+  MAT_0010 -->|"consumes"| PROC_0030
+  PROC_0030 -->|"produces"| ART_0030
+  ART_0042 -->|"enables"| PROC_0030

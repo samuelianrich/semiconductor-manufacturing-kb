@@ -163,59 +163,53 @@ flowchart TD
 
 ## Physical chain and convergence
 
+<!-- BEGIN OVERVIEW -->
 ```mermaid
 flowchart LR
-  q[Quartz + carbon] --> mg[Metallurgical silicon]
-  mg --> poly[Electronic-grade polysilicon]
-  poly --> boule[Crystal ingot]
-  boule --> wafer[Finished wafers]
-  wafer --> lf[Logic FEOL / MOL / BEOL]
-  wafer --> mf[DRAM wafer process]
-  lf --> lt[Wafer probe and die prep]
-  mf --> mt[Memory test / TSV / thinning]
-  mt --> hs[Stack assembly and test]
-  lt --> ap[Package integration]
-  hs --> ap
-  inter[Interposer or bridge fabrication] --> ap
-  sub[Substrate fabrication] --> ap
-  ap --> pt[Package test and qualification]
-  pt --> mod[Board/module assembly and test]
-  pcb[PCB fabrication + board components] --> mod
-  mod --> sys[Server integration and test]
-  net[Networking + power + cooling assemblies] --> sys
-  sys --> rack[Rack integration and acceptance]
-
+  MAT_0001["Quartz-bearing feedstock [planned]"]
+  MAT_0003["Metallurgical-grade silicon [planned]"]
+  MAT_0006["Electronic-grade polysilicon [planned]"]
+  MAT_0007["Single-crystal silicon ingot [planned]"]
+  MAT_0010["Accepted starting wafer [planned]"]
+  ART_0030["Tested logic die [planned]"]
+  ART_0033["Tested HBM stack [planned]"]
+  ART_0036["Tested accelerator package [planned]"]
+  ART_0038["Tested accelerator module [planned]"]
+  ART_0040["Integrated rack system [planned]"]
+  ART_0030 -->|"collapsed path"| ART_0036
+  ART_0033 -->|"collapsed path"| ART_0036
+  ART_0036 -->|"collapsed path"| ART_0038
+  ART_0038 -->|"collapsed path"| ART_0040
+  MAT_0001 -->|"collapsed path"| MAT_0003
+  MAT_0003 -->|"collapsed path"| MAT_0006
+  MAT_0006 -->|"collapsed path"| MAT_0007
+  MAT_0007 -->|"collapsed path"| MAT_0010
+  MAT_0010 -->|"collapsed path"| ART_0030
+  MAT_0010 -->|"collapsed path"| ART_0033
 ```
+<!-- END OVERVIEW -->
 
-*Figure P0-03 — Material-to-system chain. Original scope schematic; not a qualified process recipe. TSV/test/thinning order is architecture-dependent and will be researched in the memory track. Source: project specification; CC BY 4.0. [Editable source](assets/process_flows/physical_chain.mmd).*
+*Figure P0-03 — Material-to-system chain. Original scope schematic; not a qualified process recipe. TSV/test/thinning order is architecture-dependent and will be researched in the memory track. Source: generated manufacturing-map graph, with status/evidence in the [map](manufacturing_map/README.md); CC BY 4.0. [Editable source](assets/process_flows/physical_chain.mmd).*
 
 ## Enabling ecosystem
 
+<!-- BEGIN ENABLING -->
 ```mermaid
-flowchart TD
-  raw[Raw-material suppliers] --> em[Electronic-material suppliers]
-  em --> waf[Wafer suppliers]
-  waf --> foundry[Logic foundries]
-  waf --> mem[Memory manufacturers]
-  eq[Equipment manufacturers] -. tools and service .-> foundry
-  eq -. tools and service .-> mem
-  eq -. assembly and test tools .-> pack[Foundry packaging / OSAT]
-  eda[EDA and IP providers] -. design enablement .-> chip[Chip designers]
-  chip -. design and masks .-> foundry
-  em -. gases / chemicals / films .-> foundry
-  em -. packaging materials .-> pack
-  foundry --> pack
-  mem --> pack
-  subs[Substrate manufacturers] --> pack
-  testing[Test equipment and test services] -. validation .-> pack
-  pack --> board[Board manufacturers]
-  board --> vendor[Accelerator vendors]
-  vendor --> server[Server manufacturers]
-  server --> dc[Datacenter integration]
-
+flowchart LR
+  ART_0041["Power and cooling assemblies [planned]"]
+  ART_0042["Design and mask information [planned]"]
+  PROC_0030["Logic fabrication, test and die preparation [planned]"]
+  PROC_0038["Module assembly and test [planned]"]
+  PROC_0039["Server integration [planned]"]
+  PROC_0040["Rack integration [planned]"]
+  ART_0042 -->|"enables"| PROC_0030
+  ART_0041 -->|"enables"| PROC_0038
+  ART_0041 -->|"enables"| PROC_0039
+  ART_0041 -->|"enables"| PROC_0040
 ```
+<!-- END ENABLING -->
 
-*Figure P0-04 — Roles and enabling relationships. Original architecture schematic; no company or market-share assertions. Source: project specification; CC BY 4.0. [Editable source](assets/supply_chain_maps/enabling_inputs.mmd).*
+*Figure P0-04 — Roles and enabling relationships. Original architecture schematic; no company or market-share assertions. Source: generated manufacturing-map graph, with status/evidence in the [map](manufacturing_map/README.md); CC BY 4.0. [Editable source](assets/supply_chain_maps/enabling_inputs.mmd).*
 
 ## Required cross-links beyond the prerequisite graph
 

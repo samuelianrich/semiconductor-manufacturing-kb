@@ -1,0 +1,42 @@
+flowchart LR
+  MAT_0001["Quartz-bearing feedstock [planned]"]
+  MAT_0002["Qualified quartz and carbon charge [planned]"]
+  MAT_0003["Metallurgical-grade silicon [planned]"]
+  MAT_0004["Crude chlorosilane mixture [planned]"]
+  MAT_0005["Purified chlorosilane feed [planned]"]
+  MAT_0006["Electronic-grade polysilicon [planned]"]
+  MAT_0007["Single-crystal silicon ingot [planned]"]
+  MAT_0008["Sliced silicon wafer [planned]"]
+  MAT_0009["Finished polished wafer [planned]"]
+  MAT_0010["Accepted starting wafer [planned]"]
+  PROC_0001["Mine, beneficiate and qualify feedstock [planned]"]
+  PROC_0002["Carbothermic silicon smelting [planned]"]
+  PROC_0003["Chlorosilane synthesis [planned]"]
+  PROC_0004["Chemical purification by distillation [planned]"]
+  PROC_0005["Polysilicon deposition [planned]"]
+  PROC_0006["Single-crystal growth [planned]"]
+  PROC_0007["Ingot shaping and wafer slicing [planned]"]
+  PROC_0008["Wafer surface finishing [planned]"]
+  PROC_0009["Wafer cleaning and acceptance inspection [planned]"]
+  PROC_0030["Logic fabrication, test and die preparation [planned]"]
+  PROC_0031["DRAM wafer fabrication [planned]"]
+  MAT_0001 -->|"consumes"| PROC_0001
+  PROC_0001 -->|"produces"| MAT_0002
+  MAT_0002 -->|"consumes"| PROC_0002
+  PROC_0002 -->|"produces"| MAT_0003
+  MAT_0003 -->|"consumes"| PROC_0003
+  PROC_0003 -->|"produces"| MAT_0004
+  MAT_0004 -->|"consumes"| PROC_0004
+  PROC_0004 -->|"produces"| MAT_0005
+  MAT_0005 -->|"consumes"| PROC_0005
+  PROC_0005 -->|"produces"| MAT_0006
+  MAT_0006 -->|"consumes"| PROC_0006
+  PROC_0006 -->|"produces"| MAT_0007
+  MAT_0007 -->|"consumes"| PROC_0007
+  PROC_0007 -->|"produces"| MAT_0008
+  MAT_0008 -->|"consumes"| PROC_0008
+  PROC_0008 -->|"produces"| MAT_0009
+  MAT_0009 -->|"consumes"| PROC_0009
+  PROC_0009 -->|"produces"| MAT_0010
+  MAT_0010 -->|"consumes"| PROC_0030
+  MAT_0010 -->|"consumes"| PROC_0031

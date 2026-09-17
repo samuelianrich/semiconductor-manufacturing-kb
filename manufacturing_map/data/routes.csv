@@ -1,0 +1,6 @@
+route_id,name,parent_route,scope,primary_article,status
+ROUTE-WAFER,Raw materials to accepted wafer,,High-level architecture only; detailed process conditions and evidence remain planned.,01_raw_materials/README.md,planned
+ROUTE-LOGIC,Logic die path,,High-level architecture only; detailed process conditions and evidence remain planned.,17_transistor_fabrication/README.md,planned
+ROUTE-HBM,DRAM to HBM path,,High-level architecture only; detailed process conditions and evidence remain planned.,24_hbm_manufacturing/README.md,planned
+ROUTE-PACKAGE,Logic and HBM package convergence,,High-level architecture only; detailed process conditions and evidence remain planned.,25_advanced_packaging/README.md,planned
+ROUTE-SYSTEM,Package to rack integration,,High-level architecture only; detailed process conditions and evidence remain planned.,32_rack_scale_system/README.md,planned

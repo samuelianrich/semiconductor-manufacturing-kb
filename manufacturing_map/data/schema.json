@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "entity_types": [
+    "operation",
+    "process_family",
+    "material",
+    "artifact",
+    "equipment",
+    "supplier",
+    "failure_mode",
+    "characteristic",
+    "test_state",
+    "metric"
+  ],
+  "statuses": [
+    "planned",
+    "researched",
+    "reviewed"
+  ],
+  "relationships": {
+    "PART_OF": {
+      "source_types": [
+        "operation",
+        "process_family",
+        "material",
+        "artifact",
+        "equipment",
+        "supplier",
+        "failure_mode",
+        "characteristic",
+        "test_state",
+        "metric"
+      ],
+      "target_types": [
+        "operation",
+        "process_family",
+        "material",
+        "artifact",
+        "equipment",
+        "supplier",
+        "failure_mode",
+        "characteristic",
+        "test_state",
+        "metric"
+      ],
+      "route_required": false,
+      "conditions_required": false
+    },
+    "PRECEDES": {
+      "source_types": [
+        "operation"
+      ],
+      "target_types": [
+        "operation"
+      ],
+      "route_required": true,
+      "conditions_required": true
+    },
+    "CONSUMES": {
+      "source_types": [
+        "operation"
+      ],
+      "target_types": [
+        "material",
+        "artifact"
+      ],
+      "route_required": true,
+      "conditions_required": false
+    },
+    "PRODUCES": {
+      "source_types": [
+        "operation"
+      ],
+      "target_types": [
+        "material",
+        "artifact"
+      ],
+      "route_required": true,
+      "conditions_required": false
+    },
+    "USES_EQUIPMENT": {
+      "source_types": [
+        "operation"
+      ],
+      "target_types": [
+        "equipment"
+      ],
+      "route_required": false,
+      "conditions_required": false
+    },
+    "SUPPLIED_BY": {
+      "source_types": [
+        "material",
+        "artifact",
+        "equipment"
+      ],
+      "target_types": [
+        "supplier"
+      ],
+      "route_required": false,
+      "conditions_required": true
+    },
+    "ENABLES": {
+      "source_types": [
+        "operation",
+        "process_family",
+        "material",
+        "artifact",
+        "equipment",
+        "supplier",
+        "failure_mode",
+        "characteristic",
+        "test_state",
+        "metric"
+      ],
+      "target_types": [
+        "operation",
+        "artifact"
+      ],
+      "route_required": false,
+      "conditions_required": true
+    },
+    "CAN_CAUSE": {
+      "source_types": [
+        "failure_mode",
+        "characteristic"
+      ],
+      "target_types": [
+        "failure_mode"
+      ],
+      "route_required": false,
+      "conditions_required": true
+    },
+    "DETECTED_BY": {
+      "source_types": [
+        "failure_mode"
+      ],
+      "target_types": [
+        "operation"
+      ],
+      "route_required": false,
+      "conditions_required": false
+    },
+    "MEASURES": {
+      "source_types": [
+        "operation"
+      ],
+      "target_types": [
+        "characteristic",
+        "metric"
+      ],
+      "route_required": false,
+      "conditions_required": false
+    },
+    "AFFECTS": {
+      "source_types": [
+        "failure_mode",
+        "characteristic",
+        "metric"
+      ],
+      "target_types": [
+        "characteristic",
+        "metric"
+      ],
+      "route_required": false,
+      "conditions_required": true
+    },
+    "ALTERNATIVE_TO": {
+      "source_types": [
+        "operation",
+        "process_family",
+        "material",
+        "artifact",
+        "equipment",
+        "supplier",
+        "failure_mode",
+        "characteristic",
+        "test_state",
+        "metric"
+      ],
+      "target_types": [
+        "operation",
+        "process_family",
+        "material",
+        "artifact",
+        "equipment",
+        "supplier",
+        "failure_mode",
+        "characteristic",
+        "test_state",
+        "metric"
+      ],
+      "route_required": false,
+      "conditions_required": true
+    },
+    "INTEGRATED_INTO": {
+      "source_types": [
+        "artifact"
+      ],
+      "target_types": [
+        "artifact"
+      ],
+      "route_required": false,
+      "conditions_required": true
+    }
+  },
+  "disconnected_exceptions": {},
+  "reachability": {
+    "source": "MAT-0001",
+    "targets": [
+      "MAT-0010",
+      "ART-0030",
+      "ART-0033",
+      "ART-0036",
+      "ART-0040"
+    ]
+  }
+}

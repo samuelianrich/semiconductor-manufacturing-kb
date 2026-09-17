@@ -3,3 +3,11 @@ P0-01,Learning overview,README.md,mermaid,User project specification and origina
 P0-02,Complete module prerequisite graph,assets/diagrams/prerequisites.mmd,mermaid,User project specification and original architecture,CC BY 4.0,architecture schematic
 P0-03,Physical material and assembly chain,assets/process_flows/physical_chain.mmd,mermaid,User project specification and original architecture,CC BY 4.0,architecture schematic
 P0-04,Enabling supplier relationships,assets/supply_chain_maps/enabling_inputs.mmd,mermaid,User project specification and original architecture,CC BY 4.0,architecture schematic
+MAP-MASTER-PROCESS-MAP,Master manufacturing process map,assets/process_flows/map_master_process_map.mmd,mermaid,Canonical manufacturing_map CSV records and evidence links,CC BY 4.0,generated architecture view
+MAP-WAFER-PATH,Raw materials to accepted wafer,assets/process_flows/map_wafer_path.mmd,mermaid,Canonical manufacturing_map CSV records and evidence links,CC BY 4.0,generated architecture view
+MAP-LOGIC-PATH,Logic manufacturing path,assets/process_flows/map_logic_path.mmd,mermaid,Canonical manufacturing_map CSV records and evidence links,CC BY 4.0,generated architecture view
+MAP-HBM-PATH,HBM manufacturing path,assets/process_flows/map_hbm_path.mmd,mermaid,Canonical manufacturing_map CSV records and evidence links,CC BY 4.0,generated architecture view
+MAP-PACKAGING-PATH,Packaging convergence,assets/process_flows/map_packaging_path.mmd,mermaid,Canonical manufacturing_map CSV records and evidence links,CC BY 4.0,generated architecture view
+MAP-SYSTEM-PATH,Package to rack integration,assets/process_flows/map_system_path.mmd,mermaid,Canonical manufacturing_map CSV records and evidence links,CC BY 4.0,generated architecture view
+MAP-MATERIALS-MAP,Materials and their entry points,assets/process_flows/map_materials_map.mmd,mermaid,Canonical manufacturing_map CSV records and evidence links,CC BY 4.0,generated architecture view
+MAP-ENABLING-INPUTS,Enabling inputs and services,assets/process_flows/map_enabling_inputs.mmd,mermaid,Canonical manufacturing_map CSV records and evidence links,CC BY 4.0,generated architecture view

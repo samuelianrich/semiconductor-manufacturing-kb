@@ -1,0 +1,14 @@
+flowchart LR
+  ART_0031["DRAM wafer [planned]"]
+  ART_0032["Prepared DRAM dies [planned]"]
+  ART_0033["Tested HBM stack [planned]"]
+  MAT_0010["Accepted starting wafer [planned]"]
+  PROC_0031["DRAM wafer fabrication [planned]"]
+  PROC_0032["DRAM test, TSV and die preparation [planned]"]
+  PROC_0033["HBM stack assembly and test [planned]"]
+  MAT_0010 -->|"consumes"| PROC_0031
+  PROC_0031 -->|"produces"| ART_0031
+  ART_0031 -->|"consumes"| PROC_0032
+  PROC_0032 -->|"produces"| ART_0032
+  ART_0032 -->|"consumes"| PROC_0033
+  PROC_0033 -->|"produces"| ART_0033

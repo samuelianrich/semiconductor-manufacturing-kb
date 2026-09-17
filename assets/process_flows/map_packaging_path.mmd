@@ -1,0 +1,16 @@
+flowchart LR
+  ART_0030["Tested logic die [planned]"]
+  ART_0033["Tested HBM stack [planned]"]
+  ART_0034["Package substrate [planned]"]
+  ART_0035["Interposer or bridge [planned]"]
+  ART_0036["Tested accelerator package [planned]"]
+  PROC_0034["Substrate fabrication [planned]"]
+  PROC_0035["Interposer or bridge fabrication [planned]"]
+  PROC_0036["Package assembly and test [planned]"]
+  PROC_0034 -->|"produces"| ART_0034
+  PROC_0035 -->|"produces"| ART_0035
+  ART_0030 -->|"consumes"| PROC_0036
+  ART_0033 -->|"consumes"| PROC_0036
+  ART_0034 -->|"consumes"| PROC_0036
+  ART_0035 -->|"consumes"| PROC_0036
+  PROC_0036 -->|"produces"| ART_0036

@@ -1,11 +1,12 @@
 # Staged research and build roadmap
 
-**Phase 0 is the only delivered phase.** Do not bulk-generate chapter placeholders that appear to be completed articles. A phase can be coherent before every possible extension is written, but all stated core coverage must pass its exit gate.
+**Phase 0 and Phase 0A architecture are delivered; Phase 1 is the active build.** Do not bulk-generate chapter placeholders that appear to be completed articles. A phase can be coherent before every possible extension is written, but all stated core coverage must pass its exit gate.
 
 | Phase | Scope | Prerequisites | Exit evidence |
 |---|---|---|---|
 | 0 — Architecture | Navigation, scope, dependencies, templates, policies, source plan, validation | User specification | Coherent graphs, no broken local links, coverage audit, logical Git commits |
-| 1 — Foundation | 01–06; relevant glossary; historical context as needed | 0 | Cited Earth-to-wafer path and device fundamentals; crystal and MOS diagrams; impurity and carrier vocabulary |
+| 0A — Persistent process map | Typed CSV graph, generated views, evidence links and validation | 0 | Seven dimensions representable; route and reference checks pass; later scope clearly planned |
+| 1 — Foundation (1A materials-to-wafer; 1B physics/MOSFET) | 01–06; relevant glossary; historical context as needed | 0 | Cited Earth-to-wafer path and device fundamentals; crystal and MOS diagrams; impurity and carrier vocabulary |
 | 2 — Fab fundamentals | 08–16 | 1 | Cited unit-process articles, tool schematics and process variables/failure modes; no unexplained fab vocabulary |
 | 3 — Devices and wiring | 17–19 | 2 | Planar/FinFET/GAA and BEOL cross sections; FEOL/MOL/BEOL boundaries; interconnect alternatives |
 | 4 — Design/manufacturing interface | 07 | 3 | Concise design-to-mask flow; PDK, DRC/LVS, node terminology and reticle context |
@@ -39,4 +40,4 @@ Track module state in `catalog/modules.json`; an index is not a chapter. Record 
 
 ## Deferred by design
 
-All technical chapters, populated supplier tables, quantitative market research, Rubin specifications, and Phase 12 content audit are deferred. Phase 0 supplies their scope and validation contract. No speculative future roadmap is planned.
+Until Phase 1 drafts pass review, technical chapters remain pending. Later-phase supplier tables, quantitative market research, Rubin specifications, and Phase 12 content audit are deferred. Phase 0 supplies their scope and validation contract. No speculative future roadmap is planned.

@@ -3,6 +3,7 @@
 from pathlib import Path
 from urllib.parse import unquote
 import csv, json, re, sys
+import manufacturing_map
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
 def check(ok, message):
@@ -61,6 +62,10 @@ for asset in csv.DictReader((ROOT/'assets/manifest.csv').open()):
     asset_ids.add(asset['asset_id'])
     check((ROOT/asset['path']).is_file(), f'Missing asset: {asset["path"]}')
     check(bool(asset['title'] and asset['source'] and asset['license']), 'Incomplete asset metadata')
+map_data=manufacturing_map.read_data()
+errors.extend(manufacturing_map.validate(map_data))
+for output, expected_text in manufacturing_map.generated_files(map_data).items():
+    check(output.is_file() and output.read_text()==expected_text, f'Stale map view: {output.relative_to(ROOT)}')
 if errors:
     print('\n'.join('FAIL: '+e for e in errors)); sys.exit(1)
 print(f'PASS: {len(modules)} modules; {sum(len(m["prerequisites"]) for m in modules)} prerequisite edges; {len(md_files)} Markdown documents; {link_count} local links; {len(asset_ids)} registered diagrams.')

@@ -4,7 +4,7 @@
 
 A GitHub-ready knowledge repository for a second-year electrical engineering student. General semiconductor manufacturing is the foundation; NVIDIA Vera Rubin will be a source-labeled case study. Engineering, manufacturing economics and investment research have separate homes. No buy/sell recommendations.
 
-**Current release: Phase 0 architecture.** Directories and indexes describe planned coverage, not completed semiconductor chapters. No Rubin product specifications or supplier assignments have been asserted. Architecture is ready for Phase 1 after the checks in the [audit](AUDIT_PHASE0.md); later phases remain unbuilt.
+**Current build: Phase 0A map implemented; Phase 1 research next.** Directories and indexes describe planned coverage, not completed semiconductor chapters. No Rubin product specifications or supplier assignments have been asserted. The [persistent manufacturing map](manufacturing_map/README.md) adds structured process navigation; later technical phases remain unbuilt.
 
 ## Start here
 
@@ -13,30 +13,33 @@ A GitHub-ready knowledge repository for a second-year electrical engineering stu
 3. Follow the [dependency graph](DEPENDENCIES.md), which distinguishes learning order from physical flow.
 4. Use the [roadmap](ROADMAP.md) for staged research, authoring and review.
 
+<!-- BEGIN OVERVIEW -->
 ```mermaid
-flowchart TD
-  earth[Quartz and carbon feedstocks] --> refine[Silicon refining]
-  refine --> crystal[Single-crystal growth]
-  crystal --> wafer[Wafer manufacture]
-  physics[Semiconductor physics] --> devices[Transistor fundamentals]
-  devices --> design[Design and tapeout]
-  wafer --> logic[Logic wafer fabrication: FEOL and BEOL]
-  design -. masks and design constraints .-> logic
-  wafer --> dram[DRAM wafer fabrication]
-  logic --> test[Wafer test and die preparation]
-  dram --> memorytest[Memory test, TSV, thinning and stacking]
-  memorytest --> hbm[HBM stack]
-  test --> pkg[Advanced package assembly and test]
-  hbm --> pkg
-  substrate[Substrate and interposer manufacture] --> pkg
-  pkg --> board[PCB and accelerator module]
-  board --> server[Server]
-  server --> rack[Rack-scale system]
-  power[Power delivery] -. constrains .-> board
-  cooling[Thermal management] -. constrains .-> rack
+flowchart LR
+  MAT_0001["Quartz-bearing feedstock [planned]"]
+  MAT_0003["Metallurgical-grade silicon [planned]"]
+  MAT_0006["Electronic-grade polysilicon [planned]"]
+  MAT_0007["Single-crystal silicon ingot [planned]"]
+  MAT_0010["Accepted starting wafer [planned]"]
+  ART_0030["Tested logic die [planned]"]
+  ART_0033["Tested HBM stack [planned]"]
+  ART_0036["Tested accelerator package [planned]"]
+  ART_0038["Tested accelerator module [planned]"]
+  ART_0040["Integrated rack system [planned]"]
+  ART_0030 -->|"collapsed path"| ART_0036
+  ART_0033 -->|"collapsed path"| ART_0036
+  ART_0036 -->|"collapsed path"| ART_0038
+  ART_0038 -->|"collapsed path"| ART_0040
+  MAT_0001 -->|"collapsed path"| MAT_0003
+  MAT_0003 -->|"collapsed path"| MAT_0006
+  MAT_0006 -->|"collapsed path"| MAT_0007
+  MAT_0007 -->|"collapsed path"| MAT_0010
+  MAT_0010 -->|"collapsed path"| ART_0030
+  MAT_0010 -->|"collapsed path"| ART_0033
 ```
+<!-- END OVERVIEW -->
 
-*Figure P0-01 — Learning overview with physical assembly branches. Original schematic, not to scale; arrows simplify process variations. Source: this project's scope specification; CC BY 4.0. Technical process details await research. See the separate physical-flow and prerequisite graphs for precise edge meanings.*
+*Figure P0-01 — Learning overview with physical assembly branches. Original schematic, not to scale; arrows simplify process variations. Source: canonical manufacturing-map records (planned scope until researched); CC BY 4.0. Technical process details await research. See the separate physical-flow and prerequisite graphs for precise edge meanings.*
 
 ## Navigate the repository
 
