@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Devices → contacts → multilevel wiring → terminal</title><desc id="desc">A schematic four-level interconnect stack with selected vias above a device/contact boundary and a top terminal opening. No product-specific layer count or terminal design is implied.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">Devices → contacts → multilevel wiring → terminal</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: HU-FAB-001; IBM-BEOL-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<rect x="90" y="210" width="720" height="380" rx="0" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<rect x="90" y="590" width="720" height="45" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="140" y="520" width="250" height="35" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="505" y="520" width="220" height="35" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<text x="845" y="545" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">M1: wiring level</text>
+<rect x="225" y="420" width="465" height="35" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<text x="845" y="445" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">M2: wiring level</text>
+<rect x="140" y="315" width="200" height="35" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="455" y="315" width="280" height="35" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<text x="845" y="340" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">M3: wiring level</text>
+<rect x="225" y="210" width="440" height="35" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<text x="845" y="235" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">M4: wiring level</text>
+<rect x="275" y="455" width="25" height="65" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="550" y="455" width="25" height="65" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="275" y="350" width="25" height="70" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="525" y="350" width="25" height="70" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="270" y="245" width="25" height="70" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="505" y="245" width="25" height="70" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="195" y="555" width="28" height="35" rx="0" fill="#007c83" stroke="#17334a" stroke-width="2"/>
+<rect x="170" y="590" width="80" height="20" rx="0" fill="#007c83" stroke="#17334a" stroke-width="2"/>
+<rect x="610" y="555" width="28" height="35" rx="0" fill="#007c83" stroke="#17334a" stroke-width="2"/>
+<rect x="585" y="590" width="80" height="20" rx="0" fill="#007c83" stroke="#17334a" stroke-width="2"/>
+<rect x="90" y="185" width="720" height="25" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="410" y="170" width="105" height="40" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<text x="90" y="145" font-family="Arial, sans-serif" font-size="23" font-weight="400" fill="#17334a" text-anchor="start">Terminal opening / top metallization</text>
+<text x="845" y="580" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">MOL: terminal access</text>
+<text x="845" y="620" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">FEOL: device regions</text>
+<text x="90" y="665" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#17334a" text-anchor="start"></text></svg>

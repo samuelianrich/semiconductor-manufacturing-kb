@@ -102,5 +102,22 @@
       "ROUTE-OXIDE-TEACHING"
     ],
     "caption": "Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied."
+  },
+  "device_integration": {
+    "title": "Alternative device integration and MOL",
+    "routes": [
+      "ROUTE-PLANAR-TEACHING",
+      "ROUTE-FIN-TEACHING",
+      "ROUTE-SHEETS-TEACHING",
+      "ROUTE-MOL-TEACHING"
+    ],
+    "caption": "Alternative device routes converge at a compatible terminal boundary; arrows from alternatives do not mean all three are required. Aggregate operations, not full recipes."
+  },
+  "beol_integration": {
+    "title": "Representative Cu wiring integration",
+    "routes": [
+      "ROUTE-BEOL-TEACHING"
+    ],
+    "caption": "Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow."
   }
 }

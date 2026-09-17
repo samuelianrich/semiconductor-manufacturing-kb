@@ -4,11 +4,16 @@ flowchart LR
   CHAR_0003["Wafer geometry"]
   CHAR_0101["Film thickness"]
   CHAR_0102["Pattern placement"]
+  CHAR_0201["Interconnect resistance and RC response"]
+  CHAR_0202["Integrated conductor and dielectric condition"]
   FAIL_0001["Surface contamination outside specification"]
   FAIL_0002["Geometry outside specification"]
   FAIL_0003["Electrical resistivity outside specification"]
   FAIL_0101["Local stochastic pattern failure"]
   FAIL_0102["CMP dishing or erosion"]
+  FAIL_0201["Contact or fill discontinuity"]
+  FAIL_0202["Current-induced interconnect damage"]
+  FAM_0200["Device-to-wiring integration"]
   METRIC_0001["Accepted wafer fraction"]
   PROC_0009["Wafer cleaning and acceptance inspection"]
   PROC_0108["Metrology and inspection"]
@@ -25,3 +30,7 @@ flowchart LR
   PROC_0108 -->|"measures"| CHAR_0102
   FAIL_0101 -->|"detected by"| PROC_0108
   FAIL_0102 -->|"detected by"| PROC_0108
+  CHAR_0201 -->|"part of"| FAM_0200
+  CHAR_0202 -->|"part of"| FAM_0200
+  FAIL_0201 -->|"affects"| CHAR_0201
+  FAIL_0202 -->|"affects"| CHAR_0201

@@ -16,4 +16,8 @@ All source IDs resolve in the [canonical bibliography](bibliography.md). Indepen
 
 ## Phase 2 closeout and Phase 3 entry
 
-Modules 08–16 now have cited author-reviewed chapters. Independent specialist review remains open, particularly advanced resist chemistry, etch/ALE variants, film-property comparisons and measurement uncertainty. Numerical examples are scoped teaching models, not recipes. Next: modules 17–19, device integration and wiring. Expand the graph with integration-specific operation instances before implying complete logic or DRAM routes. M39 remains architecture-only; its earlier reviewed flag was erroneous.
+Modules 08–16 now have cited author-reviewed chapters. Independent specialist review remains open, particularly advanced resist chemistry, etch/ALE variants, film-property comparisons and measurement uncertainty. Numerical examples are scoped teaching models, not recipes. At Phase 2 closeout, modules 17–19 were next; Phase 3 is now delivered below. Expand the graph with integration-specific operation instances before implying complete logic or DRAM routes. M39 remains architecture-only; its earlier reviewed flag was erroneous.
+
+## Phase 3 closeout and Phase 4 entry
+
+Modules 17–19 have six author-reviewed chapters, 15 new source records and separate device/MOL and BEOL teaching routes. Open review topics include detailed advanced gate/contact variants, nanoscale transport, material-specific reliability extrapolation and foundry-specific integration limits. Research disclosures do not establish customer deployment. Next: module 07, PDK, DRC/LVS, tapeout, masks and node terminology. See the [Phase 3 audit](../AUDIT_PHASE3.md).

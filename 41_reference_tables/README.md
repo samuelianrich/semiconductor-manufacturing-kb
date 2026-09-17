@@ -37,3 +37,7 @@ Use the [source plan](../RESEARCH_STRATEGY.md) and [source policy](../SOURCE_POL
 ## Phase 2 additions
 
 [Fab-process method comparisons](phase2_comparisons.md).
+
+## Phase 3 additions
+
+[Architecture and integration comparisons](phase3_comparisons.md).

@@ -42,6 +42,9 @@ flowchart LR
   PROC_0103["Pattern transfer etch"]
   PROC_0105["Thermal oxidation"]
   PROC_0106["Resist strip and surface clean"]
+  PROC_0200["Planar device integration"]
+  PROC_0201["FinFET device integration"]
+  PROC_0202["Nanosheet device integration"]
   SUP_0001["Elkem"]
   SUP_0002["Sibelco"]
   SUP_0003["WACKER"]
@@ -89,6 +92,9 @@ flowchart LR
   PROC_0103 -->|"produces"| MAT_0103
   MAT_0103 -->|"consumes"| PROC_0106
   PROC_0106 -->|"produces"| MAT_0104
+  MAT_0010 -->|"consumes"| PROC_0200
+  MAT_0010 -->|"consumes"| PROC_0201
+  MAT_0010 -->|"consumes"| PROC_0202
 ```
 
 *MAP-MATERIALS-MAP — Materials and connected operations. Read evidence and route conditions before interpreting the diagram as a production sequence. Original schematic; CC BY 4.0. Source: graph records and their evidence links; no physical scale.*
@@ -130,6 +136,9 @@ flowchart LR
 | PROC-0103 | Pattern transfer etch | reviewed | [Pattern transfer etch](../11_etching/etching.md) |
 | PROC-0105 | Thermal oxidation | reviewed | [Thermal oxidation](../13_oxidation/oxidation.md) |
 | PROC-0106 | Resist strip and surface clean | reviewed | [Resist strip and surface clean](../14_cleaning/cleaning.md) |
+| PROC-0200 | Planar device integration | reviewed | [Planar device integration](../17_transistor_fabrication/planar_and_finfet.md) |
+| PROC-0201 | FinFET device integration | reviewed | [FinFET device integration](../17_transistor_fabrication/planar_and_finfet.md) |
+| PROC-0202 | Nanosheet device integration | reviewed | [Nanosheet device integration](../17_transistor_fabrication/nanosheet_integration.md) |
 | SUP-0001 | Elkem | reviewed | [Elkem](../01_raw_materials/quartz_and_feedstocks.md) |
 | SUP-0002 | Sibelco | reviewed | [Sibelco](../01_raw_materials/quartz_and_feedstocks.md) |
 | SUP-0003 | WACKER | reviewed | [WACKER](../02_silicon_refining/electronic_grade_polysilicon.md) |
@@ -180,4 +189,7 @@ flowchart LR
 | EDGE-0110 | PROC-0103 → PRODUCES → MAT-0103 | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. | [LAM-ETCH-001](../42_references/bibliography.md#lam-etch-001) (Etch process overview and process categories) |
 | EDGE-0111 | PROC-0106 → CONSUMES → MAT-0103 | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. | [UBC-CLEAN-001](../42_references/bibliography.md#ubc-clean-001) (Overview, solvent clean and oxide-removal discussion) |
 | EDGE-0112 | PROC-0106 → PRODUCES → MAT-0104 | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. | [UBC-CLEAN-001](../42_references/bibliography.md#ubc-clean-001) (Overview, solvent clean and oxide-removal discussion) |
+| EDGE-0137 | PROC-0200 → CONSUMES → MAT-0010 | Alternative aggregate device route; one compatible option supplies the common MOL interface. Source/drain and isolation details remain variant-specific. | [AGH-CMOS-001](../42_references/bibliography.md#agh-cmos-001) (Slides 6–16 and 31–33: planar flow, isolation, wells, spacers and activation) |
+| EDGE-0139 | PROC-0201 → CONSUMES → MAT-0010 | Alternative aggregate device route; one compatible option supplies the common MOL interface. Source/drain and isolation details remain variant-specific. | [INTEL-FLOW-001](../42_references/bibliography.md#intel-flow-001) (Slides 8–11: fin formation, temporary gate and replacement gate) |
+| EDGE-0141 | PROC-0202 → CONSUMES → MAT-0010 | Alternative aggregate device route; one compatible option supplies the common MOL interface. Source/drain and isolation details remain variant-specific. | [IMEC-SHEETS-001](../42_references/bibliography.md#imec-sheets-001) (Critical nanosheet building blocks) |
 <!-- END GENERATED MAP -->

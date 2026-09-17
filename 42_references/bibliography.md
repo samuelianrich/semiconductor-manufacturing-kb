@@ -1,6 +1,6 @@
 # Canonical bibliography
 
-Phase 1 sources reviewed on 2026-09-16; Phase 2 source review on 2026-09-16–17. Access scope and limitations are explicit. Sources are cited at the claim location; full documents and third-party figures are not redistributed.
+Phase 1 sources reviewed on 2026-09-16; Phase 2 source review on 2026-09-16–17; Phase 3 source review on 2026-09-17. Access scope and limitations are explicit. Sources are cited at the claim location; full documents and third-party figures are not redistributed.
 
 <a id="usgs-silicon-001"></a>
 ## USGS-SILICON-001
@@ -504,7 +504,7 @@ Phase 1 sources reviewed on 2026-09-16; Phase 2 source review on 2026-09-16–17
 - Date: 2010 textbook edition. Accessed: 2026-09-16.
 - URL: [Author-hosted chapter](https://www.chu.berkeley.edu/wp-content/uploads/2020/01/Chenming-Hu_ch3.pdf).
 - Locator: Phase 1: §3.5.1 implantation/activation; Phase 2: §§3.1–3.5 planar processing, oxidation, lithography, plasma etching and implantation.
-- Scope: planar process functions, oxide growth, resist imaging/correction, plasma charging, implanted dopants, lattice damage and electrical activation. Extended review: 2026-09-16–17.
+- Scope: planar process functions, oxide growth, resist imaging/correction, plasma charging, implanted dopants, lattice damage and electrical activation. Extended review: 2026-09-16–17. Phase 3 additionally reviewed §3.8 for multilevel metallization, dielectric separation, vias and encapsulation; historical layer counts and dimensions are not current specifications.
 - Review/access: relevant passage read in full. Primary educational source; not a modern process recipe. No figure or prose copied; original synthesis only. Rights remain with the author/publisher.
 
 <a id="asml-light-001"></a>
@@ -968,3 +968,213 @@ Phase 1 sources reviewed on 2026-09-16; Phase 2 source review on 2026-09-16–17
 - Locator: Characterization tables and Physical section
 - Supports / limitations: Optical film metrology and stylus step-height measurement; no facility availability or instrument performance inferred
 - Rights: No third-party figures or operating procedures copied.
+
+<a id="agh-cmos-001"></a>
+## AGH-CMOS-001
+
+**MOS Front-End / W8 Modern CMOS front-end I**
+- Author / organization / publication: AGH-hosted teaching slides; individual author not identified in reviewed deck
+- Publication date/version: Not stated
+- URL: [Original source](https://home.agh.edu.pl/~marszale/downloads/W8_Modern%20CMOS%20front-end%20I.pdf)
+- DOI: Not recorded; source URL is the reviewed record
+- Access / review date: 2026-09-17
+- Type: Primary research, educational or organization documentation
+- Locator: Slides 6–16 and 31–33: planar flow, isolation, wells, spacers and activation
+- Scope / access limitations: Historical planar process teaching; dated node projections, recipes and third-party images excluded
+- Rights: No external figures or full documents redistributed; original teaching diagrams and synthesis only.
+
+<a id="intel-flow-001"></a>
+## INTEL-FLOW-001
+
+**Making of a Chip: 22nm version**
+- Author / organization / publication: Intel Corporation
+- Publication date/version: 2012
+- URL: [Original source](https://download.intel.com/newsroom/kits/chipmaking/pdfs/Sand-to-Silicon_22nm-Version.pdf)
+- DOI: Not recorded; source URL is the reviewed record
+- Access / review date: 2026-09-17
+- Type: Primary research, educational or organization documentation
+- Locator: Slides 8–11: fin formation, temporary gate and replacement gate
+- Scope / access limitations: Historical simplified process functions only; not a complete FinFET recipe or evidence for current products
+- Rights: No external figures or full documents redistributed; original teaching diagrams and synthesis only.
+
+<a id="imec-sheets-001"></a>
+## IMEC-SHEETS-001
+
+**Entering the nanosheet transistor era**
+- Author / organization / publication: imec; technical account featuring Naoto Horiguchi
+- Publication date/version: 2022-02-11
+- URL: [Original source](https://www.imec-int.com/en/articles/entering-nanosheet-transistor-era-0)
+- DOI: Not recorded; source URL is the reviewed record
+- Access / review date: 2026-09-17
+- Type: Primary research, educational or organization documentation
+- Locator: Critical nanosheet building blocks
+- Scope / access limitations: Si/SiGe stack, inner spacer, selective release and replacement gate; dated commercial forecasts excluded
+- Rights: No external figures or full documents redistributed; original teaching diagrams and synthesis only.
+
+<a id="ibm-gaa-001"></a>
+## IBM-GAA-001
+
+**Stacked Nanosheet Gate-All-Around Transistor to Enable Scaling Beyond FinFET**
+- Author / organization / publication: N. Loubet et al.; IBM, Samsung Electronics and GLOBALFOUNDRIES / VLSI Technology
+- Publication date/version: 2017
+- URL: [Original source](https://s3.us.cloud-object-storage.appdomain.cloud/res-files/1114-Stacked%20Nanosheet%20Gate-All-Around%20Transistor%20to%20Enable%20Scaling%20Beyond%20FinFET.pdf)
+- DOI: Not recorded; source URL is the reviewed record
+- Access / review date: 2026-09-17
+- Type: Primary research, educational or organization documentation
+- Locator: Two-page paper: device fabrication, isolation and gate/contact discussions
+- Scope / access limitations: Research integration example, not a qualified commercial process; no product performance extrapolation
+- Rights: No external figures or full documents redistributed; original teaching diagrams and synthesis only.
+
+<a id="imec-contact-001"></a>
+## IMEC-CONTACT-001
+
+**Solving the contact resistance challenge for 7nm and beyond CMOS**
+- Author / organization / publication: imec; technical account featuring Hao Yu
+- Publication date/version: 2019-03-29
+- URL: [Original source](https://www.imec-int.com/en/imec-magazine/imec-magazine-april-2019/solving-the-contact-resistance-challenge-for-7nm-and-beyond-cmos)
+- DOI: Not recorded; source URL is the reviewed record
+- Access / review date: 2026-09-17
+- Type: Primary research, educational or organization documentation
+- Locator: Source/drain contact resistance; contact resistivity; test-vehicle discussion
+- Scope / access limitations: Interface resistivity, doping and geometry; numerical industrial targets and customer adoption not adopted
+- Rights: No external figures or full documents redistributed; original teaching diagrams and synthesis only.
+
+<a id="amat-w-001"></a>
+## AMAT-W-001
+
+**Introducing a Breakthrough in 2D Scaling**
+- Author / organization / publication: Zhebo Chen / Applied Materials
+- Publication date/version: 2020-07-20
+- URL: [Original source](https://www.appliedmaterials.com/us/en/blog/blog-posts/introducing-a-breakthrough-in-2d-scaling.html)
+- DOI: Not recorded; source URL is the reviewed record
+- Access / review date: 2026-09-17
+- Type: Primary research, educational or organization documentation
+- Locator: Conventional tungsten contact and liner/nucleation discussion
+- Scope / access limitations: Tungsten fill and available-volume tradeoff; vendor absolutes, performance and customer claims excluded
+- Rights: No external figures or full documents redistributed; original teaching diagrams and synthesis only.
+
+<a id="amat-co-001"></a>
+## AMAT-CO-001
+
+**Cobalt Product Suite**
+- Author / organization / publication: Applied Materials
+- Publication date/version: Not stated
+- URL: [Original source](https://www.appliedmaterials.com/us/en/product-library/cobalt-product-suite.html)
+- DOI: Not recorded; source URL is the reviewed record
+- Access / review date: 2026-09-17
+- Type: Primary research, educational or organization documentation
+- Locator: Deposition, anneal and CMP functional descriptions
+- Scope / access limitations: Cobalt integration as an alternative; no universal resistance or electromigration ranking
+- Rights: No external figures or full documents redistributed; original teaching diagrams and synthesis only.
+
+<a id="ibm-liner-001"></a>
+## IBM-LINER-001
+
+**An optimal liner for copper damascene interconnects**
+- Author / organization / publication: D. Edelstein et al. / ADMETA 2001; IBM Research record
+- Publication date/version: 2001-12-01
+- URL: [Original source](https://research.ibm.com/publications/an-optimal-liner-for-copper-damascene-interconnects)
+- DOI: Not recorded; source URL is the reviewed record
+- Access / review date: 2026-09-17
+- Type: Primary research, educational or organization documentation
+- Locator: Abstract only: TaN/Ta, Cu seed and plated fill
+- Scope / access limitations: Historical barrier/liner/seed functions; full conference paper not reviewed
+- Rights: No external figures or full documents redistributed; original teaching diagrams and synthesis only.
+
+<a id="ibm-fill-001"></a>
+## IBM-FILL-001
+
+**Damascene copper electroplating for chip interconnections**
+- Author / organization / publication: P. C. Andricacos, C. Uzoh, J. Dukovic, J. Horkans and H. Deligianni / IBM J. Res. Dev.
+- Publication date/version: 1998-01-01
+- URL: [Original source](https://research.ibm.com/publications/damascene-copper-electroplating-for-chip-interconnections)
+- DOI: Not recorded; source URL is the reviewed record
+- Access / review date: 2026-09-17
+- Type: Primary research, educational or organization documentation
+- Locator: Abstract only: voids, seams and superconformal fill
+- Scope / access limitations: Primary research abstract; full paper not reviewed; no plating formulation copied
+- Rights: No external figures or full documents redistributed; original teaching diagrams and synthesis only.
+
+<a id="ibm-beol-001"></a>
+## IBM-BEOL-001
+
+**Copper evolution and beyond: Developments in advanced interconnects for future CMOS nodes**
+- Author / organization / publication: IBM Research
+- Publication date/version: 2024-12-13
+- URL: [Original source](https://research.ibm.com/blog/beol-cu-interconnects-iedm)
+- DOI: Not recorded; source URL is the reviewed record
+- Access / review date: 2026-09-17
+- Type: Primary research, educational or organization documentation
+- Locator: Opening damascene discussion and barrier/liner tradeoffs
+- Scope / access limitations: Narrow-line volume and dielectric reliability; reported advanced materials and product claims not generalized
+- Rights: No external figures or full documents redistributed; original teaching diagrams and synthesis only.
+
+<a id="imec-semi-001"></a>
+## IMEC-SEMI-001
+
+**Imec demonstrates 16nm pitch Ru lines with record-low resistance obtained using a semi-damascene integration approach**
+- Author / organization / publication: imec
+- Publication date/version: 2025-06-03
+- URL: [Original source](https://www.imec-int.com/en/press/imec-demonstrates-16nm-pitch-ru-lines-record-low-resistance-obtained-using-semi-damascene)
+- DOI: Not recorded; source URL is the reviewed record
+- Access / review date: 2026-09-17
+- Type: Primary research, educational or organization documentation
+- Locator: Semi-damascene definition and direct-etch process description
+- Scope / access limitations: Research alternative to dielectric-first patterning; title retained verbatim, record claims/yields not adopted
+- Rights: No external figures or full documents redistributed; original teaching diagrams and synthesis only.
+
+<a id="harris-rc-001"></a>
+## HARRIS-RC-001
+
+**Lecture 4: Interconnect RC**
+- Author / organization / publication: Teaching notes hosted by David Harris, Harvey Mudd College; individual authorship not identified in PDF
+- Publication date/version: 1997-11-04
+- URL: [Original source](https://pages.hmc.edu/harris/class/hal/lect4.pdf)
+- DOI: Not recorded; source URL is the reviewed record
+- Access / review date: 2026-09-17
+- Type: Primary research, educational or organization documentation
+- Locator: Sections 2–6: resistance, capacitance, distributed RC, coupling and IR drop
+- Scope / access limitations: Basic circuit models; historical geometry, tool capability and process forecasts excluded; per-length resistance units corrected dimensionally
+- Rights: No external figures or full documents redistributed; original teaching diagrams and synthesis only.
+
+<a id="stanford-em-001"></a>
+## STANFORD-EM-001
+
+**Al Interconnect, EE311 notes**
+- Author / organization / publication: Krishna Saraswat / Stanford University
+- Publication date/version: Not stated
+- URL: [Original source](https://web.stanford.edu/class/ee311/NOTES/Interconnect_Al.pdf)
+- DOI: Not recorded; source URL is the reviewed record
+- Access / review date: 2026-09-17
+- Type: Primary research, educational or organization documentation
+- Locator: Electromigration and flux-divergence sections, especially pages 11–13
+- Scope / access limitations: Mechanism illustrated in aluminum; no transfer of material-specific lifetime constants to Cu/Co/Ru
+- Rights: No external figures or full documents redistributed; original teaching diagrams and synthesis only.
+
+<a id="nist-interconnect-001"></a>
+## NIST-INTERCONNECT-001
+
+**Reliability Metrologies for Advanced Electronic Interconnects**
+- Author / organization / publication: NIST
+- Publication date/version: Not stated; page describes a concluded project
+- URL: [Original source](https://www.nist.gov/programs-projects/reliability-metrologies-advanced-electronic-interconnects)
+- DOI: Not recorded; source URL is the reviewed record
+- Access / review date: 2026-09-17
+- Type: Primary research, educational or organization documentation
+- Locator: Summary, Description and AC-Induced Thin Film Fatigue
+- Scope / access limitations: Distinguish current-driven mass transport from thermomechanical damage; not current product qualification
+- Rights: No external figures or full documents redistributed; original teaching diagrams and synthesis only.
+
+<a id="avs-lowk-001"></a>
+## AVS-LOWK-001
+
+**Plasma-induced Damage Reduction in Porous SiOCH Dielectrics by Replacement of H2 and N2 by CH2F2 and Ar in Fluorocarbon Based Plasmas**
+- Author / organization / publication: L. Souriau et al. / AVS 58th Symposium, PS1-TuA7
+- Publication date/version: 2011-11-01
+- URL: [Original source](https://www2.avs.org/symposium2011/Papers/Paper_PS1-TuA7.html)
+- DOI: Not recorded; source URL is the reviewed record
+- Access / review date: 2026-09-17
+- Type: Primary research, educational or organization documentation
+- Locator: Conference abstract: porosity, carbon-group removal, moisture and k-value
+- Scope / access limitations: Primary research abstract only; qualitative damage mechanism, no chemical recipe reproduced
+- Rights: No external figures or full documents redistributed; original teaching diagrams and synthesis only.

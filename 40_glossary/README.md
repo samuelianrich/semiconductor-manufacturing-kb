@@ -33,3 +33,7 @@ Use the [source plan](../RESEARCH_STRATEGY.md) and [source policy](../SOURCE_POL
 ## Phase 2 additions
 
 [Phase 2 terminology](phase2_glossary.md).
+
+## Phase 3 additions
+
+[Device and wiring vocabulary](phase3_glossary.md).

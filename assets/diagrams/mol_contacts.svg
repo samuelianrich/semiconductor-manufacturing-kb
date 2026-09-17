@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">MOL contacts: reach each terminal without crossing insulation</title><desc id="desc">A longitudinal illustrative planar device shows separate source/drain and gate contact plugs through dielectric. Source/drain interface layers are distinct from the gate dielectric.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">MOL contacts: reach each terminal without crossing insulation</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: IMEC-CONTACT-001; AMAT-W-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<rect x="110" y="445" width="790" height="140" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="110" y="180" width="790" height="265" rx="0" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<rect x="195" y="445" width="200" height="65" rx="0" fill="#007c83" stroke="#17334a" stroke-width="2"/>
+<rect x="620" y="445" width="200" height="65" rx="0" fill="#007c83" stroke="#17334a" stroke-width="2"/>
+<rect x="415" y="425" width="180" height="20" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="415" y="335" width="180" height="90" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="390" y="350" width="25" height="95" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="595" y="350" width="25" height="95" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="265" y="225" width="55" height="210" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="257" y="435" width="71" height="10" rx="0" fill="#ba4661" stroke="#17334a" stroke-width="2"/>
+<rect x="705" y="225" width="55" height="210" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="697" y="435" width="71" height="10" rx="0" fill="#ba4661" stroke="#17334a" stroke-width="2"/>
+<rect x="480" y="225" width="55" height="110" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<text x="225" y="155" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Source contact</text>
+<text x="450" y="155" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Gate contact</text>
+<text x="680" y="155" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Drain contact</text>
+<text x="221" y="548" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Source region</text>
+<text x="651" y="548" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Drain region</text>
+<text x="935" y="280" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Interlayer</text>
+<text x="935" y="310" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">dielectric</text>
+<line x1="920" y1="325" x2="855" y2="340" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="110" y="625" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#17334a" text-anchor="start">Pink: prepared source/drain interface • Gold under gate: insulating gate dielectric</text></svg>

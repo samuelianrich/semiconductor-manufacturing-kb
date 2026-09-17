@@ -1,6 +1,6 @@
 # Transistor process integration
 
-Status: **Architecture only — technical articles have not been researched or drafted.**
+Status: **Phase 3 chapters available — author reviewed; independent specialist review pending.**
 
 Module `M17` · Build phase 3 · [Topic inventory](../catalog/topic_inventory.md) · [Graph](../DEPENDENCIES.md)
 
@@ -23,9 +23,11 @@ Module `M17` · Build phase 3 · [Topic inventory](../catalog/topic_inventory.md
 
 [BEOL process integration](../19_back_end_of_line/README.md)
 
-## Planned article structure
+## Canonical articles
 
-Split the owned concepts into explainers, process articles, integration articles and comparisons as described in the [taxonomy](../TAXONOMY.md). This index is a scope contract, not an article and not evidence for a technical claim. Every drafted article must add concept-level prerequisites, upstream/downstream links, equipment and material links, citations and review status.
+- [Planar and FinFET integration: making a controllable channel](planar_and_finfet.md)
+- [Nanosheet integration: release the channels, then surround them](nanosheet_integration.md)
+- [Contacts and MOL: connecting the device without losing its advantage](contacts_and_mol.md)
 
 ## Research and economics routing
 

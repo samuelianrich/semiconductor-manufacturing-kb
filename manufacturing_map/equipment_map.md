@@ -22,6 +22,7 @@ flowchart LR
   EQ_0106["Compatible strip and clean tools"]
   EQ_0107["CMP and post-clean system"]
   EQ_0108["Optical/electron measurement tools"]
+  EQ_0201["Electrochemical copper fill tool"]
   PROC_0002["Carbothermic silicon smelting"]
   PROC_0004["Chemical purification by distillation"]
   PROC_0005["Polysilicon deposition"]
@@ -37,6 +38,12 @@ flowchart LR
   PROC_0106["Resist strip and surface clean"]
   PROC_0107["Chemical mechanical planarization"]
   PROC_0108["Metrology and inspection"]
+  PROC_0200["Planar device integration"]
+  PROC_0201["FinFET device integration"]
+  PROC_0202["Nanosheet device integration"]
+  PROC_0210["Wiring-level dielectric and cavity"]
+  PROC_0212["Copper cavity fill"]
+  PROC_0213["Wiring-level CMP and clean"]
   SUP_0005["PVA TePla"]
   PROC_0002 -->|"uses equipment"| EQ_0001
   PROC_0004 -->|"uses equipment"| EQ_0002
@@ -54,6 +61,13 @@ flowchart LR
   PROC_0106 -->|"uses equipment"| EQ_0106
   PROC_0107 -->|"uses equipment"| EQ_0107
   PROC_0108 -->|"uses equipment"| EQ_0108
+  PROC_0200 -->|"uses equipment"| EQ_0102
+  PROC_0201 -->|"uses equipment"| EQ_0102
+  PROC_0202 -->|"uses equipment"| EQ_0102
+  PROC_0202 -->|"uses equipment"| EQ_0103
+  PROC_0210 -->|"uses equipment"| EQ_0103
+  PROC_0213 -->|"uses equipment"| EQ_0107
+  PROC_0212 -->|"uses equipment"| EQ_0201
 ```
 
 *MAP-EQUIPMENT-MAP — Machines connect to the operations they perform. Supplier lists are representative only where evidence is recorded. Original schematic; CC BY 4.0. Source: graph records and their evidence links; no physical scale.*
@@ -75,6 +89,7 @@ flowchart LR
 | EQ-0106 | Compatible strip and clean tools | reviewed | [Compatible strip and clean tools](../14_cleaning/cleaning.md) |
 | EQ-0107 | CMP and post-clean system | reviewed | [CMP and post-clean system](../15_cmp/cmp.md) |
 | EQ-0108 | Optical/electron measurement tools | reviewed | [Optical/electron measurement tools](../16_metrology_and_inspection/metrology.md) |
+| EQ-0201 | Electrochemical copper fill tool | reviewed | [Electrochemical copper fill tool](../19_back_end_of_line/beol_integration.md) |
 | PROC-0002 | Carbothermic silicon smelting | reviewed | [Carbothermic silicon smelting](../02_silicon_refining/metallurgical_silicon.md) |
 | PROC-0004 | Chemical purification by distillation | reviewed | [Chemical purification by distillation](../02_silicon_refining/electronic_grade_polysilicon.md) |
 | PROC-0005 | Polysilicon deposition | reviewed | [Polysilicon deposition](../02_silicon_refining/electronic_grade_polysilicon.md) |
@@ -90,6 +105,12 @@ flowchart LR
 | PROC-0106 | Resist strip and surface clean | reviewed | [Resist strip and surface clean](../14_cleaning/cleaning.md) |
 | PROC-0107 | Chemical mechanical planarization | reviewed | [Chemical mechanical planarization](../15_cmp/cmp.md) |
 | PROC-0108 | Metrology and inspection | reviewed | [Metrology and inspection](../16_metrology_and_inspection/metrology.md) |
+| PROC-0200 | Planar device integration | reviewed | [Planar device integration](../17_transistor_fabrication/planar_and_finfet.md) |
+| PROC-0201 | FinFET device integration | reviewed | [FinFET device integration](../17_transistor_fabrication/planar_and_finfet.md) |
+| PROC-0202 | Nanosheet device integration | reviewed | [Nanosheet device integration](../17_transistor_fabrication/nanosheet_integration.md) |
+| PROC-0210 | Wiring-level dielectric and cavity | reviewed | [Wiring-level dielectric and cavity](../19_back_end_of_line/beol_integration.md) |
+| PROC-0212 | Copper cavity fill | reviewed | [Copper cavity fill](../19_back_end_of_line/beol_integration.md) |
+| PROC-0213 | Wiring-level CMP and clean | reviewed | [Wiring-level CMP and clean](../19_back_end_of_line/beol_integration.md) |
 | SUP-0005 | PVA TePla | reviewed | [PVA TePla](../03_crystal_growth/crystal_growth.md) |
 
 | Edge | Relationship | Conditions | Evidence |
@@ -110,4 +131,11 @@ flowchart LR
 | EDGE-0098 | PROC-0106 → USES_EQUIPMENT → EQ-0106 | General functional relationship; application requires material and integration qualification. | [UBC-CLEAN-001](../42_references/bibliography.md#ubc-clean-001) (Overview, solvent clean and oxide-removal discussion) |
 | EDGE-0100 | PROC-0107 → USES_EQUIPMENT → EQ-0107 | General functional relationship; application requires material and integration qualification. | [AMAT-CMP-001](../42_references/bibliography.md#amat-cmp-001) (CMP mechanism and control description) |
 | EDGE-0102 | PROC-0108 → USES_EQUIPMENT → EQ-0108 | General functional relationship; application requires material and integration qualification. | [ASML-METRO-001](../42_references/bibliography.md#asml-metro-001) (Optical and electron-beam metrology sections) |
+| EDGE-0130 | PROC-0200 → USES_EQUIPMENT → EQ-0102 | Uses qualified film-formation equipment as part of a multi-tool integration route, not a single generic reactor recipe. | [AGH-CMOS-001](../42_references/bibliography.md#agh-cmos-001) (Slides 6–16 and 31–33: planar flow, isolation, wells, spacers and activation) |
+| EDGE-0131 | PROC-0201 → USES_EQUIPMENT → EQ-0102 | Uses qualified film-formation equipment as part of a multi-tool integration route, not a single generic reactor recipe. | [INTEL-FLOW-001](../42_references/bibliography.md#intel-flow-001) (Slides 8–11: fin formation, temporary gate and replacement gate) |
+| EDGE-0132 | PROC-0202 → USES_EQUIPMENT → EQ-0102 | Uses qualified film-formation equipment as part of a multi-tool integration route, not a single generic reactor recipe. | [IMEC-SHEETS-001](../42_references/bibliography.md#imec-sheets-001) (Critical nanosheet building blocks) |
+| EDGE-0133 | PROC-0202 → USES_EQUIPMENT → EQ-0103 | Selective removal is required; exact wet/dry route and hardware are variant-specific, and the equipment category here represents a dry option. | [IMEC-SHEETS-001](../42_references/bibliography.md#imec-sheets-001) (Critical nanosheet building blocks) |
+| EDGE-0134 | PROC-0210 → USES_EQUIPMENT → EQ-0103 | Representative integration relationship; acceptance requires geometry, material and electrical qualification. | [IBM-BEOL-001](../42_references/bibliography.md#ibm-beol-001) (Opening damascene discussion and barrier/liner tradeoffs) |
+| EDGE-0135 | PROC-0213 → USES_EQUIPMENT → EQ-0107 | Representative integration relationship; acceptance requires geometry, material and electrical qualification. | [MACK-CMP-001](../42_references/bibliography.md#mack-cmp-001) (CMP roles and overpolishing defects) |
+| EDGE-0136 | PROC-0212 → USES_EQUIPMENT → EQ-0201 | Representative integration relationship; acceptance requires geometry, material and electrical qualification. | [IBM-FILL-001](../42_references/bibliography.md#ibm-fill-001) (Abstract only: voids, seams and superconformal fill) |
 <!-- END GENERATED MAP -->

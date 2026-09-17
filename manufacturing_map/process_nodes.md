@@ -181,6 +181,9 @@ Evidence: [SUMCO-WAFER-001](../42_references/bibliography.md#sumco-wafer-001) �
 | EDGE-0030 | [PROC-0031](#proc-0031) → CONSUMES → [MAT-0010](#mat-0010) |  (planned) |
 | EDGE-0075 | [MAT-0010](#mat-0010) → SUPPLIED_BY → [SUP-0007](#sup-0007) | SUMCO describes wafer forming through slicing, lapping, etching, polishing, cleaning and inspection. Role example only; see claim boundary. (reviewed) |
 | EDGE-0105 | [PROC-0105](#proc-0105) → CONSUMES → [MAT-0010](#mat-0010) | Illustrative positive-tone oxide pattern transfer only; no actual dimensions, qualified chemistry or universal device sequence implied. (reviewed) |
+| EDGE-0137 | [PROC-0200](#proc-0200) → CONSUMES → [MAT-0010](#mat-0010) | Alternative aggregate device route; one compatible option supplies the common MOL interface. Source/drain and isolation details remain variant-specific. (reviewed) |
+| EDGE-0139 | [PROC-0201](#proc-0201) → CONSUMES → [MAT-0010](#mat-0010) | Alternative aggregate device route; one compatible option supplies the common MOL interface. Source/drain and isolation details remain variant-specific. (reviewed) |
+| EDGE-0141 | [PROC-0202](#proc-0202) → CONSUMES → [MAT-0010](#mat-0010) | Alternative aggregate device route; one compatible option supplies the common MOL interface. Source/drain and isolation details remain variant-specific. (reviewed) |
 
 <a id="art-0030"></a>
 ## ART-0030 — Tested logic die
@@ -591,6 +594,7 @@ Notes: Detailed evidence is added during the owning phase.
 | EDGE-0028 | [PROC-0030](#proc-0030) → PRODUCES → [ART-0030](#art-0030) |  (planned) |
 | EDGE-0029 | [ART-0042](#art-0042) → ENABLES → [PROC-0030](#proc-0030) | Information input, not material consumed. (planned) |
 | EDGE-0103 | [FAM-0100](#fam-0100) → ENABLES → [PROC-0030](#proc-0030) | Fab unit-process functions enable the fabrication portion of the planned aggregate logic path; test and die preparation remain later scope. (reviewed) |
+| EDGE-0129 | [FAM-0200](#fam-0200) → ENABLES → [PROC-0030](#proc-0030) | Supports the fabrication portion of the planned aggregate logic/test/die-preparation node; test and die preparation remain unresearched here. (reviewed) |
 
 <a id="proc-0031"></a>
 ## PROC-0031 — DRAM wafer fabrication
@@ -1354,6 +1358,9 @@ Evidence: [ASM-ALD-001](../42_references/bibliography.md#asm-ald-001) — ALD pr
 | Edge | Directional relationship | Scope / condition |
 |---|---|---|
 | EDGE-0090 | [PROC-0102](#proc-0102) → USES_EQUIPMENT → [EQ-0102](#eq-0102) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0130 | [PROC-0200](#proc-0200) → USES_EQUIPMENT → [EQ-0102](#eq-0102) | Uses qualified film-formation equipment as part of a multi-tool integration route, not a single generic reactor recipe. (reviewed) |
+| EDGE-0131 | [PROC-0201](#proc-0201) → USES_EQUIPMENT → [EQ-0102](#eq-0102) | Uses qualified film-formation equipment as part of a multi-tool integration route, not a single generic reactor recipe. (reviewed) |
+| EDGE-0132 | [PROC-0202](#proc-0202) → USES_EQUIPMENT → [EQ-0102](#eq-0102) | Uses qualified film-formation equipment as part of a multi-tool integration route, not a single generic reactor recipe. (reviewed) |
 
 <a id="proc-0103"></a>
 ## PROC-0103 — Pattern transfer etch
@@ -1396,6 +1403,8 @@ Evidence: [LAM-ETCH-001](../42_references/bibliography.md#lam-etch-001) — Etch
 | Edge | Directional relationship | Scope / condition |
 |---|---|---|
 | EDGE-0092 | [PROC-0103](#proc-0103) → USES_EQUIPMENT → [EQ-0103](#eq-0103) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0133 | [PROC-0202](#proc-0202) → USES_EQUIPMENT → [EQ-0103](#eq-0103) | Selective removal is required; exact wet/dry route and hardware are variant-specific, and the equipment category here represents a dry option. (reviewed) |
+| EDGE-0134 | [PROC-0210](#proc-0210) → USES_EQUIPMENT → [EQ-0103](#eq-0103) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
 
 <a id="proc-0104"></a>
 ## PROC-0104 — Implant and activation sequence
@@ -1554,6 +1563,7 @@ Evidence: [AMAT-CMP-001](../42_references/bibliography.md#amat-cmp-001) — CMP 
 | Edge | Directional relationship | Scope / condition |
 |---|---|---|
 | EDGE-0100 | [PROC-0107](#proc-0107) → USES_EQUIPMENT → [EQ-0107](#eq-0107) | General functional relationship; application requires material and integration qualification. (reviewed) |
+| EDGE-0135 | [PROC-0213](#proc-0213) → USES_EQUIPMENT → [EQ-0107](#eq-0107) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
 
 <a id="proc-0108"></a>
 ## PROC-0108 — Metrology and inspection
@@ -1715,3 +1725,430 @@ Evidence: [MACK-CMP-001](../42_references/bibliography.md#mack-cmp-001) — Page
 | Edge | Directional relationship | Scope / condition |
 |---|---|---|
 | EDGE-0119 | [FAIL-0102](#fail-0102) → DETECTED_BY → [PROC-0108](#proc-0108) | Requires a method and sampling plan sensitive to the relevant local geometry; detection is not guaranteed. (reviewed) |
+
+<a id="fam-0200"></a>
+## FAM-0200 — Device-to-wiring integration
+
+Type: `process_family` · Status: **reviewed** · [Article](../17_transistor_fabrication/planar_and_finfet.md)
+
+Alternative device formation, terminal access and repeated wiring modules; fabrication scope only.
+
+Purpose: Alternative device formation, terminal access and repeated wiring modules; fabrication scope only.
+
+Scope: Representative silicon logic integration function; architecture/material variant and boundaries stated in article. Not a complete mask list.
+
+Mechanism: Alternative device formation, terminal access and repeated wiring modules; fabrication scope only.
+
+Notes: Actual recipes and level-specific limits require qualification. Alternative routes are not simultaneous inputs. Fabricated output has no tested-die status.
+
+Evidence: [AGH-CMOS-001](../42_references/bibliography.md#agh-cmos-001) — Slides 6–16 and 31–33: planar flow, isolation, wells, spacers and activation
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0120 | [PROC-0200](#proc-0200) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0121 | [PROC-0201](#proc-0201) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0122 | [PROC-0202](#proc-0202) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0123 | [PROC-0203](#proc-0203) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0124 | [PROC-0210](#proc-0210) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0125 | [PROC-0211](#proc-0211) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0126 | [PROC-0212](#proc-0212) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0127 | [PROC-0213](#proc-0213) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0128 | [PROC-0214](#proc-0214) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0129 | [FAM-0200](#fam-0200) → ENABLES → [PROC-0030](#proc-0030) | Supports the fabrication portion of the planned aggregate logic/test/die-preparation node; test and die preparation remain unresearched here. (reviewed) |
+| EDGE-0161 | [CHAR-0201](#char-0201) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0162 | [CHAR-0202](#char-0202) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+
+<a id="proc-0200"></a>
+## PROC-0200 — Planar device integration
+
+Type: `operation` · Status: **reviewed** · [Article](../17_transistor_fabrication/planar_and_finfet.md)
+
+Isolation/wells, planar gate, source/drain/spacer and activation functions prepare device terminals.
+
+Purpose: Isolation/wells, planar gate, source/drain/spacer and activation functions prepare device terminals.
+
+Scope: Representative silicon logic integration function; architecture/material variant and boundaries stated in article. Not a complete mask list.
+
+Mechanism: Isolation/wells, planar gate, source/drain/spacer and activation functions prepare device terminals.
+
+Notes: Actual recipes and level-specific limits require qualification. Alternative routes are not simultaneous inputs. Fabricated output has no tested-die status.
+
+Evidence: [AGH-CMOS-001](../42_references/bibliography.md#agh-cmos-001) — Slides 6–16 and 31–33: planar flow, isolation, wells, spacers and activation
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0120 | [PROC-0200](#proc-0200) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0130 | [PROC-0200](#proc-0200) → USES_EQUIPMENT → [EQ-0102](#eq-0102) | Uses qualified film-formation equipment as part of a multi-tool integration route, not a single generic reactor recipe. (reviewed) |
+| EDGE-0137 | [PROC-0200](#proc-0200) → CONSUMES → [MAT-0010](#mat-0010) | Alternative aggregate device route; one compatible option supplies the common MOL interface. Source/drain and isolation details remain variant-specific. (reviewed) |
+| EDGE-0138 | [PROC-0200](#proc-0200) → PRODUCES → [ART-0200](#art-0200) | Alternative aggregate device route; one compatible option supplies the common MOL interface. Source/drain and isolation details remain variant-specific. (reviewed) |
+| EDGE-0143 | [PROC-0200](#proc-0200) → ALTERNATIVE_TO → [PROC-0201](#proc-0201) | Alternative device architectures under different constraints; not drop-in interchangeable processes. (reviewed) |
+
+<a id="proc-0201"></a>
+## PROC-0201 — FinFET device integration
+
+Type: `operation` · Status: **reviewed** · [Article](../17_transistor_fabrication/planar_and_finfet.md)
+
+Fin definition and isolation, gate/source-drain integration and final gate formation prepare device terminals.
+
+Purpose: Fin definition and isolation, gate/source-drain integration and final gate formation prepare device terminals.
+
+Scope: Representative silicon logic integration function; architecture/material variant and boundaries stated in article. Not a complete mask list.
+
+Mechanism: Fin definition and isolation, gate/source-drain integration and final gate formation prepare device terminals.
+
+Notes: Actual recipes and level-specific limits require qualification. Alternative routes are not simultaneous inputs. Fabricated output has no tested-die status.
+
+Evidence: [INTEL-FLOW-001](../42_references/bibliography.md#intel-flow-001) — Slides 8–11: fin formation, temporary gate and replacement gate
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0121 | [PROC-0201](#proc-0201) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0131 | [PROC-0201](#proc-0201) → USES_EQUIPMENT → [EQ-0102](#eq-0102) | Uses qualified film-formation equipment as part of a multi-tool integration route, not a single generic reactor recipe. (reviewed) |
+| EDGE-0139 | [PROC-0201](#proc-0201) → CONSUMES → [MAT-0010](#mat-0010) | Alternative aggregate device route; one compatible option supplies the common MOL interface. Source/drain and isolation details remain variant-specific. (reviewed) |
+| EDGE-0140 | [PROC-0201](#proc-0201) → PRODUCES → [ART-0200](#art-0200) | Alternative aggregate device route; one compatible option supplies the common MOL interface. Source/drain and isolation details remain variant-specific. (reviewed) |
+| EDGE-0143 | [PROC-0200](#proc-0200) → ALTERNATIVE_TO → [PROC-0201](#proc-0201) | Alternative device architectures under different constraints; not drop-in interchangeable processes. (reviewed) |
+| EDGE-0144 | [PROC-0201](#proc-0201) → ALTERNATIVE_TO → [PROC-0202](#proc-0202) | Alternative device architectures under different constraints; not drop-in interchangeable processes. (reviewed) |
+
+<a id="proc-0202"></a>
+## PROC-0202 — Nanosheet device integration
+
+Type: `operation` · Status: **reviewed** · [Article](../17_transistor_fabrication/nanosheet_integration.md)
+
+Alternating-layer preparation, inner spacers, source/drain attachment, selective channel release and surrounding gate prepare terminals.
+
+Purpose: Alternating-layer preparation, inner spacers, source/drain attachment, selective channel release and surrounding gate prepare terminals.
+
+Scope: Representative silicon logic integration function; architecture/material variant and boundaries stated in article. Not a complete mask list.
+
+Mechanism: Alternating-layer preparation, inner spacers, source/drain attachment, selective channel release and surrounding gate prepare terminals.
+
+Notes: Actual recipes and level-specific limits require qualification. Alternative routes are not simultaneous inputs. Fabricated output has no tested-die status.
+
+Evidence: [IMEC-SHEETS-001](../42_references/bibliography.md#imec-sheets-001) — Critical nanosheet building blocks
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0122 | [PROC-0202](#proc-0202) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0132 | [PROC-0202](#proc-0202) → USES_EQUIPMENT → [EQ-0102](#eq-0102) | Uses qualified film-formation equipment as part of a multi-tool integration route, not a single generic reactor recipe. (reviewed) |
+| EDGE-0133 | [PROC-0202](#proc-0202) → USES_EQUIPMENT → [EQ-0103](#eq-0103) | Selective removal is required; exact wet/dry route and hardware are variant-specific, and the equipment category here represents a dry option. (reviewed) |
+| EDGE-0141 | [PROC-0202](#proc-0202) → CONSUMES → [MAT-0010](#mat-0010) | Alternative aggregate device route; one compatible option supplies the common MOL interface. Source/drain and isolation details remain variant-specific. (reviewed) |
+| EDGE-0142 | [PROC-0202](#proc-0202) → PRODUCES → [ART-0200](#art-0200) | Alternative aggregate device route; one compatible option supplies the common MOL interface. Source/drain and isolation details remain variant-specific. (reviewed) |
+| EDGE-0144 | [PROC-0201](#proc-0201) → ALTERNATIVE_TO → [PROC-0202](#proc-0202) | Alternative device architectures under different constraints; not drop-in interchangeable processes. (reviewed) |
+
+<a id="proc-0203"></a>
+## PROC-0203 — MOL terminal contacts
+
+Type: `operation` · Status: **reviewed** · [Article](../17_transistor_fabrication/contacts_and_mol.md)
+
+Open and prepare selected terminal interfaces, form qualified conducting connections and isolate them from adjacent structures.
+
+Purpose: Open and prepare selected terminal interfaces, form qualified conducting connections and isolate them from adjacent structures.
+
+Scope: Representative silicon logic integration function; architecture/material variant and boundaries stated in article. Not a complete mask list.
+
+Mechanism: Open and prepare selected terminal interfaces, form qualified conducting connections and isolate them from adjacent structures.
+
+Notes: Actual recipes and level-specific limits require qualification. Alternative routes are not simultaneous inputs. Fabricated output has no tested-die status.
+
+Evidence: [IMEC-CONTACT-001](../42_references/bibliography.md#imec-contact-001) — Source/drain contact resistance; contact resistivity; test-vehicle discussion
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0123 | [PROC-0203](#proc-0203) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0145 | [PROC-0203](#proc-0203) → CONSUMES → [ART-0200](#art-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0146 | [PROC-0203](#proc-0203) → PRODUCES → [ART-0201](#art-0201) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+
+<a id="proc-0210"></a>
+## PROC-0210 — Wiring-level dielectric and cavity
+
+Type: `operation` · Status: **reviewed** · [Article](../19_back_end_of_line/beol_integration.md)
+
+Deposit a compatible dielectric stack and create connected trench/via cavities landing on selected lower conductors.
+
+Purpose: Deposit a compatible dielectric stack and create connected trench/via cavities landing on selected lower conductors.
+
+Scope: Representative silicon logic integration function; architecture/material variant and boundaries stated in article. Not a complete mask list.
+
+Mechanism: Deposit a compatible dielectric stack and create connected trench/via cavities landing on selected lower conductors.
+
+Notes: Actual recipes and level-specific limits require qualification. Alternative routes are not simultaneous inputs. Fabricated output has no tested-die status.
+
+Evidence: [IBM-BEOL-001](../42_references/bibliography.md#ibm-beol-001) — Opening damascene discussion and barrier/liner tradeoffs
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0124 | [PROC-0210](#proc-0210) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0134 | [PROC-0210](#proc-0210) → USES_EQUIPMENT → [EQ-0103](#eq-0103) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0147 | [PROC-0210](#proc-0210) → CONSUMES → [ART-0201](#art-0201) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0148 | [PROC-0210](#proc-0210) → PRODUCES → [ART-0210](#art-0210) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0157 | [PROC-0210](#proc-0210) → PRECEDES → [PROC-0211](#proc-0211) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+
+<a id="proc-0211"></a>
+## PROC-0211 — Barrier liner and seed
+
+Type: `operation` · Status: **reviewed** · [Article](../19_back_end_of_line/beol_integration.md)
+
+Prepare the cavity with qualified diffusion-blocking, adhesion and fill-nucleation functions.
+
+Purpose: Prepare the cavity with qualified diffusion-blocking, adhesion and fill-nucleation functions.
+
+Scope: Representative silicon logic integration function; architecture/material variant and boundaries stated in article. Not a complete mask list.
+
+Mechanism: Prepare the cavity with qualified diffusion-blocking, adhesion and fill-nucleation functions.
+
+Notes: Actual recipes and level-specific limits require qualification. Alternative routes are not simultaneous inputs. Fabricated output has no tested-die status.
+
+Evidence: [IBM-LINER-001](../42_references/bibliography.md#ibm-liner-001) — Abstract only: TaN/Ta, Cu seed and plated fill
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0125 | [PROC-0211](#proc-0211) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0149 | [PROC-0211](#proc-0211) → CONSUMES → [ART-0210](#art-0210) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0150 | [PROC-0211](#proc-0211) → PRODUCES → [ART-0211](#art-0211) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0157 | [PROC-0210](#proc-0210) → PRECEDES → [PROC-0211](#proc-0211) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0158 | [PROC-0211](#proc-0211) → PRECEDES → [PROC-0212](#proc-0212) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+
+<a id="proc-0212"></a>
+## PROC-0212 — Copper cavity fill
+
+Type: `operation` · Status: **reviewed** · [Article](../19_back_end_of_line/beol_integration.md)
+
+Fill the prepared trench/via cavity with conductor while controlling voids and overburden.
+
+Purpose: Fill the prepared trench/via cavity with conductor while controlling voids and overburden.
+
+Scope: Representative silicon logic integration function; architecture/material variant and boundaries stated in article. Not a complete mask list.
+
+Mechanism: Fill the prepared trench/via cavity with conductor while controlling voids and overburden.
+
+Notes: Actual recipes and level-specific limits require qualification. Alternative routes are not simultaneous inputs. Fabricated output has no tested-die status.
+
+Evidence: [IBM-FILL-001](../42_references/bibliography.md#ibm-fill-001) — Abstract only: voids, seams and superconformal fill
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0126 | [PROC-0212](#proc-0212) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0136 | [PROC-0212](#proc-0212) → USES_EQUIPMENT → [EQ-0201](#eq-0201) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0151 | [PROC-0212](#proc-0212) → CONSUMES → [ART-0211](#art-0211) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0152 | [PROC-0212](#proc-0212) → PRODUCES → [ART-0212](#art-0212) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0158 | [PROC-0211](#proc-0211) → PRECEDES → [PROC-0212](#proc-0212) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0159 | [PROC-0212](#proc-0212) → PRECEDES → [PROC-0213](#proc-0213) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+
+<a id="proc-0213"></a>
+## PROC-0213 — Wiring-level CMP and clean
+
+Type: `operation` · Status: **reviewed** · [Article](../19_back_end_of_line/beol_integration.md)
+
+Remove unwanted overburden while retaining isolated conductors and qualified local topography.
+
+Purpose: Remove unwanted overburden while retaining isolated conductors and qualified local topography.
+
+Scope: Representative silicon logic integration function; architecture/material variant and boundaries stated in article. Not a complete mask list.
+
+Mechanism: Remove unwanted overburden while retaining isolated conductors and qualified local topography.
+
+Notes: Actual recipes and level-specific limits require qualification. Alternative routes are not simultaneous inputs. Fabricated output has no tested-die status.
+
+Evidence: [MACK-CMP-001](../42_references/bibliography.md#mack-cmp-001) — CMP roles and overpolishing defects
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0127 | [PROC-0213](#proc-0213) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0135 | [PROC-0213](#proc-0213) → USES_EQUIPMENT → [EQ-0107](#eq-0107) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0153 | [PROC-0213](#proc-0213) → CONSUMES → [ART-0212](#art-0212) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0154 | [PROC-0213](#proc-0213) → PRODUCES → [ART-0213](#art-0213) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0159 | [PROC-0212](#proc-0212) → PRECEDES → [PROC-0213](#proc-0213) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0160 | [PROC-0213](#proc-0213) → PRECEDES → [PROC-0214](#proc-0214) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+
+<a id="proc-0214"></a>
+## PROC-0214 — Additional levels and terminal finish
+
+Type: `operation` · Status: **reviewed** · [Article](../19_back_end_of_line/beol_integration.md)
+
+Aggregate further qualified wiring-level repetitions, passivation and terminal access; electrical test is outside this operation.
+
+Purpose: Aggregate further qualified wiring-level repetitions, passivation and terminal access; electrical test is outside this operation.
+
+Scope: Representative silicon logic integration function; architecture/material variant and boundaries stated in article. Not a complete mask list.
+
+Mechanism: Aggregate further qualified wiring-level repetitions, passivation and terminal access; electrical test is outside this operation.
+
+Notes: Actual recipes and level-specific limits require qualification. Alternative routes are not simultaneous inputs. Fabricated output has no tested-die status.
+
+Evidence: [HU-FAB-001](../42_references/bibliography.md#hu-fab-001) — Chapter 3 §3.8: multilevel interconnect and terminal boundaries
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0128 | [PROC-0214](#proc-0214) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0155 | [PROC-0214](#proc-0214) → CONSUMES → [ART-0213](#art-0213) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0156 | [PROC-0214](#proc-0214) → PRODUCES → [ART-0214](#art-0214) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0160 | [PROC-0213](#proc-0213) → PRECEDES → [PROC-0214](#proc-0214) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+
+<a id="eq-0201"></a>
+## EQ-0201 — Electrochemical copper fill tool
+
+Type: `equipment` · Status: **reviewed** · [Article](../19_back_end_of_line/beol_integration.md)
+
+Control electrodeposition into qualified seeded cavities; chemistry and transport influence filling behavior.
+
+Evidence: [IBM-FILL-001](../42_references/bibliography.md#ibm-fill-001) — Abstract only: voids, seams and superconformal fill
+
+- Physical function: Control electrodeposition into qualified seeded cavities; chemistry and transport influence filling behavior.
+- Control notes: Functional category; no supplier or product qualification asserted.
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0136 | [PROC-0212](#proc-0212) → USES_EQUIPMENT → [EQ-0201](#eq-0201) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+
+<a id="art-0200"></a>
+## ART-0200 — Device wafer ready for MOL
+
+Type: `artifact` · Status: **reviewed** · [Article](../17_transistor_fabrication/planar_and_finfet.md)
+
+Abstract compatible device-terminal boundary reached by one alternative planar, fin or nanosheet route; not all three are required.
+
+Evidence: [AGH-CMOS-001](../42_references/bibliography.md#agh-cmos-001) — Slides 6–16 and 31–33: planar flow, isolation, wells, spacers and activation
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0138 | [PROC-0200](#proc-0200) → PRODUCES → [ART-0200](#art-0200) | Alternative aggregate device route; one compatible option supplies the common MOL interface. Source/drain and isolation details remain variant-specific. (reviewed) |
+| EDGE-0140 | [PROC-0201](#proc-0201) → PRODUCES → [ART-0200](#art-0200) | Alternative aggregate device route; one compatible option supplies the common MOL interface. Source/drain and isolation details remain variant-specific. (reviewed) |
+| EDGE-0142 | [PROC-0202](#proc-0202) → PRODUCES → [ART-0200](#art-0200) | Alternative aggregate device route; one compatible option supplies the common MOL interface. Source/drain and isolation details remain variant-specific. (reviewed) |
+| EDGE-0145 | [PROC-0203](#proc-0203) → CONSUMES → [ART-0200](#art-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+
+<a id="art-0201"></a>
+## ART-0201 — Device wafer with MOL contacts
+
+Type: `artifact` · Status: **reviewed** · [Article](../17_transistor_fabrication/contacts_and_mol.md)
+
+Wafer with intended terminal connections ready for a qualified wiring module; no product test status.
+
+Evidence: [IMEC-CONTACT-001](../42_references/bibliography.md#imec-contact-001) — Source/drain contact resistance; contact resistivity; test-vehicle discussion
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0146 | [PROC-0203](#proc-0203) → PRODUCES → [ART-0201](#art-0201) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0147 | [PROC-0210](#proc-0210) → CONSUMES → [ART-0201](#art-0201) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+
+<a id="art-0210"></a>
+## ART-0210 — Trench/via cavity wafer
+
+Type: `artifact` · Status: **reviewed** · [Article](../19_back_end_of_line/beol_integration.md)
+
+Illustrative dielectric cavity state above selected lower conductors.
+
+Evidence: [IBM-BEOL-001](../42_references/bibliography.md#ibm-beol-001) — Opening damascene discussion and barrier/liner tradeoffs
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0148 | [PROC-0210](#proc-0210) → PRODUCES → [ART-0210](#art-0210) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0149 | [PROC-0211](#proc-0211) → CONSUMES → [ART-0210](#art-0210) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+
+<a id="art-0211"></a>
+## ART-0211 — Prepared cavity wafer
+
+Type: `artifact` · Status: **reviewed** · [Article](../19_back_end_of_line/beol_integration.md)
+
+Illustrative cavity carrying required barrier/liner/seed functions before conductor fill.
+
+Evidence: [IBM-LINER-001](../42_references/bibliography.md#ibm-liner-001) — Abstract only: TaN/Ta, Cu seed and plated fill
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0150 | [PROC-0211](#proc-0211) → PRODUCES → [ART-0211](#art-0211) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0151 | [PROC-0212](#proc-0212) → CONSUMES → [ART-0211](#art-0211) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+
+<a id="art-0212"></a>
+## ART-0212 — Filled wafer with overburden
+
+Type: `artifact` · Status: **reviewed** · [Article](../19_back_end_of_line/beol_integration.md)
+
+Illustrative filled copper cavity with excess surface conductor still present.
+
+Evidence: [IBM-FILL-001](../42_references/bibliography.md#ibm-fill-001) — Abstract only: voids, seams and superconformal fill
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0152 | [PROC-0212](#proc-0212) → PRODUCES → [ART-0212](#art-0212) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0153 | [PROC-0213](#proc-0213) → CONSUMES → [ART-0212](#art-0212) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+
+<a id="art-0213"></a>
+## ART-0213 — One added wiring level
+
+Type: `artifact` · Status: **reviewed** · [Article](../19_back_end_of_line/beol_integration.md)
+
+Illustrative isolated line/via geometry after CMP and cleaning; next levels require separate qualified instances.
+
+Evidence: [MACK-CMP-001](../42_references/bibliography.md#mack-cmp-001) — CMP roles and overpolishing defects
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0154 | [PROC-0213](#proc-0213) → PRODUCES → [ART-0213](#art-0213) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+| EDGE-0155 | [PROC-0214](#proc-0214) → CONSUMES → [ART-0213](#art-0213) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+
+<a id="art-0214"></a>
+## ART-0214 — Fabricated wired wafer - test pending
+
+Type: `artifact` · Status: **reviewed** · [Article](../19_back_end_of_line/beol_integration.md)
+
+Aggregate wiring and terminal-finish boundary; not electrically accepted, thinned, diced or packaged.
+
+Evidence: [HU-FAB-001](../42_references/bibliography.md#hu-fab-001) — Chapter 3 §3.8: multilevel interconnect and terminal boundaries
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0156 | [PROC-0214](#proc-0214) → PRODUCES → [ART-0214](#art-0214) | Illustrative Cu dual-damascene module; via/trench mask order aggregated. Additional levels are explicitly aggregated in the finishing node. Not a qualified full logic flow. (reviewed) |
+
+<a id="char-0201"></a>
+## CHAR-0201 — Interconnect resistance and RC response
+
+Type: `characteristic` · Status: **reviewed** · [Article](../18_interconnects/wire_rc.md)
+
+Geometry, effective material properties, driver and load determine the scoped circuit model.
+
+Evidence: [HARRIS-RC-001](../42_references/bibliography.md#harris-rc-001) — Sections 2–6: resistance, capacitance, distributed RC, coupling and IR drop
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0161 | [CHAR-0201](#char-0201) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+| EDGE-0163 | [FAIL-0201](#fail-0201) → AFFECTS → [CHAR-0201](#char-0201) | Resistance change is possible but does not uniquely identify the root failure mechanism. (reviewed) |
+| EDGE-0164 | [FAIL-0202](#fail-0202) → AFFECTS → [CHAR-0201](#char-0201) | Resistance change is possible but does not uniquely identify the root failure mechanism. (reviewed) |
+
+<a id="char-0202"></a>
+## CHAR-0202 — Integrated conductor and dielectric condition
+
+Type: `characteristic` · Status: **reviewed** · [Article](../18_interconnects/materials_and_reliability.md)
+
+Barrier/liner integrity, dielectric response and stress history affect electrical reliability.
+
+Evidence: [IBM-BEOL-001](../42_references/bibliography.md#ibm-beol-001) — Opening damascene discussion and barrier/liner tradeoffs
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0162 | [CHAR-0202](#char-0202) → PART_OF → [FAM-0200](#fam-0200) | Representative integration relationship; acceptance requires geometry, material and electrical qualification. (reviewed) |
+
+<a id="fail-0201"></a>
+## FAIL-0201 — Contact or fill discontinuity
+
+Type: `failure_mode` · Status: **reviewed** · [Article](../17_transistor_fabrication/contacts_and_mol.md)
+
+Poor interface or incomplete fill can raise resistance or interrupt intended connections.
+
+Evidence: [AMAT-W-001](../42_references/bibliography.md#amat-w-001) — Conventional tungsten contact and liner/nucleation discussion
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0163 | [FAIL-0201](#fail-0201) → AFFECTS → [CHAR-0201](#char-0201) | Resistance change is possible but does not uniquely identify the root failure mechanism. (reviewed) |
+
+<a id="fail-0202"></a>
+## FAIL-0202 — Current-induced interconnect damage
+
+Type: `failure_mode` · Status: **reviewed** · [Article](../18_interconnects/materials_and_reliability.md)
+
+Atomic transport and local flux divergence can create metal depletion or accumulation under relevant stress.
+
+Evidence: [STANFORD-EM-001](../42_references/bibliography.md#stanford-em-001) — Electromigration and flux-divergence sections, especially pages 11–13
+
+| Edge | Directional relationship | Scope / condition |
+|---|---|---|
+| EDGE-0164 | [FAIL-0202](#fail-0202) → AFFECTS → [CHAR-0201](#char-0201) | Resistance change is possible but does not uniquely identify the root failure mechanism. (reviewed) |

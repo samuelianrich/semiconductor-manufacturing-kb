@@ -34,6 +34,9 @@ flowchart LR
   PROC_0103["Pattern transfer etch"]
   PROC_0105["Thermal oxidation"]
   PROC_0106["Resist strip and surface clean"]
+  PROC_0200["Planar device integration"]
+  PROC_0201["FinFET device integration"]
+  PROC_0202["Nanosheet device integration"]
   SUP_0001["Elkem"]
   SUP_0002["Sibelco"]
   SUP_0003["WACKER"]
@@ -81,3 +84,6 @@ flowchart LR
   PROC_0103 -->|"produces"| MAT_0103
   MAT_0103 -->|"consumes"| PROC_0106
   PROC_0106 -->|"produces"| MAT_0104
+  MAT_0010 -->|"consumes"| PROC_0200
+  MAT_0010 -->|"consumes"| PROC_0201
+  MAT_0010 -->|"consumes"| PROC_0202

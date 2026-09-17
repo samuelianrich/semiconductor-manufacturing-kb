@@ -1,0 +1,137 @@
+[
+  {
+    "id": "AGH-CMOS-001",
+    "title": "MOS Front-End / W8 Modern CMOS front-end I",
+    "author": "AGH-hosted teaching slides; individual author not identified in reviewed deck",
+    "date": "Not stated",
+    "url": "https://home.agh.edu.pl/~marszale/downloads/W8_Modern%20CMOS%20front-end%20I.pdf",
+    "locator": "Slides 6\u201316 and 31\u201333: planar flow, isolation, wells, spacers and activation",
+    "scope": "Historical planar process teaching; dated node projections, recipes and third-party images excluded"
+  },
+  {
+    "id": "INTEL-FLOW-001",
+    "title": "Making of a Chip: 22nm version",
+    "author": "Intel Corporation",
+    "date": "2012",
+    "url": "https://download.intel.com/newsroom/kits/chipmaking/pdfs/Sand-to-Silicon_22nm-Version.pdf",
+    "locator": "Slides 8\u201311: fin formation, temporary gate and replacement gate",
+    "scope": "Historical simplified process functions only; not a complete FinFET recipe or evidence for current products"
+  },
+  {
+    "id": "IMEC-SHEETS-001",
+    "title": "Entering the nanosheet transistor era",
+    "author": "imec; technical account featuring Naoto Horiguchi",
+    "date": "2022-02-11",
+    "url": "https://www.imec-int.com/en/articles/entering-nanosheet-transistor-era-0",
+    "locator": "Critical nanosheet building blocks",
+    "scope": "Si/SiGe stack, inner spacer, selective release and replacement gate; dated commercial forecasts excluded"
+  },
+  {
+    "id": "IBM-GAA-001",
+    "title": "Stacked Nanosheet Gate-All-Around Transistor to Enable Scaling Beyond FinFET",
+    "author": "N. Loubet et al.; IBM, Samsung Electronics and GLOBALFOUNDRIES / VLSI Technology",
+    "date": "2017",
+    "url": "https://s3.us.cloud-object-storage.appdomain.cloud/res-files/1114-Stacked%20Nanosheet%20Gate-All-Around%20Transistor%20to%20Enable%20Scaling%20Beyond%20FinFET.pdf",
+    "locator": "Two-page paper: device fabrication, isolation and gate/contact discussions",
+    "scope": "Research integration example, not a qualified commercial process; no product performance extrapolation"
+  },
+  {
+    "id": "IMEC-CONTACT-001",
+    "title": "Solving the contact resistance challenge for 7nm and beyond CMOS",
+    "author": "imec; technical account featuring Hao Yu",
+    "date": "2019-03-29",
+    "url": "https://www.imec-int.com/en/imec-magazine/imec-magazine-april-2019/solving-the-contact-resistance-challenge-for-7nm-and-beyond-cmos",
+    "locator": "Source/drain contact resistance; contact resistivity; test-vehicle discussion",
+    "scope": "Interface resistivity, doping and geometry; numerical industrial targets and customer adoption not adopted"
+  },
+  {
+    "id": "AMAT-W-001",
+    "title": "Introducing a Breakthrough in 2D Scaling",
+    "author": "Zhebo Chen / Applied Materials",
+    "date": "2020-07-20",
+    "url": "https://www.appliedmaterials.com/us/en/blog/blog-posts/introducing-a-breakthrough-in-2d-scaling.html",
+    "locator": "Conventional tungsten contact and liner/nucleation discussion",
+    "scope": "Tungsten fill and available-volume tradeoff; vendor absolutes, performance and customer claims excluded"
+  },
+  {
+    "id": "AMAT-CO-001",
+    "title": "Cobalt Product Suite",
+    "author": "Applied Materials",
+    "date": "Not stated",
+    "url": "https://www.appliedmaterials.com/us/en/product-library/cobalt-product-suite.html",
+    "locator": "Deposition, anneal and CMP functional descriptions",
+    "scope": "Cobalt integration as an alternative; no universal resistance or electromigration ranking"
+  },
+  {
+    "id": "IBM-LINER-001",
+    "title": "An optimal liner for copper damascene interconnects",
+    "author": "D. Edelstein et al. / ADMETA 2001; IBM Research record",
+    "date": "2001-12-01",
+    "url": "https://research.ibm.com/publications/an-optimal-liner-for-copper-damascene-interconnects",
+    "locator": "Abstract only: TaN/Ta, Cu seed and plated fill",
+    "scope": "Historical barrier/liner/seed functions; full conference paper not reviewed"
+  },
+  {
+    "id": "IBM-FILL-001",
+    "title": "Damascene copper electroplating for chip interconnections",
+    "author": "P. C. Andricacos, C. Uzoh, J. Dukovic, J. Horkans and H. Deligianni / IBM J. Res. Dev.",
+    "date": "1998-01-01",
+    "url": "https://research.ibm.com/publications/damascene-copper-electroplating-for-chip-interconnections",
+    "locator": "Abstract only: voids, seams and superconformal fill",
+    "scope": "Primary research abstract; full paper not reviewed; no plating formulation copied"
+  },
+  {
+    "id": "IBM-BEOL-001",
+    "title": "Copper evolution and beyond: Developments in advanced interconnects for future CMOS nodes",
+    "author": "IBM Research",
+    "date": "2024-12-13",
+    "url": "https://research.ibm.com/blog/beol-cu-interconnects-iedm",
+    "locator": "Opening damascene discussion and barrier/liner tradeoffs",
+    "scope": "Narrow-line volume and dielectric reliability; reported advanced materials and product claims not generalized"
+  },
+  {
+    "id": "IMEC-SEMI-001",
+    "title": "Imec demonstrates 16nm pitch Ru lines with record-low resistance obtained using a semi-damascene integration approach",
+    "author": "imec",
+    "date": "2025-06-03",
+    "url": "https://www.imec-int.com/en/press/imec-demonstrates-16nm-pitch-ru-lines-record-low-resistance-obtained-using-semi-damascene",
+    "locator": "Semi-damascene definition and direct-etch process description",
+    "scope": "Research alternative to dielectric-first patterning; title retained verbatim, record claims/yields not adopted"
+  },
+  {
+    "id": "HARRIS-RC-001",
+    "title": "Lecture 4: Interconnect RC",
+    "author": "Teaching notes hosted by David Harris, Harvey Mudd College; individual authorship not identified in PDF",
+    "date": "1997-11-04",
+    "url": "https://pages.hmc.edu/harris/class/hal/lect4.pdf",
+    "locator": "Sections 2\u20136: resistance, capacitance, distributed RC, coupling and IR drop",
+    "scope": "Basic circuit models; historical geometry, tool capability and process forecasts excluded; per-length resistance units corrected dimensionally"
+  },
+  {
+    "id": "STANFORD-EM-001",
+    "title": "Al Interconnect, EE311 notes",
+    "author": "Krishna Saraswat / Stanford University",
+    "date": "Not stated",
+    "url": "https://web.stanford.edu/class/ee311/NOTES/Interconnect_Al.pdf",
+    "locator": "Electromigration and flux-divergence sections, especially pages 11\u201313",
+    "scope": "Mechanism illustrated in aluminum; no transfer of material-specific lifetime constants to Cu/Co/Ru"
+  },
+  {
+    "id": "NIST-INTERCONNECT-001",
+    "title": "Reliability Metrologies for Advanced Electronic Interconnects",
+    "author": "NIST",
+    "date": "Not stated; page describes a concluded project",
+    "url": "https://www.nist.gov/programs-projects/reliability-metrologies-advanced-electronic-interconnects",
+    "locator": "Summary, Description and AC-Induced Thin Film Fatigue",
+    "scope": "Distinguish current-driven mass transport from thermomechanical damage; not current product qualification"
+  },
+  {
+    "id": "AVS-LOWK-001",
+    "title": "Plasma-induced Damage Reduction in Porous SiOCH Dielectrics by Replacement of H2 and N2 by CH2F2 and Ar in Fluorocarbon Based Plasmas",
+    "author": "L. Souriau et al. / AVS 58th Symposium, PS1-TuA7",
+    "date": "2011-11-01",
+    "url": "https://www2.avs.org/symposium2011/Papers/Paper_PS1-TuA7.html",
+    "locator": "Conference abstract: porosity, carbon-group removal, moisture and k-value",
+    "scope": "Primary research abstract only; qualitative damage mechanism, no chemical recipe reproduced"
+  }
+]

@@ -14,6 +14,7 @@ flowchart LR
   EQ_0106["Compatible strip and clean tools"]
   EQ_0107["CMP and post-clean system"]
   EQ_0108["Optical/electron measurement tools"]
+  EQ_0201["Electrochemical copper fill tool"]
   PROC_0002["Carbothermic silicon smelting"]
   PROC_0004["Chemical purification by distillation"]
   PROC_0005["Polysilicon deposition"]
@@ -29,6 +30,12 @@ flowchart LR
   PROC_0106["Resist strip and surface clean"]
   PROC_0107["Chemical mechanical planarization"]
   PROC_0108["Metrology and inspection"]
+  PROC_0200["Planar device integration"]
+  PROC_0201["FinFET device integration"]
+  PROC_0202["Nanosheet device integration"]
+  PROC_0210["Wiring-level dielectric and cavity"]
+  PROC_0212["Copper cavity fill"]
+  PROC_0213["Wiring-level CMP and clean"]
   SUP_0005["PVA TePla"]
   PROC_0002 -->|"uses equipment"| EQ_0001
   PROC_0004 -->|"uses equipment"| EQ_0002
@@ -46,3 +53,10 @@ flowchart LR
   PROC_0106 -->|"uses equipment"| EQ_0106
   PROC_0107 -->|"uses equipment"| EQ_0107
   PROC_0108 -->|"uses equipment"| EQ_0108
+  PROC_0200 -->|"uses equipment"| EQ_0102
+  PROC_0201 -->|"uses equipment"| EQ_0102
+  PROC_0202 -->|"uses equipment"| EQ_0102
+  PROC_0202 -->|"uses equipment"| EQ_0103
+  PROC_0210 -->|"uses equipment"| EQ_0103
+  PROC_0213 -->|"uses equipment"| EQ_0107
+  PROC_0212 -->|"uses equipment"| EQ_0201

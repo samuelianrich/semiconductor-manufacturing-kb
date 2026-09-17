@@ -1,6 +1,6 @@
 # Staged research and build roadmap
 
-**Phases 0, 0A, 1 and 2 are delivered; Phase 3 is next.** Do not bulk-generate chapter placeholders that appear to be completed articles. A phase can be coherent before every possible extension is written, but all stated core coverage must pass its exit gate.
+**Phases 0, 0A, 1, 2 and 3 are delivered; Phase 4 is next.** Do not bulk-generate chapter placeholders that appear to be completed articles. A phase can be coherent before every possible extension is written, but all stated core coverage must pass its exit gate.
 
 | Phase | Scope | Prerequisites | Exit evidence |
 |---|---|---|---|
@@ -44,4 +44,8 @@ Later-phase technical chapters, comprehensive supplier tables, quantitative mark
 
 ## Phase 2 delivery
 
-Nine unit-process chapters, nine original schematics, process variables/failure chains, worked examples, a glossary, comparisons and a sourced teaching route cover modules 08–16. [Review record](AUDIT_PHASE2.md) · [Reading path](LEARNING_PATHS.md#phase-2-reading-path). The next engineering work is Phase 3, modules 17–19. Review remains author self-review, not independent specialist approval.
+Nine unit-process chapters, nine original schematics, process variables/failure chains, worked examples, a glossary, comparisons and a sourced teaching route cover modules 08–16. [Review record](AUDIT_PHASE2.md) · [Reading path](LEARNING_PATHS.md#phase-2-reading-path). Phase 3 delivery is recorded below. Review remains author self-review, not independent specialist approval.
+
+## Phase 3 delivery
+
+Six chapters cover planar/FinFET integration, nanosheets, MOL contacts, wire RC, materials/reliability and BEOL. Eight original cross-section/process schematics, two generated integration views, worked examples and source records support modules 17–19. The map ends at fabrication with test pending. [Review record](AUDIT_PHASE3.md) · [Reading path](LEARNING_PATHS.md#phase-3-reading-path). Next: Phase 4, module 07, design-to-manufacturing interfaces.

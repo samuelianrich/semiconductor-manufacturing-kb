@@ -1,0 +1,16 @@
+flowchart LR
+  ART_0200["Device wafer ready for MOL"]
+  ART_0201["Device wafer with MOL contacts"]
+  MAT_0010["Accepted starting wafer"]
+  PROC_0200["Planar device integration"]
+  PROC_0201["FinFET device integration"]
+  PROC_0202["Nanosheet device integration"]
+  PROC_0203["MOL terminal contacts"]
+  MAT_0010 -->|"consumes"| PROC_0200
+  PROC_0200 -->|"produces"| ART_0200
+  MAT_0010 -->|"consumes"| PROC_0201
+  PROC_0201 -->|"produces"| ART_0200
+  MAT_0010 -->|"consumes"| PROC_0202
+  PROC_0202 -->|"produces"| ART_0200
+  ART_0200 -->|"consumes"| PROC_0203
+  PROC_0203 -->|"produces"| ART_0201

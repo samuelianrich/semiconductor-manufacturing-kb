@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">Nanosheets: sacrificial layers become gate access</title><desc id="desc">Three transverse channel sections show alternating retained silicon and sacrificial SiGe, released silicon sheets and an insulated surrounding gate. Source/drain anchors are outside this section.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">Nanosheets: sacrificial layers become gate access</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: IMEC-SHEETS-001; IBM-GAA-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<text x="45" y="155" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#17334a" text-anchor="start">1. Patterned stack</text>
+<rect x="105" y="270" width="185" height="35" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="105" y="305" width="185" height="45" rx="0" fill="#ba4661" stroke="#17334a" stroke-width="2"/>
+<rect x="105" y="350" width="185" height="35" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="105" y="385" width="185" height="45" rx="0" fill="#ba4661" stroke="#17334a" stroke-width="2"/>
+<rect x="105" y="430" width="185" height="35" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<text x="75" y="555" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#17334a" text-anchor="start">Si / sacrificial SiGe</text>
+<line x1="355" y1="375" x2="420" y2="375" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="445" y="155" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#17334a" text-anchor="start">2. Released sheets</text>
+<rect x="505" y="270" width="185" height="35" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="505" y="350" width="185" height="35" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="505" y="430" width="185" height="35" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<text x="475" y="555" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#17334a" text-anchor="start">Si retained; SiGe removed</text>
+<line x1="755" y1="375" x2="820" y2="375" stroke="#17334a" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="845" y="155" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#17334a" text-anchor="start">3. Surrounding gate</text>
+<rect x="855" y="245" width="285" height="265" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="890" y="258" width="215" height="59" rx="5" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="905" y="270" width="185" height="35" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="890" y="338" width="215" height="59" rx="5" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="905" y="350" width="185" height="35" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<rect x="890" y="418" width="215" height="59" rx="5" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<rect x="905" y="430" width="185" height="35" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<text x="875" y="555" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#17334a" text-anchor="start">Dielectric separates Si / gate</text>
+<rect x="80" y="595" width="22" height="20" rx="0" fill="#d0e6ec" stroke="#17334a" stroke-width="2"/>
+<text x="112" y="613" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#17334a" text-anchor="start">Si</text>
+<rect x="205" y="595" width="22" height="20" rx="0" fill="#ba4661" stroke="#17334a" stroke-width="2"/>
+<text x="237" y="613" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#17334a" text-anchor="start">Sacrificial SiGe</text>
+<rect x="475" y="595" width="22" height="20" rx="0" fill="#f2b562" stroke="#17334a" stroke-width="2"/>
+<text x="507" y="613" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#17334a" text-anchor="start">Gate dielectric</text>
+<rect x="730" y="595" width="22" height="20" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<text x="762" y="613" font-family="Arial, sans-serif" font-size="19" font-weight="400" fill="#17334a" text-anchor="start">Gate conductor</text>
+<text x="48" y="205" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#17334a" text-anchor="start">Across channel; source/drain anchors and inner spacers are out of plane</text></svg>

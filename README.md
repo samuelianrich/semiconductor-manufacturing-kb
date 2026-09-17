@@ -4,7 +4,7 @@
 
 A GitHub-ready knowledge repository for a second-year electrical engineering student. General semiconductor manufacturing is the foundation; NVIDIA Vera Rubin will be a source-labeled case study. Engineering, manufacturing economics and investment research have separate homes. No buy/sell recommendations.
 
-**Current build: Phases 0A, 1 and 2 complete.** Nineteen author-reviewed chapters cover quartz through wafers, device physics and fab unit processes. Eighteen original illustrations accompany the teaching content, alongside the generated manufacturing maps. Independent specialist review remains pending. Later-phase indexes describe planned scope. See the [Phase 2 audit](AUDIT_PHASE2.md) and [Phase 2 reading path](LEARNING_PATHS.md#phase-2-reading-path).
+**Current build: Phases 0A, 1, 2 and 3 complete.** Twenty-five author-reviewed chapters cover quartz through wafers, device physics, fab unit processes, transistor integration and multilevel wiring. Twenty-six original teaching illustrations accompany the generated manufacturing maps. Independent specialist review remains pending. Later-phase indexes describe planned scope. See the [Phase 3 audit](AUDIT_PHASE3.md) and [Phase 3 reading path](LEARNING_PATHS.md#phase-3-reading-path).
 
 ## Start here
 

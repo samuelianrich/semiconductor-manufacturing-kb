@@ -34,3 +34,13 @@ P2-07,Cleaning qualifies a surface for its next operation,assets/process_flows/c
 P2-08,"CMP: coupled chemistry, contact and local geometry",assets/equipment/cmp.svg,svg,AMAT-CMP-001; EBARA-CMP-001; MACK-CMP-001,CC BY 4.0,author reviewed conceptual schematic
 P2-09,Measurement → evidence → process decision,assets/process_flows/metrology_control.svg,svg,NIST-SPC-001; NIST-CAPABILITY-001; NIST-ELLIPSO-001,CC BY 4.0,author reviewed conceptual schematic
 P2-10,Teaching oxide pattern transfer,assets/process_flows/map_oxide_pattern_transfer.mmd,mermaid,Canonical map CSVs and scoped evidence links,CC BY 4.0,author reviewed teaching route
+P3-01,Planar and fin devices: distinguish the section direction,assets/diagrams/planar_finfet_sections.svg,svg,AGH-CMOS-001; INTEL-FLOW-001,CC BY 4.0,author reviewed conceptual schematic
+P3-02,Nanosheets: sacrificial layers become gate access,assets/process_flows/nanosheet_release.svg,svg,IMEC-SHEETS-001; IBM-GAA-001,CC BY 4.0,author reviewed conceptual schematic
+P3-03,MOL contacts: reach each terminal without crossing insulation,assets/diagrams/mol_contacts.svg,svg,IMEC-CONTACT-001; AMAT-W-001,CC BY 4.0,author reviewed conceptual schematic
+P3-04,A wire is a distributed resistance and capacitance,assets/diagrams/wire_rc.svg,svg,HARRIS-RC-001,CC BY 4.0,author reviewed conceptual schematic
+P3-05,The conducting core and its surrounding interfaces,assets/diagrams/interconnect_reliability.svg,svg,IBM-LINER-001; IBM-BEOL-001; STANFORD-EM-001,CC BY 4.0,author reviewed conceptual schematic
+P3-06,Devices → contacts → multilevel wiring → terminal,assets/diagrams/beol_stack.svg,svg,HU-FAB-001; IBM-BEOL-001,CC BY 4.0,author reviewed conceptual schematic
+P3-07,"Dual damascene: pattern dielectric, fill, then planarize",assets/process_flows/dual_damascene.svg,svg,IBM-BEOL-001; IBM-LINER-001; IBM-FILL-001; MACK-CMP-001,CC BY 4.0,author reviewed conceptual schematic
+P3-08,Alternative device integration and MOL,assets/process_flows/map_device_integration.mmd,mermaid,Canonical CSV graph and source locators,CC BY 4.0,author reviewed conceptual schematic
+P3-09,Representative Cu wiring integration,assets/process_flows/map_beol_integration.mmd,mermaid,Canonical CSV graph and source locators,CC BY 4.0,author reviewed conceptual schematic
+P3-10,Nanosheet inner spacers: a section along the channels,assets/diagrams/nanosheet_inner_spacers.svg,svg,IMEC-SHEETS-001; IBM-GAA-001,CC BY 4.0,author reviewed conceptual schematic

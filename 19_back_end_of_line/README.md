@@ -1,6 +1,6 @@
 # BEOL process integration
 
-Status: **Architecture only — technical articles have not been researched or drafted.**
+Status: **Phase 3 chapters available — author reviewed; independent specialist review pending.**
 
 Module `M19` · Build phase 3 · [Topic inventory](../catalog/topic_inventory.md) · [Graph](../DEPENDENCIES.md)
 
@@ -20,9 +20,9 @@ Module `M19` · Build phase 3 · [Topic inventory](../catalog/topic_inventory.md
 
 [Wafer electrical test](../20_wafer_test/README.md), [Advanced packaging](../25_advanced_packaging/README.md)
 
-## Planned article structure
+## Canonical articles
 
-Split the owned concepts into explainers, process articles, integration articles and comparisons as described in the [taxonomy](../TAXONOMY.md). This index is a scope contract, not an article and not evidence for a technical claim. Every drafted article must add concept-level prerequisites, upstream/downstream links, equipment and material links, citations and review status.
+- [BEOL integration: building and protecting the multilevel wiring stack](beol_integration.md)
 
 ## Research and economics routing
 

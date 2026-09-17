@@ -316,5 +316,97 @@
     ],
     "status": "reviewed",
     "last_reviewed": "2026-09-17"
+  },
+  {
+    "path": "17_transistor_fabrication/planar_and_finfet.md",
+    "title": "Planar and FinFET integration: making a controllable channel",
+    "node_ids": [
+      "PROC-0201"
+    ],
+    "sources": [
+      "AGH-CMOS-001",
+      "INTEL-FLOW-001",
+      "HU-MOS-001",
+      "ASM-EPI-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
+  },
+  {
+    "path": "17_transistor_fabrication/nanosheet_integration.md",
+    "title": "Nanosheet integration: release the channels, then surround them",
+    "node_ids": [
+      "PROC-0202"
+    ],
+    "sources": [
+      "IMEC-SHEETS-001",
+      "IBM-GAA-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
+  },
+  {
+    "path": "17_transistor_fabrication/contacts_and_mol.md",
+    "title": "Contacts and MOL: connecting the device without losing its advantage",
+    "node_ids": [
+      "PROC-0203"
+    ],
+    "sources": [
+      "IMEC-CONTACT-001",
+      "AMAT-W-001",
+      "AMAT-CO-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
+  },
+  {
+    "path": "18_interconnects/wire_rc.md",
+    "title": "Interconnect physics: geometry, resistance, capacitance and delay",
+    "node_ids": [
+      "CHAR-0201"
+    ],
+    "sources": [
+      "HARRIS-RC-001",
+      "HU-FAB-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
+  },
+  {
+    "path": "18_interconnects/materials_and_reliability.md",
+    "title": "Wiring materials and reliability: qualify the whole stack",
+    "node_ids": [
+      "CHAR-0202"
+    ],
+    "sources": [
+      "IBM-BEOL-001",
+      "IBM-LINER-001",
+      "AMAT-W-001",
+      "AMAT-CO-001",
+      "IMEC-SEMI-001",
+      "AVS-LOWK-001",
+      "STANFORD-EM-001",
+      "NIST-INTERCONNECT-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
+  },
+  {
+    "path": "19_back_end_of_line/beol_integration.md",
+    "title": "BEOL integration: building and protecting the multilevel wiring stack",
+    "node_ids": [
+      "PROC-0210"
+    ],
+    "sources": [
+      "HU-FAB-001",
+      "IBM-BEOL-001",
+      "IBM-LINER-001",
+      "IBM-FILL-001",
+      "IMEC-SEMI-001",
+      "AVS-LOWK-001",
+      "MACK-CMP-001"
+    ],
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
   }
 ]

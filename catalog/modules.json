@@ -384,7 +384,8 @@
       "contacts and middle-of-line boundary",
       "thermal-budget and variability tradeoffs"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
   },
   {
     "id": "M18",
@@ -405,7 +406,8 @@
       "low-k dielectrics",
       "electromigration and reliability"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
   },
   {
     "id": "M19",
@@ -424,7 +426,8 @@
       "passivation and terminal metallization",
       "integration defects and thermal budgets"
     ],
-    "status": "planned"
+    "status": "reviewed",
+    "last_reviewed": "2026-09-17"
   },
   {
     "id": "M20",

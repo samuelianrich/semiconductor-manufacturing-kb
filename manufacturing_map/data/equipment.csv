@@ -14,3 +14,4 @@ EQ-0105,"Control temperature, oxidant ambient and exposure time.","Tool function
 EQ-0106,"Provide material-specific residue removal, rinse and drying functions.","Tool function only; process targets, models and supplier qualification not asserted."
 EQ-0107,Control pad/slurry contact and wafer loading; clean and dry the resulting surface.,"Tool function only; process targets, models and supplier qualification not asserted."
 EQ-0108,Obtain pattern or defect information with method-specific sensitivity and sampling.,"Tool function only; process targets, models and supplier qualification not asserted."
+EQ-0201,Control electrodeposition into qualified seeded cavities; chemistry and transport influence filling behavior.,Functional category; no supplier or product qualification asserted.

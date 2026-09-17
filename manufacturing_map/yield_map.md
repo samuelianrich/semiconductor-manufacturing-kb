@@ -12,11 +12,16 @@ flowchart LR
   CHAR_0003["Wafer geometry"]
   CHAR_0101["Film thickness"]
   CHAR_0102["Pattern placement"]
+  CHAR_0201["Interconnect resistance and RC response"]
+  CHAR_0202["Integrated conductor and dielectric condition"]
   FAIL_0001["Surface contamination outside specification"]
   FAIL_0002["Geometry outside specification"]
   FAIL_0003["Electrical resistivity outside specification"]
   FAIL_0101["Local stochastic pattern failure"]
   FAIL_0102["CMP dishing or erosion"]
+  FAIL_0201["Contact or fill discontinuity"]
+  FAIL_0202["Current-induced interconnect damage"]
+  FAM_0200["Device-to-wiring integration"]
   METRIC_0001["Accepted wafer fraction"]
   PROC_0009["Wafer cleaning and acceptance inspection"]
   PROC_0108["Metrology and inspection"]
@@ -33,6 +38,10 @@ flowchart LR
   PROC_0108 -->|"measures"| CHAR_0102
   FAIL_0101 -->|"detected by"| PROC_0108
   FAIL_0102 -->|"detected by"| PROC_0108
+  CHAR_0201 -->|"part of"| FAM_0200
+  CHAR_0202 -->|"part of"| FAM_0200
+  FAIL_0201 -->|"affects"| CHAR_0201
+  FAIL_0202 -->|"affects"| CHAR_0201
 ```
 
 *MAP-YIELD-MAP — Failure modes, detection operations and measured characteristics; arrows do not represent an inevitable cascade. Original schematic; CC BY 4.0. Source: graph records and their evidence links; no physical scale.*
@@ -44,11 +53,16 @@ flowchart LR
 | CHAR-0003 | Wafer geometry | reviewed | [Wafer geometry](../04_wafer_manufacturing/wafer_finishing_and_acceptance.md) |
 | CHAR-0101 | Film thickness | reviewed | [Film thickness](../16_metrology_and_inspection/metrology.md) |
 | CHAR-0102 | Pattern placement | reviewed | [Pattern placement](../16_metrology_and_inspection/metrology.md) |
+| CHAR-0201 | Interconnect resistance and RC response | reviewed | [Interconnect resistance and RC response](../18_interconnects/wire_rc.md) |
+| CHAR-0202 | Integrated conductor and dielectric condition | reviewed | [Integrated conductor and dielectric condition](../18_interconnects/materials_and_reliability.md) |
 | FAIL-0001 | Surface contamination outside specification | reviewed | [Surface contamination outside specification](../04_wafer_manufacturing/wafer_finishing_and_acceptance.md) |
 | FAIL-0002 | Geometry outside specification | reviewed | [Geometry outside specification](../04_wafer_manufacturing/wafer_finishing_and_acceptance.md) |
 | FAIL-0003 | Electrical resistivity outside specification | reviewed | [Electrical resistivity outside specification](../05_semiconductor_physics/doping_and_transport.md) |
 | FAIL-0101 | Local stochastic pattern failure | reviewed | [Local stochastic pattern failure](../09_photolithography/lithography.md) |
 | FAIL-0102 | CMP dishing or erosion | reviewed | [CMP dishing or erosion](../15_cmp/cmp.md) |
+| FAIL-0201 | Contact or fill discontinuity | reviewed | [Contact or fill discontinuity](../17_transistor_fabrication/contacts_and_mol.md) |
+| FAIL-0202 | Current-induced interconnect damage | reviewed | [Current-induced interconnect damage](../18_interconnects/materials_and_reliability.md) |
+| FAM-0200 | Device-to-wiring integration | reviewed | [Device-to-wiring integration](../17_transistor_fabrication/planar_and_finfet.md) |
 | METRIC-0001 | Accepted wafer fraction | reviewed | [Accepted wafer fraction](../04_wafer_manufacturing/wafer_finishing_and_acceptance.md) |
 | PROC-0009 | Wafer cleaning and acceptance inspection | reviewed | [Wafer cleaning and acceptance inspection](../04_wafer_manufacturing/wafer_finishing_and_acceptance.md) |
 | PROC-0108 | Metrology and inspection | reviewed | [Metrology and inspection](../16_metrology_and_inspection/metrology.md) |
@@ -68,4 +82,8 @@ flowchart LR
 | EDGE-0117 | PROC-0108 → MEASURES → CHAR-0102 | General functional relationship; application requires material and integration qualification. | [ASML-METRO-001](../42_references/bibliography.md#asml-metro-001) (Optical and electron-beam metrology sections) |
 | EDGE-0118 | FAIL-0101 → DETECTED_BY → PROC-0108 | Requires a method and sampling plan sensitive to the relevant local geometry; detection is not guaranteed. | [IMEC-STOCH-001](../42_references/bibliography.md#imec-stoch-001) (Stochastic failures and inspection discussion) |
 | EDGE-0119 | FAIL-0102 → DETECTED_BY → PROC-0108 | Requires a method and sampling plan sensitive to the relevant local geometry; detection is not guaranteed. | [MACK-CMP-001](../42_references/bibliography.md#mack-cmp-001) (Pages 1–2: topography, pressure/speed and dishing/erosion) |
+| EDGE-0161 | CHAR-0201 → PART_OF → FAM-0200 | Representative integration relationship; acceptance requires geometry, material and electrical qualification. | [HARRIS-RC-001](../42_references/bibliography.md#harris-rc-001) (Sections 2–6: resistance, capacitance, distributed RC, coupling and IR drop) |
+| EDGE-0162 | CHAR-0202 → PART_OF → FAM-0200 | Representative integration relationship; acceptance requires geometry, material and electrical qualification. | [IBM-BEOL-001](../42_references/bibliography.md#ibm-beol-001) (Opening damascene discussion and barrier/liner tradeoffs) |
+| EDGE-0163 | FAIL-0201 → AFFECTS → CHAR-0201 | Resistance change is possible but does not uniquely identify the root failure mechanism. | [AMAT-W-001](../42_references/bibliography.md#amat-w-001) (Conventional tungsten contact and liner/nucleation discussion) |
+| EDGE-0164 | FAIL-0202 → AFFECTS → CHAR-0201 | Resistance change is possible but does not uniquely identify the root failure mechanism. | [STANFORD-EM-001](../42_references/bibliography.md#stanford-em-001) (Electromigration and flux-divergence sections, especially pages 11–13) |
 <!-- END GENERATED MAP -->

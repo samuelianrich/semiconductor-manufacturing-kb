@@ -39,3 +39,7 @@ Use the [source plan](../RESEARCH_STRATEGY.md) and [source policy](../SOURCE_POL
 ## Phase 2 additions
 
 [Phase 2 engineering cost drivers](phase2_cost_drivers.md).
+
+## Phase 3 additions
+
+[Phase 3 engineering cost drivers](phase3_cost_drivers.md).

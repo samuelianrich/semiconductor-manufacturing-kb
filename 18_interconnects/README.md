@@ -1,6 +1,6 @@
 # Interconnect structures and physics
 
-Status: **Architecture only — technical articles have not been researched or drafted.**
+Status: **Phase 3 chapters available — author reviewed; independent specialist review pending.**
 
 Module `M18` · Build phase 3 · [Topic inventory](../catalog/topic_inventory.md) · [Graph](../DEPENDENCIES.md)
 
@@ -22,9 +22,10 @@ Module `M18` · Build phase 3 · [Topic inventory](../catalog/topic_inventory.md
 
 [BEOL process integration](../19_back_end_of_line/README.md), [Package substrates](../26_substrates/README.md), [Power delivery](../28_power_delivery/README.md)
 
-## Planned article structure
+## Canonical articles
 
-Split the owned concepts into explainers, process articles, integration articles and comparisons as described in the [taxonomy](../TAXONOMY.md). This index is a scope contract, not an article and not evidence for a technical claim. Every drafted article must add concept-level prerequisites, upstream/downstream links, equipment and material links, citations and review status.
+- [Interconnect physics: geometry, resistance, capacitance and delay](wire_rc.md)
+- [Wiring materials and reliability: qualify the whole stack](materials_and_reliability.md)
 
 ## Research and economics routing
 

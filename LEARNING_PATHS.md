@@ -60,3 +60,14 @@ Read the carrier/doping primer just in time when crystal growth introduces resis
 9. [Metrology and inspection: evidence for process decisions](16_metrology_and_inspection/metrology.md)
 
 Use the [unit-process map guide](manufacturing_map/phase2_unit_processes.md) to distinguish learning order from physical wafer flow. Continue to Phase 3 only after the film, pattern-transfer and measurement interfaces are clear.
+
+## Phase 3 reading path
+
+1. [Planar and FinFET integration: making a controllable channel](17_transistor_fabrication/planar_and_finfet.md)
+2. [Nanosheet integration: release the channels, then surround them](17_transistor_fabrication/nanosheet_integration.md)
+3. [Contacts and MOL: connecting the device without losing its advantage](17_transistor_fabrication/contacts_and_mol.md)
+4. [Interconnect physics: geometry, resistance, capacitance and delay](18_interconnects/wire_rc.md)
+5. [Wiring materials and reliability: qualify the whole stack](18_interconnects/materials_and_reliability.md)
+6. [BEOL integration: building and protecting the multilevel wiring stack](19_back_end_of_line/beol_integration.md)
+
+The [integration-map guide](manufacturing_map/phase3_integration.md) shows physical-state boundaries and alternatives. Next is Phase 4: design, PDKs, signoff and masks.

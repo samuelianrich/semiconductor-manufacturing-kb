@@ -24,7 +24,9 @@ flowchart LR
   EQ_0106["Compatible strip and clean tools"]
   EQ_0107["CMP and post-clean system"]
   EQ_0108["Optical/electron measurement tools"]
+  EQ_0201["Electrochemical copper fill tool"]
   FAM_0100["Fab unit processes"]
+  FAM_0200["Device-to-wiring integration"]
   MAT_0001["Quartz-bearing feedstock"]
   MAT_0006["Electronic-grade polysilicon"]
   MAT_0007["Single-crystal silicon ingot"]
@@ -54,6 +56,12 @@ flowchart LR
   PROC_0106["Resist strip and surface clean"]
   PROC_0107["Chemical mechanical planarization"]
   PROC_0108["Metrology and inspection"]
+  PROC_0200["Planar device integration"]
+  PROC_0201["FinFET device integration"]
+  PROC_0202["Nanosheet device integration"]
+  PROC_0210["Wiring-level dielectric and cavity"]
+  PROC_0212["Copper cavity fill"]
+  PROC_0213["Wiring-level CMP and clean"]
   SUP_0001["Elkem"]
   SUP_0002["Sibelco"]
   SUP_0003["WACKER"]
@@ -93,6 +101,14 @@ flowchart LR
   PROC_0108 -->|"uses equipment"| EQ_0108
   FAM_0100 -->|"enables"| PROC_0030
   FAM_0100 -->|"enables"| PROC_0031
+  FAM_0200 -->|"enables"| PROC_0030
+  PROC_0200 -->|"uses equipment"| EQ_0102
+  PROC_0201 -->|"uses equipment"| EQ_0102
+  PROC_0202 -->|"uses equipment"| EQ_0102
+  PROC_0202 -->|"uses equipment"| EQ_0103
+  PROC_0210 -->|"uses equipment"| EQ_0103
+  PROC_0213 -->|"uses equipment"| EQ_0107
+  PROC_0212 -->|"uses equipment"| EQ_0201
 ```
 
 *MAP-ENABLING-INPUTS — Enabling inputs and evidenced supplier roles are distinct from physical conversion. Later-phase scopes remain planned. Original schematic; CC BY 4.0. Source: graph records and their evidence links; no physical scale.*
@@ -116,7 +132,9 @@ flowchart LR
 | EQ-0106 | Compatible strip and clean tools | reviewed | [Compatible strip and clean tools](../14_cleaning/cleaning.md) |
 | EQ-0107 | CMP and post-clean system | reviewed | [CMP and post-clean system](../15_cmp/cmp.md) |
 | EQ-0108 | Optical/electron measurement tools | reviewed | [Optical/electron measurement tools](../16_metrology_and_inspection/metrology.md) |
+| EQ-0201 | Electrochemical copper fill tool | reviewed | [Electrochemical copper fill tool](../19_back_end_of_line/beol_integration.md) |
 | FAM-0100 | Fab unit processes | reviewed | [Fab unit processes](../08_fab_overview/fab_flow.md) |
+| FAM-0200 | Device-to-wiring integration | reviewed | [Device-to-wiring integration](../17_transistor_fabrication/planar_and_finfet.md) |
 | MAT-0001 | Quartz-bearing feedstock | reviewed | [Quartz-bearing feedstock](../01_raw_materials/quartz_and_feedstocks.md) |
 | MAT-0006 | Electronic-grade polysilicon | reviewed | [Electronic-grade polysilicon](../02_silicon_refining/electronic_grade_polysilicon.md) |
 | MAT-0007 | Single-crystal silicon ingot | reviewed | [Single-crystal silicon ingot](../03_crystal_growth/crystal_growth.md) |
@@ -146,6 +164,12 @@ flowchart LR
 | PROC-0106 | Resist strip and surface clean | reviewed | [Resist strip and surface clean](../14_cleaning/cleaning.md) |
 | PROC-0107 | Chemical mechanical planarization | reviewed | [Chemical mechanical planarization](../15_cmp/cmp.md) |
 | PROC-0108 | Metrology and inspection | reviewed | [Metrology and inspection](../16_metrology_and_inspection/metrology.md) |
+| PROC-0200 | Planar device integration | reviewed | [Planar device integration](../17_transistor_fabrication/planar_and_finfet.md) |
+| PROC-0201 | FinFET device integration | reviewed | [FinFET device integration](../17_transistor_fabrication/planar_and_finfet.md) |
+| PROC-0202 | Nanosheet device integration | reviewed | [Nanosheet device integration](../17_transistor_fabrication/nanosheet_integration.md) |
+| PROC-0210 | Wiring-level dielectric and cavity | reviewed | [Wiring-level dielectric and cavity](../19_back_end_of_line/beol_integration.md) |
+| PROC-0212 | Copper cavity fill | reviewed | [Copper cavity fill](../19_back_end_of_line/beol_integration.md) |
+| PROC-0213 | Wiring-level CMP and clean | reviewed | [Wiring-level CMP and clean](../19_back_end_of_line/beol_integration.md) |
 | SUP-0001 | Elkem | reviewed | [Elkem](../01_raw_materials/quartz_and_feedstocks.md) |
 | SUP-0002 | Sibelco | reviewed | [Sibelco](../01_raw_materials/quartz_and_feedstocks.md) |
 | SUP-0003 | WACKER | reviewed | [WACKER](../02_silicon_refining/electronic_grade_polysilicon.md) |
@@ -188,4 +212,12 @@ flowchart LR
 | EDGE-0102 | PROC-0108 → USES_EQUIPMENT → EQ-0108 | General functional relationship; application requires material and integration qualification. | [ASML-METRO-001](../42_references/bibliography.md#asml-metro-001) (Optical and electron-beam metrology sections) |
 | EDGE-0103 | FAM-0100 → ENABLES → PROC-0030 | Fab unit-process functions enable the fabrication portion of the planned aggregate logic path; test and die preparation remain later scope. | [HU-FAB-001](../42_references/bibliography.md#hu-fab-001) (Chapter 3, sections 3.1–3.7; representative process functions) |
 | EDGE-0104 | FAM-0100 → ENABLES → PROC-0031 | Fab unit-process functions are applicable to device fabrication; DRAM-specific integration remains planned. | [HU-FAB-001](../42_references/bibliography.md#hu-fab-001) (Chapter 3, sections 3.1–3.7; representative process functions) |
+| EDGE-0129 | FAM-0200 → ENABLES → PROC-0030 | Supports the fabrication portion of the planned aggregate logic/test/die-preparation node; test and die preparation remain unresearched here. | [HU-FAB-001](../42_references/bibliography.md#hu-fab-001) (Chapter 3 §3.8: multilevel interconnect and terminal boundaries) |
+| EDGE-0130 | PROC-0200 → USES_EQUIPMENT → EQ-0102 | Uses qualified film-formation equipment as part of a multi-tool integration route, not a single generic reactor recipe. | [AGH-CMOS-001](../42_references/bibliography.md#agh-cmos-001) (Slides 6–16 and 31–33: planar flow, isolation, wells, spacers and activation) |
+| EDGE-0131 | PROC-0201 → USES_EQUIPMENT → EQ-0102 | Uses qualified film-formation equipment as part of a multi-tool integration route, not a single generic reactor recipe. | [INTEL-FLOW-001](../42_references/bibliography.md#intel-flow-001) (Slides 8–11: fin formation, temporary gate and replacement gate) |
+| EDGE-0132 | PROC-0202 → USES_EQUIPMENT → EQ-0102 | Uses qualified film-formation equipment as part of a multi-tool integration route, not a single generic reactor recipe. | [IMEC-SHEETS-001](../42_references/bibliography.md#imec-sheets-001) (Critical nanosheet building blocks) |
+| EDGE-0133 | PROC-0202 → USES_EQUIPMENT → EQ-0103 | Selective removal is required; exact wet/dry route and hardware are variant-specific, and the equipment category here represents a dry option. | [IMEC-SHEETS-001](../42_references/bibliography.md#imec-sheets-001) (Critical nanosheet building blocks) |
+| EDGE-0134 | PROC-0210 → USES_EQUIPMENT → EQ-0103 | Representative integration relationship; acceptance requires geometry, material and electrical qualification. | [IBM-BEOL-001](../42_references/bibliography.md#ibm-beol-001) (Opening damascene discussion and barrier/liner tradeoffs) |
+| EDGE-0135 | PROC-0213 → USES_EQUIPMENT → EQ-0107 | Representative integration relationship; acceptance requires geometry, material and electrical qualification. | [MACK-CMP-001](../42_references/bibliography.md#mack-cmp-001) (CMP roles and overpolishing defects) |
+| EDGE-0136 | PROC-0212 → USES_EQUIPMENT → EQ-0201 | Representative integration relationship; acceptance requires geometry, material and electrical qualification. | [IBM-FILL-001](../42_references/bibliography.md#ibm-fill-001) (Abstract only: voids, seams and superconformal fill) |
 <!-- END GENERATED MAP -->

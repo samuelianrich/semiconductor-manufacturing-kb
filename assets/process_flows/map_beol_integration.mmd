@@ -1,0 +1,22 @@
+flowchart LR
+  ART_0201["Device wafer with MOL contacts"]
+  ART_0210["Trench/via cavity wafer"]
+  ART_0211["Prepared cavity wafer"]
+  ART_0212["Filled wafer with overburden"]
+  ART_0213["One added wiring level"]
+  ART_0214["Fabricated wired wafer - test pending"]
+  PROC_0210["Wiring-level dielectric and cavity"]
+  PROC_0211["Barrier liner and seed"]
+  PROC_0212["Copper cavity fill"]
+  PROC_0213["Wiring-level CMP and clean"]
+  PROC_0214["Additional levels and terminal finish"]
+  ART_0201 -->|"consumes"| PROC_0210
+  PROC_0210 -->|"produces"| ART_0210
+  ART_0210 -->|"consumes"| PROC_0211
+  PROC_0211 -->|"produces"| ART_0211
+  ART_0211 -->|"consumes"| PROC_0212
+  PROC_0212 -->|"produces"| ART_0212
+  ART_0212 -->|"consumes"| PROC_0213
+  PROC_0213 -->|"produces"| ART_0213
+  ART_0213 -->|"consumes"| PROC_0214
+  PROC_0214 -->|"produces"| ART_0214

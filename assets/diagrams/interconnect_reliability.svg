@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc"><title id="title">The conducting core and its surrounding interfaces</title><desc id="desc">Left: a liner consumes some cross-sectional area while providing needed interface functions. Right: conceptual void, bridge and dielectric failure paths are distinct.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#17334a"/></marker></defs><rect width="1200" height="720" fill="white"/>
+<text x="40" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#17334a" text-anchor="start">The conducting core and its surrounding interfaces</text>
+<text x="40" y="90" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#506575" text-anchor="start">Conceptual schematic • not to scale • original illustration</text>
+<text x="40" y="675" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#506575" text-anchor="start">Source basis: IBM-LINER-001; IBM-BEOL-001; STANFORD-EM-001</text>
+<text x="40" y="703" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#506575" text-anchor="start">Semiconductor Manufacturing Knowledge Base • CC BY 4.0</text>
+<text x="45" y="160" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#17334a" text-anchor="start">Integrated line cross-section</text>
+<rect x="80" y="230" width="400" height="330" rx="0" fill="#f3f7fa" stroke="#17334a" stroke-width="2"/>
+<rect x="160" y="285" width="240" height="220" rx="0" fill="#ba4661" stroke="#17334a" stroke-width="2"/>
+<rect x="180" y="285" width="200" height="200" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<text x="218" y="413" font-family="Arial, sans-serif" font-size="24" font-weight="400" fill="white" text-anchor="start">Core</text>
+<text x="60" y="610" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#17334a" text-anchor="start">Liner/barrier functions use part of the opening</text>
+<text x="650" y="160" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#17334a" text-anchor="start">Different defect mechanisms</text>
+<rect x="675" y="250" width="420" height="60" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<ellipse cx="860" cy="280" rx="50" ry="25" fill="white" stroke="#17334a" stroke-width="2"/>
+<text x="715" y="350" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#17334a" text-anchor="start">Void reduces current-carrying area</text>
+<rect x="675" y="420" width="420" height="35" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="675" y="535" width="420" height="35" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<rect x="790" y="455" width="24" height="80" rx="0" fill="#3c66a0" stroke="#17334a" stroke-width="2"/>
+<line x1="970" y1="460" x2="970" y2="527" stroke="#ba4661" stroke-width="3" marker-end="url(#arrow)" stroke-dasharray="8 6"/>
+<text x="670" y="620" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#17334a" text-anchor="start">Bridge (solid) ≠ dielectric leakage path (dashed)</text></svg>
